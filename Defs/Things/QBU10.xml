@@ -2,46 +2,44 @@
 <Defs>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>PLA_QBZOneNineOne</defName>
-    <label>QBZ-191</label>
-    <description>A new type assault rifle of People's Liberation Army.</description>
+    <defName>PLA_QBUTen</defName>
+    <label>QBU10</label>
+    <description>An anti material bullet</description>
     <graphicData>
-      <texPath>Things/Weapon/QBZ191</texPath>
+      <texPath>Things/Weapon/QBU10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.95,0.95)</drawSize>
+      <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.73</AccuracyMedium>
-      <AccuracyLong>0.6</AccuracyLong>
-      <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>120</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PLA_Bullet_AssaultRifle</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>29</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>PLA_SoundQBZ191</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
+        <defaultProjectile>PLA_Bullet_AMR</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>50</range>
+        <soundCast>PLA_SoundQBU10</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
@@ -66,19 +64,21 @@
     </tools>
   </ThingDef>
 
- <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_AssaultRifle</defName>
-    <label>assault rifle bullet</label>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PLA_Bullet_AMR</defName>
+    <label>Anti material bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <armorPenetrationBase>0.20</armorPenetrationBase>
-      <speed>70</speed>
+      <damageAmountBase>28</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.40</armorPenetrationBase>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
+
   
 </Defs>

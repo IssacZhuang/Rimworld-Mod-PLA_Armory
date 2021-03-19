@@ -6,4 +6,9 @@
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
   <PLA_QBZOneNineOne.tools.0.label>枪管</PLA_QBZOneNineOne.tools.0.label>
 
+  <PLA_QBUTen.label>10式反器材狙击步枪</PLA_QBUTen.label>
+  <PLA_QBUTen.description>人民解放军的反器材狙击步枪</PLA_QBUTen.description>
+  <PLA_QBUTen.tools.0.label>枪托</PLA_QBUTen.tools.0.label>
+  <PLA_QBUTen.tools.0.label>枪管</PLA_QBUTen.tools.0.label>
+
 </LanguageData>
