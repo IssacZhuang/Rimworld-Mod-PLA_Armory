@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[defName = "PLA_QBZOneNineOne" or defName= "PLA_QBUTen"]/tools
+				    /Defs/ThingDef[defName = "PLA_QBZOneNineOne" or defName= "PLA_QBUTen" or defName ="PLA_QLUEleven"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -46,7 +46,7 @@
                     <statBases>
                         <Mass>3</Mass>
                         <Bulk>8</Bulk>
-                        <SwayFactor>1.2</SwayFactor>
+                        <SwayFactor>1.1</SwayFactor>
                         <ShotSpread>0.04</ShotSpread>
                         <SightsEfficiency>1.6</SightsEfficiency>
                         <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
@@ -83,13 +83,13 @@
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>PLA_QBUTen</defName>
+                    <defName>PLA_QLUEleven</defName>
                     <statBases>
                         <Mass>12.9</Mass>
-                        <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
-                        <SightsEfficiency>2.8</SightsEfficiency>
-                        <ShotSpread>0.02</ShotSpread>
-                        <SwayFactor>1.35</SwayFactor>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.4</SightsEfficiency>
+                        <ShotSpread>0.05</ShotSpread>
+                        <SwayFactor>2.2</SwayFactor>
                         <Bulk>13</Bulk>
                         <WorkToMake>30000</WorkToMake>
                     </statBases>
@@ -99,7 +99,54 @@
                         <Chemfuel>15</Chemfuel>
                     </costList>
                     <Properties>
-                        <recoilAmount>1.6</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_35x32mmSRGrenade_HighSpeed_HE</defaultProjectile>
+                        <warmupTime>2.5</warmupTime>
+                        <range>75</range>
+                        <soundCast>PLA_SoundQLU11</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>7</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_35x32mmSRGrenade_HighSpeed</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                    <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                </li>
+
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="PLA_QLUEleven"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.GunDrawExtension">
+                            <DrawSize>1.55,1.55</DrawSize>
+                            <DrawOffset>0.15,-0.05</DrawOffset>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QBUTen</defName>
+                    <statBases>
+                        <Mass>12.9</Mass>
+                        <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.8</SightsEfficiency>
+                        <ShotSpread>0.02</ShotSpread>
+                        <SwayFactor>1.8</SwayFactor>
+                        <Bulk>13</Bulk>
+                        <WorkToMake>30000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>120</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
+                    <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
