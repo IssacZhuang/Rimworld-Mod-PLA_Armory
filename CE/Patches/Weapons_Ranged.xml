@@ -60,7 +60,7 @@
                         <recoilAmount>1.1</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_58x42mmDBP191_FMJ</defaultProjectile>
+                        <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
                         <warmupTime>0.9</warmupTime>
                         <range>50</range>
                         <burstShotCount>6</burstShotCount>
@@ -103,7 +103,7 @@
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_35x32mmSRGrenade_HighSpeed_HE</defaultProjectile>
                         <warmupTime>2.5</warmupTime>
-                        <range>75</range>
+                        <range>78</range>
                         <soundCast>PLA_SoundQLU11</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>

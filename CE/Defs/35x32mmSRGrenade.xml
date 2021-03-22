@@ -20,8 +20,8 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>35</damageAmountBase>
-            <explosionRadius>1</explosionRadius>
+            <damageAmountBase>56</damageAmountBase>
+            <explosionRadius>1.5</explosionRadius>
             <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
         </projectile>
         <comps>
