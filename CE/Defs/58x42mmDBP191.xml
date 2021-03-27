@@ -3,7 +3,7 @@
 
 	<ThingCategoryDef>
 		<defName>Ammo58x42mmDBP191</defName>
-		<label>5.8x42mm DBP191</label>
+		<label>5.8x42mm DBP</label>
 		<parent>AmmoRifles</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
 	</ThingCategoryDef>
