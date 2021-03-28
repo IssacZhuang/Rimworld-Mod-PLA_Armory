@@ -27,6 +27,7 @@
 			<Ammo_58x42mmDBP10_HP>Bullet_58x42mmDBP10_HP</Ammo_58x42mmDBP10_HP>
 			<Ammo_58x42mmDBP10_Incendiary>Bullet_58x42mmDBP10_Incendiary</Ammo_58x42mmDBP10_Incendiary>
 			<Ammo_58x42mmDBP10_HE>Bullet_58x42mmDBP10_HE</Ammo_58x42mmDBP10_HE>
+			<Ammo_58x42mmDBP10_Sabot>Bullet_58x42mmDBP10_Sabot</Ammo_58x42mmDBP10_Sabot>
 			<Ammo_58x42mmDBP191_APCR>Bullet_58x42mmDBP191_APCR</Ammo_58x42mmDBP191_APCR>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
@@ -53,7 +54,7 @@
 		<defName>Ammo_58x42mmDBP191_APCR</defName>
 		<label>5.8x42mm DBP191 cartridge (APCR)</label>
 		<graphicData>
-			<texPath>Things/Ammo/Rifle/Sabot</texPath>
+			<texPath>Things/Ammo/APCR</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -84,7 +85,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>15</damageAmountBase>
 			<armorPenetrationSharp>28</armorPenetrationSharp>
-			<armorPenetrationBlunt>32</armorPenetrationBlunt>
+			<armorPenetrationBlunt>30</armorPenetrationBlunt>
 			<speed>279</speed>
 		</projectile>
 	</ThingDef>
@@ -112,7 +113,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -120,7 +121,7 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>6</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

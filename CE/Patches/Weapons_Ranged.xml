@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[defName="PLA_QBZNinetyFive" or defName="PLA_QBZOneNineOne" or defName="PLA_QBUTen" or defName="PLA_QLUEleven"]/tools
+				    /Defs/ThingDef[defName="PLA_QBZNinetyFive" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZOneNineOne" or defName="PLA_QBUTen" or defName="PLA_QLUEleven"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -81,6 +81,46 @@
                     <researchPrerequisite>GasOperation</researchPrerequisite>
                 </li>
 
+                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QBBNinetyFiveLSW</defName>
+                    <statBases>
+                        <Mass>3.95</Mass>
+                        <Bulk>8</Bulk>
+                        <SwayFactor>1.2</SwayFactor>
+                        <ShotSpread>0.09</ShotSpread>
+                        <SightsEfficiency>1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>80</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <recoilAmount>1.2</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+                        <warmupTime>1.2</warmupTime>
+                        <range>58</range>
+                        <burstShotCount>10</burstShotCount>
+                        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                        <soundCast>PLA_SoundQBZ95</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>75</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>GasOperation</researchPrerequisite>
+                </li>
+
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_QBZOneNineOne</defName>
                     <statBases>
@@ -102,7 +142,7 @@
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
                         <warmupTime>0.9</warmupTime>
-                        <range>50</range>
+                        <range>52</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                         <soundCast>PLA_SoundQBZ191</soundCast>

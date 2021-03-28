@@ -11,6 +11,11 @@
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
   <PLA_QBZNinetyFive.tools.0.label>枪管</PLA_QBZNinetyFive.tools.0.label>
 
+  <PLA_QBBNinetyFiveLSW.label>95式班用机枪</PLA_QBBNinetyFiveLSW.label>
+  <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪。</PLA_QBBNinetyFiveLSW.description>
+  <PLA_QBBNinetyFiveLSW.tools.0.label>枪托</PLA_QBBNinetyFiveLSW.tools.0.label>
+  <PLA_QBBNinetyFiveLSW.tools.0.label>枪管</PLA_QBBNinetyFiveLSW.tools.0.label>
+
   <PLA_QBUTen.label>10式反器材狙击步枪</PLA_QBUTen.label>
   <PLA_QBUTen.description>人民解放军的反器材狙击步枪。</PLA_QBUTen.description>
   <PLA_QBUTen.tools.0.label>枪托</PLA_QBUTen.tools.0.label>

@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>PLA_QBZNinetyFive</defName>
-    <label>QBZ-95-1</label>
-    <description>The main assault rifle of People's Liberation Army.</description>
+    <defName>PLA_QBBNinetyFiveLSW</defName>
+    <label>QBB-95-LSW</label>
+    <description>The main light machine gun of People's Liberation Army.</description>
     <graphicData>
-      <texPath>Things/Weapon/QBZ95</texPath>
+      <texPath>Things/Weapon/QBB95LSW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.95,0.95)</drawSize>
     </graphicData>
@@ -18,26 +18,26 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
-      <Mass>3.25</Mass>
-      <AccuracyTouch>0.5</AccuracyTouch>
-      <AccuracyShort>0.55</AccuracyShort>
-      <AccuracyMedium>0.6</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+      <WorkToMake>35000</WorkToMake>
+      <Mass>3.95</Mass>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.26</AccuracyLong>
+      <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PLA_Bullet_DBPTen</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
+        <warmupTime>1.3</warmupTime>
         <range>27</range>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>7</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>PLA_SoundQBZ95</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -63,21 +63,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
-
- <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_DBPTen</defName>
-    <label>assault rifle bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <armorPenetrationBase>0.16</armorPenetrationBase>
-      <speed>60</speed>
-    </projectile>
   </ThingDef>
   
 </Defs>
