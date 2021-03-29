@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAmmo_58x42mmDBP191_APCR.label>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.label>
+
+  <MakeAmmo_120mmRocket_Thermobaric.label>制作 120mm 温压弹 x5</MakeAmmo_120mmRocket_Thermobaric.label>
+  <MakeAmmo_120mmRocket_Thermobaric.description>制作 120mm 温压弹</MakeAmmo_120mmRocket_Thermobaric.description>
+  <MakeAmmo_120mmRocket_Thermobaric.jobString>制作 120mm 温压弹</MakeAmmo_120mmRocket_Thermobaric.jobString>
+
+</LanguageData>

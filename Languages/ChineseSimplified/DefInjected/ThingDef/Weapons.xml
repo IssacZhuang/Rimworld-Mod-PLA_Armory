@@ -4,26 +4,30 @@
   <PLA_QBZOneNineOne.label>191式突击步枪</PLA_QBZOneNineOne.label>
   <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪。</PLA_QBZOneNineOne.description>
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
-  <PLA_QBZOneNineOne.tools.0.label>枪管</PLA_QBZOneNineOne.tools.0.label>
+  <PLA_QBZOneNineOne.tools.1.label>枪管</PLA_QBZOneNineOne.tools.1.label>
 
   <PLA_QBZNinetyFive.label>95-1式突击步枪</PLA_QBZNinetyFive.label>
   <PLA_QBZNinetyFive.description>人民解放军的主力突击步枪。</PLA_QBZNinetyFive.description>
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
-  <PLA_QBZNinetyFive.tools.0.label>枪管</PLA_QBZNinetyFive.tools.0.label>
+  <PLA_QBZNinetyFive.tools.1.label>枪管</PLA_QBZNinetyFive.tools.1.label>
 
   <PLA_QBBNinetyFiveLSW.label>95式班用机枪</PLA_QBBNinetyFiveLSW.label>
   <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪。</PLA_QBBNinetyFiveLSW.description>
   <PLA_QBBNinetyFiveLSW.tools.0.label>枪托</PLA_QBBNinetyFiveLSW.tools.0.label>
-  <PLA_QBBNinetyFiveLSW.tools.0.label>枪管</PLA_QBBNinetyFiveLSW.tools.0.label>
+  <PLA_QBBNinetyFiveLSW.tools.1.label>枪管</PLA_QBBNinetyFiveLSW.tools.1.label>
 
   <PLA_QBUTen.label>10式反器材狙击步枪</PLA_QBUTen.label>
   <PLA_QBUTen.description>人民解放军的反器材狙击步枪。</PLA_QBUTen.description>
   <PLA_QBUTen.tools.0.label>枪托</PLA_QBUTen.tools.0.label>
-  <PLA_QBUTen.tools.0.label>枪管</PLA_QBUTen.tools.0.label>
+  <PLA_QBUTen.tools.1.label>枪管</PLA_QBUTen.tools.1.label>
 
   <PLA_QLUEleven.label>11式狙击榴弹发射器</PLA_QLUEleven.label>
   <PLA_QLUEleven.description>人民解放军的狙击榴弹发射器。\n\n对狙吗，我35mm榴弹</PLA_QLUEleven.description>
   <PLA_QLUEleven.tools.0.label>枪托</PLA_QLUEleven.tools.0.label>
-  <PLA_QLUEleven.tools.0.label>枪管</PLA_QLUEleven.tools.0.label>
+  <PLA_QLUEleven.tools.1.label>枪管</PLA_QLUEleven.tools.1.label>
+
+  <PLA_QLUEleven.label>98式反坦克火箭</PLA_QLUEleven.label>
+  <PLA_QLUEleven.description>人民解放军的反坦克火箭。</PLA_QLUEleven.description>
+  <PLA_QLUEleven.tools.0.label>炮管</PLA_QLUEleven.tools.0.label>
 
 </LanguageData>

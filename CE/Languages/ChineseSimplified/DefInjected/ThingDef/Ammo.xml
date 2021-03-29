@@ -2,10 +2,12 @@
 <LanguageData>
 
   <Ammo58x42mmDBP191.label>5.8x42mm DBP191步枪弹</Ammo58x42mmDBP191.label>
-  <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪。</PLA_QBZOneNineOne.description>
-
   <Ammo_58x42mmDBP191_APCR.label>5.8x42mm DBP191步枪弹 (硬芯穿甲弹)</Ammo_58x42mmDBP191_APCR.label>
-
   <Bullet_58x42mmDBP191_APCR.label>5.8mm DBP191步枪弹 (硬芯穿甲弹)</Bullet_58x42mmDBP191_APCR.label>
+  
+
+  <AmmoSet_120mmRocket.label>120mm火箭弹</AmmoSet_120mmRocket.label>
+  <Ammo_120mmRocket_Thermobaric.label>120mm温压弹</Ammo_120mmRocket_Thermobaric.label>
+  <Bullet_120mmRocket_Thermobaric.label>120mm温压弹</Bullet_120mmRocket_Thermobaric.label>
 
 </LanguageData>
