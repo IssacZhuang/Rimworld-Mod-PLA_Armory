@@ -26,8 +26,8 @@
   <PLA_QLUEleven.tools.0.label>枪托</PLA_QLUEleven.tools.0.label>
   <PLA_QLUEleven.tools.1.label>枪管</PLA_QLUEleven.tools.1.label>
 
-  <PLA_QLUEleven.label>98式反坦克火箭</PLA_QLUEleven.label>
-  <PLA_QLUEleven.description>人民解放军的反坦克火箭。</PLA_QLUEleven.description>
-  <PLA_QLUEleven.tools.0.label>炮管</PLA_QLUEleven.tools.0.label>
+  <PLA_PFNinetyEight.label>98式反坦克火箭</PLA_PFNinetyEight.label>
+  <PLA_PFNinetyEight.description>人民解放军的反坦克火箭。</PLA_PFNinetyEight.description>
+  <PLA_PFNinetyEight.tools.0.label>炮管</PLA_PFNinetyEight.tools.0.label>
 
 </LanguageData>

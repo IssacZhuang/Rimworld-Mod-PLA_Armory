@@ -216,7 +216,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
-                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
                 </li>
 
@@ -264,7 +264,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
-                    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
                 </li>
 

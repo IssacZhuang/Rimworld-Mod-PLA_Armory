@@ -9,7 +9,7 @@
 	</ThingCategoryDef>
 
 	<CombatExtended.AmmoCategoryDef>
-		<defName>Composit</defName>
+		<defName>PLA_Composit_OneNineOne</defName>
 		<label>armo-piercing composit rigid</label>
 		<labelShort>APCR</labelShort>
 		<description>The APCR projectile has a core of a high-density hard material. \nThe projectile is lighter: up to half the weight of a standard AP shot of the same caliber. The lighter weight allows a higher muzzle velocity. The kinetic energy of the shot is concentrated in the core and hence on a smaller impact area, improving the penetration of the target armor.</description>
@@ -21,7 +21,6 @@
 		<defName>AmmoSet_58x42mmDBP191</defName>
 		<label>5.8x42mm DBP</label>
 		<ammoTypes>
-
 			<Ammo_58x42mmDBP10_FMJ>Bullet_58x42mmDBP10_FMJ</Ammo_58x42mmDBP10_FMJ>
 			<Ammo_58x42mmDBP10_AP>Bullet_58x42mmDBP10_AP</Ammo_58x42mmDBP10_AP>
 			<Ammo_58x42mmDBP10_HP>Bullet_58x42mmDBP10_HP</Ammo_58x42mmDBP10_HP>
@@ -61,7 +60,7 @@
 			<MarketValue>0.09</MarketValue>
 			<Mass>0.08</Mass>
 		</statBases>
-		<ammoClass>Composit</ammoClass>
+		<ammoClass>PLA_Composit_OneNineOne</ammoClass>
 		<cookOffProjectile>Bullet_58x42mmDBP191_APCR</cookOffProjectile>
 	</ThingDef>
 
