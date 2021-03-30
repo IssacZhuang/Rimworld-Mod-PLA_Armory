@@ -203,7 +203,7 @@
                         <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
                         <warmupTime>0.9</warmupTime>
                         <range>62</range>
-                        <burstShotCount>3</burstShotCount>
+                        <burstShotCount>4</burstShotCount>
                         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                         <soundCast>PLA_SoundQTS11</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
