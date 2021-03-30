@@ -11,6 +11,11 @@
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
   <PLA_QBZNinetyFive.tools.1.label>枪管</PLA_QBZNinetyFive.tools.1.label>
 
+  <PLA_QTSEleven.label>QTS-11单兵综合作战武器</PLA_QTSEleven.label>
+  <PLA_QTSEleven.description>人民解放军的单兵综合作战武器，配备计算机瞄准系统，精确度极高。</PLA_QTSEleven.description>
+  <PLA_QTSEleven.tools.0.label>枪托</PLA_QTSEleven.tools.0.label>
+  <PLA_QTSEleven.tools.1.label>枪管</PLA_QTSEleven.tools.1.label>
+
   <PLA_QBBNinetyFiveLSW.label>95式班用机枪</PLA_QBBNinetyFiveLSW.label>
   <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪。</PLA_QBBNinetyFiveLSW.description>
   <PLA_QBBNinetyFiveLSW.tools.0.label>枪托</PLA_QBBNinetyFiveLSW.tools.0.label>
