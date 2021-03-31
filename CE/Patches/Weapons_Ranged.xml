@@ -201,8 +201,8 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
-                        <warmupTime>0.9</warmupTime>
-                        <range>62</range>
+                        <warmupTime>1.1</warmupTime>
+                        <range>64</range>
                         <burstShotCount>4</burstShotCount>
                         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                         <soundCast>PLA_SoundQTS11</soundCast>
@@ -219,7 +219,7 @@
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
-                    <researchPrerequisite>GasOperation</researchPrerequisite>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
