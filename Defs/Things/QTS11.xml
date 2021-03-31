@@ -18,7 +18,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>5</Mass>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.84</AccuracyShort>

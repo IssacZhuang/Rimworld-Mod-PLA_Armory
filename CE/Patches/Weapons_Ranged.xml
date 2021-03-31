@@ -11,8 +11,7 @@
 
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
-                    <xpath>
-				    /Defs/ThingDef[defName="PLA_QBZNinetyFive" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZOneNineOne" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QLUEleven"]/tools
+                    <xpath> /Defs/ThingDef[defName="PLA_QBZNinetyFive" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZOneNineOne" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QBUEightyEight" or defName="PLA_QLUEleven"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -42,8 +41,7 @@
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>
-				    /Defs/ThingDef[defName="PLA_PFNinetyEight"]/tools
+                    <xpath> /Defs/ThingDef[defName="PLA_PFNinetyEight"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -59,6 +57,72 @@
                             </li>
                         </tools>
                     </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath> /Defs/ThingDef[defName="PLA_QSZNinetyTwo"]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>8</power>
+                                <cooldownTime>1.55</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>5</power>
+                                <cooldownTime>2.02</cooldownTime>
+                                <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QSZNinetyTwo</defName>
+                    <statBases>
+                        <Mass>1.11</Mass>
+                        <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                        <SightsEfficiency>0.8</SightsEfficiency>
+                        <ShotSpread>0.1</ShotSpread>
+                        <SwayFactor>1.1</SwayFactor>
+                        <Bulk>2.10</Bulk>
+                        <WorkToMake>7000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>40</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_58x21mmDAP92_FMJ</defaultProjectile>
+                        <warmupTime>0.5</warmupTime>
+                        <range>14</range>
+                        <soundCast>PLA_SoundQSZ92</soundCast>
+                        <soundCastTail>GunTail_Light</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>20</magazineSize>
+                        <reloadTime>3</reloadTime>
+                        <ammoSet>AmmoSet_58x21mmDAP92</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    </FireModes>
+                    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -101,7 +165,7 @@
                     <researchPrerequisite>GasOperation</researchPrerequisite>
                 </li>
 
-                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_QBBNinetyFiveLSW</defName>
                     <statBases>
                         <Mass>3.95</Mass>
@@ -191,6 +255,7 @@
                         <ShotSpread>0.03</ShotSpread>
                         <SightsEfficiency>2.2</SightsEfficiency>
                         <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                        <WorkToMake>30000</WorkToMake>
                     </statBases>
                     <costList>
                         <Steel>110</Steel>
@@ -313,6 +378,54 @@
                     <value>
                         <li Class="CombatExtended.GunDrawExtension">
                             <DrawSize>1.55,1.55</DrawSize>
+                            <DrawOffset>0.15,-0.05</DrawOffset>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QBUEightyEight</defName>
+                    <statBases>
+                        <Mass>4.1</Mass>
+                        <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.2</SightsEfficiency>
+                        <ShotSpread>0.04</ShotSpread>
+                        <SwayFactor>1.3</SwayFactor>
+                        <Bulk>8.5</Bulk>
+                        <WorkToMake>25000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>100</Steel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+                        <warmupTime>0.8</warmupTime>
+                        <range>75</range>
+                        <soundCast>PLA_SoundQBU88</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>10</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                    <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                </li>
+
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="PLA_QBUEightyEight"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.GunDrawExtension">
+                            <DrawSize>1.25,1.25</DrawSize>
                             <DrawOffset>0.15,-0.05</DrawOffset>
                         </li>
                     </value>

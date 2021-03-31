@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <PLA_QSZNinetyTwo.label>92式手枪</PLA_QSZNinetyTwo.label>
+  <PLA_QSZNinetyTwo.description>人民解放军的半自动手枪。</PLA_QSZNinetyTwo.description>
+  <PLA_QSZNinetyTwo.tools.0.label>握把</PLA_QSZNinetyTwo.tools.0.label>
+  <PLA_QSZNinetyTwo.tools.1.label>枪管</PLA_QSZNinetyTwo.tools.1.label>
+
   <PLA_QBZOneNineOne.label>191式突击步枪</PLA_QBZOneNineOne.label>
   <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪。</PLA_QBZOneNineOne.description>
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
@@ -25,6 +30,11 @@
   <PLA_QBUTen.description>人民解放军的反器材狙击步枪。</PLA_QBUTen.description>
   <PLA_QBUTen.tools.0.label>枪托</PLA_QBUTen.tools.0.label>
   <PLA_QBUTen.tools.1.label>枪管</PLA_QBUTen.tools.1.label>
+
+  <PLA_QBUEightyEight.label>88式狙击步枪</PLA_QBUEightyEight.label>
+  <PLA_QBUEightyEight.description>人民解放军的半自动狙击步枪。</PLA_QBUEightyEight.description>
+  <PLA_QBUEightyEight.tools.0.label>枪托</PLA_QBUEightyEight.tools.0.label>
+  <PLA_QBUEightyEight.tools.1.label>枪管</PLA_QBUEightyEight.tools.1.label>
 
   <PLA_QLUEleven.label>11式狙击榴弹发射器</PLA_QLUEleven.label>
   <PLA_QLUEleven.description>人民解放军的狙击榴弹发射器。\n\n对狙吗，我35mm榴弹</PLA_QLUEleven.description>
