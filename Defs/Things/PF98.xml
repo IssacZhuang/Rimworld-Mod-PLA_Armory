@@ -66,7 +66,7 @@
         <defName>PLA_Thermobaric_PFNinetyEight</defName>
         <label>thermobaric rocket</label>
         <graphicData>
-            <texPath>Things/Projectile/120mmRocket</texPath>
+            <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>

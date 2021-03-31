@@ -5,7 +5,7 @@
 		<defName>Ammo120mmRocket</defName>
 		<label>120mm Rocket</label>
 		<parent>AmmoRockets</parent>
-		<iconPath>Things/Ammo/120mmRocket/120mmRocket_a</iconPath>
+		<iconPath>Things/Ammo/120mmRocketThermobaric/120mmRocketThermobaric_a</iconPath>
 	</ThingCategoryDef>
 
 	<!-- ==================== AmmoSet ========================== -->
@@ -15,6 +15,7 @@
 		<label>120mm Rockets</label>
 		<ammoTypes>
 			<Ammo_120mmRocket_Thermobaric>Bullet_120mmRocket_Thermobaric</Ammo_120mmRocket_Thermobaric>
+			<Ammo_120mmRocket_HEAT>Bullet_120mmRocket_HEAT</Ammo_120mmRocket_HEAT>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -41,16 +42,32 @@
 		<defName>Ammo_120mmRocket_Thermobaric</defName>
 		<label>120mm Rocket (Thermobaric)</label>
 		<graphicData>
-			<texPath>Things/Ammo/120mmRocket</texPath>
+			<texPath>Things/Ammo/120mmRocketThermobaric</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>204.44</MarketValue>
+			<MarketValue>104.44</MarketValue>
 			<Mass>6.25</Mass>
 			<Bulk>10</Bulk>
 		</statBases>
 		<ammoClass>RocketThermobaric</ammoClass>
 		<detonateProjectile>Bullet_120mmRocket_Thermobaric</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="120mmRocketBase">
+		<defName>Ammo_120mmRocket_HEAT</defName>
+		<label>120mm Rocket (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Ammo/120mmRocketHEAT</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>104.44</MarketValue>
+			<Mass>6.25</Mass>
+			<Bulk>10</Bulk>
+		</statBases>
+		<ammoClass>RocketHEAT</ammoClass>
+		<detonateProjectile>Bullet_120mmRocket_HEAT</detonateProjectile>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -61,6 +78,7 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>100</speed>
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
 		</projectile>
 	</ThingDef>
 
@@ -69,7 +87,7 @@
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<label>120mm Rocket (Thermobaric)</label>
 		<graphicData>
-			<texPath>Things/Projectile/120mmRocket</texPath>
+			<texPath>Things/Projectile/120mmRocketThermobaric</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -84,6 +102,36 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base120mmRocket">
+		<defName>Bullet_120mmRocket_HEAT</defName>
+		<label>120mm Rocket (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Projectile/120mmRocketHEAT</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>450</damageAmountBase>
+			<armorPenetrationSharp>600</armorPenetrationSharp>
+			<armorPenetrationBlunt>100.44</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+		  <li Class="CombatExtended.CompProperties_ExplosiveCE">
+			<damageAmountBase>200</damageAmountBase>
+			<explosiveDamageType>Bomb</explosiveDamageType>
+			<explosiveRadius>1.5</explosiveRadius>
+			<explosionSound>MortarBomb_Explode</explosionSound>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		  </li>
+		  <li Class="CombatExtended.CompProperties_Fragments">
+			<fragments>
+				<Fragment_Large>20</Fragment_Large>
+			  <Fragment_Small>25</Fragment_Small>
+			</fragments>
+		  </li>
+		</comps>
 	</ThingDef>
 
 	<!-- ==================== Recipes ========================== -->
@@ -124,11 +172,55 @@
 			<thingDefs>
 				<li>Steel</li>
 				<li>ComponentIndustrial</li>
-				<li>FSX</li>
+				<li>Prometheum</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_120mmRocket_Thermobaric>5</Ammo_120mmRocket_Thermobaric>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_120mmRocket_HEAT</defName>
+		<label>make 120mm HEAT rockets x5</label>
+		<description>Craft 5 120mm HEAT rockets.</description>
+		<jobString>Making 120mm HEAT rockets.</jobString>
+		<workAmount>20400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_120mmRocket_HEAT>5</Ammo_120mmRocket_HEAT>
 		</products>
 	</RecipeDef>
 
