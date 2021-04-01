@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>PLA_QCWZeroFive</defName>
+        <label>QCW-05</label>
+        <description>A sub machine gun with suppressor</description>
+        <graphicData>
+            <texPath>Things/Weapon/QCW05</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_SMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>24000</WorkToMake>
+            <Mass>2.2</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.63</AccuracyShort>
+            <AccuracyMedium>0.4</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_SMG</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>21</range>
+                <burstShotCount>4</burstShotCount>
+                <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQCW05</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_SMG</defName>
+        <label>heavy SMG bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>13</damageAmountBase>
+            <speed>45</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>
