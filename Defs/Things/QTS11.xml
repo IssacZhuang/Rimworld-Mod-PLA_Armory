@@ -37,7 +37,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PLA_Bullet_DBPTen</defaultProjectile>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>39.2</range>
         <burstShotCount>2</burstShotCount>

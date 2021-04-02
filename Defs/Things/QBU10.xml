@@ -36,7 +36,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PLA_Bullet_AMR</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
+        <warmupTime>3.8</warmupTime>
         <range>50</range>
         <soundCast>PLA_SoundQBU10</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -73,9 +73,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>28</damageAmountBase>
+      <damageAmountBase>45</damageAmountBase>
       <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.40</armorPenetrationBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
       <speed>100</speed>
     </projectile>
   </ThingDef>

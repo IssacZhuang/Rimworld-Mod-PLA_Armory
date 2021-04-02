@@ -39,7 +39,7 @@
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <warmupTime>4.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-                <range>35.9</range>
+                <range>37</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -73,13 +73,13 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <damageDef>Bomb</damageDef>
-            <explosionRadius>4</explosionRadius>
+            <explosionRadius>2</explosionRadius>
             <speed>50</speed>
-            <damageAmountBase>60</damageAmountBase>
+            <damageAmountBase>180</damageAmountBase>
             <flyOverhead>true</flyOverhead>
             <explosionDelay>5</explosionDelay>
             <stoppingPower>4</stoppingPower>
-            <armorPenetrationBase>0.6</armorPenetrationBase>
+            <armorPenetrationBase>2</armorPenetrationBase>
         </projectile>
     </ThingDef>
 
