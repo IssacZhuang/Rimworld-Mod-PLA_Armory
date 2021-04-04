@@ -50,4 +50,10 @@
   <PLA_PFNinetyEight.description>人民解放军的反坦克火箭。</PLA_PFNinetyEight.description>
   <PLA_PFNinetyEight.tools.0.label>炮管</PLA_PFNinetyEight.tools.0.label>
 
+  <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
+  <PLA_Turret85HMG.description>装在三脚架上的85式重机枪，火力强大。需要有人控制。</PLA_Turret85HMG.description>
+
+  <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
+  <PLA_Gun85HMG.description>解放军的反器材重机枪。</PLA_Gun85HMG.description>
+
 </LanguageData>
