@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeAmmo_58x42mmDBP191_APCR.label>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.label>
+  <MakeAmmo_58x42mmDBP191_APCR.label>制作5.8mm DBP191通用弹 (硬芯穿甲弹) x500</MakeAmmo_58x42mmDBP191_APCR.label>
+  <MakeAmmo_58x42mmDBP191_APCR.description>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.description>
+  <MakeAmmo_58x42mmDBP191_APCR.jobString>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.jobString>
 
   <MakeAmmo_120mmRocket_Thermobaric.label>制作 120mm 火箭弹(温压弹) x5</MakeAmmo_120mmRocket_Thermobaric.label>
   <MakeAmmo_120mmRocket_Thermobaric.description>制作 120mm 火箭弹(温压弹)</MakeAmmo_120mmRocket_Thermobaric.description>
@@ -10,5 +12,9 @@
   <MakeAmmo_120mmRocket_HEAT.label>制作 120mm 火箭弹(穿甲弹) x5</MakeAmmo_120mmRocket_HEAT.label>
   <MakeAmmo_120mmRocket_HEAT.description>制作 120mm 火箭弹(穿甲弹)</MakeAmmo_120mmRocket_HEAT.description>
   <MakeAmmo_120mmRocket_HEAT.jobString>制作 120mm 火箭弹(穿甲弹)</MakeAmmo_120mmRocket_HEAT.jobString>
+
+  <MakeAmmo_35x32mmSRGrenade_HEAT.label>制作 35x32mmSR 榴弹 (穿甲弹) x5</MakeAmmo_35x32mmSRGrenade_HEAT.label>
+  <MakeAmmo_35x32mmSRGrenade_HEAT.description>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.description>
+  <MakeAmmo_35x32mmSRGrenade_HEAT.jobString>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.jobString>
 
 </LanguageData>

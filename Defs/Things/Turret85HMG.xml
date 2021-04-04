@@ -89,7 +89,7 @@
         <statBases>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
-            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyMedium>0.7</AccuracyMedium>
             <AccuracyLong>0.35</AccuracyLong>
             <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
             <Mass>18.6</Mass>
@@ -100,7 +100,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_HMG</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
-                <range>42</range>
+                <range>39</range>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
                 <soundCast>PLA_Sound85HMG</soundCast>
