@@ -52,6 +52,9 @@
 
   <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
   <PLA_Turret85HMG.description>装在三脚架上的85式重机枪，火力强大。需要有人控制。</PLA_Turret85HMG.description>
+  <PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
   <PLA_Gun85HMG.description>解放军的反器材重机枪。</PLA_Gun85HMG.description>
