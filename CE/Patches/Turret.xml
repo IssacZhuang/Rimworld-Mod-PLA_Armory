@@ -59,6 +59,15 @@
                     </value>
                 </li>
 
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_Turret85HMG"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>CE_TurretHeavyWeapons</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[ defName="PLA_Turret85HMG" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
                 </li>
