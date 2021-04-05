@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QBSZeroNine</defName>
         <label>QBS-09</label>
         <description>A military shotgun that has a longer range than a normal shotgun.</description>
@@ -29,6 +29,9 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
         </recipeMaker>
+        <weaponTags>
+            <li>PLA_Shotgun</li>
+        </weaponTags>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

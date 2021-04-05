@@ -49,4 +49,10 @@
         </statBases>
     </ThingDef>
 
+    <ThingDef Name="PLA_BaseGun" ParentName="BaseMakeableGun" Abstract="True">
+        <comps>
+            <li Class="CompProperties_BiocodableWeapon"/>
+        </comps>
+    </ThingDef>
+
 </Defs>

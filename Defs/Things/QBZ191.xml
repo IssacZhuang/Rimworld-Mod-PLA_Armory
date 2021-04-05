@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZOneNineOne</defName>
     <label>QBZ-191</label>
     <description>A new type assault rifle of People's Liberation Army.</description>
@@ -31,6 +31,9 @@
       <Steel>60</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
+    <weaponTags>
+      <li>PLA_Rifle</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

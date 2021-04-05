@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QCWZeroFive</defName>
         <label>QCW-05</label>
         <description>A sub machine gun with suppressor</description>
@@ -32,6 +32,9 @@
             <Steel>75</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
+        <weaponTags>
+            <li>PLA_SMG</li>
+        </weaponTags>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

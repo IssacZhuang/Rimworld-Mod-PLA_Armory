@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZNinetyFive</defName>
     <label>QBZ-95-1</label>
     <description>The main assault rifle of People's Liberation Army.</description>
@@ -30,6 +30,9 @@
       <Steel>50</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
+    <weaponTags>
+      <li>PLA_Rifle</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -65,7 +68,7 @@
     </tools>
   </ThingDef>
 
- <ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Bullet_DBPTen</defName>
     <label>assault rifle bullet</label>
     <graphicData>
@@ -79,5 +82,5 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
-  
+
 </Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBBNinetyFiveLSW</defName>
     <label>QBB-95-LSW</label>
     <description>The main light machine gun of People's Liberation Army.</description>
@@ -30,6 +30,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
+    <weaponTags>
+      <li>PLA_LMG</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -64,5 +67,5 @@
       </li>
     </tools>
   </ThingDef>
-  
+
 </Defs>

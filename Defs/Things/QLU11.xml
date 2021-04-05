@@ -21,7 +21,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QLUEleven</defName>
         <label>QLU11</label>
         <description>A grenade launcher (grenade sniper?).</description>
@@ -49,6 +49,9 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
         </recipeMaker>
+        <weaponTags>
+            <li>PLA_Sniper</li>
+        </weaponTags>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

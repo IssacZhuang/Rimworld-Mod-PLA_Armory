@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBUEightyEight</defName>
     <label>QBU88</label>
     <description>A semi-auto sniper rifle</description>
@@ -17,7 +17,9 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>4.1</Mass>
@@ -31,6 +33,9 @@
       <Steel>100</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+    <weaponTags>
+      <li>PLA_DMR</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -80,5 +85,5 @@
     </projectile>
   </ThingDef>
 
-  
+
 </Defs>

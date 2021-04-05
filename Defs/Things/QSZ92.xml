@@ -2,7 +2,7 @@
 <Defs>
 
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QSZNinetyTwo</defName>
         <label>QSZ92</label>
         <description>A semi-auto pistol</description>
@@ -19,7 +19,7 @@
             </skillRequirements>
         </recipeMaker>
         <weaponTags>
-            <li>SimpleGun</li>
+            <li>PLA_Pistol</li>
         </weaponTags>
         <statBases>
             <WorkToMake>5000</WorkToMake>
