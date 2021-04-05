@@ -20,7 +20,7 @@
     <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_Turret85HMG</defName>
         <label>Mounted Type-85 HMG Turret</label>
-        <description>An type-85 heavy machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <description>A type-85 heavy machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/Security/TurretMini_Base</texPath>
             <graphicClass>Graphic_Single</graphicClass>
