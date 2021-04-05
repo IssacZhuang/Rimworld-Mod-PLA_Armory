@@ -521,6 +521,51 @@
                     </value>
                 </li>
 
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QBSZeroNine</defName>
+                    <statBases>
+                        <Mass>3.20</Mass>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+                        <ShotSpread>0.1</ShotSpread>
+                        <SwayFactor>0.9</SwayFactor>
+                        <Bulk>7</Bulk>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <WorkToMake>9500</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>80</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+                        <warmupTime>0.6</warmupTime>
+                        <range>23</range>
+                        <soundCast>PLA_SoundQBS09</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>6</magazineSize>
+                        <reloadOneAtATime>true</reloadOneAtATime>
+                        <reloadTime>0.4</reloadTime>
+                        <ammoSet>AmmoSet_12Gauge</ammoSet>
+                    </AmmoUser>
+                    <FireModes />
+                    <researchPrerequisite>GasOperation</researchPrerequisite>
+                </li>
+
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.GunDrawExtension">
+                            <DrawSize>1.05,1.05</DrawSize>
+                            <DrawOffset>0.05,0.0</DrawOffset>
+                        </li>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>

@@ -46,6 +46,11 @@
   <PLA_QLUEleven.tools.0.label>枪托</PLA_QLUEleven.tools.0.label>
   <PLA_QLUEleven.tools.1.label>枪管</PLA_QLUEleven.tools.1.label>
 
+  <PLA_QBSZeroNine.label>09式霰弹枪</PLA_QBSZeroNine.label>
+  <PLA_QBSZeroNine.description>解放军现役霰弹枪，比普通霰弹枪有更长的射程。</PLA_QBSZeroNine.description>
+  <PLA_QBSZeroNine.tools.0.label>枪托</PLA_QBSZeroNine.tools.0.label>
+  <PLA_QBSZeroNine.tools.1.label>枪管</PLA_QBSZeroNine.tools.1.label>
+
   <PLA_PFNinetyEight.label>98式反坦克火箭</PLA_PFNinetyEight.label>
   <PLA_PFNinetyEight.description>人民解放军的反坦克火箭。</PLA_PFNinetyEight.description>
   <PLA_PFNinetyEight.tools.0.label>炮管</PLA_PFNinetyEight.tools.0.label>
