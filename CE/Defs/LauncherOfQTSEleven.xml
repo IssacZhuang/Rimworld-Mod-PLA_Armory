@@ -17,6 +17,9 @@
             <SightsEfficiency>2.2</SightsEfficiency>
             <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
         </statBases>
+        <menuHidden>true</menuHidden>
+        <destroyOnDrop>true</destroyOnDrop>
+        <tradeability>None</tradeability>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
                 <recoilAmount>1</recoilAmount>
