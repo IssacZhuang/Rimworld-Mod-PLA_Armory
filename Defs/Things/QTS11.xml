@@ -31,7 +31,7 @@
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <equippedStatOffsets>
-	  <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+      <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <weaponTags>
       <li>PLA_Rifle</li>
@@ -70,5 +70,5 @@
       </li>
     </tools>
   </ThingDef>
-  
+
 </Defs>
