@@ -4,4 +4,10 @@
   <PLA_Composit_OneNineOne.label>硬芯穿甲弹</PLA_Composit_OneNineOne.label>
   <PLA_Composit_OneNineOne.description>硬芯穿甲弹是在普通的穿甲弹（AP）的基础上发展起来的高效穿甲弹APCR（Armor Piercing Composit Rigid）。基于穿甲弹速度越大，头部越硬越好，所以在炮弹中又包了1个小一号的由硬金属制成的弹头，命中目标后小弹头被挤出并对对方造成杀伤。\n\n DBP191 是与步枪 QBZ-191 同期适配的新式弹药。</PLA_Composit_OneNineOne.description>
 
+  <PLA_GrenadeHEAT.label>破甲榴弹</PLA_GrenadeHEAT.label>
+  <PLA_GrenadeHEAT.description>是以聚能装药爆炸后形成的金属射流穿透装甲的炸弹。也称聚能装药破甲弹，是反坦克的主要弹种之一。</PLA_GrenadeHEAT.description>
+
+  <PLA_GrenadeBUCK.label>霰弹</PLA_GrenadeBUCK.label>
+  <PLA_GrenadeBUCK.description>装有多粒大型圆铅弹弹药，配合大口径多装药，有极强的杀伤力。</PLA_GrenadeBUCK.description>
+
 </LanguageData>

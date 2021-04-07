@@ -2,13 +2,23 @@
 <LanguageData>
   <Ammo_58x42mmDBP191_APCR.label>5.8x42mm DBP191步枪弹 (硬芯穿甲弹)</Ammo_58x42mmDBP191_APCR.label>
   <Bullet_58x42mmDBP191_APCR.label>5.8mm DBP191步枪弹 (硬芯穿甲弹)</Bullet_58x42mmDBP191_APCR.label>
-  
-  <Ammo_120mmRocket_Thermobaric.label>120mm火箭弹(温压弹)</Ammo_120mmRocket_Thermobaric.label>
-  <Bullet_120mmRocket_Thermobaric.label>120mm火箭弹(温压弹)</Bullet_120mmRocket_Thermobaric.label>
 
-  <Ammo_120mmRocket_HEAT.label>120mm火箭弹(穿甲弹)</Ammo_120mmRocket_HEAT.label>
-  <Bullet_120mmRocket_HEAT.label>120mm火箭弹(穿甲弹)</Bullet_120mmRocket_HEAT.label>
+  <Ammo_120mmRocket_Thermobaric.label>120mm火箭弹 (温压弹)</Ammo_120mmRocket_Thermobaric.label>
+  <Bullet_120mmRocket_Thermobaric.label>120mm火箭弹 (温压弹)</Bullet_120mmRocket_Thermobaric.label>
+
+  <Ammo_120mmRocket_HEAT.label>120mm火箭弹 (穿甲弹)</Ammo_120mmRocket_HEAT.label>
+  <Bullet_120mmRocket_HEAT.label>120mm火箭弹 (穿甲弹)</Bullet_120mmRocket_HEAT.label>
 
   <Ammo_35x32mmSRGrenade_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Ammo_35x32mmSRGrenade_HEAT.label>
   <Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>
+
+  <Ammo_20mmProgrammableGrenade_HE.label>20mm可编程榴弹 (高爆弹)</Ammo_20mmProgrammableGrenade_HE.label>
+  <Ammo_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (穿甲弹)</Ammo_20mmProgrammableGrenade_HEAT.label>
+  <Ammo_20mmProgrammableGrenade_EMP.label>20mm可编程榴弹 (电磁脉冲)</Ammo_20mmProgrammableGrenade_EMP.label>
+  <Ammo_20mmProgrammableGrenade_BUCK.label>20mm可编程榴弹 (霰弹)</Ammo_20mmProgrammableGrenade_BUCK.label>
+
+  <Bullet_20mmProgrammableGrenade_HE.label>20mm可编程榴弹 (高爆弹)</Bullet_20mmProgrammableGrenade_HE.label>
+  <Bullet_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (穿甲弹)</Bullet_20mmProgrammableGrenade_HEAT.label>
+  <Bullet_20mmProgrammableGrenade_EMP.label>20mm可编程榴弹 (电磁脉冲)</Bullet_20mmProgrammableGrenade_EMP.label>
+  <Bullet_20mmProgrammableGrenade_BUCK.label>20mm可编程榴弹 (霰弹)</Bullet_20mmProgrammableGrenade_BUCK.label>
 </LanguageData>

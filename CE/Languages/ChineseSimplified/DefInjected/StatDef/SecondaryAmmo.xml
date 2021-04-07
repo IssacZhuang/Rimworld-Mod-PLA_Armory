@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <PLA_SecondaryAmmoCaliber.label>榴弹口径</PLA_SecondaryAmmoCaliber.label>
+  <PLA_SecondaryAmmoCaliber.description>这把枪上的榴弹发射器使用的弹药类型。</PLA_SecondaryAmmoCaliber.description>
+
+  <PLA_SecondaryAmmoMagazine.label>榴弹弹匣容量</PLA_SecondaryAmmoMagazine.label>
+  <PLA_SecondaryAmmoMagazine.description>这个武器的榴弹能装多少和重新装弹需要多长时间。</PLA_SecondaryAmmoMagazine.description>
+</LanguageData>

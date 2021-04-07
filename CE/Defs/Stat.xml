@@ -2,20 +2,20 @@
 <Defs>
 
     <StatDef>
-        <defName>PLA_SecondaryAmmoMagazine</defName>
-        <workerClass>PLA.StatWorker_SecondaryAmmoMagazine</workerClass>
-        <label>grenade magazine capacity</label>
-        <description>How many projectiles this weapon's grenade magazine holds and how long it takes to reload it.</description>
+        <defName>PLA_SecondaryAmmoCaliber</defName>
+        <workerClass>PLA.StatWorker_SecondaryAmmoCaliber</workerClass>
+        <label>grenade caliber</label>
+        <description>The types of ammo that the grenade launcher in this gun accept.</description>
         <category>Weapon</category>
         <showIfUndefined>true</showIfUndefined>
         <displayPriorityInCategory>893</displayPriorityInCategory>
     </StatDef>
 
     <StatDef>
-        <defName>PLA_SecondaryAmmoCaliber</defName>
-        <workerClass>PLA.StatWorker_SecondaryAmmoCaliber</workerClass>
-        <label>grenade caliber</label>
-        <description>The types of ammo that the grenade launcher in this gun accept.</description>
+        <defName>PLA_SecondaryAmmoMagazine</defName>
+        <workerClass>PLA.StatWorker_SecondaryAmmoMagazine</workerClass>
+        <label>grenade magazine capacity</label>
+        <description>How many projectiles this weapon's grenade magazine holds and how long it takes to reload it.</description>
         <category>Weapon</category>
         <showIfUndefined>true</showIfUndefined>
         <displayPriorityInCategory>892</displayPriorityInCategory>

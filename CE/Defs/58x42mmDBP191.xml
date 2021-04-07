@@ -8,13 +8,6 @@
 		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
 	</ThingCategoryDef>
 
-	<CombatExtended.AmmoCategoryDef>
-		<defName>PLA_Composit_OneNineOne</defName>
-		<label>armo-piercing composit rigid</label>
-		<labelShort>APCR</labelShort>
-		<description>The APCR projectile has a core of a high-density hard material. \nThe projectile is lighter: up to half the weight of a standard AP shot of the same caliber. The lighter weight allows a higher muzzle velocity. The kinetic energy of the shot is concentrated in the core and hence on a smaller impact area, improving the penetration of the target armor.</description>
-	</CombatExtended.AmmoCategoryDef>
-
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>

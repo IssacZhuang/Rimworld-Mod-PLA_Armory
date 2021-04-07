@@ -334,10 +334,11 @@
                         <li Class="PLA.CompProperties_SecondaryAmmo">
                             <magazineSize>1</magazineSize>
                             <reloadTime>0.4</reloadTime>
-                            <ammoSet>AmmoSet_35x32mmSRGrenade_HighSpeed</ammoSet>
+                            <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>
                             <mainWeaponLabel>use rifle</mainWeaponLabel>
                             <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
                             <description>switch between rifle and grenade launcher</description>
+                            <commandIcon>UI/UI_QTS11SwitchAmmo</commandIcon>
                         </li>
                     </value>
                 </li>

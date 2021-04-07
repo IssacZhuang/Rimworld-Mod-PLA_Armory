@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PLA_GrenadeHEAT</defName>
+        <label>high-explosive anti-tank</label>
+        <labelShort>HEAT</labelShort>
+        <description>Shaped charge warhead. Detonates on impact, creating a super-heated stream of molten metal that punches through enemy armor.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PLA_GrenadeBUCK</defName>
+        <label>buck grenade</label>
+        <labelShort>buck</labelShort>
+        <description>Filled with many buckshot pellets which spread in a tight pattern.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+		<defName>PLA_Composit_OneNineOne</defName>
+		<label>armo-piercing composit rigid</label>
+		<labelShort>APCR</labelShort>
+		<description>The APCR projectile has a core of a high-density hard material. \nThe projectile is lighter: up to half the weight of a standard AP shot of the same caliber. The lighter weight allows a higher muzzle velocity. The kinetic energy of the shot is concentrated in the core and hence on a smaller impact area, improving the penetration of the target armor.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+</Defs>
