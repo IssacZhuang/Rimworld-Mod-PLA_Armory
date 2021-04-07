@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+
+                <!--===== TOOLS FOR THE TOOL GOD =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QTSEleven</defName>
+                    <statBases>
+                        <Mass>5</Mass>
+                        <Bulk>8</Bulk>
+                        <SwayFactor>1.1</SwayFactor>
+                        <ShotSpread>0.03</ShotSpread>
+                        <SightsEfficiency>2.2</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                        <WorkToMake>30000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>110</Steel>
+                        <ComponentIndustrial>12</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <recoilAmount>1</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+                        <warmupTime>1.1</warmupTime>
+                        <range>64</range>
+                        <burstShotCount>4</burstShotCount>
+                        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                        <soundCast>PLA_SoundQTS11</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>30</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>2</aimedBurstShotCount>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps</xpath>
+                    <value>
+                        <li Class="PLA.CompProperties_SecondaryAmmo">
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>0.4</reloadTime>
+                            <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>
+                            <mainWeaponLabel>use rifle</mainWeaponLabel>
+                            <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+                            <description>switch between rifle and grenade launcher</description>
+                            <commandIcon>UI/UI_QTS11SwitchAmmo</commandIcon>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
+                    <value>
+                        <li Class="PLA.StatPart_LoadedSecondaryAmmo"/>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
