@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <PLA_QTSEleven.comps.CompSecondaryAmmo.mainWeaponLabel>使用步枪</PLA_QTSEleven.comps.CompSecondaryAmmo.mainWeaponLabel>
+    <PLA_QTSEleven.comps.CompSecondaryAmmo.secondaryWeaponLabel>使用榴弹发射器</PLA_QTSEleven.comps.CompSecondaryAmmo.secondaryWeaponLabel>
+    <PLA_QTSEleven.comps.CompSecondaryAmmo.description>在步枪和榴弹发射器间切换</PLA_QTSEleven.comps.CompSecondaryAmmo.description>
+</LanguageData>
