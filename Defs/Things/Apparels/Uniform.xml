@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>PLA_Uniform</defName>
-        <label>Type-19 combat uniform</label>
-        <description>A combat uniform.</description>
-        <graphicData>
-            <texPath>Things/Apparel/Display/PLA_uniform_display</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
+    <ThingDef Name="PLA_UniformBase" ParentName="ApparelMakeableBase" Abstract="True">
         <costList>
             <Cloth>80</Cloth>
         </costList>
@@ -16,7 +9,7 @@
             <researchPrerequisite>ComplexClothing</researchPrerequisite>
         </recipeMaker>
         <thingCategories>
-            <li>Apparel</li>
+            <li>PLA_Apparel</li>
         </thingCategories>
         <statBases>
             <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
@@ -36,7 +29,6 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/Uniform/PLA_uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -48,10 +40,36 @@
             <options>
                 <li>
                     <weight>100</weight>
-                    <only>(1,1,1,1)</only>
+                    <only>(0.8,0.8,0.8,1)</only>
                 </li>
             </options>
         </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_UniformBase">
+        <defName>PLA_Uniform_Town</defName>
+        <label>Type-19 combat uniform (Town)</label>
+        <description>A combat uniform, suitable for town combat.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_uniform_town_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Uniform_Town/PLA_uniform</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_UniformBase">
+        <defName>PLA_Uniform_Forest</defName>
+        <label>Type-19 combat uniform (Forest)</label>
+        <description>A combat uniform, suitable for forest combat.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_uniform_forest_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Uniform_Forest/PLA_uniform</wornGraphicPath>
+        </apparel>
     </ThingDef>
 
 </Defs>

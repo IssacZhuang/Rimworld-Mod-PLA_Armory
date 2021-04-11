@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="PLA_HelmetBase" ParentName="ArmorMachineableBase" Abstract="True">
+        <thingCategories>
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <uiIconScale>1.4</uiIconScale>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.43</ArmorRating_Heat>
+            <Mass>1.2</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>10</Plasteel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>IndustrialMilitaryAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(0.8,0.8,0.8,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_HelmetBase">
+        <defName>PLA_Helmet</defName>
+        <label>Type-19 military helmet</label>
+        <description>A military helmet.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_helmet_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Helmet/PLA_helmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+</Defs>

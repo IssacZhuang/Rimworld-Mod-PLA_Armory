@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PLA_Uniform.label>19式通用作战服</PLA_Uniform.label>
-  <PLA_Uniform.description>人民解放军的新式作战服，也被称作星空迷彩。</PLA_Uniform.description>
+  <PLA_Uniform_Town.label>19式作战服 (城镇)</PLA_Uniform_Town.label>
+  <PLA_Uniform_Town.description>人民解放军的新式作战服，也被称作星空迷彩。</PLA_Uniform_Town.description>
 
-  
+  <PLA_Uniform_Forest.label>19式作战服 (丛林)</PLA_Uniform_Forest.label>
+  <PLA_Uniform_Forest.description>人民解放军的新式作战服，也被称作星空迷彩。</PLA_Uniform_Forest.description>
+
+  <PLA_Helmet.label>19式头盔</PLA_Helmet.label>
+  <PLA_Helmet.description>19式头盔。</PLA_Helmet.description>
 
 </LanguageData>
