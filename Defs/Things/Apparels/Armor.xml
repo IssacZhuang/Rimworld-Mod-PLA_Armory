@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef Name="PLA_HelmetBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <ThingDef Name="PLA_ArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
         <thingCategories>
             <li>PLA_Apparel</li>
         </thingCategories>
         <uiIconScale>1.4</uiIconScale>
         <statBases>
-            <WorkToMake>8000</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToMake>12000</WorkToMake>
+            <MaxHitPoints>300</MaxHitPoints>
             <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.43</ArmorRating_Heat>
-            <Mass>1.2</Mass>
+            <Mass>12</Mass>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <techLevel>Industrial</techLevel>
@@ -24,16 +24,22 @@
             </skillRequirements>
         </recipeMaker>
         <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Plasteel>10</Plasteel>
+            <Steel>80</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
         </costList>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
-                <li>UpperHead</li>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
             </bodyPartGroups>
             <layers>
-                <li>Overhead</li>
+                <li>Middle</li>
+                <li>Shell</li>
             </layers>
             <defaultOutfitTags>
                 <li>Soldier</li>
@@ -48,16 +54,16 @@
         </colorGenerator>
     </ThingDef>
 
-    <ThingDef ParentName="PLA_HelmetBase">
-        <defName>PLA_Helmet</defName>
-        <label>Type-19 military helmet</label>
-        <description>A military helmet.</description>
+    <ThingDef ParentName="PLA_ArmorBase">
+        <defName>PLA_Armor</defName>
+        <label>Type-19 body armor</label>
+        <description>A body armor.</description>
         <graphicData>
-            <texPath>Things/Apparel/Display/PLA_helmet_display</texPath>
+            <texPath>Things/Apparel/Display/PLA_armor_display</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <apparel>
-            <wornGraphicPath>Things/Apparel/Helmet/PLA_helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BodyArmor/PLA_armor</wornGraphicPath>
         </apparel>
     </ThingDef>
 

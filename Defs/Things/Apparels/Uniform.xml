@@ -7,6 +7,7 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <thingCategories>
             <li>PLA_Apparel</li>
@@ -39,8 +40,7 @@
         <colorGenerator Class="ColorGenerator_Options">
             <options>
                 <li>
-                    <weight>100</weight>
-                    <only>(0.8,0.8,0.8,1)</only>
+                    <only>(0.7,0.7,0.7)</only>
                 </li>
             </options>
         </colorGenerator>
