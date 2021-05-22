@@ -17,4 +17,20 @@
   <MakeAmmo_35x32mmSRGrenade_HEAT.description>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.description>
   <MakeAmmo_35x32mmSRGrenade_HEAT.jobString>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.jobString>
 
+  <MakeAmmo_20mmProgrammableGrenade_HE.label>制作 20mm 可编程榴弹 (高爆弹) x100</MakeAmmo_20mmProgrammableGrenade_HE.label>
+  <MakeAmmo_20mmProgrammableGrenade_HE.description>制作 20mm 可编程榴弹 (高爆弹)</MakeAmmo_20mmProgrammableGrenade_HE.description>
+  <MakeAmmo_20mmProgrammableGrenade_HE.jobString>制作 20mm 可编程榴弹 (高爆弹)</MakeAmmo_20mmProgrammableGrenade_HE.jobString>
+
+  <MakeAmmo_20mmProgrammableGrenade_HEAT.label>制作 20mm 可编程榴弹 (穿甲弹) x100</MakeAmmo_20mmProgrammableGrenade_HEAT.label>
+  <MakeAmmo_20mmProgrammableGrenade_HEAT.description>制作 20mm 可编程榴弹 (穿甲弹)</MakeAmmo_20mmProgrammableGrenade_HEAT.description>
+  <MakeAmmo_20mmProgrammableGrenade_HEAT.jobString>制作 20mm 可编程榴弹 (穿甲弹)</MakeAmmo_20mmProgrammableGrenade_HEAT.jobString>
+
+  <MakeAmmo_20mmProgrammableGrenade_EMP.label>制作 20mm 可编程榴弹 (电磁脉冲弹) x100</MakeAmmo_20mmProgrammableGrenade_EMP.label>
+  <MakeAmmo_20mmProgrammableGrenade_EMP.description>制作 20mm 可编程榴弹 (电磁脉冲弹)</MakeAmmo_20mmProgrammableGrenade_EMP.description>
+  <MakeAmmo_20mmProgrammableGrenade_EMP.jobString>制作 20mm 可编程榴弹 (电磁脉冲弹)</MakeAmmo_20mmProgrammableGrenade_EMP.jobString>
+
+  <MakeAmmo_20mmProgrammableGrenade_BUCK.label>制作 20mm 可编程榴弹 (霰弹) x100</MakeAmmo_20mmProgrammableGrenade_BUCK.label>
+  <MakeAmmo_20mmProgrammableGrenade_BUCK.description>制作 20mm 可编程榴弹 (霰弹)</MakeAmmo_20mmProgrammableGrenade_BUCK.description>
+  <MakeAmmo_20mmProgrammableGrenade_BUCK.jobString>制作 20mm 可编程榴弹 (霰弹)</MakeAmmo_20mmProgrammableGrenade_BUCK.jobString>
+
 </LanguageData>
