@@ -28,6 +28,8 @@
             <ComponentIndustrial>1</ComponentIndustrial>
             <Plasteel>10</Plasteel>
         </costList>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>UpperHead</li>
@@ -49,8 +51,8 @@
     </ThingDef>
 
     <ThingDef ParentName="PLA_HelmetBase">
-        <defName>PLA_Helmet</defName>
-        <label>Type-19 military helmet</label>
+        <defName>PLA_Helmet_Desert</defName>
+        <label>PLA military helmet</label>
         <description>A military helmet.</description>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_helmet_display</texPath>

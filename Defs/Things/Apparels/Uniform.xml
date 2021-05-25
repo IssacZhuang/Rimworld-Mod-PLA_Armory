@@ -22,6 +22,8 @@
             <Insulation_Cold>7.5</Insulation_Cold>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
@@ -47,28 +49,15 @@
     </ThingDef>
 
     <ThingDef ParentName="PLA_UniformBase">
-        <defName>PLA_Uniform_Town</defName>
-        <label>Type-19 combat uniform (Town)</label>
-        <description>A combat uniform, suitable for town combat.</description>
-        <graphicData>
-            <texPath>Things/Apparel/Display/PLA_uniform_town_display</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Uniform_Town/PLA_uniform</wornGraphicPath>
-        </apparel>
-    </ThingDef>
-
-    <ThingDef ParentName="PLA_UniformBase">
         <defName>PLA_Uniform_Forest</defName>
-        <label>Type-19 combat uniform (Forest)</label>
-        <description>A combat uniform, suitable for forest combat.</description>
+        <label>PLA combat uniform</label>
+        <description>A combat uniform.</description>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_uniform_forest_display</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <apparel>
-            <wornGraphicPath>Things/Apparel/Uniform_Forest/PLA_uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Uniform/PLA_uniform</wornGraphicPath>
         </apparel>
     </ThingDef>
 

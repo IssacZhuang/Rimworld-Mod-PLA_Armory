@@ -55,8 +55,8 @@
     </ThingDef>
 
     <ThingDef ParentName="PLA_ArmorBase">
-        <defName>PLA_Armor</defName>
-        <label>Type-19 body armor</label>
+        <defName>PLA_Armor_Desert</defName>
+        <label>PLA body armor</label>
         <description>A body armor.</description>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_armor_display</texPath>
