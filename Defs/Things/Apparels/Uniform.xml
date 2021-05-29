@@ -19,7 +19,7 @@
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToMake>3000</WorkToMake>
             <Mass>0.5</Mass>
-            <Insulation_Cold>7.5</Insulation_Cold>
+            <Insulation_Cold>15</Insulation_Cold>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
