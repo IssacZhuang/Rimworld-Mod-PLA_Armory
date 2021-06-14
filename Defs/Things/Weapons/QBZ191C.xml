@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="PLA_BaseGun">
@@ -16,8 +16,13 @@
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3</Mass>
@@ -71,7 +76,7 @@
     </tools>
   </ThingDef>
 
- <ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Bullet_DBPOneNineOne_Charged</defName>
     <label>charged shot</label>
     <graphicData>
@@ -85,5 +90,5 @@
       <speed>80</speed>
     </projectile>
   </ThingDef>
-  
+
 </Defs>
