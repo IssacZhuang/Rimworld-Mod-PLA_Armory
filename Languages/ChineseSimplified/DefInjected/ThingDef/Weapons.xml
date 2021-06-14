@@ -16,6 +16,11 @@
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
   <PLA_QBZOneNineOne.tools.1.label>枪管</PLA_QBZOneNineOne.tools.1.label>
 
+  <PLA_QBZOneNineOne_Charged.label>191式突击步枪-电荷改装</PLA_QBZOneNineOne_Charged.label>
+  <PLA_QBZOneNineOne_Charged.description>QBZ-191的电荷弹改造版。</PLA_QBZOneNineOne_Charged.description>
+  <PLA_QBZOneNineOne_Charged.tools.0.label>枪托</PLA_QBZOneNineOne_Charged.tools.0.label>
+  <PLA_QBZOneNineOne_Charged.tools.1.label>枪管</PLA_QBZOneNineOne_Charged.tools.1.label>
+
   <PLA_QBZNinetyFive.label>95-1式突击步枪</PLA_QBZNinetyFive.label>
   <PLA_QBZNinetyFive.description>人民解放军的主力突击步枪。</PLA_QBZNinetyFive.description>
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>

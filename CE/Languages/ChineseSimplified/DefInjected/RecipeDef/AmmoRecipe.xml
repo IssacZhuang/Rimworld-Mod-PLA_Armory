@@ -33,4 +33,16 @@
   <MakeAmmo_20mmProgrammableGrenade_BUCK.description>制作 20mm 可编程榴弹 (霰弹)</MakeAmmo_20mmProgrammableGrenade_BUCK.description>
   <MakeAmmo_20mmProgrammableGrenade_BUCK.jobString>制作 20mm 可编程榴弹 (霰弹)</MakeAmmo_20mmProgrammableGrenade_BUCK.jobString>
 
+  <MakeAmmo_58x42mmCharged.label>制作5.8mm 电荷弹 x500</MakeAmmo_58x42mmCharged.label>
+  <MakeAmmo_58x42mmCharged.description>制作5.8mm 电荷弹</MakeAmmo_58x42mmCharged.description>
+  <MakeAmmo_58x42mmCharged.jobString>制作5.8mm 电荷弹</MakeAmmo_58x42mmCharged.jobString>
+
+  <MakeAmmo_58x42mmCharged_AP.label>制作5.8mm 电荷弹 (穿甲弹) x500</MakeAmmo_58x42mmCharged_AP.label>
+  <MakeAmmo_58x42mmCharged_AP.description>制作5.8mm 电荷弹 (穿甲弹)</MakeAmmo_58x42mmCharged_AP.description>
+  <MakeAmmo_58x42mmCharged_AP.jobString>制作5.8mm 电荷弹 (穿甲弹)</MakeAmmo_58x42mmCharged_AP.jobString>
+
+  <MakeAmmo_58x42mmCharged_Ion.label>制作5.8mm 电荷弹 (电磁脉冲) x500</MakeAmmo_58x42mmCharged_Ion.label>
+  <MakeAmmo_58x42mmCharged_Ion.description>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.description>
+  <MakeAmmo_58x42mmCharged_Ion.jobString>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.jobString>
+
 </LanguageData>
