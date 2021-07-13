@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Weapon/QBZ191</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.95,0.95)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -48,6 +48,10 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
     <tools>
       <li>
         <label>stock</label>

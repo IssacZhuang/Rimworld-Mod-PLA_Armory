@@ -9,6 +9,7 @@
         <graphicData>
             <texPath>Things/Weapon/PF98</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.2,1.2)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
@@ -53,6 +54,10 @@
                 <muzzleFlashScale>14</muzzleFlashScale>
             </li>
         </verbs>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+            </li>
+          </comps>
         <tools>
             <li>
                 <label>barrel</label>
