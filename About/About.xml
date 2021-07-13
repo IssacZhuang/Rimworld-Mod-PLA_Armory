@@ -2,10 +2,11 @@
 <ModMetaData>
 	<name>PLA-Armory</name>
 	<author>Issac Zhuang</author>
-	<packageId>IssacZhuang.PLA_Armory</packageId>
+	<packageId>IssacZhuang.PLA.Armory</packageId>
 	<description>The weapons of People's Liberation Army.</description>
 	<supportedVersions>
 		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
