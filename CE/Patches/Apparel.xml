@@ -109,6 +109,26 @@
                     </value>
                 </li>
 
+                 <!--Flak Pants-->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>12</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>25</ArmorRating_Blunt>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Heat</xpath>
+                    <value>
+                        <ArmorRating_Heat>0.2</ArmorRating_Heat>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>
