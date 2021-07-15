@@ -185,6 +185,44 @@
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
                 </li>
 
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QBVOneNineOne</defName>
+                    <statBases>
+                        <Mass>3.7</Mass>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2</SightsEfficiency>
+                        <ShotSpread>0.04</ShotSpread>
+                        <SwayFactor>1.2</SwayFactor>
+                        <Bulk>8</Bulk>
+                        <WorkToMake>25000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>100</Steel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+                        <warmupTime>0.6</warmupTime>
+                        <range>68</range>
+                        <soundCast>PLA_SoundQBZ191</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>30</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                    <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                </li>
+
                 <li Class="PatchOperationAddModExtension">
                     <xpath>Defs/ThingDef[defName="PLA_QBUEightyEight"]</xpath>
                     <value>
