@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_PFNinetyEight</defName>
-        <label>PF-98</label>
+        <label>PF-98 Anti-Tank Rocket Launcher</label>
         <description>A anti-tank rocket of of People's Liberation Army.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>

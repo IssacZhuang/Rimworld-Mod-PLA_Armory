@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QCWZeroFive</defName>
-        <label>QCW-05</label>
+        <label>QCW-05 Sub Machine Gun</label>
         <description>A sub machine gun with suppressor</description>
         <graphicData>
             <texPath>Things/Weapon/QCW05</texPath>

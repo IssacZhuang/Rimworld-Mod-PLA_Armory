@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QTSEleven</defName>
-    <label>QTS-11-OICW</label>
+    <label>QTS-11 Smart Rifle</label>
     <description>An OICW(Objective Individual Combat Weapon) of People's Liberation Army.</description>
     <graphicData>
       <texPath>Things/Weapon/QTS11</texPath>
