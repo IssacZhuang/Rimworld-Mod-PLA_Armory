@@ -2,16 +2,16 @@
 <Defs>
 
     <ThingDef ParentName="PLA_BaseGun">
-        <defName>PLA_QCWZeroFive</defName>
-        <label>QCW-05 Sub Machine Gun</label>
-        <description>A sub machine gun with suppressor</description>
+        <defName>PLA_QCQOneSevenOne</defName>
+        <label>QCQ-171 Sub Machine Gun</label>
+        <description>A new type sub machine gun of People's Liberation Army.</description>
         <graphicData>
-            <texPath>Things/Weapon/QCW05</texPath>
+            <texPath>Things/Weapon/QCQ171</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -20,17 +20,17 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
-            <WorkToMake>24000</WorkToMake>
-            <Mass>2.2</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.63</AccuracyShort>
-            <AccuracyMedium>0.4</AccuracyMedium>
+            <WorkToMake>26000</WorkToMake>
+            <Mass>2</Mass>
+            <AccuracyTouch>0.83</AccuracyTouch>
+            <AccuracyShort>0.7</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
             <AccuracyLong>0.35</AccuracyLong>
-            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <costList>
             <Steel>75</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <weaponTags>
             <li>PLA_SMG</li>
@@ -41,10 +41,10 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_SMG</defaultProjectile>
                 <warmupTime>1</warmupTime>
-                <range>21</range>
+                <range>22</range>
                 <burstShotCount>4</burstShotCount>
-                <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
-                <soundCast>PLA_SoundQCW05</soundCast>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQCQ171</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -68,20 +68,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
-
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Bullet_SMG</defName>
-        <label>heavy SMG bullet</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>13</damageAmountBase>
-            <speed>45</speed>
-        </projectile>
     </ThingDef>
 
 </Defs>

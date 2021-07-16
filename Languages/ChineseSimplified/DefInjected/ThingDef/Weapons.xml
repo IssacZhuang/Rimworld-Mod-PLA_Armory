@@ -11,6 +11,11 @@
   <PLA_QCWZeroFive.tools.0.label>枪托</PLA_QCWZeroFive.tools.0.label>
   <PLA_QCWZeroFive.tools.1.label>枪管</PLA_QCWZeroFive.tools.1.label>
 
+  <PLA_QCQOneSevenOne.label>171式冲锋枪</PLA_QCQOneSevenOne.label>
+  <PLA_QCQOneSevenOne.description>人民解放军的新式冲锋枪。</PLA_QCQOneSevenOne.description>
+  <PLA_QCQOneSevenOne.tools.0.label>枪托</PLA_QCQOneSevenOne.tools.0.label>
+  <PLA_QCQOneSevenOne.tools.1.label>枪管</PLA_QCQOneSevenOne.tools.1.label>
+
   <PLA_QBZOneNineOne.label>191式突击步枪</PLA_QBZOneNineOne.label>
   <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪。</PLA_QBZOneNineOne.description>
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
