@@ -20,9 +20,6 @@
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3</Mass>

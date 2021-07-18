@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <ThingDef ParentName="BuildingBase" Name="PLA_TurretBase" Abstract="true">
@@ -16,7 +16,7 @@
         <tickerType>Normal</tickerType>
         <techLevel>Industrial</techLevel>
         <comps>
-            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Forbiddable" />
             <li Class="CompProperties_Mannable">
                 <manWorkType>Violent</manWorkType>
             </li>
@@ -50,6 +50,13 @@
     </ThingDef>
 
     <ThingDef Name="PLA_BaseGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories Inherit = "False">
+            <li>PLA_WeaponRanged</li>
+        </thingCategories>
+        <thingSetMakerTags Inherit = "False">
+            <li>RewardStandardMidFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
     </ThingDef>
 
 </Defs>
