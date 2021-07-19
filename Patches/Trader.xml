@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier" or defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
         <value>
             <li Class="StockGenerator_Category">
                 <categoryDef>PLA_WeaponRanged</categoryDef>
-                <thingDefCountRange>6~6</thingDefCountRange>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>1~1</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PLA_WeaponRanged</categoryDef>
+                <thingDefCountRange>6~10</thingDefCountRange>
                 <countRange>1~1</countRange>
             </li>
             <li Class="StockGenerator_Category">

@@ -49,6 +49,9 @@
 			<texPath>Things/Ammo/APCR</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
+		<tradeTags>
+			<li>PLA_ammo</li>
+		</tradeTags>
 		<statBases>
 			<MarketValue>0.09</MarketValue>
 			<Mass>0.08</Mass>
