@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="MealBase">
     <defName>PLA_MealSurvivalPack</defName>
-    <label>MRE Chinese Military</label>
+    <label>MRE Chinese Army</label>
     <description>A military packaged meal for the People's Liberation Army, manufactured for use in survival situations. Including rice, braised meat, chocolate stick and drink.</description>
     <graphicData>
       <texPath>Things/Item/Food/SelfHeatingMeal</texPath>
