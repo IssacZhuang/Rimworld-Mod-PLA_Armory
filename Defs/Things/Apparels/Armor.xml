@@ -24,6 +24,7 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
             <Steel>80</Steel>
@@ -43,6 +44,9 @@
                 <li>Middle</li>
                 <li>Shell</li>
             </layers>
+            <tags Inherit = "False">
+                <li>PLA_BodyArmor</li>
+            </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>

@@ -22,6 +22,7 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
             <Steel>40</Steel>
@@ -37,6 +38,9 @@
             <layers>
                 <li>Overhead</li>
             </layers>
+            <tags Inherit = "False">
+                <li>PLA_Helmet</li>
+            </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>

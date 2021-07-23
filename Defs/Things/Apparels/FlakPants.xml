@@ -10,6 +10,7 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <statBases>
             <WorkToMake>9000</WorkToMake>
@@ -40,6 +41,9 @@
                 <li>Middle</li>
                 <li>Shell</li>
             </layers>
+            <tags Inherit = "False">
+                <li>PLA_FlakPants</li>
+            </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
