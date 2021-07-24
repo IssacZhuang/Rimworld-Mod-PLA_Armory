@@ -70,10 +70,9 @@
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
                     <value>
-                        <li Class="PLA.StatPart_LoadedSecondaryAmmo"/>
+                        <li Class="PLA.StatPart_LoadedSecondaryAmmo" />
                     </value>
                 </li>
-
             </operations>
         </match>
     </Operation>
