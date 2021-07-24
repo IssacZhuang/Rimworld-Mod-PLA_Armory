@@ -52,6 +52,46 @@
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_QJZOneSevenOne</defName>
+                    <statBases>
+                        <Mass>20.5</Mass>
+                        <Bulk>19</Bulk>
+                        <SwayFactor>1.5</SwayFactor>
+                        <ShotSpread>0.15</ShotSpread>
+                        <SightsEfficiency>1.2</SightsEfficiency>
+                        <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>150</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <recoilAmount>1.8</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
+                        <warmupTime>1.5</warmupTime>
+                        <range>65</range>
+                        <burstShotCount>10</burstShotCount>
+                        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                        <soundCast>PLA_Sound85HMG</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>80</magazineSize>
+                        <reloadTime>9.5</reloadTime>
+                        <ammoSet>AmmoSet_127x108mm</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                </li>
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_QLUEleven</defName>
                     <statBases>
                         <Mass>12.9</Mass>

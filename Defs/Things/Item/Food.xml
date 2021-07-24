@@ -22,6 +22,7 @@
       <tasteThought>AteFineMeal</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -109,7 +110,7 @@
             <li>Chocolate</li>
           </thingDefs>
         </filter>
-        <count>0.2</count>
+        <count>0.1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -186,7 +187,7 @@
             <li>Chocolate</li>
           </thingDefs>
         </filter>
-        <count>0.8</count>
+        <count>0.4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>

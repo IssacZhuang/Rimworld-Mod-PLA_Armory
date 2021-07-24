@@ -11,7 +11,7 @@
         </graphicData>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>GasOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>

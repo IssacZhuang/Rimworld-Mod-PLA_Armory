@@ -46,6 +46,11 @@
   <PLA_QBBNinetyFiveLSW.tools.0.label>枪托</PLA_QBBNinetyFiveLSW.tools.0.label>
   <PLA_QBBNinetyFiveLSW.tools.1.label>枪管</PLA_QBBNinetyFiveLSW.tools.1.label>
 
+  <PLA_QJZOneSevenOne.label>171式重机枪</PLA_QJZOneSevenOne.label>
+  <PLA_QJZOneSevenOne.description>人民解放军的新式重机枪。重量相比其他重机枪很轻，可以单兵携带，但仍然有极大的后坐力。</PLA_QJZOneSevenOne.description>
+  <PLA_QJZOneSevenOne.tools.0.label>枪托</PLA_QJZOneSevenOne.tools.0.label>
+  <PLA_QJZOneSevenOne.tools.1.label>枪管</PLA_QJZOneSevenOne.tools.1.label>
+
   <PLA_QBUTen.label>10式反器材狙击步枪</PLA_QBUTen.label>
   <PLA_QBUTen.description>人民解放军的反器材狙击步枪。</PLA_QBUTen.description>
   <PLA_QBUTen.tools.0.label>枪托</PLA_QBUTen.tools.0.label>

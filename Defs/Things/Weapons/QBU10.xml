@@ -47,8 +47,7 @@
     </verbs>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <southOffset>(-0.15,0,0)</southOffset>
-        <eastOffset>(0.3,0,0)</eastOffset>
+        <southOffset>(0,0,-0.2)</southOffset>
       </li>
     </comps>
     <tools>
