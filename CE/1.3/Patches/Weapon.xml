@@ -8,4 +8,13 @@
           </li>
         </value>
       </Operation>
+
+      <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[@Name="PLA_TurretWeaponBase"]</xpath>
+        <value>
+          <li Class="CombatExtended.ThingDefExtensionCE">
+            <MenuHidden>True</MenuHidden>
+          </li>
+        </value>
+      </Operation>
 </Patch>

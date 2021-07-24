@@ -90,7 +90,7 @@
                         <aimedBurstShotCount>4</aimedBurstShotCount>
                         <aiUseBurstMode>FALSE</aiUseBurstMode>
                     </FireModes>
-                    <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+                    <researchPrerequisite>GasOperation</researchPrerequisite>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
