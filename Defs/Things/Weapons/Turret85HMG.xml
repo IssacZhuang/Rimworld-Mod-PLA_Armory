@@ -36,7 +36,7 @@
         <uiIconPath>Things/Building/Turret85HMG</uiIconPath>
         <statBases>
             <MaxHitPoints>250</MaxHitPoints>
-            <WorkToBuild>10000</WorkToBuild>
+            <WorkToBuild>8000</WorkToBuild>
             <Mass>41.5</Mass>
         </statBases>
         <comps>

@@ -38,6 +38,38 @@
         </placeWorkers>
     </ThingDef>
 
+    <ThingDef ParentName="BuildingBase" Name="PLA_AutoTurretBase" Abstract="true">
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <thingCategories>
+            <li>BuildingsSecurity</li>
+        </thingCategories>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <stealable>false</stealable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+        </comps>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.85</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <hasTooltip>true</hasTooltip>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Security</designationCategory>
+        <placeWorkers>
+            <li>PlaceWorker_TurretTop</li>
+            <li>PlaceWorker_ShowTurretRadius</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
     <ThingDef ParentName="BaseWeaponTurret" Name="PLA_TurretWeaponBase" Abstract="true">
         <soundInteract>Interact_Rifle</soundInteract>
         <destroyOnDrop>true</destroyOnDrop>

@@ -9,6 +9,21 @@
         <match Class="PatchOperationSequence">
             <operations>
 
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="PLA_TurretBase" or @Name="PLA_AutoTurretBase"]/statBases</xpath>
+                    <value>
+                        <AimingAccuracy>1</AimingAccuracy>
+                        <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name = "PLA_TurretBase" or @Name="PLA_AutoTurretBase"]/thingClass</xpath>
+                    <value>
+                        <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+                    </value>
+                </li>
+
 
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -72,19 +87,68 @@
                     <xpath>Defs/ThingDef[ defName="PLA_Turret85HMG" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
                 </li>
 
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="PLA_TurretBase"]/statBases</xpath>
+
+                <!--H/PJ 11-->
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_GunHPJ11NavalGun</defName>
+                    <statBases>
+                        <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.10</SightsEfficiency>
+                        <ShotSpread>0.01</ShotSpread>
+                        <SwayFactor>0.2</SwayFactor>
+                        <Bulk>108.54</Bulk>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>0.05</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_30x165mm_APFSDS</defaultProjectile>
+                        <warmupTime>1.4</warmupTime>
+                        <range>86</range>
+                        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                        <burstShotCount>40</burstShotCount>
+                        <soundCast>PLA_Sound1130Shell</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                        <muzzleFlashScale>13</muzzleFlashScale>
+                        <recoilPattern>Mounted</recoilPattern>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>400</magazineSize>
+                        <reloadTime>12</reloadTime>
+                        <ammoSet>AmmoSet_30x165mm</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>FALSE</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <aimedBurstShotCount>20</aimedBurstShotCount>
+                    </FireModes>
+                    <weaponTags>
+                        <li>TurretGun</li>
+                    </weaponTags>
+                </li>
+
+                <!--li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/specialDisplayRadius</xpath>
                     <value>
-                        <AimingAccuracy>1</AimingAccuracy>
-                        <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+                        <specialDisplayRadius>86</specialDisplayRadius>
+                    </value>
+                </li-->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>CE_TurretHeavyWeapons</li>
+                        </researchPrerequisites>
                     </value>
                 </li>
 
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name = "PLA_TurretBase"]/thingClass</xpath>
-                    <value>
-                        <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
-                    </value>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
                 </li>
 
             </operations>
