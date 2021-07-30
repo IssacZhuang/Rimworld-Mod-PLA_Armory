@@ -89,4 +89,13 @@
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
   <PLA_Gun85HMG.description>解放军的反器材重机枪。</PLA_Gun85HMG.description>
 
+  <PLA_TurretHPJ11NavalGun.label>H/PJ-11近防炮</PLA_TurretHPJ11NavalGun.label>
+  <PLA_TurretHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_TurretHPJ11NavalGun.description>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_GunHPJ11NavalGun.label>H/PJ-11近防炮</PLA_GunHPJ11NavalGun.label>
+  <PLA_GunHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_GunHPJ11NavalGun.description>
+
 </LanguageData>
