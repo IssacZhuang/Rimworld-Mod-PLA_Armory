@@ -72,8 +72,9 @@
         <costList>
             <Steel>1500</Steel>
             <Uranium>200</Uranium>
+            <Plasteel>300</Plasteel>
             <ComponentIndustrial>12</ComponentIndustrial>
-            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentSpacer>6</ComponentSpacer>
         </costList>
         <building>
             <turretGunDef>PLA_GunHPJ11NavalGun</turretGunDef>
