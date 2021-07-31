@@ -74,7 +74,7 @@
             <Uranium>200</Uranium>
             <Plasteel>300</Plasteel>
             <ComponentIndustrial>12</ComponentIndustrial>
-            <ComponentSpacer>6</ComponentSpacer>
+            <ComponentSpacer>8</ComponentSpacer>
         </costList>
         <building>
             <turretGunDef>PLA_GunHPJ11NavalGun</turretGunDef>
