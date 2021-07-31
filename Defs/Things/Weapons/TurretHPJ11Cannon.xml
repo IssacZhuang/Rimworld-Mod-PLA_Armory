@@ -23,7 +23,7 @@
         <label>H/PJ-11 Naval Gun</label>
         <description>An 11 barrel naval gun. Has a high fire rate and large ammo capacity.</description>
         <graphicData>
-            <texPath>Things/Building/HugeTurretBase</texPath>
+            <texPath>Things/Building/PLA_HugeTurretBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(5,5)</drawSize>
             <damageData>
