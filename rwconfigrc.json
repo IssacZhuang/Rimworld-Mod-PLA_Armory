@@ -1,0 +1,18 @@
+{
+    "folders": {
+        "new-version": {
+            "About": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rimworld-Mod-PLA_QBZ191-main\\About",
+            "DefReferences": [
+                "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Data"
+            ],
+            "AssemblyReferences": [
+                "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\RimWorldWin64_Data\\Managed"
+            ],
+            "Assemblies": ".\\Assemblies",
+            "Defs": ".\\Defs",
+            "Textures": ".\\Textures",
+            "Sounds": ".\\Sounds",
+            "Patches": ".\\Patches"
+        }
+    }
+}

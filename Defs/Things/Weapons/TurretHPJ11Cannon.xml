@@ -79,6 +79,7 @@
         <building>
             <turretGunDef>PLA_GunHPJ11NavalGun</turretGunDef>
             <turretTopDrawSize>5</turretTopDrawSize>
+            <turretBurstCooldownTime>1</turretBurstCooldownTime>
         </building>
         <researchPrerequisites>
             <li>PrecisionRifling</li>

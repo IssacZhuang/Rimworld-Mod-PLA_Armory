@@ -93,7 +93,7 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_GunHPJ11NavalGun</defName>
                     <statBases>
-                        <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+                        <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
                         <SightsEfficiency>2.10</SightsEfficiency>
                         <ShotSpread>0.01</ShotSpread>
                         <SwayFactor>0.2</SwayFactor>
@@ -104,7 +104,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_30x165mm_APFSDS</defaultProjectile>
-                        <warmupTime>1.4</warmupTime>
+                        <warmupTime>1.6</warmupTime>
                         <range>86</range>
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                         <burstShotCount>40</burstShotCount>
@@ -142,7 +142,7 @@
                     <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>CE_TurretHeavyWeapons</li>
+                            <li>CE_HeavyTurret</li>
                         </researchPrerequisites>
                     </value>
                 </li>
