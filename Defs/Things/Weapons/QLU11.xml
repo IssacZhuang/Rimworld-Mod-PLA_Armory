@@ -33,6 +33,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <WorkToMake>40000</WorkToMake>
             <Mass>8</Mass>
             <AccuracyTouch>0.58</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
