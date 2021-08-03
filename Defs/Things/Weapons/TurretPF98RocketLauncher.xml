@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
     <ThingDef ParentName="PLA_TurretBase">
-        <defName>PLA_Turret85HMG</defName>
-        <label>Mounted Type-85 HMG Turret</label>
-        <description>A type-85 heavy machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <defName>PLA_TurretPF98RocketLauncher</defName>
+        <label>Mounted PF-98 Rocket Launcher</label>
+        <description>A PF-98 rocket launcher mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -17,7 +16,7 @@
                 <offset>(0,0,0)</offset>
             </shadowData>
         </graphicData>
-        <uiIconPath>Things/Building/Turret85HMG</uiIconPath>
+        <uiIconPath>Things/Building/TurretPF98RocketLauncher</uiIconPath>
         <statBases>
             <MaxHitPoints>250</MaxHitPoints>
             <WorkToBuild>8000</WorkToBuild>
@@ -32,12 +31,12 @@
                         <li>Steel</li>
                     </thingDefs>
                 </fuelFilter>
-                <fuelCapacity>800</fuelCapacity>
+                <fuelCapacity>20</fuelCapacity>
                 <initialFuelPercent>1</initialFuelPercent>
                 <autoRefuelPercent>0.75</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
                 <minimumFueledThreshold>1</minimumFueledThreshold>
-                <fuelMultiplier>20</fuelMultiplier>
+                <fuelMultiplier>1</fuelMultiplier>
                 <factorByDifficulty>true</factorByDifficulty>
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
@@ -46,12 +45,14 @@
         </comps>
         <costList>
             <Steel>200</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
-        <specialDisplayRadius>30</specialDisplayRadius>
+        <specialDisplayRadius>2</specialDisplayRadius>
         <building>
-            <turretGunDef>PLA_Gun85HMG</turretGunDef>
-            <turretBurstCooldownTime>1.95</turretBurstCooldownTime>
+            <turretGunDef>PLA_MountedPF98RocketLauncher</turretGunDef>
+            <turretBurstCooldownTime>6</turretBurstCooldownTime>
+            <turretTopDrawSize>1.5</turretTopDrawSize>
+            <turretBurstWarmupTime>3</turretBurstWarmupTime>
         </building>
         <researchPrerequisites>
             <li>PrecisionRifling</li>
@@ -62,35 +63,35 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseWeaponTurret">
-        <defName>PLA_Gun85HMG</defName>
-        <label>Type 85 heavy machine gun</label>
-        <description>An heavy machine gun</description>
+        <defName>PLA_MountedPF98RocketLauncher</defName>
+        <label>PF-98 Anti-Tank Rocket Launcher</label>
+        <description>A anti-tank rocket of of People's Liberation Army.</description>
         <graphicData>
-            <texPath>Things/Building/Type85HMG</texPath>
+            <texPath>Things/Building/PF98OnTurret</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(2,2)</drawSize>
         </graphicData>
         <statBases>
-            <AccuracyTouch>0.90</AccuracyTouch>
-            <AccuracyShort>0.80</AccuracyShort>
-            <AccuracyMedium>0.7</AccuracyMedium>
-            <AccuracyLong>0.35</AccuracyLong>
-            <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
-            <Mass>18.6</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.87</AccuracyMedium>
+            <AccuracyLong>0.89</AccuracyLong>
+            <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+            <Mass>8</Mass>
         </statBases>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>PLA_Bullet_HMG</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
-                <range>39</range>
-                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                <burstShotCount>10</burstShotCount>
-                <soundCast>PLA_Sound85HMG</soundCast>
+                <defaultProjectile>PLA_Thermobaric_PFNinetyEight</defaultProjectile>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <warmupTime>3</warmupTime>
+                <range>37</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <muzzleFlashScale>13</muzzleFlashScale>
-                <consumeFuelPerShot>1</consumeFuelPerShot>
+                <onlyManualCast>true</onlyManualCast>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <consumeFuelPerShot>2</consumeFuelPerShot>
             </li>
         </verbs>
     </ThingDef>

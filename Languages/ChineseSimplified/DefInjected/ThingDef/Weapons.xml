@@ -87,7 +87,17 @@
   <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
-  <PLA_Gun85HMG.description>解放军的反器材重机枪。</PLA_Gun85HMG.description>
+  <PLA_Gun85HMG.description>解放军的反器材重机枪（放置在三脚架上的）。</PLA_Gun85HMG.description>
+
+  <PLA_TurretPF98RocketLauncher.label>98式反坦克导弹炮塔</PLA_TurretPF98RocketLauncher.label>
+  <PLA_TurretPF98RocketLauncher.description>装在三脚架上的98反坦克导弹，比手持时更方便瞄准和控制。</PLA_TurretPF98RocketLauncher.description>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelLabel>射击直到更换炮管</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换炮管</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_MountedPF98RocketLauncher.label>98式火箭筒</PLA_MountedPF98RocketLauncher.label>
+  <PLA_MountedPF98RocketLauncher.description>解放军的反坦克火箭筒（放置在三脚架上的）。</PLA_MountedPF98RocketLauncher.description>
+
 
   <PLA_TurretHPJ11NavalGun.label>H/PJ-11近防炮</PLA_TurretHPJ11NavalGun.label>
   <PLA_TurretHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_TurretHPJ11NavalGun.description>
