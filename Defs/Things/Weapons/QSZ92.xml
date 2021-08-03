@@ -66,18 +66,6 @@
             </li>
         </tools>
     </ThingDef>
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Bullet_Pistol</defName>
-        <label>autopistol bullet</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>12</damageAmountBase>
-            <speed>55</speed>
-        </projectile>
-    </ThingDef>
+
 
 </Defs>

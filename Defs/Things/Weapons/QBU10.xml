@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="PLA_BaseGun">
@@ -70,22 +70,5 @@
       </li>
     </tools>
   </ThingDef>
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_AMR</defName>
-    <label>Anti material bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>45</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.50</armorPenetrationBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
-
 
 </Defs>

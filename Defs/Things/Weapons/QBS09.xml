@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <ThingDef ParentName="PLA_BaseGun">
@@ -64,21 +64,4 @@
             </li>
         </tools>
     </ThingDef>
-
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Bullet_Shotgun</defName>
-        <label>shotgun blast</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Shotgun</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>25</damageAmountBase>
-            <stoppingPower>3</stoppingPower>
-            <armorPenetrationBase>0.18</armorPenetrationBase>
-            <speed>55</speed>
-        </projectile>
-    </ThingDef>
-
 </Defs>

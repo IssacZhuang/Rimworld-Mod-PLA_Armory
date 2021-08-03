@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Bullet_HMG</defName>
-        <label>Anti material bullet</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Big</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>23</damageAmountBase>
-            <stoppingPower>2</stoppingPower>
-            <armorPenetrationBase>0.50</armorPenetrationBase>
-            <speed>100</speed>
-        </projectile>
-    </ThingDef>
-
     <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_Turret85HMG</defName>
         <label>Mounted Type-85 HMG Turret</label>

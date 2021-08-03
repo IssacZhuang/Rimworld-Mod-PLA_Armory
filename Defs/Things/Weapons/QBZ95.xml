@@ -72,19 +72,4 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_DBPTen</defName>
-    <label>assault rifle bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <armorPenetrationBase>0.20</armorPenetrationBase>
-      <speed>60</speed>
-    </projectile>
-  </ThingDef>
-
 </Defs>

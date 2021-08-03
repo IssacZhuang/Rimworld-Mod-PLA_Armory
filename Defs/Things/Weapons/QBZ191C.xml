@@ -73,19 +73,4 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_DBPOneNineOne_Charged</defName>
-    <label>charged shot</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-      <armorPenetrationBase>0.4</armorPenetrationBase>
-      <speed>80</speed>
-    </projectile>
-  </ThingDef>
-
 </Defs>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_DBPTen</defName>
+        <label>assault rifle bullet</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Small</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>11</damageAmountBase>
+          <armorPenetrationBase>0.20</armorPenetrationBase>
+          <speed>60</speed>
+        </projectile>
+      </ThingDef>
+
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_DBPOneNineOne</defName>
+        <label>assault rifle bullet</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Small</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>13</damageAmountBase>
+          <armorPenetrationBase>0.22</armorPenetrationBase>
+          <speed>70</speed>
+        </projectile>
+      </ThingDef>
+
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_DBPOneNineOne_Charged</defName>
+        <label>charged shot</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Small</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>14</damageAmountBase>
+          <armorPenetrationBase>0.4</armorPenetrationBase>
+          <speed>80</speed>
+        </projectile>
+      </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_DMR</defName>
+        <label>sniper bullet</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Big</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>15</damageAmountBase>
+          <stoppingPower>1</stoppingPower>
+          <armorPenetrationBase>0.23</armorPenetrationBase>
+          <speed>80</speed>
+        </projectile>
+      </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_Sniper</defName>
+        <label>sniper bullet</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Big</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>17</damageAmountBase>
+          <stoppingPower>1</stoppingPower>
+          <armorPenetrationBase>0.25</armorPenetrationBase>
+          <speed>80</speed>
+        </projectile>
+      </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_AMR</defName>
+        <label>Anti material bullet</label>
+        <graphicData>
+          <texPath>Things/Projectile/Bullet_Big</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+          <damageDef>Bullet</damageDef>
+          <damageAmountBase>45</damageAmountBase>
+          <stoppingPower>3</stoppingPower>
+          <armorPenetrationBase>0.50</armorPenetrationBase>
+          <speed>100</speed>
+        </projectile>
+      </ThingDef>
+
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_SMG</defName>
+        <label>heavy SMG bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>13</damageAmountBase>
+            <speed>45</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_Pistol</defName>
+        <label>autopistol bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>55</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_HMG</defName>
+        <label>Anti material bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>23</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+            <armorPenetrationBase>0.50</armorPenetrationBase>
+            <speed>100</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_Shotgun</defName>
+        <label>shotgun blast</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <stoppingPower>3</stoppingPower>
+            <armorPenetrationBase>0.18</armorPenetrationBase>
+            <speed>55</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PLA_Thermobaric_PFNinetyEight</defName>
+        <label>thermobaric rocket</label>
+        <graphicData>
+            <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <explosionRadius>2</explosionRadius>
+            <speed>50</speed>
+            <damageAmountBase>180</damageAmountBase>
+            <flyOverhead>true</flyOverhead>
+            <explosionDelay>5</explosionDelay>
+            <stoppingPower>4</stoppingPower>
+            <armorPenetrationBase>2</armorPenetrationBase>
+        </projectile>
+    </ThingDef>
+
+</Defs>

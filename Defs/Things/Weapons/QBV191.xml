@@ -69,22 +69,4 @@
       </li>
     </tools>
   </ThingDef>
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>PLA_Bullet_DMR</defName>
-    <label>sniper bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
-      <armorPenetrationBase>0.23</armorPenetrationBase>
-      <speed>80</speed>
-    </projectile>
-  </ThingDef>
-
-
 </Defs>

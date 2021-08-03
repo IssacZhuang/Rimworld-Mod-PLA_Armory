@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef ParentName="BaseBullet">
+    <!--ThingDef ParentName="BaseBullet">
         <defName>PLA_Bullet_Cannon</defName>
         <label>Cannon shell</label>
         <graphicData>
@@ -120,6 +120,6 @@
                 <consumeFuelPerShot>1</consumeFuelPerShot>
             </li>
         </verbs>
-    </ThingDef>
+    </ThingDef-->
 
 </Defs>

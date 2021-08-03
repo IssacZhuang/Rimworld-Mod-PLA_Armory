@@ -90,7 +90,7 @@
 
                 <!--H/PJ 11-->
 
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <!--li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_GunHPJ11NavalGun</defName>
                     <statBases>
                         <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
@@ -131,12 +131,7 @@
                     </weaponTags>
                 </li>
 
-                <!--li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/specialDisplayRadius</xpath>
-                    <value>
-                        <specialDisplayRadius>86</specialDisplayRadius>
-                    </value>
-                </li-->
+                
 
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/researchPrerequisites</xpath>
@@ -149,7 +144,14 @@
 
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
-                </li>
+                </li-->
+
+                <!--li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_TurretHPJ11NavalGun"]/specialDisplayRadius</xpath>
+                    <value>
+                        <specialDisplayRadius>86</specialDisplayRadius>
+                    </value>
+                </li-->
 
             </operations>
         </match>

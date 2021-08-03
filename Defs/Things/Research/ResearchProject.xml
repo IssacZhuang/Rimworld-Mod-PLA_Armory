@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--ResearchTabDef>
+        <defName>PLA_ResearchProjects</defName>
+        <description>PLA Armory</description>
+        <label>PLA Armory</label>
+    </ResearchTabDef>
+
+    <ResearchProjectDef>
+        <defName>PLA_ImitationEquipment</defName>
+        <baseCost>200</baseCost>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PLA_SelfResearchWeapon</defName>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PLA_</defName>
+    </ResearchProjectDef-->
+</Defs>

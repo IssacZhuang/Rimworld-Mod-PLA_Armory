@@ -69,26 +69,4 @@
             </li>
         </tools>
     </ThingDef>
-
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Thermobaric_PFNinetyEight</defName>
-        <label>thermobaric rocket</label>
-        <graphicData>
-            <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>TransparentPostLight</shaderType>
-        </graphicData>
-        <thingClass>Projectile_Explosive</thingClass>
-        <projectile>
-            <damageDef>Bomb</damageDef>
-            <explosionRadius>2</explosionRadius>
-            <speed>50</speed>
-            <damageAmountBase>180</damageAmountBase>
-            <flyOverhead>true</flyOverhead>
-            <explosionDelay>5</explosionDelay>
-            <stoppingPower>4</stoppingPower>
-            <armorPenetrationBase>2</armorPenetrationBase>
-        </projectile>
-    </ThingDef>
-
 </Defs>

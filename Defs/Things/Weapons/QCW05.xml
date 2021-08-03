@@ -67,18 +67,4 @@
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Bullet_SMG</defName>
-        <label>heavy SMG bullet</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>13</damageAmountBase>
-            <speed>45</speed>
-        </projectile>
-    </ThingDef>
-
 </Defs>
