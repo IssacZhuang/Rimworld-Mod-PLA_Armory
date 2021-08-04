@@ -100,7 +100,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>12</count>
+				<count>14</count>
 			</li>
 			<li>
 				<filter>
@@ -108,7 +108,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>16</count>
 			</li>
 			<li>
 				<filter>
@@ -116,7 +116,7 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>6</count>
+				<count>8</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -129,7 +129,7 @@
 		<products>
 			<Ammo_58x42mmDBP191_APCR>500</Ammo_58x42mmDBP191_APCR>
 		</products>
-		<workAmount>2400</workAmount>
+		<workAmount>4000</workAmount>
 	</RecipeDef>
 
 </Defs>
