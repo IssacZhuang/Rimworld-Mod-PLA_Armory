@@ -103,7 +103,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_120mmRocket_Thermobaric</defaultProjectile>
-                        <warmupTime>1.8</warmupTime>
+                        <warmupTime>2.1</warmupTime>
                         <range>72</range>
                         <minRange>6</minRange>
                         <soundCast>PLA_SoundPF98</soundCast>
@@ -137,7 +137,70 @@
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName = "PLA_TurretPF98RocketLauncher"]/specialDisplayRadius</xpath>
                     <value>
-                        <specialDisplayRadius>72</specialDisplayRadius>
+                        <specialDisplayRadius>6</specialDisplayRadius>
+                    </value>
+                </li>
+
+                <!--Turret 04 Launcher-->
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_Gun04GrenadeLauncher</defName>
+                    <statBases>
+                        <Mass>20</Mass>
+                        <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+                        <SightsEfficiency>1.8</SightsEfficiency>
+                        <ShotSpread>0.09</ShotSpread>
+                        <SwayFactor>1.2</SwayFactor>
+                        <Bulk>12</Bulk>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>1.5</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_35x32mmSRGrenade_HighSpeed_HE</defaultProjectile>
+                        <warmupTime>2.5</warmupTime>
+                        <range>62</range>
+                        <minRange>4</minRange>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                        <soundCast>PLA_SoundQLU11</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>14</muzzleFlashScale>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                        <recoilPattern>Mounted</recoilPattern>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>50</magazineSize>
+                        <reloadTime>10</reloadTime>
+                        <ammoSet>AmmoSet_35x32mmSRGrenade_HighSpeed</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>FALSE</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </FireModes>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_Turret04GrenadeLauncher"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>CE_AdvancedLaunchers</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="PLA_Turret04GrenadeLauncher" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName = "PLA_Turret04GrenadeLauncher"]/specialDisplayRadius</xpath>
+                    <value>
+                        <specialDisplayRadius>4</specialDisplayRadius>
                     </value>
                 </li>
 

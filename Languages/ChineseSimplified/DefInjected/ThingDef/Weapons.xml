@@ -87,7 +87,16 @@
   <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
-  <PLA_Gun85HMG.description>解放军的反器材重机枪（放置在三脚架上的）。</PLA_Gun85HMG.description>
+  <PLA_Gun85HMG.description>解放军的自动榴弹发射器（放置在三脚架上的）。</PLA_Gun85HMG.description>
+
+  <PLA_Turret04GrenadeLauncher.label>04式榴弹发射器炮塔</PLA_Turret04GrenadeLauncher.label>
+  <PLA_Turret04GrenadeLauncher.description>装在三脚架上的04式榴弹发射器，火力强大。需要有人控制。</PLA_Turret04GrenadeLauncher.description>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Gun04GrenadeLauncher.label>04式自动榴弹发射器</PLA_Gun04GrenadeLauncher.label>
+  <PLA_Gun04GrenadeLauncher.description>解放军的自动榴弹发射器（放置在三脚架上的）。</PLA_Gun04GrenadeLauncher.description>
 
   <PLA_TurretPF98RocketLauncher.label>98式反坦克导弹炮塔</PLA_TurretPF98RocketLauncher.label>
   <PLA_TurretPF98RocketLauncher.description>装在三脚架上的98反坦克导弹，比手持时更方便瞄准和控制。</PLA_TurretPF98RocketLauncher.description>

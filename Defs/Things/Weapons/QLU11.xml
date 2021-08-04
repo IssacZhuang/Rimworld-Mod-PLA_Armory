@@ -59,7 +59,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Grenade</defaultProjectile>
-                <forcedMissRadius>0.1</forcedMissRadius>
+                <forcedMissRadius>1</forcedMissRadius>
                 <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
                 <warmupTime>4.0</warmupTime>
                 <range>40</range>
