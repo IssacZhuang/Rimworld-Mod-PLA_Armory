@@ -312,7 +312,7 @@
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
                 </li>
 
-                <li Class="PatchOperationAddModExtension">
+                <!--li Class="PatchOperationAddModExtension">
                     <xpath>Defs/ThingDef[defName="PLA_PFNinetyEight"]</xpath>
                     <value>
                         <li Class="CombatExtended.GunDrawExtension">
@@ -320,7 +320,7 @@
                             <DrawOffset>-0.05,0</DrawOffset>
                         </li>
                     </value>
-                </li>
+                </li-->
 
             </operations>
         </match>
