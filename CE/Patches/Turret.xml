@@ -148,9 +148,9 @@
                     <statBases>
                         <Mass>20</Mass>
                         <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
-                        <SightsEfficiency>1.8</SightsEfficiency>
+                        <SightsEfficiency>1.9</SightsEfficiency>
                         <ShotSpread>0.09</ShotSpread>
-                        <SwayFactor>1.2</SwayFactor>
+                        <SwayFactor>1.1</SwayFactor>
                         <Bulk>12</Bulk>
                     </statBases>
                     <Properties>
@@ -172,7 +172,7 @@
                         <recoilPattern>Mounted</recoilPattern>
                     </Properties>
                     <AmmoUser>
-                        <magazineSize>50</magazineSize>
+                        <magazineSize>60</magazineSize>
                         <reloadTime>10</reloadTime>
                         <ammoSet>AmmoSet_35x32mmSRGrenade_HighSpeed</ammoSet>
                     </AmmoUser>
@@ -204,9 +204,12 @@
                     </value>
                 </li>
 
-                <!--li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[defName="PLA_TurretPF98RocketLauncher" ]/building/turretBurstWarmupTime]</xpath>
-                </li-->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_Turret04GrenadeLauncher" ]/building/turretBurstCooldownTime</xpath>
+                    <value>
+                        <turretBurstCooldownTime>0.9</turretBurstCooldownTime>
+                    </value>
+                </li>
 
                 <!--H/PJ 11-->
 
