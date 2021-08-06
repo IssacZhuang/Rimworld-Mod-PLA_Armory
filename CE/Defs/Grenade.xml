@@ -10,7 +10,7 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
           <explosionRadius>2.5</explosionRadius>
           <damageDef>Bomb</damageDef>
-          <damageAmountBase>48</damageAmountBase>
+          <damageAmountBase>46</damageAmountBase>
           <explosionDelay>60</explosionDelay>
           <soundExplode>Explosion_Stun</soundExplode>
           <dropsCasings>true</dropsCasings>

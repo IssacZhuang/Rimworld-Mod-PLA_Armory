@@ -45,4 +45,8 @@
   <MakeAmmo_58x42mmCharged_Ion.description>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.description>
   <MakeAmmo_58x42mmCharged_Ion.jobString>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.jobString>
 
+  <Make_PLA_Type67StickGrenade.label>制作67式木柄手雷 x5</Make_PLA_Type67StickGrenade.label>
+  <Make_PLA_Type67StickGrenade.description>制作67式木柄手雷</Make_PLA_Type67StickGrenade.description>
+  <Make_PLA_Type67StickGrenade.jobString>制作67式木柄手雷</Make_PLA_Type67StickGrenade.jobString>
+
 </LanguageData>

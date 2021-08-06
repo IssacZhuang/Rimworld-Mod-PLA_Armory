@@ -11,7 +11,7 @@
                     <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/costList</xpath>
                     <value>
                         <costList>
-                            <PLA_Type67StickGrenade>10</PLA_Type67StickGrenade>
+                            <PLA_Type67StickGrenade>5</PLA_Type67StickGrenade>
                         </costList>
                     </value>
                 </li>

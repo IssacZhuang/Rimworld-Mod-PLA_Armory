@@ -18,7 +18,7 @@
     </statBases>
     <costList>
       <WoodLog>50</WoodLog>
-      <Chemfuel>150</Chemfuel>
+      <Chemfuel>60</Chemfuel>
     </costList>
     <thingCategories Inherit = "False">
         <li>PLA_WeaponRanged</li>
