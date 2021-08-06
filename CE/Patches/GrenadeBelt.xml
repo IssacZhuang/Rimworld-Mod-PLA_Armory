@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <PLA_Type67StickGrenade>10</PLA_Type67StickGrenade>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/comps/li[@Class="CompProperties_Reloadable"]/ammoCountToRefill</xpath>
+                    <value>
+                        <ammoCountPerCharge>1</ammoCountPerCharge>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <label>throw stick grenade</label>
+                                <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <onlyManualCast>True</onlyManualCast>
+                                <warmupTime>1.5</warmupTime>
+                                <range>16</range>
+                                <minRange>5</minRange>
+                                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                                <soundCast>ThrowGrenade</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>14</muzzleFlashScale>
+                                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                                <targetParams>
+                                    <canTargetLocations>true</canTargetLocations>
+                                </targetParams>
+                                <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                                <defaultProjectile>PLA_Proj_Type67StickGrenadeCE</defaultProjectile>
+                                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

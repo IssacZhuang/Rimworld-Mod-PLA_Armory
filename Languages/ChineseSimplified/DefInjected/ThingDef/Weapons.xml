@@ -117,4 +117,7 @@
   <PLA_GunHPJ11NavalGun.label>H/PJ-11近防炮</PLA_GunHPJ11NavalGun.label>
   <PLA_GunHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_GunHPJ11NavalGun.description>
 
+  <PLA_Type67StickGrenade.label>67式木柄手雷</PLA_Type67StickGrenade.label>
+  <PLA_Type67StickGrenade.description>老式的木柄手榴弹。威力比不同手榴弹小，但扔得更远。</PLA_Type67StickGrenade.description>
+
 </LanguageData>
