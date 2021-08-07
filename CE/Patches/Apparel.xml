@@ -11,12 +11,12 @@
 
 
                 <!--===== Armor =====-->
-                <li Class="PatchOperationAdd">
+                <!--li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/apparel/layers</xpath>
                     <value>
                         <li>Webbing</li>
                     </value>
-                </li>
+                </li-->
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases</xpath>
                     <value>
