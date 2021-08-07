@@ -17,6 +17,6 @@
   <PLA_StickGrenadeBelt.description>别在腰带上的67式木柄手雷。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。可使用67式木柄手雷补充弹药。</PLA_StickGrenadeBelt.description>
   <PLA_StickGrenadeBelt.comps.CompReloadable.chargeNoun>手雷</PLA_StickGrenadeBelt.comps.CompReloadable.chargeNoun>
   <!-- EN: throw frag grenade -->
-  <PLA_StickGrenadeBelt.verbs.throw_frag_grenade.label>投掷木柄手雷</PLA_StickGrenadeBelt.verbs.throw_frag_grenade.label>
+  <PLA_StickGrenadeBelt.verbs.throw_stick_grenade.label>投掷木柄手雷</PLA_StickGrenadeBelt.verbs.throw_stick_grenade.label>
 
 </LanguageData>
