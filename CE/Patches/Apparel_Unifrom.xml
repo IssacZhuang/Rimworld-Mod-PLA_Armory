@@ -27,7 +27,7 @@
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/equippedStatOffsets</xpath>
                     <value>
-                        <CarryBulk>30</CarryBulk>
+                        <CarryBulk>15</CarryBulk>
                         <ReloadSpeed>0.2</ReloadSpeed>
                     </value>
                 </li>

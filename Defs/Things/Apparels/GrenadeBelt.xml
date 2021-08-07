@@ -61,7 +61,7 @@
         <tickerType>Normal</tickerType>
         <statBases>
             <WorkToMake>500</WorkToMake>
-            <Mass>3</Mass>
+            <Mass>1.8</Mass>
             <Flammability>0.4</Flammability>
             <EquipDelay>2</EquipDelay>
         </statBases>
@@ -71,6 +71,9 @@
         <generateAllowChance>0.15</generateAllowChance>
         <apparel>
             <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type67StickGrenadeBelt</wornGraphicPath>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
                 <north>

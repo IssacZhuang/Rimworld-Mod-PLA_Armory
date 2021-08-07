@@ -50,6 +50,39 @@
                         </verbs>
                     </value>
                 </li>
+
+                <!-- Backpack-->
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/equippedStatOffsets</xpath>
+                    <value>
+                        <CarryBulk>30</CarryBulk>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/equippedStatOffsets/CarryingCapacity</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>Backpack</li>
+                        </layers>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>
