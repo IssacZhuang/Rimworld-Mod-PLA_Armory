@@ -33,7 +33,7 @@
             </skillRequirements>
         </recipeMaker>
         <weaponTags>
-            <li>PLA_Launcher</li>
+            <li>PLA_RocketLauncher</li>
         </weaponTags>
         <verbs>
             <li>
