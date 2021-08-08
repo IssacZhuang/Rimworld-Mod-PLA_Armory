@@ -24,6 +24,13 @@
                 </li>
 
                 <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/comps/li[@Class="CompProperties_Reloadable"]/maxCharges</xpath>
+                    <value>
+                        <maxCharges>5</maxCharges>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/verbs</xpath>
                     <value>
                         <verbs>
