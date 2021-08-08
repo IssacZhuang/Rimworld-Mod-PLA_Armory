@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseMakeableGrenade">
     <defName>PLA_Type67StickGrenade</defName>
@@ -9,7 +9,7 @@
       <texPath>Things/Weapon/Type67StickGrenade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>Interact_Grenade</soundInteract> 
+    <soundInteract>Interact_Grenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
       <Mass>1</Mass>
@@ -20,8 +20,8 @@
       <WoodLog>50</WoodLog>
       <Chemfuel>60</Chemfuel>
     </costList>
-    <thingCategories Inherit = "False">
-        <li>PLA_WeaponRanged</li>
+    <thingCategories Inherit="False">
+      <li>PLA_WeaponRanged</li>
     </thingCategories>
     <verbs>
       <li>
