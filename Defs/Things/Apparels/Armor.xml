@@ -42,7 +42,6 @@
             </bodyPartGroups>
             <layers>
                 <li>Middle</li>
-                <li>Shell</li>
             </layers>
             <tags Inherit = "False">
                 <li>PLA_BodyArmor</li>
