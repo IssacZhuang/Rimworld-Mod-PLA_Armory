@@ -16,6 +16,9 @@
   <PLA_Backpack_Desert.label>解放军背包</PLA_Backpack_Desert.label>
   <PLA_Backpack_Desert.description>人民解放军的背包。</PLA_Backpack_Desert.description>
 
+  <PLA_ExoskeletonBackpack_Desert.label>解放军外骨骼背包</PLA_ExoskeletonBackpack_Desert.label>
+  <PLA_ExoskeletonBackpack_Desert.description>连接了无动力外骨骼框架的背包。可以优化人体支撑，增加负重，但是会减少灵活性。</PLA_ExoskeletonBackpack_Desert.description>
+
   <PLA_StickGrenadeBelt.label>木柄手雷腰带</PLA_StickGrenadeBelt.label>
   <PLA_StickGrenadeBelt.description>别在腰带上的67式木柄手雷。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。可使用67式木柄手雷补充弹药。</PLA_StickGrenadeBelt.description>
   <PLA_StickGrenadeBelt.comps.CompReloadable.chargeNoun>手雷</PLA_StickGrenadeBelt.comps.CompReloadable.chargeNoun>

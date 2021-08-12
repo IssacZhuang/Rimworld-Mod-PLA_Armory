@@ -67,7 +67,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/equippedStatOffsets/CarryingCapacity</xpath>
+                    <xpath>Defs/ThingDef[@Name="PLA_BackpackBase" or defName="PLA_ExoskeletonBackpack_Desert"]/equippedStatOffsets/CarryingCapacity</xpath>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/statBases/ArmorRating_Sharp</xpath>
@@ -87,6 +87,25 @@
                         <layers>
                             <li>Backpack</li>
                         </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_ExoskeletonBackpack_Desert"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_ExoskeletonBackpack_Desert"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="PLA_ExoskeletonBackpack_Desert"]/equippedStatOffsets</xpath>
+                    <value>
+                        <CarryWeight>20</CarryWeight>
                     </value>
                 </li>
 

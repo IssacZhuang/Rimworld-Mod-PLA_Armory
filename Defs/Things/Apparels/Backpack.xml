@@ -20,14 +20,14 @@
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <CarryingCapacity>25</CarryingCapacity>
+            <CarryingCapacity>15</CarryingCapacity>
         </equippedStatOffsets>
         <techLevel>Industrial</techLevel>
         <apparel>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
                 <east>
-                    <offset>(-0.35,-0.05)</offset> 
+                    <offset>(-0.35,-0.05)</offset>
                     <thin>
                         <offset>(0.05,0)</offset>
                     </thin>
@@ -42,7 +42,7 @@
                     </female>
                 </east>
                 <west>
-                    <offset>(0.35,-0.05)</offset> 
+                    <offset>(0.35,-0.05)</offset>
                     <thin>
                         <offset>(-0.05,0)</offset>
                     </thin>
@@ -120,5 +120,52 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/Backpack/PLA_backpack</wornGraphicPath>
         </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BackpackBase">
+        <defName>PLA_ExoskeletonBackpack_Desert</defName>
+        <label>PLA Exoskeleton backpack</label>
+        <description>A backpack connect with a non-powered exoskeleton frame. It will reduce the flexibility of the human body, but increases the weight-bearing capacity.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_exoskeletonBackpack</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ExoskeletonBackpack/PLA_exoskeletonBackpack</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Shoulders</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+        </apparel>
+        <equippedStatOffsets>
+            <CarryingCapacity>25</CarryingCapacity>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+            <researchPrerequisite>Machining</researchPrerequisite>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Cloth>60</Cloth>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
     </ThingDef>
 </Defs>
