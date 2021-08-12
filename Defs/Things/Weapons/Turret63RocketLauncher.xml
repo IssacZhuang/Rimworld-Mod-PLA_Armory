@@ -7,7 +7,7 @@
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Things/Building/PLA_MediumRocketLauncherBase</texPath>
-            <drawSize>(2.5,2.5)</drawSize>
+            <drawSize>(2.8,2.8)</drawSize>
             <damageData>
                 <rect>(0.38,0.2,0.56375,0.8)</rect>
                 <cornerTL>Damage/Corner</cornerTL>
@@ -51,10 +51,10 @@
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <building>
             <turretGunDef>PLA_Artillery_Type63RocketLauncher</turretGunDef>
-            <turretTopDrawSize>2.5</turretTopDrawSize>
+            <turretTopDrawSize>2.8</turretTopDrawSize>
         </building>
-        <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
-        <uiIconScale>0.9</uiIconScale>
+        <uiIconPath>Things/Building/Turret63RocketLauncher</uiIconPath>
+        <uiIconScale>1.2</uiIconScale>
     </ThingDef>
 
     <ThingDef ParentName="BaseArtilleryWeapon">

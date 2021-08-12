@@ -252,8 +252,7 @@
                         </li>
                         <li Class="CombatExtended.CompProperties_AmmoUser">
                             <magazineSize>12</magazineSize>
-                            <reloadOneAtATime>true</reloadOneAtATime>
-                            <reloadTime>2</reloadTime>
+                            <reloadTime>16</reloadTime>
                             <ammoSet>AmmoSet_107mmRocket</ammoSet>
                         </li>
                     </value>
