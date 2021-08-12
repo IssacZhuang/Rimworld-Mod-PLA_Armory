@@ -5,6 +5,10 @@
   <MakeAmmo_58x42mmDBP191_APCR.description>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.description>
   <MakeAmmo_58x42mmDBP191_APCR.jobString>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.jobString>
 
+  <MakeAmmo_107mmRocket_HE.label>制作 107mm 火箭弹(高爆弹) x12</MakeAmmo_107mmRocket_HE.label>
+  <MakeAmmo_107mmRocket_HE.description>制作 107mm 火箭弹(高爆弹)</MakeAmmo_107mmRocket_HE.description>
+  <MakeAmmo_107mmRocket_HE.jobString>制作 107mm 火箭弹(高爆弹)</MakeAmmo_107mmRocket_HE.jobString>
+
   <MakeAmmo_120mmRocket_Thermobaric.label>制作 120mm 火箭弹(温压弹) x5</MakeAmmo_120mmRocket_Thermobaric.label>
   <MakeAmmo_120mmRocket_Thermobaric.description>制作 120mm 火箭弹(温压弹)</MakeAmmo_120mmRocket_Thermobaric.description>
   <MakeAmmo_120mmRocket_Thermobaric.jobString>制作 120mm 火箭弹(温压弹)</MakeAmmo_120mmRocket_Thermobaric.jobString>
@@ -45,7 +49,7 @@
   <MakeAmmo_58x42mmCharged_Ion.description>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.description>
   <MakeAmmo_58x42mmCharged_Ion.jobString>制作5.8mm 电荷弹 (电磁脉冲)</MakeAmmo_58x42mmCharged_Ion.jobString>
 
-  <Make_PLA_Type67StickGrenade.label>制作67式木柄手雷 x5</Make_PLA_Type67StickGrenade.label>
+  <Make_PLA_Type67StickGrenade.label>制作67式木柄手雷 x10</Make_PLA_Type67StickGrenade.label>
   <Make_PLA_Type67StickGrenade.description>制作67式木柄手雷</Make_PLA_Type67StickGrenade.description>
   <Make_PLA_Type67StickGrenade.jobString>制作67式木柄手雷</Make_PLA_Type67StickGrenade.jobString>
 

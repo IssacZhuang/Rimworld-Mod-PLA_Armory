@@ -76,6 +76,13 @@
                     </value>
                 </li>
 
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PLA_Type67StickGrenade"]/statBases/WorkToMake</xpath>
+                    <value>
+                        <WorkToMake>2000</WorkToMake>
+                    </value>
+                </li>
+
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>PLA_Type67StickGrenade</defName>
                     <statBases>
@@ -112,6 +119,7 @@
                             <label>make type 67 stick granade x10</label>
                             <description>Craft 10 type 67 stick granade.</description>
                             <jobString>Making type 67 stick granade.</jobString>
+                            <workAmount>2400</workAmount>
                             <ingredients>
                                 <li>
                                     <filter>
@@ -139,7 +147,7 @@
                                 </thingDefs>
                             </fixedIngredientFilter>
                             <products>
-                                <PLA_Type67StickGrenade>5</PLA_Type67StickGrenade>
+                                <PLA_Type67StickGrenade>10</PLA_Type67StickGrenade>
                             </products>
                         </RecipeDef>
                     </value>

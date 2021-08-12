@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Combat Extended</li>
@@ -210,6 +209,86 @@
                         <turretBurstCooldownTime>0.9</turretBurstCooldownTime>
                     </value>
                 </li>
+
+                <!-- 107 Rocket-->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name = "PLA_ArtilleryBuildingBase"]/thingClass</xpath>
+                    <value>
+                        <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name = "PLA_ArtilleryBuildingBase"]/building/turretBurstCooldownTime</xpath>
+                    <value>
+                        <turretBurstCooldownTime>2</turretBurstCooldownTime>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="PLA_Turret_Type63RocketLauncher"]/comps</xpath>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]</xpath>
+                    <value>
+                        <statBases>
+                            <SightsEfficiency>5</SightsEfficiency>
+                        </statBases>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_Charges">
+                            <chargeSpeeds>
+                                <li>30</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>90</li>
+                            </chargeSpeeds>
+                        </li>
+                        <li Class="CombatExtended.CompProperties_AmmoUser">
+                            <magazineSize>12</magazineSize>
+                            <reloadTime>8</reloadTime>
+                            <ammoSet>AmmoSet_107mmRocket</ammoSet>
+                        </li>
+                    </value>
+                </li>
+
+                <!--li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]/weaponTags</xpath>
+                    <value>
+                        <li>TurretGun</li>
+                    </value>
+                </li-->
+
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>PLA_Artillery_Type63RocketLauncher</defName>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+                        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_107mmRocket_HE</defaultProjectile>
+                        <warmupTime>7</warmupTime>
+                        <minRange>32</minRange>
+                        <range>700</range>
+                        <burstShotCount>12</burstShotCount>
+                        <soundCast>PLA_SoundPF98</soundCast>
+                        <muzzleFlashScale>16</muzzleFlashScale>
+                        <circularError>1</circularError>
+                        <indirectFirePenalty>0.2</indirectFirePenalty>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                    </Properties>
+                    <weaponTags>
+                        <li>TurretGun</li>
+                    </weaponTags>
+                </li>
+
 
                 <!--H/PJ 11-->
 

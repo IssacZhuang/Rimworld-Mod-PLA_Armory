@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_ArtilleryBuildingBase">
+        <defName>PLA_Turret_Type63RocketLauncher</defName>
+        <label>Type 63 Rocket Launcher</label>
+        <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+            <drawSize>(1.6,1.6)</drawSize>
+            <damageData>
+                <rect>(0.38,0.2,0.56375,0.8)</rect>
+                <cornerTL>Damage/Corner</cornerTL>
+            </damageData>
+            <shadowData>
+                <offset>(-0.13,-0.87,-0.1)</offset>
+                <volume>(0.5,0.4,1.05)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(2,2)</size>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <wickTicks>240</wickTicks>
+                <explosiveRadius>4.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Ammo</fuelLabel>
+                <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+                <outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>PLA_107mmRocket_HE</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>12</fuelCapacity>
+                <fuelMultiplier>1</fuelMultiplier>
+                <initialFuelPercent>0</initialFuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>0</minimumFueledThreshold>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
+                <autoRefuelPercent>1</autoRefuelPercent>
+                <fuelIconPath>Things/Item/107mmRocket/107mmRocket_a</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>320</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <building>
+            <turretGunDef>PLA_Artillery_Type63RocketLauncher</turretGunDef>
+            <turretTopDrawSize>2.5</turretTopDrawSize>
+        </building>
+        <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+        <uiIconScale>0.9</uiIconScale>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseArtilleryWeapon">
+        <defName>PLA_Artillery_Type63RocketLauncher</defName>
+        <label>107mm rocket launcher</label>
+        <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
+        <recoilPower>3</recoilPower>
+        <graphicData>
+            <texPath>Things/Building/Type63RocketLauncher</texPath>
+        </graphicData>
+        <comps></comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                <warmupTime>4.0</warmupTime>
+                <forcedMissRadius>15</forcedMissRadius>
+                <isMortar>true</isMortar>
+                <requireLineOfSight>false</requireLineOfSight>
+                <minRange>25</minRange>
+                <range>500</range>
+                <defaultProjectile>PLA_HighExplosive_107mmRocket</defaultProjectile>
+                <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+                <burstShotCount>12</burstShotCount>
+                <soundCast>PLA_SoundPF98</soundCast>
+                <muzzleFlashScale>28</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+    </ThingDef>
+</Defs>

@@ -107,6 +107,14 @@
   <PLA_MountedPF98RocketLauncher.label>98式火箭筒</PLA_MountedPF98RocketLauncher.label>
   <PLA_MountedPF98RocketLauncher.description>解放军的反坦克火箭筒（放置在三脚架上的）。</PLA_MountedPF98RocketLauncher.description>
 
+  <PLA_Turret_Type63RocketLauncher.label>63式火箭炮</PLA_Turret_Type63RocketLauncher.label>
+  <PLA_Turret_Type63RocketLauncher.description>12管火箭炮，发射107mm火箭弹。射程很长，但准度不高</PLA_Turret_Type63RocketLauncher.description>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Artillery_Type63RocketLauncher.label>107mm火箭炮</PLA_Artillery_Type63RocketLauncher.label>
+  <PLA_Artillery_Type63RocketLauncher.description>12管火箭炮。（在炮塔上的）</PLA_Artillery_Type63RocketLauncher.description>
 
   <PLA_TurretHPJ11NavalGun.label>H/PJ-11近防炮</PLA_TurretHPJ11NavalGun.label>
   <PLA_TurretHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_TurretHPJ11NavalGun.description>

@@ -14,7 +14,7 @@
     <statBases>
       <Mass>1</Mass>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>8000</WorkToMake>
     </statBases>
     <costList>
       <WoodLog>50</WoodLog>
