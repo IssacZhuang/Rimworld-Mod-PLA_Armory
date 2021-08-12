@@ -71,7 +71,7 @@
             <flyOverhead>true</flyOverhead>
             <dropsCasings>true</dropsCasings>
             <casingMoteDefname>Mote_BigShell</casingMoteDefname>
-            <gravityFactor>3</gravityFactor>
+            <gravityFactor>20</gravityFactor>
         </projectile>
     </ThingDef>
 

@@ -234,7 +234,7 @@
                     <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]</xpath>
                     <value>
                         <statBases>
-                            <SightsEfficiency>5</SightsEfficiency>
+                            <SightsEfficiency>0.5</SightsEfficiency>
                         </statBases>
                     </value>
                 </li>
@@ -252,10 +252,15 @@
                         </li>
                         <li Class="CombatExtended.CompProperties_AmmoUser">
                             <magazineSize>12</magazineSize>
-                            <reloadTime>8</reloadTime>
+                            <reloadOneAtATime>true</reloadOneAtATime>
+                            <reloadTime>2</reloadTime>
                             <ammoSet>AmmoSet_107mmRocket</ammoSet>
                         </li>
                     </value>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName = "PLA_107mmRocket_HE"]</xpath>
                 </li>
 
                 <!--li Class="PatchOperationAdd">
