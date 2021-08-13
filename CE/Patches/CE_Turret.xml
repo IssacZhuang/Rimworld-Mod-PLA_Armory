@@ -224,6 +224,16 @@
         <xpath>Defs/ThingDef[defName="PLA_Turret_Type63RocketLauncher"]/comps</xpath>
     </Operation>
 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "PLA_Turret_Type63RocketLauncher"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Mortars</li>
+                <li>CE_AdvancedLaunchers</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]</xpath>
         <value>
@@ -256,12 +266,6 @@
         <xpath>Defs/ThingDef[defName = "PLA_107mmRocket_HE"]</xpath>
     </Operation>
 
-    <!--li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName = "PLA_Artillery_Type63RocketLauncher"]/weaponTags</xpath>
-                    <value>
-                        <li>TurretGun</li>
-                    </value>
-                </li-->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_Artillery_Type63RocketLauncher</defName>

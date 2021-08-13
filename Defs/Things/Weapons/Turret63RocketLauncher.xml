@@ -56,7 +56,7 @@
         <researchPrerequisites>
             <li>Mortars</li>
             <li>MultibarrelWeapons</li>
-          </researchPrerequisites>
+        </researchPrerequisites>
         <uiIconPath>Things/Building/Turret63RocketLauncher</uiIconPath>
         <uiIconScale>1.2</uiIconScale>
     </ThingDef>
