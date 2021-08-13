@@ -53,6 +53,10 @@
             <turretGunDef>PLA_Artillery_Type63RocketLauncher</turretGunDef>
             <turretTopDrawSize>2.8</turretTopDrawSize>
         </building>
+        <researchPrerequisites>
+            <li>Mortars</li>
+            <li>MultibarrelWeapons</li>
+          </researchPrerequisites>
         <uiIconPath>Things/Building/Turret63RocketLauncher</uiIconPath>
         <uiIconScale>1.2</uiIconScale>
     </ThingDef>

@@ -22,9 +22,10 @@
             <Steel>22</Steel>
             <Chemfuel>18</Chemfuel>
         </costList>
-        <recipeMaker>
-          <researchPrerequisite>Mortars</researchPrerequisite>
-        </recipeMaker>
+        <researchPrerequisites>
+          <li>Mortars</li>
+          <li>MultibarrelWeapons</li>
+        </researchPrerequisites>
       </ThingDef>
       
       <ThingDef ParentName="BaseBullet">
