@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+
+    <!--===== Armor =====-->
+    <!--Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/apparel/layers</xpath>
+                    <value>
+                        <li>Webbing</li>
+                    </value>
+                </Operation-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases</xpath>
+        <value>
+            <Bulk>7.5</Bulk>
+            <WornBulk>5</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/equippedStatOffsets</xpath>
+        <value>
+            <CarryBulk>15</CarryBulk>
+            <ReloadSpeed>0.2</ReloadSpeed>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>31</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases/ArmorRating_Heat</xpath>
+        <value>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+        </value>
+    </Operation>
+
+    <!--Helmet-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/equippedStatOffsets</xpath>
+        <value>
+            <Suppressability>-0.10</Suppressability>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>12</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>31</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/statBases/ArmorRating_Heat</xpath>
+        <value>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+        </value>
+    </Operation>
+
+    <!--Uniform-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_UniformBase"]/equippedStatOffsets</xpath>
+        <value>
+            <RangedWeapon_Cooldown>-0.15</RangedWeapon_Cooldown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_UniformBase"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_UniformBase"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>1</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_ArmorBase"]/statBases/ArmorRating_Heat</xpath>
+        <value>
+            <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </value>
+    </Operation>
+
+    <!--Flak Pants-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>12</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_PantsBase"]/statBases/ArmorRating_Heat</xpath>
+        <value>
+            <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </value>
+    </Operation>
+
+</Patch>
