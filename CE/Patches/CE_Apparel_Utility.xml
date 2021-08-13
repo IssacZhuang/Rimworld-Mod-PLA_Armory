@@ -100,7 +100,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PLA_ExoskeletonBackpack_Desert"]/equippedStatOffsets</xpath>
         <value>
-            <CarryWeight>20</CarryWeight>
+            <CarryWeight>25</CarryWeight>
         </value>
     </Operation>
 
