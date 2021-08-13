@@ -284,6 +284,7 @@
                         <muzzleFlashScale>16</muzzleFlashScale>
                         <circularError>1</circularError>
                         <indirectFirePenalty>0.2</indirectFirePenalty>
+                        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
                         <targetParams>
                             <canTargetLocations>true</canTargetLocations>
                         </targetParams>
