@@ -70,7 +70,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-                <warmupTime>4.0</warmupTime>
+                <warmupTime>6.0</warmupTime>
                 <forcedMissRadius>15</forcedMissRadius>
                 <isMortar>true</isMortar>
                 <requireLineOfSight>false</requireLineOfSight>

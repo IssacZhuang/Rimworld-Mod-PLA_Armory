@@ -220,7 +220,7 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>Bullet</damageDef>
             <damageAmountBase>15</damageAmountBase>
-            <pelletCount>14</pelletCount>
+            <pelletCount>11</pelletCount>
             <armorPenetrationSharp>9</armorPenetrationSharp>
             <armorPenetrationBlunt>5.78</armorPenetrationBlunt>
             <spreadMult>17.8</spreadMult>

@@ -108,7 +108,7 @@
   <PLA_MountedPF98RocketLauncher.description>解放军的反坦克火箭筒（放置在三脚架上的）。</PLA_MountedPF98RocketLauncher.description>
 
   <PLA_Turret_Type63RocketLauncher.label>63式火箭炮</PLA_Turret_Type63RocketLauncher.label>
-  <PLA_Turret_Type63RocketLauncher.description>12管火箭炮，发射107mm火箭弹。射程很长，但准度不高</PLA_Turret_Type63RocketLauncher.description>
+  <PLA_Turret_Type63RocketLauncher.description>12管火箭炮，发射107mm火箭弹。射程很长，但准度不高。\n\n这个63式火箭炮是改造版，将轮式底座换成了固定底座。</PLA_Turret_Type63RocketLauncher.description>
   <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>
   <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>
