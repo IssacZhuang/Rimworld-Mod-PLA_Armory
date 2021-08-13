@@ -144,7 +144,7 @@
             </bodyPartGroups>
         </apparel>
         <equippedStatOffsets>
-            <CarryingCapacity>25</CarryingCapacity>
+            <CarryingCapacity>35</CarryingCapacity>
             <MoveSpeed>-0.3</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
