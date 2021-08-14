@@ -145,7 +145,7 @@
         </apparel>
         <equippedStatOffsets>
             <CarryingCapacity>35</CarryingCapacity>
-            <MoveSpeed>-0.3</MoveSpeed>
+            <MoveSpeed>-0.1</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
