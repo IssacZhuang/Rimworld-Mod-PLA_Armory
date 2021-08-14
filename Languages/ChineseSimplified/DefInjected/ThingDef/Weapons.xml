@@ -21,6 +21,11 @@
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
   <PLA_QBZOneNineOne.tools.1.label>枪管</PLA_QBZOneNineOne.tools.1.label>
 
+  <PLA_QJBTwoZeroOne.label>201式班用机枪</PLA_QJBTwoZeroOne.label>
+  <PLA_QJBTwoZeroOne.description>人民解放军的新式班用机枪。</PLA_QJBTwoZeroOne.description>
+  <PLA_QJBTwoZeroOne.tools.0.label>枪托</PLA_QJBTwoZeroOne.tools.0.label>
+  <PLA_QJBTwoZeroOne.tools.1.label>枪管</PLA_QJBTwoZeroOne.tools.1.label>
+
   <PLA_QBZOneNineOne_Charged.label>191式突击步枪-电荷改装</PLA_QBZOneNineOne_Charged.label>
   <PLA_QBZOneNineOne_Charged.description>QBZ-191的电荷弹改造版。</PLA_QBZOneNineOne_Charged.description>
   <PLA_QBZOneNineOne_Charged.tools.0.label>枪托</PLA_QBZOneNineOne_Charged.tools.0.label>

@@ -51,7 +51,7 @@
             <Bulk>10</Bulk>
             <SwayFactor>1.1</SwayFactor>
             <ShotSpread>0.06</ShotSpread>
-            <SightsEfficiency>1</SightsEfficiency>
+            <SightsEfficiency>1.6</SightsEfficiency>
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -67,13 +67,13 @@
             <range>62</range>
             <burstShotCount>12</burstShotCount>
             <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-            <soundCast>PLA_SoundQBZ95</soundCast>
+            <soundCast>PLA_SoundQJB201</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
         </Properties>
         <AmmoUser>
             <magazineSize>120</magazineSize>
-            <reloadTime>6.5</reloadTime>
+            <reloadTime>6</reloadTime>
             <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
         </AmmoUser>
         <FireModes>
