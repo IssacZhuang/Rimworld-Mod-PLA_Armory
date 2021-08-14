@@ -49,7 +49,7 @@
         <value>
             <li Class="PLA.CompProperties_SecondaryAmmo">
                 <magazineSize>1</magazineSize>
-                <reloadTime>0.4</reloadTime>
+                <reloadTime>0.8</reloadTime>
                 <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>
                 <mainWeaponLabel>use rifle</mainWeaponLabel>
                 <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
