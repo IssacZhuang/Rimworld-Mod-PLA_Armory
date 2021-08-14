@@ -65,7 +65,6 @@
         <defName>PLA_Artillery_Type63RocketLauncher</defName>
         <label>107mm rocket launcher</label>
         <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
-        <recoilPower>3</recoilPower>
         <graphicData>
             <texPath>Things/Building/Type63RocketLauncher</texPath>
         </graphicData>

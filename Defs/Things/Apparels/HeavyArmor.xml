@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="PLA_HeavyArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+        <thingCategories>
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <uiIconScale>1.4</uiIconScale>
+        <statBases>
+            <WorkToMake>32000</WorkToMake>
+            <MaxHitPoints>300</MaxHitPoints>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.43</ArmorRating_Heat>
+            <Insulation_Cold>32.8</Insulation_Cold>
+            <Insulation_Heat>15.3</Insulation_Heat>
+            <Mass>12</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <useIngredientsForColor>false</useIngredientsForColor>
+        </recipeMaker>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Plasteel>100</Plasteel>
+        </costList>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <tags Inherit = "False">
+                <li>PLA_BodyArmor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <only>(0.7,0.7,0.7)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+</Defs>
