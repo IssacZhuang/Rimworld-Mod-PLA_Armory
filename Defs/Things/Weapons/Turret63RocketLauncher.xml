@@ -75,7 +75,6 @@
                 <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
                 <warmupTime>6.0</warmupTime>
                 <forcedMissRadius>15</forcedMissRadius>
-                <isMortar>true</isMortar>
                 <requireLineOfSight>false</requireLineOfSight>
                 <minRange>25</minRange>
                 <range>500</range>
