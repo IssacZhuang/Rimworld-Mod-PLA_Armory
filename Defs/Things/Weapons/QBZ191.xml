@@ -32,7 +32,7 @@
     </costList>
     <weaponTags>
       <li>PLA_AssaultRifle</li>
-      <li>PLA_AdvancedRifle</li>
+      <li>PLA_AdvancedAssaultRifle</li>
     </weaponTags>
     <verbs>
       <li>

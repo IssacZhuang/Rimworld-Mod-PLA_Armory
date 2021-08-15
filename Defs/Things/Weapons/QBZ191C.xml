@@ -36,7 +36,7 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <weaponTags>
-      <li>PLA_Rifle</li>
+      <li>PLA_SpacerAssaultRifle</li>
     </weaponTags>
     <verbs>
       <li>

@@ -32,6 +32,7 @@
     </costList>
     <weaponTags>
       <li>PLA_LMG</li>
+      <li>PLA_AdvancedLMG</li>
     </weaponTags>
     <verbs>
       <li>
