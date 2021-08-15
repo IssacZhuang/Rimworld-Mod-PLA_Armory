@@ -54,6 +54,31 @@
         </colorGenerator>
     </ThingDef>
 
+    <ThingDef Name="PLA_AdvancedHelmetBase" ParentName="PLA_HelmetBase" Abstract="true">
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+        </costList>
+        <statBases></statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <tags Inherit = "False">
+                <li>PLA_AdvancedHelmet</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <layers></layers>
+        </apparel>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+    </ThingDef>
+    
     <ThingDef ParentName="PLA_HelmetBase">
         <defName>PLA_Helmet_Desert</defName>
         <label>PLA military helmet</label>
@@ -67,4 +92,16 @@
         </apparel>
     </ThingDef>
 
+    <ThingDef ParentName="PLA_AdvancedHelmetBase">
+        <defName>PLA_AdvancedHelmet_Desert</defName>
+        <label>PLA military helmet(with night vision)</label>
+        <description>A military helmet with night vision and eyes protection goggles.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_advancedHelmet_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/AdvancedHelmet/PLA_advancedHelmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
 </Defs>
