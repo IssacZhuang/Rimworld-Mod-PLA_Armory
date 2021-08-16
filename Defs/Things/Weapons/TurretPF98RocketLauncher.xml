@@ -89,7 +89,9 @@
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <onlyManualCast>true</onlyManualCast>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
                 <muzzleFlashScale>14</muzzleFlashScale>
                 <consumeFuelPerShot>2</consumeFuelPerShot>
             </li>

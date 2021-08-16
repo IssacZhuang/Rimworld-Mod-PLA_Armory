@@ -91,6 +91,9 @@
                 <burstShotCount>2</burstShotCount>
                 <soundCast>PLA_SoundQLU11</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
                 <muzzleFlashScale>13</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
             </li>
