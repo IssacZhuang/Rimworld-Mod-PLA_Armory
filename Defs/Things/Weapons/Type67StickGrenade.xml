@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="BaseMakeableGrenade">
+  <ThingDef ParentName="PLA_BaseGrenade">
     <defName>PLA_Type67StickGrenade</defName>
     <label>Type 67 Stick Grenade</label>
     <description>A wooden handle stick grenade. Throw farther than ordinary frag grenade but less damage.</description>

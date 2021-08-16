@@ -137,6 +137,27 @@
             <li>RewardStandardMidFreq</li>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
+        <recipeMaker>
+          <recipeUsers>
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+      </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="PLA_BaseGrenade" ParentName="BaseWeapon" Abstract="True">
+      <weaponClasses>
+        <li>Ranged</li>
+      </weaponClasses>
+      <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      </recipeMaker>
     </ThingDef>
 
 </Defs>

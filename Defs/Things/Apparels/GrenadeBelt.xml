@@ -1,46 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="ApparelNoQualityBase">
-        <defName>PLA_StickGrenadeBelt</defName>
-        <label>stick grenade belt</label>
-        <description>Old-school fragmentation grenades strapped to a belt. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. Can be reloaded using type 67 stick grenades.</description>
+    <ThingDef Name="PLA_BaseGrenadeBelt" ParentName="ApparelNoQualityBase" Abstract="true">
+        <thingCategories>
+            <li>PLA_Apparel</li>
+        </thingCategories>
         <techLevel>Industrial</techLevel>
-        <comps>
-            <li Class="CompProperties_Reloadable">
-                <maxCharges>10</maxCharges>
-                <ammoDef>PLA_Type67StickGrenade</ammoDef>
-                <ammoCountToRefill>1</ammoCountToRefill>
-                <baseReloadTicks>60</baseReloadTicks>
-                <soundReload>Standard_Reload</soundReload>
-                <hotKey>Misc4</hotKey>
-                <chargeNoun>grenade</chargeNoun>
-                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-            </li>
-        </comps>
-        <verbs>
-            <li>
-                <label>throw stick grenade</label>
-                <verbClass>Verb_LaunchProjectileStatic</verbClass>
-                <hasStandardCommand>true</hasStandardCommand>
-                <onlyManualCast>True</onlyManualCast>
-                <range>16</range>
-                <forcedMissRadius>1.5</forcedMissRadius>
-                <warmupTime>1.3</warmupTime>
-                <noiseRadius>4</noiseRadius>
-                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-                <soundCast>ThrowGrenade</soundCast>
-                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-                <targetParams>
-                    <canTargetLocations>true</canTargetLocations>
-                </targetParams>
-                <defaultProjectile>PLA_Proj_Type67StickGrenade</defaultProjectile>
-                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-            </li>
-        </verbs>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <recipeUsers>
-                <li>TableMachining</li>
+                <li>PLA_TableAssembly</li>
             </recipeUsers>
             <useIngredientsForColor>false</useIngredientsForColor>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -51,26 +19,7 @@
                 <Crafting>3</Crafting>
             </skillRequirements>
         </recipeMaker>
-        <costList>
-            <PLA_Type67StickGrenade>1</PLA_Type67StickGrenade>
-        </costList>
-        <graphicData>
-            <texPath>Things/Apparel/Display/PLA_Display_Type67StickGrenadeBelt</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <tickerType>Normal</tickerType>
-        <statBases>
-            <WorkToMake>500</WorkToMake>
-            <Mass>1.8</Mass>
-            <Flammability>0.4</Flammability>
-            <EquipDelay>2</EquipDelay>
-        </statBases>
-        <thingCategories>
-            <li>PLA_Apparel</li>
-        </thingCategories>
-        <generateAllowChance>0.15</generateAllowChance>
         <apparel>
-            <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type67StickGrenadeBelt</wornGraphicPath>
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
@@ -143,6 +92,61 @@
             <layers>
                 <li>Belt</li>
             </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BaseGrenadeBelt">
+        <defName>PLA_StickGrenadeBelt</defName>
+        <label>stick grenade belt</label>
+        <description>Old-school fragmentation grenades strapped to a belt. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. Can be reloaded using type 67 stick grenades.</description>
+        <comps>
+            <li Class="CompProperties_Reloadable">
+                <maxCharges>10</maxCharges>
+                <ammoDef>PLA_Type67StickGrenade</ammoDef>
+                <ammoCountToRefill>1</ammoCountToRefill>
+                <baseReloadTicks>60</baseReloadTicks>
+                <soundReload>Standard_Reload</soundReload>
+                <hotKey>Misc4</hotKey>
+                <chargeNoun>grenade</chargeNoun>
+                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <label>throw stick grenade</label>
+                <verbClass>Verb_LaunchProjectileStatic</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <range>16</range>
+                <forcedMissRadius>1.5</forcedMissRadius>
+                <warmupTime>1.3</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <soundCast>ThrowGrenade</soundCast>
+                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <defaultProjectile>PLA_Proj_Type67StickGrenade</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+        </verbs>
+        <costList>
+            <PLA_Type67StickGrenade>1</PLA_Type67StickGrenade>
+        </costList>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_Display_Type67StickGrenadeBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <WorkToMake>500</WorkToMake>
+            <Mass>1.8</Mass>
+            <Flammability>0.4</Flammability>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type67StickGrenadeBelt</wornGraphicPath>
         </apparel>
     </ThingDef>
 </Defs>

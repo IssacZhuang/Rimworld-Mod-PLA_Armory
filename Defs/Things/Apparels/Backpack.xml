@@ -151,7 +151,7 @@
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <researchPrerequisite>Machining</researchPrerequisite>
             <recipeUsers>
-                <li>TableMachining</li>
+                <li>PLA_TableAssembly</li>
             </recipeUsers>
             <useIngredientsForColor>false</useIngredientsForColor>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

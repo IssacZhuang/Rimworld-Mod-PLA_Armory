@@ -112,6 +112,9 @@
                 <description>Craft 10 type 67 stick granade.</description>
                 <jobString>Making type 67 stick granade.</jobString>
                 <workAmount>2400</workAmount>
+                <recipeUsers>
+                    <li>PLA_TableAssembly</li>
+                </recipeUsers>
                 <ingredients>
                     <li>
                         <filter>
