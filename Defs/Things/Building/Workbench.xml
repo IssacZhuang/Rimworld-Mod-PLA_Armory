@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="BenchBase">
-        <defName>PLA_TableMachining</defName>
-        <label>PLA machining table</label>
+        <defName>PLA_TableAssembly</defName>
+        <label>PLA assembly table</label>
         <description>A work station for assembling weapons of PLA.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
@@ -47,7 +47,7 @@
           <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
             <shortCircuitInRain>true</shortCircuitInRain>
-            <basePowerConsumption>350</basePowerConsumption>
+            <basePowerConsumption>300</basePowerConsumption>
           </li>
           <li Class="CompProperties_Flickable"/>
           <li Class="CompProperties_Glower">
