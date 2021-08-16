@@ -125,7 +125,7 @@
     <ThingDef ParentName="PLA_BackpackBase">
         <defName>PLA_ExoskeletonBackpack_Desert</defName>
         <label>PLA Exoskeleton backpack</label>
-        <description>A backpack connect with a non-powered exoskeleton frame. It will reduce the flexibility of the human body, but increases the weight-bearing capacity.</description>
+        <description>A backpack connect with a non-powered exoskeleton frame. It will increase the weight-bearing capacity of the wearer.</description>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_exoskeletonBackpack</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -145,7 +145,6 @@
         </apparel>
         <equippedStatOffsets>
             <CarryingCapacity>35</CarryingCapacity>
-            <MoveSpeed>-0.1</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
