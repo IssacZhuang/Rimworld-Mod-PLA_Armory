@@ -10,6 +10,9 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>PLA_TableAssembly</li>
+            </recipeUsers>
             <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <statBases>
