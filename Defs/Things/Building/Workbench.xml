@@ -51,6 +51,7 @@
             <basePowerConsumption>300</basePowerConsumption>
           </li>
           <li Class="CompProperties_Flickable"/>
+          <li Class="CompProperties_Breakdownable"/>
           <li Class="CompProperties_Glower">
             <glowRadius>5</glowRadius>
             <glowColor>(73,123,138,0)</glowColor>

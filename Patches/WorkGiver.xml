@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>PLA_TableAssembly</li>
+        </value>
+    </Operation>
+</Patch>

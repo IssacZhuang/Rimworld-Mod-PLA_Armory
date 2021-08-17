@@ -25,6 +25,7 @@
         </statBases>
         <equippedStatOffsets></equippedStatOffsets>
         <techLevel>Industrial</techLevel>
+        <generateAllowChance>0</generateAllowChance>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
