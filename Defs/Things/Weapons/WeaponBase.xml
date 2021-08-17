@@ -145,9 +145,6 @@
     </ThingDef>
 
     <ThingDef Name="PLA_BaseGrenade" ParentName="BaseWeapon" Abstract="True">
-      <weaponClasses>
-        <li>Ranged</li>
-      </weaponClasses>
       <recipeMaker>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
