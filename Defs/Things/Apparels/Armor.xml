@@ -9,7 +9,7 @@
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>300</MaxHitPoints>
-            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.43</ArmorRating_Heat>
             <Insulation_Cold>12.8</Insulation_Cold>
@@ -30,7 +30,7 @@
             <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
-            <Steel>80</Steel>
+            <Steel>60</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
             <Plasteel>20</Plasteel>
         </costList>
