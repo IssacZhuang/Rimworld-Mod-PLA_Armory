@@ -41,7 +41,7 @@
         <defaultProjectile>PLA_Bullet_DBPTen</defaultProjectile>
         <warmupTime>1.6</warmupTime>
         <range>29</range>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>12</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>PLA_SoundQJB201</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
