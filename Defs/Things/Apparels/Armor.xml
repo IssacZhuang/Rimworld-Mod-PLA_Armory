@@ -14,7 +14,7 @@
             <ArmorRating_Heat>0.43</ArmorRating_Heat>
             <Insulation_Cold>12.8</Insulation_Cold>
             <Insulation_Heat>15.3</Insulation_Heat>
-            <Mass>10</Mass>
+            <Mass>4</Mass>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <techLevel>Industrial</techLevel>

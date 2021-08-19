@@ -82,8 +82,12 @@
   <PLA_QBSZeroNine.tools.1.label>枪管</PLA_QBSZeroNine.tools.1.label>
 
   <PLA_PFNinetyEight.label>98式反坦克火箭</PLA_PFNinetyEight.label>
-  <PLA_PFNinetyEight.description>人民解放军的反坦克火箭。</PLA_PFNinetyEight.description>
+  <PLA_PFNinetyEight.description>人民解放军的反坦克火箭。可以重复使用。</PLA_PFNinetyEight.description>
   <PLA_PFNinetyEight.tools.0.label>炮管</PLA_PFNinetyEight.tools.0.label>
+
+  <PLA_PFEleven.label>11式反坦克火箭</PLA_PFEleven.label>
+  <PLA_PFEleven.description>人民解放军的一次性反坦克火箭。</PLA_PFEleven.description>
+  <PLA_PFEleven.tools.0.label>炮管</PLA_PFEleven.tools.0.label>
 
   <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
   <PLA_Turret85HMG.description>装在三脚架上的85式重机枪，火力强大。需要有人控制。</PLA_Turret85HMG.description>

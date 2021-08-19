@@ -1,30 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="PLA_BaseGun">
-        <defName>PLA_PFNinetyEight</defName>
-        <label>PF-98 Anti-Tank Rocket Launcher</label>
-        <description>An anti-tank rocket of of People's Liberation Army. </description>
+    <ThingDef ParentName="PLA_BaseGunNoQuality">
+        <defName>PLA_PFEleven</defName>
+        <label>PF-11 Anti-Tank Rocket Launcher</label>
+        <description>A single-use anti-tank rocket of of People's Liberation Army.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Things/Weapon/PF98</texPath>
+            <texPath>Things/Weapon/PF11</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1.4,1.4)</drawSize>
+            <drawSize>(1.2,1.2)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-            <WorkToMake>35000</WorkToMake>
-            <MarketValue>1000</MarketValue>
-            <AccuracyTouch>0.58</AccuracyTouch>
-            <AccuracyShort>0.65</AccuracyShort>
-            <AccuracyMedium>0.86</AccuracyMedium>
-            <AccuracyLong>0.87</AccuracyLong>
-            <Mass>8</Mass>
-            <RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+            <WorkToMake>5000</WorkToMake>
+            <MarketValue>300</MarketValue>
+            <Mass>4</Mass>
+            <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>120</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
+            <Steel>60</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Chemfuel>60</Chemfuel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -33,17 +30,17 @@
             </skillRequirements>
         </recipeMaker>
         <weaponTags>
-            <li>PLA_RocketLauncher</li>
+            <li>PLA_RocketLauncherSingleUse</li>
         </weaponTags>
         <verbs>
             <li>
-                <verbClass>Verb_Shoot</verbClass>
+                <verbClass>Verb_ShootOneUse</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>PLA_Thermobaric_PFNinetyEight</defaultProjectile>
-                <forcedMissRadius>1.9</forcedMissRadius>
-                <warmupTime>5.5</warmupTime>
+                <defaultProjectile>PLA_HighExplosive_PFEleven</defaultProjectile>
+                <forcedMissRadius>1</forcedMissRadius>
+                <warmupTime>4.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-                <range>37</range>
+                <range>39</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>

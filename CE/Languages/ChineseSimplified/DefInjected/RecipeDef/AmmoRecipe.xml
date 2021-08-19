@@ -53,4 +53,8 @@
   <Make_PLA_Type67StickGrenade.description>制作67式木柄手雷</Make_PLA_Type67StickGrenade.description>
   <Make_PLA_Type67StickGrenade.jobString>制作67式木柄手雷</Make_PLA_Type67StickGrenade.jobString>
 
+  <MakePFEleven.label>制作11式反坦克火箭 x5</MakePFEleven.label>
+  <MakePFEleven.description>制作11式反坦克火箭</MakePFEleven.description>
+  <MakePFEleven.jobString>制作11式反坦克火箭</MakePFEleven.jobString>
+
 </LanguageData>

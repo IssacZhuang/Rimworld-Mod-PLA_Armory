@@ -144,6 +144,20 @@
       </recipeMaker>
     </ThingDef>
 
+    <ThingDef Name="PLA_BaseGunNoQuality" ParentName="BaseGun" Abstract="True">
+      <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      </recipeMaker>
+    </ThingDef>
+
     <ThingDef Name="PLA_BaseGrenade" ParentName="BaseWeapon" Abstract="True">
       <recipeMaker>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

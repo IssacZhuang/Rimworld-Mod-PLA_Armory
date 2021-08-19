@@ -175,4 +175,25 @@
         </projectile>
     </ThingDef>
 
+    <ThingDef ParentName="BaseBullet">
+      <defName>PLA_HighExplosive_PFEleven</defName>
+      <label>high-explosive rocket</label>
+      <graphicData>
+          <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+      </graphicData>
+      <thingClass>Projectile_Explosive</thingClass>
+      <projectile>
+          <damageDef>Bomb</damageDef>
+          <explosionRadius>2.5</explosionRadius>
+          <speed>50</speed>
+          <damageAmountBase>320</damageAmountBase>
+          <flyOverhead>true</flyOverhead>
+          <explosionDelay>5</explosionDelay>
+          <stoppingPower>4</stoppingPower>
+          <armorPenetrationBase>2</armorPenetrationBase>
+      </projectile>
+  </ThingDef>
+
 </Defs>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_PFEleven</defName>
+        <statBases>
+            <Mass>4</Mass>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <SightsEfficiency>2.6</SightsEfficiency>
+            <ShotSpread>0.2</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <Bulk>8</Bulk>
+            <WorkToMake>49500</WorkToMake>
+            <MarketValue>184</MarketValue>
+        </statBases>
+        <costList>
+            <Steel>125</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <FSX>5</FSX>
+        </costList>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_93mmRocket_HEAT</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+            <range>42</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>InfernoCannon_Fire</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <muzzleFlashScale>14</muzzleFlashScale>
+        </Properties>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+        <AllowWithRunAndGun>false</AllowWithRunAndGun>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="GrenadeRecipeBase">
+                <defName>MakePFEleven</defName>
+                <label>make PF-11 x5</label>
+                <description>Craft 5 PF-11 Anti-Tank Rocket Launcher.</description>
+                <jobString>Making PF-11 Anti-Tank Rocket Launcher.</jobString>
+                <workAmount>8200</workAmount>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>83</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>12</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>ComponentIndustrial</li>
+                            </thingDefs>
+                        </filter>
+                        <count>3</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_PFEleven>5</PLA_PFEleven>
+                </products>
+                <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+            </RecipeDef>
+        </value>
+    </Operation>
+
+
+</Patch>
