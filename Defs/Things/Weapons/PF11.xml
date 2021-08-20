@@ -29,6 +29,9 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
         </recipeMaker>
+        <thingCategories Inherit = "False">
+            <li>PLA_WeaponRanged</li>
+        </thingCategories>
         <weaponTags>
             <li>PLA_RocketLauncherSingleUse</li>
         </weaponTags>

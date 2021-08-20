@@ -138,7 +138,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <recipeMaker>
-          <recipeUsers>
+          <recipeUsers Inherit = "False">
           <li>PLA_TableAssembly</li>
         </recipeUsers>
       </recipeMaker>
