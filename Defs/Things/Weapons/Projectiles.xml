@@ -188,7 +188,7 @@
           <damageDef>Bomb</damageDef>
           <explosionRadius>2.5</explosionRadius>
           <speed>50</speed>
-          <damageAmountBase>320</damageAmountBase>
+          <damageAmountBase>420</damageAmountBase>
           <flyOverhead>true</flyOverhead>
           <explosionDelay>5</explosionDelay>
           <stoppingPower>4</stoppingPower>
