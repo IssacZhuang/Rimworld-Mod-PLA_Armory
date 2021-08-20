@@ -149,7 +149,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <researchPrerequisite>Machining</researchPrerequisite>
-            <recipeUsers>
+            <recipeUsers Inherit = "False">
                 <li>PLA_TableAssembly</li>
             </recipeUsers>
             <useIngredientsForColor>false</useIngredientsForColor>
