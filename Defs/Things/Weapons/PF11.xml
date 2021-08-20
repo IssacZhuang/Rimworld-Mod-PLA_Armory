@@ -23,12 +23,6 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Chemfuel>60</Chemfuel>
         </costList>
-        <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingCategories Inherit = "False">
             <li>PLA_WeaponRanged</li>
         </thingCategories>
