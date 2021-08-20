@@ -37,7 +37,7 @@
                 <forcedMissRadius>1</forcedMissRadius>
                 <warmupTime>4.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-                <range>39</range>
+                <range>37</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
