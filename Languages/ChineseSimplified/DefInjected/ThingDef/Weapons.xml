@@ -66,6 +66,11 @@
   <PLA_QBUEightyEight.tools.0.label>枪托</PLA_QBUEightyEight.tools.0.label>
   <PLA_QBUEightyEight.tools.1.label>枪管</PLA_QBUEightyEight.tools.1.label>
 
+  <PLA_QBUTwoZeroTwo.label>202式高精狙击步枪</PLA_QBUTwoZeroTwo.label>
+  <PLA_QBUTwoZeroTwo.description>人民解放军的新款高精度狙击步枪。</PLA_QBUTwoZeroTwo.description>
+  <PLA_QBUTwoZeroTwo.tools.0.label>枪托</PLA_QBUTwoZeroTwo.tools.0.label>
+  <PLA_QBUTwoZeroTwo.tools.1.label>枪管</PLA_QBUTwoZeroTwo.tools.1.label>
+
   <PLA_QBVOneNineOne.label>191式精确射手步枪</PLA_QBVOneNineOne.label>
   <PLA_QBVOneNineOne.description>人民解放军的新式精确射手步枪。</PLA_QBVOneNineOne.description>
   <PLA_QBVOneNineOne.tools.0.label>枪托</PLA_QBVOneNineOne.tools.0.label>
