@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="PLA_BaseGunNoQuality">
+    <ThingDef ParentName="PLA_BaseGunSingleUse">
         <defName>PLA_PFEleven</defName>
         <label>PF-11 Anti-Tank Rocket Launcher</label>
         <description>A single-use anti-tank rocket of of People's Liberation Army.</description>

@@ -63,7 +63,9 @@
             <ComponentIndustrial>4</ComponentIndustrial>
             <Plasteel>20</Plasteel>
         </costList>
-        <statBases></statBases>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+        </statBases>
         <apparel>
             <bodyPartGroups>
                 <li>UpperHead</li>
