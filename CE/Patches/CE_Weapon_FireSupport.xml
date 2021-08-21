@@ -270,7 +270,7 @@
             <WorkToMake>30000</WorkToMake>
         </statBases>
         <costList>
-            <Steel>120</Steel>
+            <Steel>110</Steel>
             <ComponentIndustrial>5</ComponentIndustrial>
             <Chemfuel>15</Chemfuel>
         </costList>
