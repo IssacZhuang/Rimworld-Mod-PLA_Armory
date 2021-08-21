@@ -21,8 +21,8 @@
       <WorkToMake>25000</WorkToMake>
       <Mass>10</Mass>
       <AccuracyTouch>0.42</AccuracyTouch>
-      <AccuracyShort>0.44</AccuracyShort>
-      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyShort>0.46</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.41</AccuracyLong>
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
