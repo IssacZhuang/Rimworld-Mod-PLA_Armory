@@ -280,7 +280,7 @@
             <defaultProjectile>Bullet_338Lapua_FMJ</defaultProjectile>
             <warmupTime>2.1</warmupTime>
             <range>86</range>
-            <soundCast>PLA_SoundQBU10</soundCast>
+            <soundCast>PLA_SoundQBU202</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
         </Properties>
