@@ -27,6 +27,7 @@
         <techLevel>Industrial</techLevel>
         <generateAllowChance>0</generateAllowChance>
         <apparel>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Neck</li>
