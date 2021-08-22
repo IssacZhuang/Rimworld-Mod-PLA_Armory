@@ -26,7 +26,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PLA_QBUTen"  or defName="PLA_QLUEleven"]/statBases</xpath>
+        <xpath>Defs/ThingDef[defName="PLA_QBUTen"  or defName="PLA_QLUEleven" or defName="PLA_QBUTwoZeroTwo"]/statBases</xpath>
         <value>
             <NightVisionEfficiency_Weapon>0.9</NightVisionEfficiency_Weapon>
         </value>
@@ -51,12 +51,12 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
+    <!--Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]/apparel/layers</xpath>
         <value>
             <li>StrappedHead</li>
         </value>
-    </Operation>
+    </Operation-->
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]/costList</xpath>
