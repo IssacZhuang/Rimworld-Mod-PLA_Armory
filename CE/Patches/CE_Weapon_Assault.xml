@@ -142,7 +142,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
             <warmupTime>0.9</warmupTime>
-            <range>45</range>
+            <range>47</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQBZ95</soundCast>
@@ -286,6 +286,108 @@
                 <DrawOffset>0.05,0.0</DrawOffset>
             </li>
         </value>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_TypeFiftyThree</defName>
+        <statBases>
+            <Mass>3.7</Mass>
+            <Bulk>6</Bulk>
+            <SwayFactor>1.8</SwayFactor>
+            <ShotSpread>0.02</ShotSpread>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+            <warmupTime>1.2</warmupTime>
+            <range>58</range>
+            <soundCast>Shot_BoltActionRifle</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>10</magazineSize>
+            <reloadTime>4.5</reloadTime>
+            <ammoSet>AmmoSet_762x54mmR</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_TypeSixtyThree</defName>
+        <statBases>
+            <Mass>3.20</Mass>
+            <Bulk>6.70</Bulk>
+            <SwayFactor>1.4</SwayFactor>
+            <ShotSpread>0.11</ShotSpread>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+            <warmupTime>1.3</warmupTime>
+            <range>39</range>
+            <soundCast>PLA_SoundType63</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <recoilAmount>1.53</recoilAmount>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+            <aiUseBurstMode>True</aiUseBurstMode>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_TypeEightyOne</defName>
+        <statBases>
+            <Mass>3.80</Mass>
+            <Bulk>7.4</Bulk>
+            <SwayFactor>1.02</SwayFactor>
+            <ShotSpread>0.07</ShotSpread>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <warmupTime>1.2</warmupTime>
+            <range>42</range>
+            <soundCast>PLA_SoundType81</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <recoilAmount>1.36</recoilAmount>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+            <aiUseBurstMode>True</aiUseBurstMode>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+        </FireModes>
     </Operation>
 
 </Patch>

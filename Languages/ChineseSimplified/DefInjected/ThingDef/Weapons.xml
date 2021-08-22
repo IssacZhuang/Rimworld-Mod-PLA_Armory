@@ -41,6 +41,21 @@
   <PLA_QBZZeroThree.tools.0.label>枪托</PLA_QBZZeroThree.tools.0.label>
   <PLA_QBZZeroThree.tools.1.label>枪管</PLA_QBZZeroThree.tools.1.label>
 
+  <PLA_TypeFiftyThree.label>53式步骑枪</PLA_TypeFiftyThree.label>
+  <PLA_TypeFiftyThree.description>解放军的老式栓动步枪。原型是苏联的莫辛-纳甘1944</PLA_TypeFiftyThree.description>
+  <PLA_TypeFiftyThree.tools.0.label>枪托</PLA_TypeFiftyThree.tools.0.label>
+  <PLA_TypeFiftyThree.tools.1.label>枪管</PLA_TypeFiftyThree.tools.1.label>
+
+  <PLA_TypeSixtyThree.label>63式自动步枪</PLA_TypeSixtyThree.label>
+  <PLA_TypeSixtyThree.description>解放军的老式自动步枪。</PLA_TypeSixtyThree.description>
+  <PLA_TypeSixtyThree.tools.0.label>枪托</PLA_TypeSixtyThree.tools.0.label>
+  <PLA_TypeSixtyThree.tools.1.label>枪管</PLA_TypeSixtyThree.tools.1.label>
+
+  <PLA_TypeEightyOne.label>81式突击步枪</PLA_TypeEightyOne.label>
+  <PLA_TypeEightyOne.description>解放军的经典突击步枪。外观上和AK有相似之处，但内部结构大不相同。</PLA_TypeEightyOne.description>
+  <PLA_TypeEightyOne.tools.0.label>枪托</PLA_TypeEightyOne.tools.0.label>
+  <PLA_TypeEightyOne.tools.1.label>枪管</PLA_TypeEightyOne.tools.1.label>
+
   <PLA_QTSEleven.label>QTS-11单兵综合作战武器</PLA_QTSEleven.label>
   <PLA_QTSEleven.description>人民解放军的单兵综合作战武器，配备计算机瞄准系统，精确度极高。</PLA_QTSEleven.description>
   <PLA_QTSEleven.tools.0.label>枪托</PLA_QTSEleven.tools.0.label>
