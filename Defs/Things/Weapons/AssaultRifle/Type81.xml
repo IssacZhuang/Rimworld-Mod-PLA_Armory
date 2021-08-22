@@ -7,7 +7,7 @@
         <graphicData>
           <texPath>Things/Weapon/Type81</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>(1.05,1.05)</drawSize>
+          <drawSize>(1.1,1.1)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
