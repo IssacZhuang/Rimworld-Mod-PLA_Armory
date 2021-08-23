@@ -37,6 +37,7 @@
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <apparel>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
             <bodyPartGroups>
                 <li>Legs</li>
             </bodyPartGroups>

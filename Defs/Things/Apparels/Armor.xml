@@ -38,6 +38,7 @@
             <MoveSpeed>-0.1</MoveSpeed>
         </equippedStatOffsets>
         <apparel>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Neck</li>
