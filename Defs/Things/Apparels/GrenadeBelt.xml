@@ -123,7 +123,8 @@
                 <noiseRadius>4</noiseRadius>
                 <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <soundCast>ThrowGrenade</soundCast>
-                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                <requireLineOfSight>false</requireLineOfSight>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
                 </targetParams>

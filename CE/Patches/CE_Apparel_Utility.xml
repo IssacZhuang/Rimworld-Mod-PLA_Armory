@@ -36,12 +36,13 @@
                     <onlyManualCast>True</onlyManualCast>
                     <warmupTime>1.5</warmupTime>
                     <range>16</range>
-                    <minRange>5</minRange>
+                    <minRange>3</minRange>
                     <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                     <soundCast>ThrowGrenade</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>14</muzzleFlashScale>
-                    <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                    <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                    <requireLineOfSight>false</requireLineOfSight>
                     <targetParams>
                         <canTargetLocations>true</canTargetLocations>
                     </targetParams>

@@ -13,6 +13,7 @@
           <damageAmountBase>46</damageAmountBase>
           <explosionDelay>60</explosionDelay>
           <soundExplode>Explosion_Stun</soundExplode>
+          <flyOverhead>true</flyOverhead>
           <dropsCasings>true</dropsCasings>
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
           <speed>5</speed>
