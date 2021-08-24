@@ -150,4 +150,60 @@
             <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type67StickGrenadeBelt</wornGraphicPath>
         </apparel>
     </ThingDef>
+
+    <ThingDef ParentName="PLA_BaseGrenadeBelt">
+        <defName>PLA_FragGrenadeBelt</defName>
+        <label>Type 82 grenade belt</label>
+        <description>Old-school fragmentation grenades strapped to a belt. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. Can be reloaded using type 82 frag grenades.</description>
+        <comps>
+            <li Class="CompProperties_Reloadable">
+                <maxCharges>10</maxCharges>
+                <ammoDef>PLA_Type82Grenade</ammoDef>
+                <ammoCountToRefill>1</ammoCountToRefill>
+                <baseReloadTicks>40</baseReloadTicks>
+                <soundReload>Standard_Reload</soundReload>
+                <hotKey>Misc4</hotKey>
+                <chargeNoun>grenade</chargeNoun>
+                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <label>throw stick grenade</label>
+                <verbClass>Verb_LaunchProjectileStatic</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <range>16</range>
+                <forcedMissRadius>0.7</forcedMissRadius>
+                <warmupTime>0.9</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <soundCast>ThrowGrenade</soundCast>
+                <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <defaultProjectile>PLA_Proj_Type82Grenade</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+        </verbs>
+        <costList>
+            <PLA_Type67StickGrenade>1</PLA_Type67StickGrenade>
+        </costList>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_Display_Type82GrenadeBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <WorkToMake>700</WorkToMake>
+            <Mass>1.2</Mass>
+            <Flammability>0.4</Flammability>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type82GrenadeBelt</wornGraphicPath>
+        </apparel>
+    </ThingDef>
 </Defs>

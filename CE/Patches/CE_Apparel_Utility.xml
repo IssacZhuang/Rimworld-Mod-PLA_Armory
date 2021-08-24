@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
+    <!-- Type 67-->
 
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/costList</xpath>
@@ -48,6 +49,60 @@
                     </targetParams>
                     <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
                     <defaultProjectile>PLA_Proj_Type67StickGrenadeCE</defaultProjectile>
+                    <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+                </li>
+            </verbs>
+        </value>
+    </Operation>
+
+     <!-- Type 82-->
+
+     <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/costList</xpath>
+        <value>
+            <costList>
+                <PLA_Type82Grenade>5</PLA_Type82Grenade>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/comps/li[@Class="CompProperties_Reloadable"]/ammoCountToRefill</xpath>
+        <value>
+            <ammoCountPerCharge>1</ammoCountPerCharge>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/comps/li[@Class="CompProperties_Reloadable"]/maxCharges</xpath>
+        <value>
+            <maxCharges>5</maxCharges>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/verbs</xpath>
+        <value>
+            <verbs>
+                <li Class="CombatExtended.VerbPropertiesCE">
+                    <label>throw stick grenade</label>
+                    <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <onlyManualCast>True</onlyManualCast>
+                    <warmupTime>0.9</warmupTime>
+                    <range>14.5</range>
+                    <minRange>3</minRange>
+                    <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                    <soundCast>ThrowGrenade</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>14</muzzleFlashScale>
+                    <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                    <requireLineOfSight>false</requireLineOfSight>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                    <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                    <defaultProjectile>PLA_Proj_Type82GrenadeCE</defaultProjectile>
                     <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
                 </li>
             </verbs>
