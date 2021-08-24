@@ -344,7 +344,7 @@
             <recoilAmount>1.53</recoilAmount>
         </Properties>
         <AmmoUser>
-            <magazineSize>30</magazineSize>
+            <magazineSize>20</magazineSize>
             <reloadTime>4</reloadTime>
             <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
         </AmmoUser>

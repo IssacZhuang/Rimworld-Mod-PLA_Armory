@@ -38,5 +38,12 @@
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
           <speed>5</speed>
         </projectile>
+        <comps>
+          <li Class="CombatExtended.CompProperties_Fragments">
+            <fragments>
+              <Fragment_Small>30</Fragment_Small>
+            </fragments>
+          </li>
+        </comps>
       </ThingDef>
 </Defs>
