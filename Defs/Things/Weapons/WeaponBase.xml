@@ -167,6 +167,7 @@
         <recipeUsers>
           <li>PLA_TableAssembly</li>
         </recipeUsers>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       </recipeMaker>
     </ThingDef>
