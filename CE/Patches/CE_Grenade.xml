@@ -263,7 +263,7 @@
                                 <li>Steel</li>
                             </thingDefs>
                         </filter>
-                        <count>18</count>
+                        <count>12</count>
                     </li>
                     <li>
                         <filter>
@@ -279,7 +279,7 @@
                                 <li>Chemfuel</li>
                             </thingDefs>
                         </filter>
-                        <count>10</count>
+                        <count>8</count>
                     </li>
                 </ingredients>
                 <fixedIngredientFilter>
