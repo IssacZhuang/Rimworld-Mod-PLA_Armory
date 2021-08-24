@@ -243,4 +243,28 @@
       </projectile>
   </ThingDef>
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>PLA_HighExplosive_50mmGrenade</defName>
+    <label>high-explosive grenasw</label>
+    <graphicData>
+      <texPath>Things/Projectile/107mmRocket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>54</damageAmountBase>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+      <!-- damage amount is the damage def default -->
+      <speed>25</speed>
+      <explosionRadius>2.3</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
 </Defs>
