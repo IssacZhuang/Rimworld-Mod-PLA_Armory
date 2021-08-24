@@ -17,4 +17,15 @@
           </li>
         </value>
       </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_Proj_Type82GrenadeCE"]/comps</xpath>
+        <value>
+          <li Class="CombatExtended.CompProperties_ExplosiveCE">
+            <explosiveDamageType>Thump</explosiveDamageType>
+            <explosiveRadius>4.5</explosiveRadius>
+            <damageAmountBase>15</damageAmountBase>
+          </li>
+        </value>
+      </Operation>
 </Patch>
