@@ -22,7 +22,7 @@
 
       <ThingDef ParentName="BaseGrenadeProjectile">
         <defName>PLA_Proj_Type82GrenadeCE</defName>
-        <label>type-82 stick grenade</label>
+        <label>type-82 frag grenade</label>
         <graphicData>
           <texPath>Things/Projectile/Type82GrenadeThrown</texPath>
           <graphicClass>Graphic_Single</graphicClass>

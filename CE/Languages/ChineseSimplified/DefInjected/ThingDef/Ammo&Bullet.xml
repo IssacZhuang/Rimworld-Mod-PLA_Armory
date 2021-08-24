@@ -35,6 +35,9 @@
   <Bullet_58x42mmCharged_AP.label>5.8mm 电荷弹 (穿甲)</Bullet_58x42mmCharged_AP.label>
   <Bullet_58x42mmCharged_Ion.label>5.8mm 电荷弹 (电磁脉冲)</Bullet_58x42mmCharged_Ion.label>
 
+  <PLA_Proj_Type67StickGrenadeCE.label>67式木柄手榴弹</PLA_Proj_Type67StickGrenadeCE.label>
+  <PLA_Proj_Type82GrenadeCE.label>82式破片手榴弹</PLA_Proj_Type82GrenadeCE.label>
+
   <Ammo_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Ammo_30x165mm_APFSDS.label>
 
   <Bullet_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Bullet_30x165mm_APFSDS.label>

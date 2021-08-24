@@ -166,4 +166,7 @@
   <PLA_Type67StickGrenade.label>67式木柄手雷</PLA_Type67StickGrenade.label>
   <PLA_Type67StickGrenade.description>老式的木柄手榴弹。威力比普通手榴弹小，但扔得更远。</PLA_Type67StickGrenade.description>
 
+  <PLA_Type82Grenade.label>82式破片手雷</PLA_Type82Grenade.label>
+  <PLA_Type82Grenade.description>解放军的卵形破片手榴弹。</PLA_Type82Grenade.description>
+
 </LanguageData>
