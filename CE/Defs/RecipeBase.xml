@@ -4,5 +4,6 @@
 		<recipeUsers>
 			<li>PLA_TableAssembly</li>
 		</recipeUsers>
+		<researchPrerequisite>Machining</researchPrerequisite>
   </RecipeDef>
 </Defs>
