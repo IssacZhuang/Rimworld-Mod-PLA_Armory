@@ -238,7 +238,6 @@
             <minRange>3</minRange>
             <warmupTime>0.9</warmupTime>
             <soundCast>ThrowGrenade</soundCast>
-            <noiseRadius>2</noiseRadius>
             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
             <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
             <onlyManualCast>true</onlyManualCast>
