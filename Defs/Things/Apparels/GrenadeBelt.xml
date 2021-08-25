@@ -189,7 +189,7 @@
             </li>
         </verbs>
         <costList>
-            <PLA_Type67StickGrenade>1</PLA_Type67StickGrenade>
+            <PLA_Type82Grenade>1</PLA_Type82Grenade>
         </costList>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_Display_Type82GrenadeBelt</texPath>
