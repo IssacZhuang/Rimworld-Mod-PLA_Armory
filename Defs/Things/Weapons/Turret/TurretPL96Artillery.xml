@@ -3,7 +3,7 @@
     <ThingDef ParentName="PLA_ArtilleryBuildingBase">
         <defName>PLA_Turret_PLA96Howitzer</defName>
         <label>PL-96 Howitzer</label>
-        <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
+        <description>A howitzer that can launch the guided shell. Lobs shells over walls. Very accurate and long-ranged.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Things/Building/PLA_HugeArtilleryBase</texPath>
