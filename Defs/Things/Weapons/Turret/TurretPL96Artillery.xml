@@ -25,7 +25,7 @@
                 <outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
                 <fuelFilter>
                     <thingDefs>
-                        <li>PLA_122mmHowitzerShell_HE</li>
+                        <li>PLA_122mmGuidedHowitzerShell_HE</li>
                     </thingDefs>
                 </fuelFilter>
                 <fuelCapacity>3</fuelCapacity>
@@ -40,8 +40,8 @@
             </li>
         </comps>
         <costList>
-            <Steel>320</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
+            <Steel>620</Steel>
+            <ComponentIndustrial>12</ComponentIndustrial>
         </costList>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <building>
@@ -69,11 +69,11 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
                 <warmupTime>6.0</warmupTime>
-                <forcedMissRadius>4</forcedMissRadius>
+                <forcedMissRadius>0.3</forcedMissRadius>
                 <requireLineOfSight>false</requireLineOfSight>
                 <minRange>25</minRange>
                 <range>500</range>
-                <defaultProjectile>PLA_HighExplosive_122mmHowitzerShell</defaultProjectile>
+                <defaultProjectile>PLA_HighExplosive_122mmGuidedHowitzerShell</defaultProjectile>
                 <soundCast>PLA_SoundPL96</soundCast>
                 <muzzleFlashScale>42</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="MakeableShellBase">
-        <defName>PLA_122mmHowitzerShell_HE</defName>
-        <label>122mm Howitzer Shell</label>
-        <description>A shell filled with high explosives. Can be fired from PL-96 howitzer.</description>
+        <defName>PLA_122mmGuidedHowitzerShell_HE</defName>
+        <label>122mm Guided Howitzer Shell</label>
+        <description>A guided artillery, very accurate at long range. Can be fired from PL-96 howitzer.</description>
         <graphicData>
           <texPath>Things/Item/122mmHowitzerShell</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
@@ -19,8 +19,9 @@
         </comps>
         <projectileWhenLoaded>PLA_HighExplosive_122mmHowitzerShell</projectileWhenLoaded>
         <costList>
-            <Steel>34</Steel>
-            <Chemfuel>32</Chemfuel>
+            <Steel>73</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Chemfuel>56</Chemfuel>
         </costList>
         <researchPrerequisites>
           <li>Mortars</li>
@@ -29,8 +30,8 @@
       </ThingDef>
       
       <ThingDef ParentName="BaseBullet">
-        <defName>PLA_HighExplosive_122mmHowitzerShell</defName>
-        <label>high-explosive howitzer shell</label>
+        <defName>PLA_HighExplosive_122mmGuidedHowitzerShell</defName>
+        <label>high-explosive guided howitzer shell</label>
         <graphicData>
           <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
           <graphicClass>Graphic_Single</graphicClass>

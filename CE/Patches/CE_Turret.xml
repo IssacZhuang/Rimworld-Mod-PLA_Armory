@@ -350,6 +350,81 @@
         </weaponTags>
     </Operation>
 
+    <!-- PL-96 Rocket-->
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Turret_PLA96Howitzer"]/comps</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "PLA_Turret_PLA96Howitzer"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Mortars</li>
+                <li>CE_AdvancedLaunchers</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_Artillery_PL96Howitzer"]</xpath>
+        <value>
+            <statBases>
+                <SightsEfficiency>2.7</SightsEfficiency>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_Artillery_PL96Howitzer"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>30</li>
+                    <li>50</li>
+                    <li>70</li>
+                    <li>90</li>
+                </chargeSpeeds>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>3</magazineSize>
+                <reloadTime>12</reloadTime>
+                <ammoSet>AmmoSet_122mmGuidedHowitzerShell</ammoSet>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "PLA_122mmGuidedHowitzerShell_HE"]</xpath>
+    </Operation>
+
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_Artillery_PL96Howitzer</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_122mmGuidedHowitzerShell_HE</defaultProjectile>
+            <warmupTime>5.8</warmupTime>
+            <minRange>32</minRange>
+            <range>700</range>
+            <soundCast>PLA_SoundPL96</soundCast>
+            <muzzleFlashScale>42</muzzleFlashScale>
+            <circularError>0</circularError>
+            <indirectFirePenalty>0</indirectFirePenalty>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+        <weaponTags>
+            <li>TurretGun</li>
+        </weaponTags>
+    </Operation>
+
 
     <!--H/PJ 11-->
 
