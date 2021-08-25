@@ -38,8 +38,10 @@
   <PLA_Proj_Type67StickGrenadeCE.label>67式木柄手榴弹</PLA_Proj_Type67StickGrenadeCE.label>
   <PLA_Proj_Type82GrenadeCE.label>82式破片手榴弹</PLA_Proj_Type82GrenadeCE.label>
 
-  <Ammo_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Ammo_30x165mm_APFSDS.label>
+  <Ammo_122mmGuidedHowitzerShell_HE.label>122mm末段制导炮弹 (高爆)</Ammo_122mmGuidedHowitzerShell_HE.label>
+  <Bullet_122mmGuidedHowitzerShell_HE.label>122mm末段制导炮弹 (高爆)</Bullet_122mmGuidedHowitzerShell_HE.label>
 
+  <Ammo_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Ammo_30x165mm_APFSDS.label>
   <Bullet_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Bullet_30x165mm_APFSDS.label>
 
 </LanguageData>

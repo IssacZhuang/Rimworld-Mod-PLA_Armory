@@ -2,4 +2,7 @@
 <LanguageData>
     <PLA_107mmRocket_HE.label>107mm火箭弹</PLA_107mmRocket_HE.label>
     <PLA_107mmRocket_HE.description>一种高爆火箭弹，可以在63式火箭炮上发射</PLA_107mmRocket_HE.description>
+
+    <PLA_122mmGuidedHowitzerShell_HE.label>122mm末段制导炮弹</PLA_122mmGuidedHowitzerShell_HE.label>
+    <PLA_122mmGuidedHowitzerShell_HE.description>一种末段制导炮弹，可以在飞行下落的过程中调整自己的轨迹，从而精准地击中目标。</PLA_122mmGuidedHowitzerShell_HE.description>
 </LanguageData>

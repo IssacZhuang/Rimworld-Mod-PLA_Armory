@@ -2,4 +2,69 @@
 <LanguageData>
     <PLA_TableAssembly.label>解放军加工台</PLA_TableAssembly.label>
     <PLA_TableAssembly.description>用于组装解放军武器的工作台。</PLA_TableAssembly.description>
+
+    <!-- Secuirity-->
+
+    <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
+  <PLA_Turret85HMG.description>装在三脚架上的85式重机枪，火力强大。需要有人控制。</PLA_Turret85HMG.description>
+  <PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
+  <PLA_Gun85HMG.description>解放军的自动榴弹发射器（放置在三脚架上的）。</PLA_Gun85HMG.description>
+
+  <PLA_AutoTurret85HMG.label>85式自动重机枪炮塔</PLA_AutoTurret85HMG.label>
+  <PLA_AutoTurret85HMG.description>装在三脚架上的85式重机枪，由电脑操控。</PLA_AutoTurret85HMG.description>
+  <PLA_AutoTurret85HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_AutoTurret85HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_AutoTurret85HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_AutoTurret85HMG.comps.CompRefuelable.fuelLabel>
+  <PLA_AutoTurret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_AutoTurret85HMG.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_AutoGun85HMG.label>85式重机枪</PLA_AutoGun85HMG.label>
+  <PLA_AutoGun85HMG.description>解放军的自动榴弹发射器（放置在自动炮塔上）。</PLA_AutoGun85HMG.description>
+
+  <PLA_Turret04GrenadeLauncher.label>04式榴弹发射器炮塔</PLA_Turret04GrenadeLauncher.label>
+  <PLA_Turret04GrenadeLauncher.description>装在三脚架上的04式榴弹发射器，火力强大。需要有人控制。</PLA_Turret04GrenadeLauncher.description>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret04GrenadeLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret04GrenadeLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Gun04GrenadeLauncher.label>04式自动榴弹发射器</PLA_Gun04GrenadeLauncher.label>
+  <PLA_Gun04GrenadeLauncher.description>解放军的自动榴弹发射器（放置在三脚架上的）。</PLA_Gun04GrenadeLauncher.description>
+
+  <PLA_TurretPF98RocketLauncher.label>98式反坦克导弹炮塔</PLA_TurretPF98RocketLauncher.label>
+  <PLA_TurretPF98RocketLauncher.description>装在三脚架上的98反坦克导弹，比手持时更方便瞄准和控制。</PLA_TurretPF98RocketLauncher.description>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelLabel>射击直到更换炮管</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretPF98RocketLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换炮管</PLA_TurretPF98RocketLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_MountedPF98RocketLauncher.label>98式火箭筒</PLA_MountedPF98RocketLauncher.label>
+  <PLA_MountedPF98RocketLauncher.description>解放军的反坦克火箭筒（放置在三脚架上的）。</PLA_MountedPF98RocketLauncher.description>
+
+  <PLA_Turret_Type63RocketLauncher.label>63式火箭炮</PLA_Turret_Type63RocketLauncher.label>
+  <PLA_Turret_Type63RocketLauncher.description>12管火箭炮，发射107mm火箭弹。射程很长，火箭弹可以飞跃墙壁，但准度不高。\n\n这个63式火箭炮是改造版，将轮式底座换成了固定底座。</PLA_Turret_Type63RocketLauncher.description>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要火箭弹</PLA_Turret_Type63RocketLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Artillery_Type63RocketLauncher.label>107mm火箭炮</PLA_Artillery_Type63RocketLauncher.label>
+  <PLA_Artillery_Type63RocketLauncher.description>12管火箭炮。（在炮塔上的）</PLA_Artillery_Type63RocketLauncher.description>
+
+  <PLA_Turret_PLA96Howitzer.label>PL-96榴弹炮</PLA_Turret_PLA96Howitzer.label>
+  <PLA_Turret_PLA96Howitzer.description>解放军的牵引式火炮，配合北斗卫星定位系统和末段制导炮弹，准度非常高。</PLA_Turret_PLA96Howitzer.description>
+  <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelGizmoLabel>炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelLabel>炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelLabel>
+  <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_Artillery_PL96Howitzer.label>122mm榴弹炮</PLA_Artillery_PL96Howitzer.label>
+  <PLA_Artillery_PL96Howitzer.description>122mm榴弹炮，发射末段制导炮弹。（在炮塔上的）</PLA_Artillery_PL96Howitzer.description>
+
+  <PLA_TurretHPJ11NavalGun.label>H/PJ-11近防炮</PLA_TurretHPJ11NavalGun.label>
+  <PLA_TurretHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_TurretHPJ11NavalGun.description>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_GunHPJ11NavalGun.label>H/PJ-11近防炮</PLA_GunHPJ11NavalGun.label>
+  <PLA_GunHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_GunHPJ11NavalGun.description>
 </LanguageData>
