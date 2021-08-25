@@ -51,7 +51,7 @@
   <PLA_Artillery_Type63RocketLauncher.description>12管火箭炮。（在炮塔上的）</PLA_Artillery_Type63RocketLauncher.description>
 
   <PLA_Turret_PLA96Howitzer.label>PL-96榴弹炮</PLA_Turret_PLA96Howitzer.label>
-  <PLA_Turret_PLA96Howitzer.description>解放军的牵引式火炮，配合北斗卫星定位系统和末段制导炮弹，准度非常高。</PLA_Turret_PLA96Howitzer.description>
+  <PLA_Turret_PLA96Howitzer.description>解放军的牵引式火炮，附带北斗卫星定位系统和末段制导炮弹，准度非常高。</PLA_Turret_PLA96Howitzer.description>
   <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelGizmoLabel>炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelGizmoLabel>
   <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelLabel>炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.fuelLabel>
   <PLA_Turret_PLA96Howitzer.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要炮弹</PLA_Turret_PLA96Howitzer.comps.CompRefuelable.outOfFuelMessage>
