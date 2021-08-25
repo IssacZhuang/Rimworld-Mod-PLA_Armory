@@ -17,7 +17,7 @@
             <wickTicks>30~60</wickTicks>
           </li>
         </comps>
-        <projectileWhenLoaded>PLA_HighExplosive_122mmHowitzerShell</projectileWhenLoaded>
+        <projectileWhenLoaded>PLA_HighExplosive_122mmGuidedHowitzerShell</projectileWhenLoaded>
         <costList>
             <Steel>73</Steel>
             <ComponentIndustrial>6</ComponentIndustrial>
