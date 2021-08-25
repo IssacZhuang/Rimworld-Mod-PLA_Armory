@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="PLA_ArtilleryBuildingBase">
-        <defName>PLA_Turret_Type63RocketLauncher</defName>
-        <label>Type 63 Rocket Launcher</label>
+        <defName>PLA_Turret_PLA96Howitzer</defName>
+        <label>PL-96 Howitzer</label>
         <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Building/PLA_MediumRocketLauncherBase</texPath>
-            <drawSize>(2.8,2.8)</drawSize>
+            <texPath>Things/Building/PLA_HugeArtilleryBase</texPath>
+            <drawSize>(5,5)</drawSize>
             <damageData>
-                <rect>(0.38,0.2,0.56375,0.8)</rect>
-                <cornerTL>Damage/Corner</cornerTL>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
             </damageData>
-            <shadowData>
-                <offset>(-0.13,-0.87,-0.1)</offset>
-                <volume>(0.5,0.4,1.05)</volume>
-            </shadowData>
         </graphicData>
-        <size>(2,2)</size>
+        <size>(5,5)</size>
         <comps>
             <li Class="CompProperties_Explosive">
                 <wickTicks>240</wickTicks>
@@ -30,10 +25,10 @@
                 <outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
                 <fuelFilter>
                     <thingDefs>
-                        <li>PLA_107mmRocket_HE</li>
+                        <li>PLA_122mmHowitzerShell_HE</li>
                     </thingDefs>
                 </fuelFilter>
-                <fuelCapacity>12</fuelCapacity>
+                <fuelCapacity>3</fuelCapacity>
                 <fuelMultiplier>1</fuelMultiplier>
                 <initialFuelPercent>0</initialFuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
@@ -41,7 +36,7 @@
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
                 <autoRefuelPercent>1</autoRefuelPercent>
-                <fuelIconPath>Things/Item/107mmRocket/107mmRocket_a</fuelIconPath>
+                <fuelIconPath>Things/Item/122mmHowitzerShell/122mmHowitzerShell_a</fuelIconPath>
             </li>
         </comps>
         <costList>
@@ -50,24 +45,23 @@
         </costList>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <building>
-            <turretGunDef>PLA_Artillery_Type63RocketLauncher</turretGunDef>
-            <turretTopDrawSize>2.8</turretTopDrawSize>
+            <turretGunDef>PLA_Artillery_PL96Howitzer</turretGunDef>
+            <turretTopDrawSize>6.25</turretTopDrawSize>
         </building>
-        <rotatable>false</rotatable>
         <researchPrerequisites>
             <li>Mortars</li>
             <li>MultibarrelWeapons</li>
         </researchPrerequisites>
-        <uiIconPath>Things/Building/Turret63RocketLauncher</uiIconPath>
-        <uiIconScale>1.2</uiIconScale>
+        <uiIconPath>Things/Building/Icon_PL96</uiIconPath>
+        <uiIconScale>1</uiIconScale>
     </ThingDef>
 
     <ThingDef ParentName="BaseArtilleryWeapon">
-        <defName>PLA_Artillery_Type63RocketLauncher</defName>
+        <defName>PLA_Artillery_PL96Howitzer</defName>
         <label>107mm rocket launcher</label>
         <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
         <graphicData>
-            <texPath>Things/Building/Type63RocketLauncher</texPath>
+            <texPath>Things/Building/PL96</texPath>
         </graphicData>
         <comps></comps>
         <verbs>
@@ -75,15 +69,13 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
                 <warmupTime>6.0</warmupTime>
-                <forcedMissRadius>15</forcedMissRadius>
+                <forcedMissRadius>4</forcedMissRadius>
                 <requireLineOfSight>false</requireLineOfSight>
                 <minRange>25</minRange>
                 <range>500</range>
-                <defaultProjectile>PLA_HighExplosive_107mmRocket</defaultProjectile>
-                <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
-                <burstShotCount>12</burstShotCount>
-                <soundCast>PLA_SoundPF98</soundCast>
-                <muzzleFlashScale>28</muzzleFlashScale>
+                <defaultProjectile>PLA_HighExplosive_122mmHowitzerShell</defaultProjectile>
+                <soundCast>PLA_SoundPL96</soundCast>
+                <muzzleFlashScale>42</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>

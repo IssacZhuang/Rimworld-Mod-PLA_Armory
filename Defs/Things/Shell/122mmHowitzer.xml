@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="MakeableShellBase">
+        <defName>PLA_122mmHowitzerShell_HE</defName>
+        <label>122mm Howitzer Shell</label>
+        <description>A shell filled with high explosives. Can be fired from PL-96 howitzer.</description>
+        <graphicData>
+          <texPath>Things/Item/122mmHowitzerShell</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <explosiveRadius>3.5</explosiveRadius>
+            <explosiveDamageType>Bomb</explosiveDamageType>
+            <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+            <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+            <wickTicks>30~60</wickTicks>
+          </li>
+        </comps>
+        <projectileWhenLoaded>PLA_HighExplosive_122mmHowitzerShell</projectileWhenLoaded>
+        <costList>
+            <Steel>34</Steel>
+            <Chemfuel>32</Chemfuel>
+        </costList>
+        <researchPrerequisites>
+          <li>Mortars</li>
+          <li>MultibarrelWeapons</li>
+        </researchPrerequisites>
+      </ThingDef>
+      
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_HighExplosive_122mmHowitzerShell</defName>
+        <label>high-explosive howitzer shell</label>
+        <graphicData>
+          <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+          <damageDef>Bomb</damageDef>
+          <damageAmountBase>127</damageAmountBase>
+          <armorPenetrationBase>0.75</armorPenetrationBase>
+          <!-- damage amount is the damage def default -->
+          <speed>85</speed>
+          <explosionRadius>5</explosionRadius>
+          <flyOverhead>true</flyOverhead>
+          <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+          <soundExplode>MortarBomb_Explode</soundExplode>
+          <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+          <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+      </ThingDef>
+</Defs>
