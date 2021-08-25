@@ -150,7 +150,7 @@
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
-        <recipeUsers>
+        <recipeUsers Inherit = "False">
           <li>PLA_TableAssembly</li>
         </recipeUsers>
         <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
@@ -164,7 +164,7 @@
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
-        <recipeUsers>
+        <recipeUsers Inherit = "False">
           <li>PLA_TableAssembly</li>
         </recipeUsers>
         <researchPrerequisite>Machining</researchPrerequisite>

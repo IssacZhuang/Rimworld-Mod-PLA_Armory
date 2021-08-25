@@ -14,7 +14,7 @@
           <explosionDelay>60</explosionDelay>
           <soundExplode>MortarBomb_Explode</soundExplode>
           <flyOverhead>true</flyOverhead>
-          <dropsCasings>true</dropsCasings>
+          <dropsCasings>false</dropsCasings>
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
           <speed>5</speed>
         </projectile>
@@ -34,7 +34,7 @@
           <explosionDelay>45</explosionDelay>
           <soundExplode>MortarBomb_Explode</soundExplode>
           <flyOverhead>true</flyOverhead>
-          <dropsCasings>true</dropsCasings>
+          <dropsCasings>false</dropsCasings>
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
           <speed>5</speed>
         </projectile>
