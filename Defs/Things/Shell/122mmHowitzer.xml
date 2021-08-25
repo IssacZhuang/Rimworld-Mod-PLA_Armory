@@ -5,7 +5,7 @@
         <label>122mm Guided Howitzer Shell</label>
         <description>A guided artillery shell, it can navigate automatically when launched, very accurate at long range. Can be fired from PL-96 howitzer.</description>
         <graphicData>
-          <texPath>Things/Item/122mmHowitzerShell</texPath>
+          <texPath>Things/Item/122mmGuidedShell</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <comps>
@@ -33,7 +33,7 @@
         <defName>PLA_HighExplosive_122mmGuidedHowitzerShell</defName>
         <label>high-explosive guided howitzer shell</label>
         <graphicData>
-          <texPath>Things/Projectile/120mmRocketThermobaric</texPath>
+          <texPath>Things/Projectile/122mmGuidedShell</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <shaderType>TransparentPostLight</shaderType>
         </graphicData>
