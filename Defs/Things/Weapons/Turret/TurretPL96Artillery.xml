@@ -50,7 +50,7 @@
         </building>
         <researchPrerequisites>
             <li>Mortars</li>
-            <li>MultibarrelWeapons</li>
+            <li>Fabrication</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/Icon_PL96</uiIconPath>
         <uiIconScale>1</uiIconScale>

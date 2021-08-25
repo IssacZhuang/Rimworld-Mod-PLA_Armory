@@ -33,8 +33,8 @@
 		</tradeTags>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<Mass>39.7</Mass>
-			<Bulk>42.67</Bulk>
+			<Mass>49.7</Mass>
+			<Bulk>53.67</Bulk>
 		</statBases>
 		<cookOffFlashScale>40</cookOffFlashScale>
 		<cookOffSound>MortarBomb_Explode</cookOffSound>
@@ -106,10 +106,10 @@
 		<label>make 122mm HE Howitzer shells x3</label>
 		<description>Craft 3 122mm HE Howitzer shells.</description>
 		<jobString>Making 122mm HE Howitzer shells.</jobString>
-		<workAmount>15400</workAmount>
-		<recipeUsers>
+		<workAmount>35400</workAmount>
+		<!--recipeUsers Inherit = "False">
 			<li>FabricationBench</li>
-		</recipeUsers>
+		</recipeUsers-->
 		<ingredients>
 			<li>
 				<filter>

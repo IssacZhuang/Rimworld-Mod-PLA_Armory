@@ -356,7 +356,7 @@
         <xpath>Defs/ThingDef[defName="PLA_Turret_PLA96Howitzer"]/comps</xpath>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
+    <!--Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName = "PLA_Turret_PLA96Howitzer"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
@@ -364,7 +364,7 @@
                 <li>CE_AdvancedLaunchers</li>
             </researchPrerequisites>
         </value>
-    </Operation>
+    </Operation-->
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName = "PLA_Artillery_PL96Howitzer"]</xpath>

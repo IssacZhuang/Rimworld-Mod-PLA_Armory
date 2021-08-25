@@ -25,7 +25,7 @@
         </costList>
         <researchPrerequisites>
           <li>Mortars</li>
-          <li>MultibarrelWeapons</li>
+          <li>Fabrication</li>
         </researchPrerequisites>
       </ThingDef>
       
@@ -40,7 +40,7 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
           <damageDef>Bomb</damageDef>
-          <damageAmountBase>127</damageAmountBase>
+          <damageAmountBase>224</damageAmountBase>
           <armorPenetrationBase>0.75</armorPenetrationBase>
           <!-- damage amount is the damage def default -->
           <speed>85</speed>
