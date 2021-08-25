@@ -8,6 +8,9 @@
           <texPath>Things/Item/122mmGuidedShell</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
+        <statBases>
+          <WorkToMake>8000</WorkToMake>
+        </statBases>
         <comps>
           <li Class="CompProperties_Explosive">
             <explosiveRadius>3.5</explosiveRadius>
