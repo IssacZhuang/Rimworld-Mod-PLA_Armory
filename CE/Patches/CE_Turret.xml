@@ -402,6 +402,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_Artillery_PL96Howitzer</defName>
         <statBases>
+            <SwayFactor>0</SwayFactor>
             <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
         </statBases>
         <Properties>
