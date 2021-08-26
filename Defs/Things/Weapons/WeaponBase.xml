@@ -137,6 +137,7 @@
             <li>RewardStandardMidFreq</li>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
+        <weaponTags Inherit = "False"></weaponTags>
         <recipeMaker>
           <recipeUsers Inherit = "False">
           <li>PLA_TableAssembly</li>
@@ -145,6 +146,7 @@
     </ThingDef>
 
     <ThingDef Name="PLA_BaseGunSingleUse" ParentName="BaseGun" Abstract="True">
+      <weaponTags Inherit = "False"></weaponTags>
       <recipeMaker>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
