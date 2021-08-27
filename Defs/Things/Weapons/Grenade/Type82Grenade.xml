@@ -41,6 +41,7 @@
             </targetParams>
             <defaultProjectile>PLA_Proj_Type82Grenade</defaultProjectile>
             <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            <requireLineOfSight>false</requireLineOfSight>
             <onlyManualCast>true</onlyManualCast>
           </li>
         </verbs>
