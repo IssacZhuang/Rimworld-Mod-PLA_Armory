@@ -29,9 +29,9 @@
   <PLA_StickGrenadeBelt.verbs.throw_stick_grenade.label>投掷木柄手雷</PLA_StickGrenadeBelt.verbs.throw_stick_grenade.label>
 
   <PLA_FragGrenadeBelt.label>82式破片手雷腰带</PLA_FragGrenadeBelt.label>
-  <PLA_FragGrenadeBelt.description>别在腰带上的67式木柄手雷。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。可使用67式木柄手雷补充弹药。</PLA_FragGrenadeBelt.description>
+  <PLA_FragGrenadeBelt.description>别在腰带上的82式破片手雷。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。可使用82式破片手雷补充弹药。</PLA_FragGrenadeBelt.description>
   <PLA_FragGrenadeBelt.comps.CompReloadable.chargeNoun>手雷</PLA_FragGrenadeBelt.comps.CompReloadable.chargeNoun>
   <!-- EN: throw frag grenade -->
-  <PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>投掷木柄手雷</PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>
+  <PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>投掷破片s手雷</PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>
 
 </LanguageData>

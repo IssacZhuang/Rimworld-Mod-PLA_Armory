@@ -15,6 +15,7 @@
       <WorkToMake>550</WorkToMake>
       <Nutrition>1.0</Nutrition>
     </statBases>
+    <tradeability>Buyable</tradeability>
     <ingestible>
       <preferability>MealFine</preferability>
       <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
