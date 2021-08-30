@@ -13,7 +13,7 @@
         </statBases>
         <comps>
           <li Class="CompProperties_Explosive">
-            <explosiveRadius>3.5</explosiveRadius>
+            <explosiveRadius>4</explosiveRadius>
             <explosiveDamageType>Bomb</explosiveDamageType>
             <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
             <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
@@ -23,7 +23,7 @@
         <projectileWhenLoaded>PLA_HighExplosive_122mmGuidedHowitzerShell</projectileWhenLoaded>
         <costList>
             <Steel>73</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentIndustrial>3</ComponentIndustrial>
             <Chemfuel>56</Chemfuel>
         </costList>
         <researchPrerequisites>
