@@ -174,4 +174,21 @@
       </recipeMaker>
     </ThingDef>
 
+    <ThingDef Name="PLA_BaseMeleeWeapon" ParentName="BaseMeleeWeapon" Abstract="True">
+      <recipeMaker>
+        <defaultIngredientFilter>
+          <categories>
+            <li>Root</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Silver</li>
+            <li>Gold</li>
+            <li>WoodLog</li>
+          </disallowedThingDefs>
+        </defaultIngredientFilter>
+        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        <soundWorking>Recipe_Smith</soundWorking>
+      </recipeMaker>
+    </ThingDef>
+
 </Defs>

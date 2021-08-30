@@ -5,8 +5,8 @@
         <label>PL-96 Howitzer</label>
         <description>A howitzer that can launch the guided shell. Lobs shells over walls. Very accurate and long-ranged.</description>
         <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
             <texPath>Things/Building/PLA_HugeArtilleryBase</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(5,5)</drawSize>
             <damageData>
                 <rect>(0.2,0.2,0.6,0.6)</rect>
@@ -48,7 +48,7 @@
             <turretGunDef>PLA_Artillery_PL96Howitzer</turretGunDef>
             <turretTopDrawSize>6.25</turretTopDrawSize>
         </building>
-        <rotatable>false</rotatable>
+        <rotatable>true</rotatable>
         <researchPrerequisites>
             <li>Mortars</li>
             <li>Fabrication</li>
