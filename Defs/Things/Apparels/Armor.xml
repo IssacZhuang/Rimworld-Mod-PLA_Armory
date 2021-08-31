@@ -26,7 +26,7 @@
             <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.43</ArmorRating_Heat>
-            <Insulation_Cold>12.8</Insulation_Cold>
+            <Insulation_Cold>42.8</Insulation_Cold>
             <Insulation_Heat>15.3</Insulation_Heat>
             <Mass>4</Mass>
             <EquipDelay>1.5</EquipDelay>
@@ -42,6 +42,7 @@
             <Steel>60</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
             <Plasteel>20</Plasteel>
+            <Cloth>40</Cloth>
         </costList>
         <equippedStatOffsets>
             <MoveSpeed>-0.1</MoveSpeed>
@@ -55,6 +56,7 @@
             </bodyPartGroups>
             <layers>
                 <li>Middle</li>
+                <li>Shell</li>
             </layers>
             <tags Inherit = "False">
                 <li>PLA_BodyArmor</li>
