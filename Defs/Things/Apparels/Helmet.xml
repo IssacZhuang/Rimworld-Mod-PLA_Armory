@@ -18,14 +18,9 @@
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FlakArmor</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>PLA_TableAssembly</li>
-            </recipeUsers>
-            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
             <Steel>40</Steel>

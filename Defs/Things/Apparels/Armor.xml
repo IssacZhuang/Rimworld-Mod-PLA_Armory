@@ -8,9 +8,10 @@
           <effectWorking>Smith</effectWorking>
           <soundWorking>Recipe_Machining</soundWorking>
           <recipeUsers>
-            <li>TableMachining</li>
+            <li>PLA_TableAssembly</li>
           </recipeUsers>
-          <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+          <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+          <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
       </ThingDef>
 
@@ -33,14 +34,9 @@
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FlakArmor</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>PLA_TableAssembly</li>
-            </recipeUsers>
-            <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
             <Steel>60</Steel>
