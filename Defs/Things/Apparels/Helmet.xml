@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef Name="PLA_HelmetBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <ThingDef Name="PLA_HelmetBase" ParentName="PLA_ArmorMachineableBase" Abstract="True">
         <thingCategories>
             <li>PLA_Apparel</li>
         </thingCategories>

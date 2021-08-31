@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef Name="PLA_ArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <ThingDef Name="PLA_ArmorMachineableBase" ParentName="ApparelBase" Abstract="True">
+        <recipeMaker>
+          <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+          <workSkill>Crafting</workSkill>
+          <effectWorking>Smith</effectWorking>
+          <soundWorking>Recipe_Machining</soundWorking>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+      </ThingDef>
+
+    <ThingDef Name="PLA_ArmorBase" ParentName="PLA_ArmorMachineableBase" Abstract="True">
         <thingCategories>
             <li>PLA_Apparel</li>
         </thingCategories>

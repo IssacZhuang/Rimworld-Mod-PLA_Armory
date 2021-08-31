@@ -11,7 +11,8 @@
         <xpath>/Defs/ThingDef[
         @Name="20mmProgrammableGrenadeBase" or
         @Name="107mmRocketBase" or
-        @Name="120mmRocketBase"
+        @Name="120mmRocketBase" or
+        @Name="122mmGuidedHowitzerShellBase"
         ]/tradeTags</xpath> 
         <value>
           <li>CE_AutoEnableCrafting_VFE_TableMachiningLarge</li>
