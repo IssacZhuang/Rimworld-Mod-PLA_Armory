@@ -109,6 +109,10 @@
   <PLA_PFEleven.description>人民解放军的一次性反坦克火箭。</PLA_PFEleven.description>
   <PLA_PFEleven.tools.0.label>炮管</PLA_PFEleven.tools.0.label>
 
+  <PLA_TypeEightyFourDagger.label>84式匕首</PLA_TypeEightyFourDagger.label>
+  <PLA_TypeEightyFourDagger.description>人民解放军的一种匕首，只能戳刺。</PLA_TypeEightyFourDagger.description>
+  <PLA_TypeEightyFourDagger.tools.0.label>刀剑</PLA_TypeEightyFourDagger.tools.0.label>
+
   <PLA_Type67StickGrenade.label>67式木柄手雷</PLA_Type67StickGrenade.label>
   <PLA_Type67StickGrenade.description>老式的木柄手榴弹。威力比普通手榴弹小，但扔得更远。</PLA_Type67StickGrenade.description>
 

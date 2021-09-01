@@ -174,7 +174,7 @@
       </recipeMaker>
     </ThingDef>
 
-    <ThingDef Name="PLA_BaseMeleeWeapon" ParentName="BaseMeleeWeapon" Abstract="True">
+    <ThingDef Name="PLA_BaseMeleeWeapon" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
       <recipeMaker>
         <defaultIngredientFilter>
           <categories>
