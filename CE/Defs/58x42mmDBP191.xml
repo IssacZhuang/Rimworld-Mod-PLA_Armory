@@ -54,7 +54,7 @@
 		</tradeTags>
 		<statBases>
 			<MarketValue>0.09</MarketValue>
-			<Mass>0.03</Mass>
+			<Mass>0.025</Mass>
 		</statBases>
 		<ammoClass>PLA_Composit_OneNineOne</ammoClass>
 		<cookOffProjectile>Bullet_58x42mmDBP191_APCR</cookOffProjectile>
