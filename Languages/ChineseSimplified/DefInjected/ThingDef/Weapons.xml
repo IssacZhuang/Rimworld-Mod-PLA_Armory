@@ -56,6 +56,11 @@
   <PLA_TypeEightyOne.tools.0.label>枪托</PLA_TypeEightyOne.tools.0.label>
   <PLA_TypeEightyOne.tools.1.label>枪管</PLA_TypeEightyOne.tools.1.label>
 
+  <PLA_TypeEightyOneLMG.label>81式轻机枪</PLA_TypeEightyOneLMG.label>
+  <PLA_TypeEightyOneLMG.description>解放军的经典轻机枪，基于81式突击步枪改造而来。</PLA_TypeEightyOneLMG.description>
+  <PLA_TypeEightyOneLMG.tools.0.label>枪托</PLA_TypeEightyOneLMG.tools.0.label>
+  <PLA_TypeEightyOneLMG.tools.1.label>枪管</PLA_TypeEightyOneLMG.tools.1.label>
+
   <PLA_QTSEleven.label>QTS-11单兵综合作战武器</PLA_QTSEleven.label>
   <PLA_QTSEleven.description>人民解放军的单兵综合作战武器，配备计算机瞄准系统，精确度极高。</PLA_QTSEleven.description>
   <PLA_QTSEleven.tools.0.label>枪托</PLA_QTSEleven.tools.0.label>
