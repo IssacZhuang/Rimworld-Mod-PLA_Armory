@@ -3,7 +3,7 @@
     <ThingDef ParentName="PLA_BaseMeleeWeapon">
         <defName>PLA_TypeEightyFourDagger</defName>
         <label>Type 84 Dagger</label>
-        <description>A light dagger of PLA.</description>
+        <description>A dagger of PLA. Can only stab the enemy.</description>
         <graphicData>
           <texPath>Things/Weapon/Type84Dagger</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -17,7 +17,7 @@
         <equippedAngleOffset>90</equippedAngleOffset>
         <statBases>
           <WorkToMake>2500</WorkToMake>
-          <Mass>0.5</Mass>
+          <Mass>0.4</Mass>
         </statBases>
         <stuffCategories>
           <li>Metallic</li>
