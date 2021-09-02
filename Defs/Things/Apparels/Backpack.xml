@@ -88,7 +88,7 @@
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
             <bodyPartGroups>
-                <li>Shoulders</li>
+                <li>Torso</li>
             </bodyPartGroups>
             <layers>
                 <li>Belt</li>
