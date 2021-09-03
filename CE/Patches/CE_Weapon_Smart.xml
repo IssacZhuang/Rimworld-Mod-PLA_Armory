@@ -54,7 +54,7 @@
                 <mainWeaponLabel>use rifle</mainWeaponLabel>
                 <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
                 <description>switch between rifle and grenade launcher</description>
-                <commandIcon>UI/UI_QTS11SwitchAmmo</commandIcon>
+                <commandIcon>UI/UI_SwitchAmmo</commandIcon>
             </li>
         </value>
     </Operation>
