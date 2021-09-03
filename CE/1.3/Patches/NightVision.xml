@@ -2,7 +2,7 @@
 <Patch>
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOne_Charged"]/statBases
+        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_QBZOneNineOne_Charged"]/statBases
                     </xpath>
         <value>
             <NightVisionEfficiency_Weapon>0.7</NightVisionEfficiency_Weapon>
