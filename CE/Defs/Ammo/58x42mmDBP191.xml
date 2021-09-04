@@ -79,7 +79,7 @@
 		<label>5.8mm DBP191 bullet (APCR)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>15</damageAmountBase>
-			<armorPenetrationSharp>22</armorPenetrationSharp>
+			<armorPenetrationSharp>21.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>34.2</armorPenetrationBlunt>
 			<speed>228</speed>
 		</projectile>
