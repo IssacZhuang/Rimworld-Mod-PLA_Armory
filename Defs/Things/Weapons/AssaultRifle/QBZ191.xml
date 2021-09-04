@@ -17,6 +17,9 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3</Mass>

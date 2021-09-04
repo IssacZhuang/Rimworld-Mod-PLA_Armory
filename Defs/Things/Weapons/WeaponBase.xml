@@ -135,7 +135,6 @@
         </thingCategories>
         <thingSetMakerTags Inherit = "False">
             <li>RewardStandardMidFreq</li>
-            <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags Inherit = "False"></weaponTags>
         <recipeMaker>
