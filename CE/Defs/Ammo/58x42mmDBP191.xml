@@ -122,7 +122,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-				<li>Uranium</li>
+				<li>Plasteel</li>
 				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
