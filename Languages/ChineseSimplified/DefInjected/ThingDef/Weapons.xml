@@ -6,6 +6,11 @@
   <PLA_QSZNinetyTwo.tools.0.label>握把</PLA_QSZNinetyTwo.tools.0.label>
   <PLA_QSZNinetyTwo.tools.1.label>枪管</PLA_QSZNinetyTwo.tools.1.label>
 
+  <PLA_TypeSeventyNine.label>79式冲锋枪</PLA_TypeSeventyNine.label>
+  <PLA_TypeSeventyNine.description>人民解放军的老式冲锋枪。</PLA_TypeSeventyNine.description>
+  <PLA_TypeSeventyNine.tools.0.label>枪托</PLA_TypeSeventyNine.tools.0.label>
+  <PLA_TypeSeventyNine.tools.1.label>枪管</PLA_TypeSeventyNine.tools.1.label>
+
   <PLA_QCWZeroFive.label>05式冲锋枪</PLA_QCWZeroFive.label>
   <PLA_QCWZeroFive.description>人民解放军的微声冲锋枪。</PLA_QCWZeroFive.description>
   <PLA_QCWZeroFive.tools.0.label>枪托</PLA_QCWZeroFive.tools.0.label>
