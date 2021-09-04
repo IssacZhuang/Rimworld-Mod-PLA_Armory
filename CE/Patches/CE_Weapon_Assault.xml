@@ -26,7 +26,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x21mmDAP92_FMJ</defaultProjectile>
             <warmupTime>0.6</warmupTime>
-            <range>16</range>
+            <range>25</range>
             <burstShotCount>8</burstShotCount>
             <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQCW05</soundCast>
@@ -67,7 +67,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
             <warmupTime>0.6</warmupTime>
-            <range>20</range>
+            <range>28</range>
             <burstShotCount>8</burstShotCount>
             <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQCQ171</soundCast>
