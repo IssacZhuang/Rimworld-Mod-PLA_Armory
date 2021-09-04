@@ -78,9 +78,9 @@
 		<defName>Bullet_58x42mmDBP191_APCR</defName>
 		<label>5.8mm DBP191 bullet (APCR)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>14</damageAmountBase>
-			<armorPenetrationSharp>24</armorPenetrationSharp>
-			<armorPenetrationBlunt>30</armorPenetrationBlunt>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationSharp>22</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.2</armorPenetrationBlunt>
 			<speed>228</speed>
 		</projectile>
 	</ThingDef>
@@ -108,7 +108,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>24</count>
+				<count>18</count>
 			</li>
 			<li>
 				<filter>
