@@ -40,6 +40,7 @@
             </layers>
             <tags Inherit = "False">
                 <li>PLA_Uniform</li>
+                <li>PLA_BasicCloth</li>
             </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
