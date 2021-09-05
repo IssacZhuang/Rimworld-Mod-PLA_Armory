@@ -114,7 +114,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath> /Defs/ThingDef[defName="PLA_QSZNinetyTwo"]/tools
+        <xpath> /Defs/ThingDef[defName="PLA_QSZNinetyTwo" or defName="PLA_TypeFiftyFour"]/tools
                     </xpath>
         <value>
             <tools>

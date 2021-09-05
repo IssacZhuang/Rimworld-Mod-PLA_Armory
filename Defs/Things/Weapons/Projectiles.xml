@@ -184,6 +184,22 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_Bullet_HandCannon</defName>
+    <label>autopistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Bullet_HMG</defName>
     <label>Anti material bullet</label>
     <graphicData>
