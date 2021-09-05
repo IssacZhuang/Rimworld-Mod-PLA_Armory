@@ -40,7 +40,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_HandCannon</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
-                <range>24</range>
+                <range>24.9</range>
                 <soundCast>PLA_SoundQSZ92</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
