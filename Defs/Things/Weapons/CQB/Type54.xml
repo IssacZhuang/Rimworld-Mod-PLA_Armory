@@ -7,7 +7,7 @@
         <label>Type 54 Pistol</label>
         <description>A semi-auto pistol</description>
         <graphicData>
-            <texPath>Things/Weapon/QSZ92</texPath>
+            <texPath>Things/Weapon/Type54</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.5</uiIconScale>
