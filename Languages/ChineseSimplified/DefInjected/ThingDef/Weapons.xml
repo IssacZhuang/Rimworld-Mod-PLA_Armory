@@ -6,6 +6,11 @@
   <PLA_QSZNinetyTwo.tools.0.label>握把</PLA_QSZNinetyTwo.tools.0.label>
   <PLA_QSZNinetyTwo.tools.1.label>枪管</PLA_QSZNinetyTwo.tools.1.label>
 
+  <PLA_TypeFiftyFour.label>54式手枪</PLA_TypeFiftyFour.label>
+  <PLA_TypeFiftyFour.description>人民解放军的老式半自动手枪，又叫54大黑星。</PLA_TypeFiftyFour.description>
+  <PLA_TypeFiftyFour.tools.0.label>握把</PLA_TypeFiftyFour.tools.0.label>
+  <PLA_TypeFiftyFour.tools.1.label>枪管</PLA_TypeFiftyFour.tools.1.label>
+
   <PLA_TypeSeventyNine.label>79式冲锋枪</PLA_TypeSeventyNine.label>
   <PLA_TypeSeventyNine.description>人民解放军的老式冲锋枪。</PLA_TypeSeventyNine.description>
   <PLA_TypeSeventyNine.tools.0.label>枪托</PLA_TypeSeventyNine.tools.0.label>
