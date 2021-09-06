@@ -139,7 +139,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_762x51mmDJP201_FMJ</defaultProjectile>
             <warmupTime>1.2</warmupTime>
-            <range>62</range>
+            <range>64</range>
             <burstShotCount>10</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQJY201</soundCast>
