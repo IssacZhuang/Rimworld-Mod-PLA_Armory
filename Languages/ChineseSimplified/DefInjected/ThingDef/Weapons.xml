@@ -12,7 +12,7 @@
   <PLA_TypeFiftyFour.tools.1.label>枪管</PLA_TypeFiftyFour.tools.1.label>
 
   <PLA_TypeSeventyNine.label>79式冲锋枪</PLA_TypeSeventyNine.label>
-  <PLA_TypeSeventyNine.description>人民解放军的老式冲锋枪。</PLA_TypeSeventyNine.description>
+  <PLA_TypeSeventyNine.description>人民解放军的老式冲锋枪，射速很快。由于弹匣容量小且子弹威力小，很早就从解放军退役了，但是武警部队仍然在使用这把枪。</PLA_TypeSeventyNine.description>
   <PLA_TypeSeventyNine.tools.0.label>枪托</PLA_TypeSeventyNine.tools.0.label>
   <PLA_TypeSeventyNine.tools.1.label>枪管</PLA_TypeSeventyNine.tools.1.label>
 
@@ -27,19 +27,24 @@
   <PLA_QCQOneSevenOne.tools.1.label>枪管</PLA_QCQOneSevenOne.tools.1.label>
 
   <PLA_QBZOneNineOne.label>191式突击步枪</PLA_QBZOneNineOne.label>
-  <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪。</PLA_QBZOneNineOne.description>
+  <PLA_QBZOneNineOne.description>人民解放军的新式突击步枪，使用了全新的工艺，膛线更多且膛压更高。射程和精度相比上一代步枪都有所提升。</PLA_QBZOneNineOne.description>
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
   <PLA_QBZOneNineOne.tools.1.label>枪管</PLA_QBZOneNineOne.tools.1.label>
 
   <PLA_QBZOneNineOneCarbine.label>191式卡宾枪</PLA_QBZOneNineOneCarbine.label>
-  <PLA_QBZOneNineOneCarbine.description>QBZ-191突击步枪的短枪管版本，适合中近距离作战。</PLA_QBZOneNineOneCarbine.description>
+  <PLA_QBZOneNineOneCarbine.description>QBZ-191突击步枪的短枪管版本，抬枪瞄准更快，适合中近距离作战。</PLA_QBZOneNineOneCarbine.description>
   <PLA_QBZOneNineOneCarbine.tools.0.label>枪托</PLA_QBZOneNineOneCarbine.tools.0.label>
   <PLA_QBZOneNineOneCarbine.tools.1.label>枪管</PLA_QBZOneNineOneCarbine.tools.1.label>
 
   <PLA_QJBTwoZeroOne.label>201式班用机枪</PLA_QJBTwoZeroOne.label>
-  <PLA_QJBTwoZeroOne.description>人民解放军的新式班用机枪。</PLA_QJBTwoZeroOne.description>
+  <PLA_QJBTwoZeroOne.description>人民解放军的新式班用机枪，发射小口径中间威力弹，射速很快火力强大。</PLA_QJBTwoZeroOne.description>
   <PLA_QJBTwoZeroOne.tools.0.label>枪托</PLA_QJBTwoZeroOne.tools.0.label>
   <PLA_QJBTwoZeroOne.tools.1.label>枪管</PLA_QJBTwoZeroOne.tools.1.label>
+
+  <PLA_QJYTwoZeroOne.label>201式通用机枪</PLA_QJYTwoZeroOne.label>
+  <PLA_QJYTwoZeroOne.description>人民解放军的新式通用机枪，结构与QJB-201班用机枪相似。发射中口径全威力弹，伤害比班用机枪更高，但是也更容易过热，所以持续射击能力不如201班用机枪。</PLA_QJYTwoZeroOne.description>
+  <PLA_QJYTwoZeroOne.tools.0.label>枪托</PLA_QJYTwoZeroOne.tools.0.label>
+  <PLA_QJYTwoZeroOne.tools.1.label>枪管</PLA_QJYTwoZeroOne.tools.1.label>
 
   <PLA_QBZOneNineOne_Charged.label>191式突击步枪-电荷改装</PLA_QBZOneNineOne_Charged.label>
   <PLA_QBZOneNineOne_Charged.description>QBZ-191的电荷弹改造版。</PLA_QBZOneNineOne_Charged.description>
@@ -47,12 +52,12 @@
   <PLA_QBZOneNineOne_Charged.tools.1.label>枪管</PLA_QBZOneNineOne_Charged.tools.1.label>
 
   <PLA_QBZNinetyFive.label>95-1式突击步枪</PLA_QBZNinetyFive.label>
-  <PLA_QBZNinetyFive.description>人民解放军的主力突击步枪。</PLA_QBZNinetyFive.description>
+  <PLA_QBZNinetyFive.description>人民解放军的主力突击步枪，采用无托结构，性能优秀且造价相对便宜。</PLA_QBZNinetyFive.description>
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
   <PLA_QBZNinetyFive.tools.1.label>枪管</PLA_QBZNinetyFive.tools.1.label>
 
   <PLA_QBZZeroThree.label>03式突击步枪</PLA_QBZZeroThree.label>
-  <PLA_QBZZeroThree.description>人民解放军的有托自动步枪。</PLA_QBZZeroThree.description>
+  <PLA_QBZZeroThree.description>人民解放军的自动步枪，采用了有托结构，枪身长度比95式步枪长但枪管更短。相比95式射击精度更高但是牺牲了一点射程。</PLA_QBZZeroThree.description>
   <PLA_QBZZeroThree.tools.0.label>枪托</PLA_QBZZeroThree.tools.0.label>
   <PLA_QBZZeroThree.tools.1.label>枪管</PLA_QBZZeroThree.tools.1.label>
 
@@ -62,17 +67,17 @@
   <PLA_TypeFiftyThree.tools.1.label>枪管</PLA_TypeFiftyThree.tools.1.label>
 
   <PLA_TypeSixtyThree.label>63式自动步枪</PLA_TypeSixtyThree.label>
-  <PLA_TypeSixtyThree.description>解放军的老式自动步枪。</PLA_TypeSixtyThree.description>
+  <PLA_TypeSixtyThree.description>解放军的老式自动步枪，属于解放军军工自主探索的早期产品，本质是一把加了弹匣可以连发的56半步枪。</PLA_TypeSixtyThree.description>
   <PLA_TypeSixtyThree.tools.0.label>枪托</PLA_TypeSixtyThree.tools.0.label>
   <PLA_TypeSixtyThree.tools.1.label>枪管</PLA_TypeSixtyThree.tools.1.label>
 
   <PLA_TypeEightyOne.label>81式突击步枪</PLA_TypeEightyOne.label>
-  <PLA_TypeEightyOne.description>解放军的经典突击步枪。外观上和AK有相似之处，但内部结构大不相同。</PLA_TypeEightyOne.description>
+  <PLA_TypeEightyOne.description>解放军的经典突击步枪，虽然只是自主研发路上的过渡产品，但是性能优秀。外观上和AK有相似之处，但内部结构大不相同。</PLA_TypeEightyOne.description>
   <PLA_TypeEightyOne.tools.0.label>枪托</PLA_TypeEightyOne.tools.0.label>
   <PLA_TypeEightyOne.tools.1.label>枪管</PLA_TypeEightyOne.tools.1.label>
 
   <PLA_TypeEightyOneLMG.label>81式轻机枪</PLA_TypeEightyOneLMG.label>
-  <PLA_TypeEightyOneLMG.description>解放军的经典轻机枪，基于81式突击步枪改造而来。</PLA_TypeEightyOneLMG.description>
+  <PLA_TypeEightyOneLMG.description>解放军的经典轻机枪，在81式步枪的基础上使用弹鼓供弹，并且增加了脚架和提把。</PLA_TypeEightyOneLMG.description>
   <PLA_TypeEightyOneLMG.tools.0.label>枪托</PLA_TypeEightyOneLMG.tools.0.label>
   <PLA_TypeEightyOneLMG.tools.1.label>枪管</PLA_TypeEightyOneLMG.tools.1.label>
 
@@ -82,7 +87,7 @@
   <PLA_QTSEleven.tools.1.label>枪管</PLA_QTSEleven.tools.1.label>
 
   <PLA_QBBNinetyFiveLSW.label>95式班用机枪</PLA_QBBNinetyFiveLSW.label>
-  <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪。</PLA_QBBNinetyFiveLSW.description>
+  <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪，基于95式步枪改造而来。</PLA_QBBNinetyFiveLSW.description>
   <PLA_QBBNinetyFiveLSW.tools.0.label>枪托</PLA_QBBNinetyFiveLSW.tools.0.label>
   <PLA_QBBNinetyFiveLSW.tools.1.label>枪管</PLA_QBBNinetyFiveLSW.tools.1.label>
 

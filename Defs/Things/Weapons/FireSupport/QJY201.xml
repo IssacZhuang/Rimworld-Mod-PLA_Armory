@@ -44,7 +44,7 @@
             <warmupTime>1.8</warmupTime>
             <range>32</range>
             <burstShotCount>7</burstShotCount>
-            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQJY201</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
