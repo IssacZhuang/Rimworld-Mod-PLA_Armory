@@ -82,7 +82,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJBTwoZeroOne</defName>
         <statBases>
-            <Mass>4.2</Mass>
+            <Mass>6.8</Mass>
             <Bulk>10</Bulk>
             <SwayFactor>1.1</SwayFactor>
             <ShotSpread>0.06</ShotSpread>
@@ -122,7 +122,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJYTwoZeroOne</defName>
         <statBases>
-            <Mass>5.4</Mass>
+            <Mass>7.4</Mass>
             <Bulk>11</Bulk>
             <SwayFactor>1.1</SwayFactor>
             <ShotSpread>0.05</ShotSpread>
