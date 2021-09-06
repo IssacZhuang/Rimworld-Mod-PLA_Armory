@@ -120,6 +120,46 @@
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QJYTwoZeroOne</defName>
+        <statBases>
+            <Mass>5.4</Mass>
+            <Bulk>11</Bulk>
+            <SwayFactor>1.1</SwayFactor>
+            <ShotSpread>0.05</ShotSpread>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>125</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <Properties>
+            <recoilAmount>0.9</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+            <warmupTime>1.2</warmupTime>
+            <range>62</range>
+            <burstShotCount>10</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQJY201</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>100</magazineSize>
+            <reloadTime>6.5</reloadTime>
+            <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>5</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJZOneSevenOne</defName>
         <statBases>
             <Mass>20.5</Mass>

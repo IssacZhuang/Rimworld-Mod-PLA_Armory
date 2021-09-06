@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QJYTwoZeroOne</defName>
+        <label>QJY-201 General Purpose Machine Gun</label>
+        <description>The new general purpose machine gun of People's Liberation Army.</description>
+        <graphicData>
+          <texPath>Things/Weapon/QJY201</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(1.15,1.15)</drawSize>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+          <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>6</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <thingSetMakerTags>
+          <li>RewardStandardQualitySuper</li>
+      </thingSetMakerTags>
+        <statBases>
+          <WorkToMake>35000</WorkToMake>
+          <Mass>5.2</Mass>
+          <AccuracyTouch>0.54</AccuracyTouch>
+          <AccuracyShort>0.56</AccuracyShort>
+          <AccuracyMedium>0.45</AccuracyMedium>
+          <AccuracyLong>0.32</AccuracyLong>
+          <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+          <Steel>130</Steel>
+          <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <weaponTags>
+          <li>PLA_LMG</li>
+          <li>PLA_AdvancedLMG</li>
+        </weaponTags>
+        <verbs>
+          <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PLA_Bullet_GPMG</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+            <range>32</range>
+            <burstShotCount>7</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQJY201</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+          </li>
+        </verbs>
+        <comps>
+          <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+          </li>
+        </comps>
+        <tools>
+          <li>
+            <label>stock</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+          <li>
+            <label>barrel</label>
+            <capacities>
+              <li>Blunt</li>
+              <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </ThingDef>
+</Defs>
