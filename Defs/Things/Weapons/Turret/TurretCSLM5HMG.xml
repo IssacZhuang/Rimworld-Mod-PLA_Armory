@@ -48,7 +48,7 @@
             <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
                 <shortCircuitInRain>false</shortCircuitInRain>
-                <basePowerConsumption>250</basePowerConsumption>
+                <basePowerConsumption>150</basePowerConsumption>
             </li>
         </comps>
         <costList>
@@ -72,7 +72,7 @@
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>PLA_GunCSLM5HMG</defName>
         <label>Type 85 heavy machine gun</label>
-        <description>An three-barrel machine gun(on the turret)</description>
+        <description>An three-barrel machine gun of PLA(on the turret)</description>
         <graphicData>
             <texPath>Things/Building/CSLM5HMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>

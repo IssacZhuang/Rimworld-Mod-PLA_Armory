@@ -12,7 +12,7 @@
   <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
-  <PLA_Gun85HMG.description>解放军的自动榴弹发射器（放置在三脚架上的）。</PLA_Gun85HMG.description>
+  <PLA_Gun85HMG.description>解放军的重机枪（放置在三脚架上的）。</PLA_Gun85HMG.description>
 
   <PLA_AutoTurret85HMG.label>85式自动重机枪炮塔</PLA_AutoTurret85HMG.label>
   <PLA_AutoTurret85HMG.description>装在三脚架上的85式重机枪，由电脑操控。</PLA_AutoTurret85HMG.description>
@@ -21,7 +21,16 @@
   <PLA_AutoTurret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_AutoTurret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_AutoGun85HMG.label>85式重机枪</PLA_AutoGun85HMG.label>
-  <PLA_AutoGun85HMG.description>解放军的自动榴弹发射器（放置在自动炮塔上）。</PLA_AutoGun85HMG.description>
+  <PLA_AutoGun85HMG.description>解放军的重机枪（放置在自动炮塔上）。</PLA_AutoGun85HMG.description>
+
+  <PLA_TurretCSLM5HMG.label>CS/LM5转管机枪炮塔</PLA_TurretCSLM5HMG.label>
+  <PLA_TurretCSLM5HMG.description>装在三脚架上的CS/LM5转管机枪，有三根枪管，发射大口径全威力弹，有极强的压制里。需要电源并且要有人控制。</PLA_TurretCSLM5HMG.description>
+  <PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretCSLM5HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_TurretCSLM5HMG.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_GunCSLM5HMG.label>CS/LM5转管机枪</PLA_GunCSLM5HMG.label>
+  <PLA_GunCSLM5HMG.description>解放军的大口径转管机枪（放置在三脚架上的）。</PLA_GunCSLM5HMG.description>
 
   <PLA_Turret04GrenadeLauncher.label>04式榴弹发射器炮塔</PLA_Turret04GrenadeLauncher.label>
   <PLA_Turret04GrenadeLauncher.description>装在三脚架上的04式榴弹发射器，火力强大。需要有人控制。</PLA_Turret04GrenadeLauncher.description>
