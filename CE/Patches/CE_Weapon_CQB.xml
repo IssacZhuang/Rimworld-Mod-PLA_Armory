@@ -223,7 +223,7 @@
             <magazineSize>6</magazineSize>
             <reloadOneAtATime>true</reloadOneAtATime>
             <reloadTime>0.4</reloadTime>
-            <ammoSet>AmmoSet_12Gauge</ammoSet>
+            <ammoSet>AmmoSet_12Gauge_QBS09</ammoSet>
         </AmmoUser>
         <FireModes />
         <researchPrerequisite>GasOperation</researchPrerequisite>

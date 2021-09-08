@@ -5,6 +5,10 @@
   <MakeAmmo_58x42mmDBP191_APCR.description>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.description>
   <MakeAmmo_58x42mmDBP191_APCR.jobString>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.jobString>
 
+  <MakeAmmo_12Gauge_AP_Buck.label>制作12号口径霰弹 (穿甲霰弹) x200</MakeAmmo_12Gauge_AP_Buck.label>
+  <MakeAmmo_12Gauge_AP_Buck.description>制作 12号口径霰弹 (穿甲霰弹)</MakeAmmo_12Gauge_AP_Buck.description>
+  <MakeAmmo_12Gauge_AP_Buck.jobString>制作 12号口径霰弹 (穿甲霰弹)</MakeAmmo_12Gauge_AP_Buck.jobString>
+
   <MakeAmmo_107mmRocket_HE.label>制作 107mm 火箭弹(高爆弹) x12</MakeAmmo_107mmRocket_HE.label>
   <MakeAmmo_107mmRocket_HE.description>制作 107mm 火箭弹(高爆弹)</MakeAmmo_107mmRocket_HE.description>
   <MakeAmmo_107mmRocket_HE.jobString>制作 107mm 火箭弹(高爆弹)</MakeAmmo_107mmRocket_HE.jobString>

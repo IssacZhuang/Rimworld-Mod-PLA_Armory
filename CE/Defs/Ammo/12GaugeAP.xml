@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_12Gauge_QBS09</defName>
+        <label>12 Gauge</label>
+        <ammoTypes>
+          <Ammo_12Gauge_Buck>Bullet_12Gauge_Buck</Ammo_12Gauge_Buck>
+          <Ammo_12Gauge_AP_Buck>Bullet_12Gauge_AP_Buck</Ammo_12Gauge_AP_Buck>
+          <!-- <Ammo_12Gauge_Bird>Bullet_12Gauge_Bird</Ammo_12Gauge_Bird> -->
+          <Ammo_12Gauge_Slug>Bullet_12Gauge_Slug</Ammo_12Gauge_Slug>
+          <Ammo_12Gauge_Beanbag>Bullet_12Gauge_Beanbag</Ammo_12Gauge_Beanbag>
+          <Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
+          
+        </ammoTypes>
+      </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+        <defName>Ammo_12Gauge_AP_Buck</defName>
+        <label>12 gauge shell (AP)</label>
+        <graphicData>
+            <texPath>Things/Ammo/AP_Shot</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.2</MarketValue>
+        </statBases>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <cookOffProjectile>Bullet_12Gauge_AP_Buck</cookOffProjectile>
+    </ThingDef>
+
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">
+        <defName>Bullet_12Gauge_AP_Buck</defName>
+        <label>buckshot pellet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageAmountBase>7</damageAmountBase>
+            <pelletCount>9</pelletCount>
+            <armorPenetrationSharp>8.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>8.52</armorPenetrationBlunt>
+            <spreadMult>17.8</spreadMult>
+        </projectile>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_12Gauge_AP_Buck</defName>
+        <label>make 12 gauge (AP) shell x200</label>
+        <description>Craft 200 12 gauge (AP) shells.</description>
+        <jobString>Making 12 gauge (AP) shells.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Plasteel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_12Gauge_AP_Buck>200</Ammo_12Gauge_AP_Buck>
+        </products>
+        <workAmount>2000</workAmount>
+    </RecipeDef>
+</Defs>
