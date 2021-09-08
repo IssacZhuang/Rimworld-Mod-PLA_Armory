@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- manual turret -->
+
+    <ThingDef ParentName="PLA_TurretBase">
+        <defName>PLA_TurretCSLM5HMG</defName>
+        <label>CS/LM-5 Multi-Barrel Machine Gun Turret</label>
+        <description>A CS/LM-5 multi-barrel machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_LightWeaponBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(0.27,0.25,0.27)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <uiIconPath>Things/Building/TurretCSLM5HMG</uiIconPath>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>55.8</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until barrel change</fuelLabel>
+                <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>1200</fuelCapacity>
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <fuelMultiplier>3</fuelMultiplier>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>false</shortCircuitInRain>
+                <basePowerConsumption>250</basePowerConsumption>
+            </li>
+        </comps>
+        <costList>
+            <Steel>450</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <specialDisplayRadius>30</specialDisplayRadius>
+        <building>
+            <turretGunDef>PLA_GunCSLM5HMG</turretGunDef>
+            <turretBurstCooldownTime>2.2</turretBurstCooldownTime>
+            <turretBurstWarmupTime>3.5</turretBurstWarmupTime>
+            <turretTopDrawSize>3.125</turretTopDrawSize>
+        </building>
+        <researchPrerequisites>
+			<li>MultibarrelWeapons</li>
+		</researchPrerequisites>
+        <tradeTags>
+            <li>PLA_Turret</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>PLA_GunCSLM5HMG</defName>
+        <label>Type 85 heavy machine gun</label>
+        <description>An three-barrel machine gun(on the turret)</description>
+        <graphicData>
+            <texPath>Things/Building/CSLM5HMG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.125,3.125)</drawSize>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.67</AccuracyTouch>
+            <AccuracyShort>0.58</AccuracyShort>
+            <AccuracyMedium>0.53</AccuracyMedium>
+            <AccuracyLong>0.32</AccuracyLong>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+            <Mass>33.6</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_HMG</defaultProjectile>
+                <warmupTime>3.5</warmupTime>
+                <range>39</range>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <burstShotCount>50</burstShotCount>
+                <soundCast>PLA_SoundCSLM5HMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+</Defs>

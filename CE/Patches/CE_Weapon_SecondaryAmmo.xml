@@ -2,7 +2,16 @@
 
 <Patch>
 
-    <!--===== TOOLS FOR THE TOOL GOD =====-->
+    <!-- Global Stat Patch-->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
+        <value>
+            <li Class="PLA.StatPart_LoadedSecondaryAmmo" />
+        </value>
+    </Operation>
+
+    <!--===== QTS-11 =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QTSEleven</defName>
         <statBases>
@@ -59,10 +68,5 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
-        <value>
-            <li Class="PLA.StatPart_LoadedSecondaryAmmo" />
-        </value>
-    </Operation>
+    
 </Patch>
