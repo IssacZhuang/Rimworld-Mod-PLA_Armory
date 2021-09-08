@@ -187,6 +187,9 @@
         </defaultIngredientFilter>
         <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
         <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
       </recipeMaker>
     </ThingDef>
 
