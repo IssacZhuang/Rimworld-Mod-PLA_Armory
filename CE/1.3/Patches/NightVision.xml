@@ -39,6 +39,13 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_GunCSLM5HMG"]/statBases</xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.8</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
     <!--  Apparel -->
 
     <Operation Class="PatchOperationAdd">
