@@ -140,6 +140,14 @@
             </layers>
         </value>
     </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_BackpackBase"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <bodyPartGroups>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+        </value>
+    </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="PLA_ExoskeletonBackpack_Desert"]/statBases/ArmorRating_Sharp</xpath>
