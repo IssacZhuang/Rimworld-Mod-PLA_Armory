@@ -1,181 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>[SZ]含商咀徵——神州文化扩展 Chinese Traditional Cultural Things Expanded</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/recipeUsers</xpath>
-                    <value>
-                        <li>Chi_Cooker</li>
-                        <li>Chi_Cooker_New</li>
-                    </value>
-                </li>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[SZ]含商咀徵——神州文化扩展 Chinese Traditional Cultural Things Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/recipeUsers</xpath>
+          <value>
+            <li>Chi_Cooker</li>
+            <li>Chi_Cooker_New</li>
+          </value>
+        </li>
 
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs</xpath>
-                    <value>
-                        <RecipeDef ParentName="CookMealBase">
-                            <defName>PLA_CookMealSurvivalPack_HybridRice</defName>
-                            <label>cook military packaged meal</label>
-                            <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
-                            <jobString>Cooking military packaged meal.</jobString>
-                            <workSpeedStat>CookSpeed</workSpeedStat>
-                            <effectWorking>Cook</effectWorking>
-                            <soundWorking>Recipe_CookMeal</soundWorking>
-                            <allowMixingIngredients>true</allowMixingIngredients>
-                            <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-                            <recipeUsers>
-                              <li>ElectricStove</li>
-                              <li>FueledStove</li>
-                            </recipeUsers>
-                            <ingredients>
-                              <li>
-                                <filter>
-                                  <categories>
-                                    <li>MeatRaw</li>
-                                  </categories>
-                                </filter>
-                                <count>0.3</count>
-                              </li>
-                              <li>
-                                <filter>
-                                  <thingDefs>
-                                    <li>RawZaJiaoShuiDao</li>
-                                  </thingDefs>
-                                </filter>
-                                <count>0.25</count>
-                              </li>
-                              <li>
-                                <filter>
-                                  <thingDefs>
-                                    <li>Chocolate</li>
-                                  </thingDefs>
-                                </filter>
-                                <count>0.1</count>
-                              </li>
-                            </ingredients>
-                            <fixedIngredientFilter>
-                              <categories>
-                                <li>MeatRaw</li>
-                              </categories>
-                              <thingDefs>
-                                <li>RawZaJiaoShuiDao</li>
-                                <li>Chocolate</li>
-                              </thingDefs>
-                              <disallowedCategories>
-                                <li>AnimalProductRaw</li>
-                              </disallowedCategories>
-                              <specialFiltersToDisallow>
-                                <li>AllowRotten</li>
-                              </specialFiltersToDisallow>
-                            </fixedIngredientFilter>
-                            <defaultIngredientFilter>
-                                    <categories>
-                                        <li>MeatRaw</li>
-                                    </categories>
-                              <thingDefs>
-                                <li>RawZaJiaoShuiDao</li>
-                                <li>Chocolate</li>
-                              </thingDefs>
-                              <disallowedCategories>
-                                <li>AnimalProductRaw</li>
-                              </disallowedCategories>
-                                </defaultIngredientFilter>
-                            <products>
-                              <PLA_MealSurvivalPack>1</PLA_MealSurvivalPack>
-                            </products>
-                            <skillRequirements>
-                              <Cooking>6</Cooking>
-                            </skillRequirements>
-                          </RecipeDef>
-                    </value>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <RecipeDef ParentName="CookMealBase">
+              <defName>PLA_CookMealSurvivalPack_HybridRice</defName>
+              <label>cook military packaged meal</label>
+              <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
+              <jobString>Cooking military packaged meal.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_CookMeal</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+              <recipeUsers>
+                <li>ElectricStove</li>
+                <li>FueledStove</li>
+                <li>Chi_Cooker</li>
+                <li>Chi_Cooker_New</li>
+              </recipeUsers>
+              <ingredients>
+                <li>
+                  <filter>
+                    <categories>
+                      <li>MeatRaw</li>
+                    </categories>
+                  </filter>
+                  <count>0.3</count>
                 </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawZaJiaoShuiDao</li>
+                    </thingDefs>
+                  </filter>
+                  <count>0.25</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Chocolate</li>
+                    </thingDefs>
+                  </filter>
+                  <count>0.1</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <categories>
+                  <li>MeatRaw</li>
+                </categories>
+                <thingDefs>
+                  <li>RawZaJiaoShuiDao</li>
+                  <li>Chocolate</li>
+                </thingDefs>
+                <disallowedCategories>
+                  <li>AnimalProductRaw</li>
+                </disallowedCategories>
+                <specialFiltersToDisallow>
+                  <li>AllowRotten</li>
+                </specialFiltersToDisallow>
+              </fixedIngredientFilter>
+              <defaultIngredientFilter>
+                <categories>
+                  <li>MeatRaw</li>
+                </categories>
+                <thingDefs>
+                  <li>RawZaJiaoShuiDao</li>
+                  <li>Chocolate</li>
+                </thingDefs>
+                <disallowedCategories>
+                  <li>AnimalProductRaw</li>
+                </disallowedCategories>
+              </defaultIngredientFilter>
+              <products>
+                <PLA_MealSurvivalPack>1</PLA_MealSurvivalPack>
+              </products>
+              <skillRequirements>
+                <Cooking>6</Cooking>
+              </skillRequirements>
+            </RecipeDef>
+          </value>
+        </li>
 
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs</xpath>
-                    <value>
-                        <RecipeDef ParentName="CookMealBase">
-                            <defName>PLA_CookMealSurvivalPackBulk_HybridRice</defName>
-                            <label>cook military packaged meal x4</label>
-                            <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
-                            <jobString>Cooking 4 military packaged meal.</jobString>
-                            <workAmount>1800</workAmount>
-                            <workSpeedStat>CookSpeed</workSpeedStat>
-                            <effectWorking>Cook</effectWorking>
-                            <soundWorking>Recipe_CookMeal</soundWorking>
-                            <allowMixingIngredients>true</allowMixingIngredients>
-                            <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-                            <recipeUsers>
-                              <li>ElectricStove</li>
-                              <li>FueledStove</li>
-                            </recipeUsers>
-                            <ingredients>
-                              <li>
-                                <filter>
-                                  <categories>
-                                    <li>MeatRaw</li>
-                                    <li>AnimalProductRaw</li>
-                                  </categories>
-                                </filter>
-                                <count>1.2</count>
-                              </li>
-                              <li>
-                                <filter>
-                                  <thingDefs>
-                                    <li>RawZaJiaoShuiDao</li>
-                                  </thingDefs>
-                                </filter>
-                                <count>1</count>
-                              </li>
-                              <li>
-                                <filter>
-                                  <thingDefs>
-                                    <li>Chocolate</li>
-                                  </thingDefs>
-                                </filter>
-                                <count>0.4</count>
-                              </li>
-                            </ingredients>
-                            <fixedIngredientFilter>
-                              <categories>
-                                <li>MeatRaw</li>
-                              </categories>
-                              <thingDefs>
-                                <li>RawZaJiaoShuiDao</li>
-                                <li>Chocolate</li>
-                              </thingDefs>
-                              <disallowedCategories>
-                                <li>AnimalProductRaw</li>
-                              </disallowedCategories>
-                              <specialFiltersToDisallow>
-                                <li>AllowRotten</li>
-                              </specialFiltersToDisallow>
-                            </fixedIngredientFilter>
-                            <defaultIngredientFilter>
-                                    <categories>
-                                        <li>MeatRaw</li>
-                                    </categories>
-                              <thingDefs>
-                                <li>RawZaJiaoShuiDao</li>
-                                <li>Chocolate</li>
-                              </thingDefs>
-                              <disallowedCategories>
-                                <li>AnimalProductRaw</li>
-                              </disallowedCategories>
-                                </defaultIngredientFilter>
-                            <products>
-                              <PLA_MealSurvivalPack>4</PLA_MealSurvivalPack>
-                            </products>
-                            <skillRequirements>
-                              <Cooking>6</Cooking>
-                            </skillRequirements>
-                          </RecipeDef>
-                    </value>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <RecipeDef ParentName="CookMealBase">
+              <defName>PLA_CookMealSurvivalPackBulk_HybridRice</defName>
+              <label>cook military packaged meal x4</label>
+              <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
+              <jobString>Cooking 4 military packaged meal.</jobString>
+              <workAmount>1800</workAmount>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_CookMeal</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+              <recipeUsers>
+                <li>ElectricStove</li>
+                <li>FueledStove</li>
+                <li>Chi_Cooker</li>
+                <li>Chi_Cooker_New</li>
+              </recipeUsers>
+              <ingredients>
+                <li>
+                  <filter>
+                    <categories>
+                      <li>MeatRaw</li>
+                      <li>AnimalProductRaw</li>
+                    </categories>
+                  </filter>
+                  <count>1.2</count>
                 </li>
-            </operations>
-        </match>
-    </Operation>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawZaJiaoShuiDao</li>
+                    </thingDefs>
+                  </filter>
+                  <count>1</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Chocolate</li>
+                    </thingDefs>
+                  </filter>
+                  <count>0.4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <categories>
+                  <li>MeatRaw</li>
+                </categories>
+                <thingDefs>
+                  <li>RawZaJiaoShuiDao</li>
+                  <li>Chocolate</li>
+                </thingDefs>
+                <disallowedCategories>
+                  <li>AnimalProductRaw</li>
+                </disallowedCategories>
+                <specialFiltersToDisallow>
+                  <li>AllowRotten</li>
+                </specialFiltersToDisallow>
+              </fixedIngredientFilter>
+              <defaultIngredientFilter>
+                <categories>
+                  <li>MeatRaw</li>
+                </categories>
+                <thingDefs>
+                  <li>RawZaJiaoShuiDao</li>
+                  <li>Chocolate</li>
+                </thingDefs>
+                <disallowedCategories>
+                  <li>AnimalProductRaw</li>
+                </disallowedCategories>
+              </defaultIngredientFilter>
+              <products>
+                <PLA_MealSurvivalPack>4</PLA_MealSurvivalPack>
+              </products>
+              <skillRequirements>
+                <Cooking>6</Cooking>
+              </skillRequirements>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>
