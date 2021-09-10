@@ -8,13 +8,5 @@
     <PLA_CookMealSurvivalPackBulk.label>烹饪解放军军粮 x4</PLA_CookMealSurvivalPackBulk.label>
     <PLA_CookMealSurvivalPackBulk.description>烹饪米饭、红烧肉、巧克力棒、饮料，再将它们包装起来。</PLA_CookMealSurvivalPackBulk.description>
     <PLA_CookMealSurvivalPackBulk.jobString>正在烹饪解放军军粮 x4</PLA_CookMealSurvivalPackBulk.jobString>
-
-    <PLA_CookMealSurvivalPack_HybridRice.label>烹饪解放军军粮(用杂交水稻米)</PLA_CookMealSurvivalPack_HybridRice.label>
-    <PLA_CookMealSurvivalPack_HybridRice.description>烹饪米饭、红烧肉、巧克力棒、饮料，再将它们包装起来。</PLA_CookMealSurvivalPack_HybridRice.description>
-    <PLA_CookMealSurvivalPack_HybridRice.jobString>正在烹饪解放军军粮</PLA_CookMealSurvivalPack_HybridRice.jobString>
-    
-    <PLA_CookMealSurvivalPackBulk_HybridRice.label>烹饪解放军军粮 x4(用杂交水稻米)</PLA_CookMealSurvivalPackBulk_HybridRice.label>
-    <PLA_CookMealSurvivalPackBulk_HybridRice.description>烹饪米饭、红烧肉、巧克力棒、饮料，再将它们包装起来。</PLA_CookMealSurvivalPackBulk_HybridRice.description>
-    <PLA_CookMealSurvivalPackBulk_HybridRice.jobString>正在烹饪解放军军粮 x4</PLA_CookMealSurvivalPackBulk_HybridRice.jobString>
     
 </LanguageData>

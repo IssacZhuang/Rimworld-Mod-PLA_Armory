@@ -91,14 +91,6 @@
     <ingredients>
       <li>
         <filter>
-          <categories>
-            <li>MeatRaw</li>
-          </categories>
-        </filter>
-        <count>0.3</count>
-      </li>
-      <li>
-        <filter>
           <thingDefs>
             <li>RawRice</li>
           </thingDefs>
@@ -113,6 +105,14 @@
         </filter>
         <count>0.1</count>
       </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.3</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
@@ -122,25 +122,7 @@
         <li>RawRice</li>
         <li>Chocolate</li>
       </thingDefs>
-      <disallowedCategories>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-      <specialFiltersToDisallow>
-        <li>AllowRotten</li>
-      </specialFiltersToDisallow>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-			<categories>
-				<li>MeatRaw</li>
-			</categories>
-      <thingDefs>
-        <li>RawRice</li>
-        <li>Chocolate</li>
-      </thingDefs>
-      <disallowedCategories>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-		</defaultIngredientFilter>
     <products>
       <PLA_MealSurvivalPack>1</PLA_MealSurvivalPack>
     </products>
@@ -165,15 +147,7 @@
       <li>FueledStove</li>
     </recipeUsers>
     <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>MeatRaw</li>
-            <li>AnimalProductRaw</li>
-          </categories>
-        </filter>
-        <count>1.2</count>
-      </li>
+      
       <li>
         <filter>
           <thingDefs>
@@ -190,6 +164,15 @@
         </filter>
         <count>0.4</count>
       </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1.2</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
@@ -199,25 +182,7 @@
         <li>RawRice</li>
         <li>Chocolate</li>
       </thingDefs>
-      <disallowedCategories>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-      <specialFiltersToDisallow>
-        <li>AllowRotten</li>
-      </specialFiltersToDisallow>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-			<categories>
-				<li>MeatRaw</li>
-			</categories>
-      <thingDefs>
-        <li>RawRice</li>
-        <li>Chocolate</li>
-      </thingDefs>
-      <disallowedCategories>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-		</defaultIngredientFilter>
     <products>
       <PLA_MealSurvivalPack>4</PLA_MealSurvivalPack>
     </products>
