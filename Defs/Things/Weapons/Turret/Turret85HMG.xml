@@ -39,7 +39,7 @@
                 <autoRefuelPercent>0.75</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
                 <minimumFueledThreshold>1</minimumFueledThreshold>
-                <fuelMultiplier>5</fuelMultiplier>
+                <fuelMultiplier>4</fuelMultiplier>
                 <factorByDifficulty>true</factorByDifficulty>
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
