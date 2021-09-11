@@ -18,4 +18,18 @@
       </operations>
     </match>
   </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/ingredients/li[1]/filter/thingDefs</xpath>
+    <value>
+      <li>RawZaJiaoShuiDao</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/fixedIngredientFilter/thingDefs</xpath>
+    <value>
+      <li>RawZaJiaoShuiDao</li>
+    </value>
+  </Operation>
 </Patch>
