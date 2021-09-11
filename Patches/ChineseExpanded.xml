@@ -5,6 +5,7 @@
       <li>【SZ】含商咀徵——神州文化扩展 Chinese Traditional Cultural Things Expanded</li>
     </mods>
     <match Class="PatchOperationSequence">
+      <success>Always</success>
       <operations>
         <li Class="PatchOperationAdd">
           <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/recipeUsers</xpath>
