@@ -92,7 +92,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_HMG</defaultProjectile>
                 <warmupTime>2.8</warmupTime>
-                <range>39</range>
+                <range>34.9</range>
                 <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                 <burstShotCount>23</burstShotCount>
                 <soundCast>PLA_SoundCSLM5HMG</soundCast>
