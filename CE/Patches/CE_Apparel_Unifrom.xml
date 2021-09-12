@@ -88,6 +88,12 @@
             <ArmorRating_Heat>0.36</ArmorRating_Heat>
         </value>
     </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/equippedStatOffsets/MoveSpeed</xpath>
+        <value>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </value>
+    </Operation>
 
     <!--Helmet-->
     <Operation Class="PatchOperationAdd">
