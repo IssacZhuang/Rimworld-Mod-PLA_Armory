@@ -13,11 +13,14 @@
   <PLA_AdvancedHelmet_Desert.label>解放军头盔(带夜视仪)</PLA_AdvancedHelmet_Desert.label>
   <PLA_AdvancedHelmet_Desert.description>人民解放军的新式头盔，带有护目镜和夜视仪。</PLA_AdvancedHelmet_Desert.description>
 
-  <PLA_Armor_Desert.label>解放军防弹背心</PLA_Armor_Desert.label>
+  <PLA_Armor_Desert.label>解放军防弹衣</PLA_Armor_Desert.label>
   <PLA_Armor_Desert.description>人民解放军的新式防弹背心。</PLA_Armor_Desert.description>
 
   <PLA_FlakPants_Desert.label>解放军防弹裤</PLA_FlakPants_Desert.label>
   <PLA_FlakPants_Desert.description>人民解放军的防弹裤。</PLA_FlakPants_Desert.description>
+
+  <PLA_HeavyArmor_Desert.label>解放军重型防弹衣</PLA_HeavyArmor_Desert.label>
+  <PLA_HeavyArmor_Desert.description>人民解放军的重型防弹衣，可以有效保护身体的各个部位，当然也更笨重。</PLA_HeavyArmor_Desert.description>
 
   <PLA_Backpack_Desert.label>解放军背包</PLA_Backpack_Desert.label>
   <PLA_Backpack_Desert.description>人民解放军的背包。</PLA_Backpack_Desert.description>

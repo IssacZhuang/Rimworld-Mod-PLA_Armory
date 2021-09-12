@@ -29,12 +29,13 @@
             <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <costList>
-            <Steel>120</Steel>
+            <Steel>20</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>
-            <Plasteel>100</Plasteel>
+            <Plasteel>85</Plasteel>
+            <Cloth>40</Cloth>
         </costList>
         <equippedStatOffsets>
-            <MoveSpeed>-0.3</MoveSpeed>
+            <MoveSpeed>-0.7</MoveSpeed>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -49,7 +50,7 @@
                 <li>Shell</li>
             </layers>
             <tags Inherit = "False">
-                <li>PLA_BodyArmor</li>
+                <li>PLA_HeavyBodyArmor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
@@ -63,4 +64,18 @@
             </options>
         </colorGenerator>
     </ThingDef>
+
+    <ThingDef ParentName="PLA_HeavyArmorBase">
+        <defName>PLA_HeavyArmor_Desert</defName>
+        <label>PLA heavy body armor</label>
+        <description>A heavy body armor.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_HeavyArmor_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/HeavyArmor/PLA_HeavyArmor</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>

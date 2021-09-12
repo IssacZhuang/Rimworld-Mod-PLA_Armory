@@ -49,6 +49,46 @@
         </value>
     </Operation>
 
+    <!-- Heavy Armor-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases</xpath>
+        <value>
+            <Bulk>16.5</Bulk>
+            <WornBulk>8</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/equippedStatOffsets</xpath>
+        <value>
+            <CarryBulk>15</CarryBulk>
+            <ReloadSpeed>0.2</ReloadSpeed>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases/Mass</xpath>
+        <value>
+            <Mass>18</Mass>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>31</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases/ArmorRating_Heat</xpath>
+        <value>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+        </value>
+    </Operation>
+
     <!--Helmet-->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[@Name="PLA_HelmetBase"]/statBases</xpath>
