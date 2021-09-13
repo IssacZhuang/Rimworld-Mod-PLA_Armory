@@ -15,6 +15,7 @@
 		<label>122mm Guided Howitzer shells</label>
 		<ammoTypes>
 			<Ammo_122mmGuidedHowitzerShell_HE>Bullet_122mmGuidedHowitzerShell_HE</Ammo_122mmGuidedHowitzerShell_HE>
+			<Ammo_122mmGuidedHowitzerShell_EMP>Bullet_122mmGuidedHowitzerShell_EMP</Ammo_122mmGuidedHowitzerShell_EMP>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
@@ -53,6 +54,20 @@
 		</statBases>
 		<ammoClass>GrenadeHE</ammoClass>
 		<detonateProjectile>Bullet_122mmGuidedHowitzerShell_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="122mmGuidedHowitzerShellBase">
+		<defName>Ammo_122mmGuidedHowitzerShell_EMP</defName>
+		<label>122mm Guided Howitzer shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Item/122mmGuidedShellEMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>649.44</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_122mmGuidedHowitzerShell_EMP</detonateProjectile>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -98,6 +113,23 @@
 				</fragments>
 			</li>
 		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base122mmHowitzerShell">
+		<defName>Bullet_122mmGuidedHowitzerShell_EMP</defName>
+		<label>122mm Howitzer shell (EMP)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/122mmGuidedShellEMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>212</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>10</explosionRadius>
+		</projectile>
 	</ThingDef>
 
 	<!-- ==================== Recipes ========================== -->
@@ -146,6 +178,44 @@
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_122mmGuidedHowitzerShell_HE>1</Ammo_122mmGuidedHowitzerShell_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_122mmGuidedHowitzerShell_EMP</defName>
+		<label>make 122mm EMP Howitzer shells x1</label>
+		<description>Craft 1 122mm EMP Howitzer shells.</description>
+		<jobString>Making 122mm EMP Howitzer shells.</jobString>
+		<workAmount>15400</workAmount>
+		<!--recipeUsers Inherit = "False">
+			<li>FabricationBench</li>
+		</recipeUsers-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>73</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_122mmGuidedHowitzerShell_EMP>1</Ammo_122mmGuidedHowitzerShell_EMP>
 		</products>
 	</RecipeDef>
 

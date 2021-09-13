@@ -25,6 +25,10 @@
   <MakeAmmo_122mmGuidedHowitzerShell_HE.description>制作 122mm 末段制导炮弹(高爆弹)</MakeAmmo_122mmGuidedHowitzerShell_HE.description>
   <MakeAmmo_122mmGuidedHowitzerShell_HE.jobString>制作 122mm 末段制导炮弹(高爆弹)</MakeAmmo_122mmGuidedHowitzerShell_HE.jobString>
 
+  <MakeAmmo_122mmGuidedHowitzerShell_EMP.label>制作 122mm 末段制导炮弹(电磁脉冲)</MakeAmmo_122mmGuidedHowitzerShell_EMP.label>
+  <MakeAmmo_122mmGuidedHowitzerShell_EMP.description>制作 122mm 末段制导炮弹(电磁脉冲)</MakeAmmo_122mmGuidedHowitzerShell_EMP.description>
+  <MakeAmmo_122mmGuidedHowitzerShell_EMP.jobString>制作 122mm 末段制导炮弹(电磁脉冲)</MakeAmmo_122mmGuidedHowitzerShell_EMP.jobString>
+
   <MakeAmmo_35x32mmSRGrenade_HEAT.label>制作 35x32mmSR 榴弹 (穿甲弹) x100</MakeAmmo_35x32mmSRGrenade_HEAT.label>
   <MakeAmmo_35x32mmSRGrenade_HEAT.description>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.description>
   <MakeAmmo_35x32mmSRGrenade_HEAT.jobString>制作 35x32mmSR 榴弹 (穿甲弹)</MakeAmmo_35x32mmSRGrenade_HEAT.jobString>

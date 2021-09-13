@@ -45,6 +45,10 @@
   <Ammo_122mmGuidedHowitzerShell_HE.description>一种末段制导炮弹，可以在飞行下落的过程中调整自己的轨迹，从而精准地击中目标。</Ammo_122mmGuidedHowitzerShell_HE.description>
   <Bullet_122mmGuidedHowitzerShell_HE.label>122mm末段制导炮弹 (高爆)</Bullet_122mmGuidedHowitzerShell_HE.label>
 
+  <Ammo_122mmGuidedHowitzerShell_EMP.label>122mm末段制导炮弹 (电磁脉冲)</Ammo_122mmGuidedHowitzerShell_EMP.label>
+  <Ammo_122mmGuidedHowitzerShell_EMP.description>一种末段制导炮弹，可以在飞行下落的过程中调整自己的轨迹，从而精准地击中目标。</Ammo_122mmGuidedHowitzerShell_EMP.description>
+  <Bullet_122mmGuidedHowitzerShell_EMP.label>122mm末段制导炮弹 (电磁脉冲)</Bullet_122mmGuidedHowitzerShell_EMP.label>
+
   <Ammo_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Ammo_30x165mm_APFSDS.label>
   <Bullet_30x165mm_APFSDS.label>30x165mm 尾翼稳定脱壳穿甲弹</Bullet_30x165mm_APFSDS.label>
 
