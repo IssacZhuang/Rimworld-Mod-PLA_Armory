@@ -67,7 +67,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[@Name="PLA_HeavyArmorBase"]/statBases/Mass</xpath>
         <value>
-            <Mass>16</Mass>
+            <Mass>18</Mass>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
