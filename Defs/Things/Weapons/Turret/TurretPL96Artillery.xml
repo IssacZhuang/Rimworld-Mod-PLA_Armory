@@ -36,7 +36,7 @@
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
                 <autoRefuelPercent>1</autoRefuelPercent>
-                <fuelIconPath>Things/Item/122mmGuidedShell/122mmGuidedShell_a</fuelIconPath>
+                <fuelIconPath>Things/Item/122mmGuidedShellHE/122mmGuidedShellHE_a</fuelIconPath>
             </li>
         </comps>
         <costList>
