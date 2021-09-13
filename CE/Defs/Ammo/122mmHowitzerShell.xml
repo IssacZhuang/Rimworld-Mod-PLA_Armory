@@ -125,7 +125,7 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>EMP</damageDef>
-			<damageAmountBase>212</damageAmountBase>
+			<damageAmountBase>242</damageAmountBase>
 			<armorPenetrationSharp>0</armorPenetrationSharp>
 			<armorPenetrationBlunt>0</armorPenetrationBlunt>
 			<explosionRadius>10</explosionRadius>
@@ -205,7 +205,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>7</count>
+				<count>6</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
