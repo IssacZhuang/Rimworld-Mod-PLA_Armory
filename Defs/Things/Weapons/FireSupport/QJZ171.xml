@@ -34,7 +34,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <equippedStatOffsets>
-      <MoveSpeed>-0.3</MoveSpeed>
+      <MoveSpeed>-0.6</MoveSpeed>
   </equippedStatOffsets>
     <weaponTags>
       <li>PLA_HMG</li>

@@ -199,6 +199,13 @@
         <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_QJZOneSevenOne"]/equippedStatOffsets/MoveSpeed</xpath>
+        <value>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </value>
+    </Operation>
+
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QLUEleven</defName>
         <statBases>
