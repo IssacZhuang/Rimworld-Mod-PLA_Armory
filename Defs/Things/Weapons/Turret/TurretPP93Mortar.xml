@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_ArtilleryBuildingBase">
+        <defName>PLA_Turret_PP93Mortar</defName>
+        <label>PP-93 Light Mortar</label>
+        <description>A light mortar. Lobs shells over walls. Good accuracy but short-ranged.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_LightWeaponBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(0.27,0.25,0.27)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>22.4</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <wickTicks>240</wickTicks>
+                <explosiveRadius>4.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+            </li>
+        </comps>
+        <costList>
+            <Steel>180</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <inspectorTabs>
+            <li>ITab_Shells</li>
+        </inspectorTabs>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <building>
+            <turretGunDef>PLA_Artillery_PP93Mortar</turretGunDef>
+            <turretTopDrawSize>3</turretTopDrawSize>
+        </building>
+        <rotatable>true</rotatable>
+        <researchPrerequisites>
+            <li>Mortars</li>
+        </researchPrerequisites>
+        <uiIconPath>Things/Building/Icon_PP93</uiIconPath>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseArtilleryWeapon">
+        <defName>PLA_Artillery_PP93Mortar</defName>
+        <label>60mm light mortar</label>
+        <description>A light mortar. Lobs shells over walls. Good accuracy but short-ranged.</description>
+        <graphicData>
+            <texPath>Things/Building/PP93</texPath>
+        </graphicData>
+        <statBases>
+            <Mass>22.4</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                <warmupTime>3.5</warmupTime>
+                <forcedMissRadius>6</forcedMissRadius>
+                <isMortar>true</isMortar>
+                <requireLineOfSight>false</requireLineOfSight>
+                <minRange>3</minRange>
+                <range>500</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Mortar_LaunchA</soundCast>
+                <muzzleFlashScale>16</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompProperties_ChangeableProjectile" />
+        </comps>
+        <building>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>MortarShells</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <defaultStorageSettings>
+                <filter>
+                    <categories>
+                        <li>MortarShells</li>
+                    </categories>
+                    <disallowedThingDefs>
+                        <li>Shell_Firefoam</li>
+                        <li>Shell_AntigrainWarhead</li>
+                    </disallowedThingDefs>
+                </filter>
+            </defaultStorageSettings>
+        </building>
+    </ThingDef>
+</Defs>

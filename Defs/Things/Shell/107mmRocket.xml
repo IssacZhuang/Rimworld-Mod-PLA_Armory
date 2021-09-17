@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="MakeableShellBase">
+    <ThingDef ParentName="PLA_MakeableShellBase">
         <defName>PLA_107mmRocket_HE</defName>
         <label>107mm Rocket</label>
         <description>A rocket filled with high explosives. Can be fired from type 63 rocket launcher.</description>

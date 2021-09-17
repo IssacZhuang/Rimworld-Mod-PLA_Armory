@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="MakeableShellBase">
+    <ThingDef ParentName="PLA_MakeableShellBase">
         <defName>PLA_122mmGuidedHowitzerShell_HE</defName>
         <label>122mm Guided Howitzer Shell</label>
         <description>A guided artillery shell, it can navigate automatically when launched, very accurate at long range. Can be fired from PL-96 howitzer.</description>

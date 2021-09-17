@@ -68,6 +68,12 @@
   <PLA_Artillery_PL96Howitzer.label>122mm榴弹炮</PLA_Artillery_PL96Howitzer.label>
   <PLA_Artillery_PL96Howitzer.description>122mm榴弹炮，发射末段制导炮弹。（在炮塔上的）</PLA_Artillery_PL96Howitzer.description>
 
+  <PLA_Turret_PP93Mortar.label>PL-93轻型迫击炮</PLA_Turret_PP93Mortar.label>
+  <PLA_Turret_PP93Mortar.description>解放军的轻型迫击炮，射程比较短，精度尚可。</PLA_Turret_PP93Mortar.description>
+
+  <PLA_Artillery_PP93Mortar.label>60mm轻型迫击炮</PLA_Artillery_PP93Mortar.label>
+  <PLA_Artillery_PP93Mortar.description>60mm轻型迫击炮，射程比较短，精度尚可。</PLA_Artillery_PP93Mortar.description>
+
   <PLA_TurretHPJ11NavalGun.label>H/PJ-11近防炮</PLA_TurretHPJ11NavalGun.label>
   <PLA_TurretHPJ11NavalGun.description>也叫做1130近防炮。拥有11根炮管，发射30x165mm弹药，射速极快。</PLA_TurretHPJ11NavalGun.description>
   <PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretHPJ11NavalGun.comps.CompRefuelable.fuelGizmoLabel>
