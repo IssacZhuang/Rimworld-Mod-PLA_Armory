@@ -406,7 +406,7 @@
         </weaponTags>
     </Operation>
 
-    <!-- PL-96 Rocket-->
+    <!-- PL-96 Howitzer-->
 
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="PLA_Turret_PLA96Howitzer"]/comps</xpath>
@@ -471,6 +471,78 @@
             <range>700</range>
             <soundCast>PLA_SoundPL96</soundCast>
             <muzzleFlashScale>42</muzzleFlashScale>
+            <circularError>0</circularError>
+            <indirectFirePenalty>0</indirectFirePenalty>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+        <weaponTags>
+            <li>TurretGun</li>
+        </weaponTags>
+    </Operation>
+
+    <!-- PP-93 Mortar-->
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Turret_PP93Mortar"]/comps</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "PLA_Turret_PP93Mortar"]/inspectorTabs</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "PLA_Turret_PP93Mortar"]/building/turretBurstCooldownTime</xpath>
+        <value>
+            <turretBurstCooldownTime>1</turretBurstCooldownTime>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_Artillery_PP93Mortar"]/statBases</xpath>
+        <value>
+            <SightsEfficiency>1</SightsEfficiency>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_Artillery_PP93Mortar"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>30</li>
+                    <li>50</li>
+                    <li>70</li>
+                    <li>90</li>
+                </chargeSpeeds>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>1</magazineSize>
+                <reloadTime>1.2</reloadTime>
+                <ammoSet>AmmoSet_60mmMortarShell</ammoSet>
+            </li>
+        </value>
+    </Operation>
+
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_Artillery_PP93Mortar</defName>
+        <statBases>
+            <SwayFactor>0</SwayFactor>
+            <ShotSpread>0.04</ShotSpread>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_60mmMortarShell_HE</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+            <minRange>4</minRange>
+            <range>98</range>
+            <soundCast>Mortar_LaunchA</soundCast>
+            <muzzleFlashScale>5</muzzleFlashScale>
             <circularError>0</circularError>
             <indirectFirePenalty>0</indirectFirePenalty>
             <targetParams>

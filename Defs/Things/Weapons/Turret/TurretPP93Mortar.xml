@@ -40,12 +40,16 @@
         <building>
             <turretGunDef>PLA_Artillery_PP93Mortar</turretGunDef>
             <turretTopDrawSize>3</turretTopDrawSize>
+            <turretBurstCooldownTime>3</turretBurstCooldownTime>
         </building>
         <rotatable>true</rotatable>
         <researchPrerequisites>
             <li>Mortars</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/Icon_PP93</uiIconPath>
+        <placeWorkers>
+            <li>PlaceWorker_ShowTurretRadius</li>
+        </placeWorkers>
     </ThingDef>
 
     <ThingDef ParentName="BaseArtilleryWeapon">
@@ -62,12 +66,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-                <warmupTime>3.5</warmupTime>
-                <forcedMissRadius>6</forcedMissRadius>
-                <isMortar>true</isMortar>
+                <warmupTime>2.3</warmupTime>
+                <forcedMissRadius>5</forcedMissRadius>
+                <!--isMortar>true</isMortar-->
                 <requireLineOfSight>false</requireLineOfSight>
                 <minRange>3</minRange>
-                <range>500</range>
+                <range>53</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>Mortar_LaunchA</soundCast>
                 <muzzleFlashScale>16</muzzleFlashScale>
