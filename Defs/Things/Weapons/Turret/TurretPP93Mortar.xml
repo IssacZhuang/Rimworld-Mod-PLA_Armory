@@ -50,6 +50,7 @@
         <placeWorkers>
             <li>PlaceWorker_ShowTurretRadius</li>
         </placeWorkers>
+        <specialDisplayRadius>53</specialDisplayRadius>
     </ThingDef>
 
     <ThingDef ParentName="BaseArtilleryWeapon">
@@ -70,7 +71,7 @@
                 <forcedMissRadius>5</forcedMissRadius>
                 <!--isMortar>true</isMortar-->
                 <requireLineOfSight>false</requireLineOfSight>
-                <minRange>3</minRange>
+                <minRange>5</minRange>
                 <range>53</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>Mortar_LaunchA</soundCast>

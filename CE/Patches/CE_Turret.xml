@@ -426,7 +426,7 @@
         <xpath>Defs/ThingDef[defName = "PLA_Artillery_PL96Howitzer"]</xpath>
         <value>
             <statBases>
-                <SightsEfficiency>2.7</SightsEfficiency>
+                <SightsEfficiency>5</SightsEfficiency>
             </statBases>
         </value>
     </Operation>
@@ -492,17 +492,28 @@
         <xpath>Defs/ThingDef[defName = "PLA_Turret_PP93Mortar"]/inspectorTabs</xpath>
     </Operation>
 
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "PLA_Turret_PP93Mortar"]/placeWorkers</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_Turret_PP93Mortar"]/specialDisplayRadius</xpath>
+        <value>
+            <specialDisplayRadius>98</specialDisplayRadius>
+        </value>
+    </Operation>
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName = "PLA_Turret_PP93Mortar"]/building/turretBurstCooldownTime</xpath>
         <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
+            <turretBurstCooldownTime>1.5</turretBurstCooldownTime>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName = "PLA_Artillery_PP93Mortar"]/statBases</xpath>
         <value>
-            <SightsEfficiency>1</SightsEfficiency>
+            <SightsEfficiency>2.8</SightsEfficiency>
         </value>
     </Operation>
 
@@ -530,17 +541,17 @@
         <defName>PLA_Artillery_PP93Mortar</defName>
         <statBases>
             <SwayFactor>0</SwayFactor>
-            <ShotSpread>0.04</ShotSpread>
-            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <Properties>
+            <recoilAmount>0</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
             <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_60mmMortarShell_HE</defaultProjectile>
             <warmupTime>1.8</warmupTime>
-            <minRange>4</minRange>
-            <range>98</range>
+            <minRange>7</minRange>
+            <range>92</range>
             <soundCast>Mortar_LaunchA</soundCast>
             <muzzleFlashScale>5</muzzleFlashScale>
             <circularError>0</circularError>
@@ -548,6 +559,7 @@
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
             </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <weaponTags>
             <li>TurretGun</li>
