@@ -31,8 +31,7 @@
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <weaponTags>
-      <li>PLA_AssaultRifle</li>
-      <li>PLA_AdvancedAssaultRifle</li>
+      <li>PLA_CarbineRifle</li>
     </weaponTags>
     <verbs>
       <li>
