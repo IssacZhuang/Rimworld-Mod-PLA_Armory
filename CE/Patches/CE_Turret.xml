@@ -554,7 +554,7 @@
             <range>92</range>
             <soundCast>Mortar_LaunchA</soundCast>
             <muzzleFlashScale>5</muzzleFlashScale>
-            <circularError>0</circularError>
+            <circularError>0.5</circularError>
             <indirectFirePenalty>0</indirectFirePenalty>
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
