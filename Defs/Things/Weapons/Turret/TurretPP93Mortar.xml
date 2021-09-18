@@ -30,8 +30,8 @@
             </li>
         </comps>
         <costList>
-            <Steel>180</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <Steel>80</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <inspectorTabs>
             <li>ITab_Shells</li>
