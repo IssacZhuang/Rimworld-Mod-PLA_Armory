@@ -3,10 +3,10 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZOneNineOneCarbine</defName>
-    <label>QBZ-191 Carbine</label>
+    <label>QBZ-192 Carbine</label>
     <description>A new type assault rifle of People's Liberation Army. The short-barrel version of QBZ-191.</description>
     <graphicData>
-      <texPath>Things/Weapon/QBZ191B</texPath>
+      <texPath>Things/Weapon/QBZ192</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
