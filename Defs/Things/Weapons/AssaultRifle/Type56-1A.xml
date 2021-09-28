@@ -41,8 +41,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PLA_Bullet_AK</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
         <range>31</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
