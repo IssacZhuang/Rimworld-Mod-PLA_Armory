@@ -49,6 +49,14 @@
                 <explosionSound>MortarBomb_Explode</explosionSound>
                 <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
             </li>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li>
         </value>
     </Operation>
 
@@ -94,7 +102,6 @@
             <minRange>3</minRange>
             <warmupTime>1.6</warmupTime>
             <soundCast>ThrowGrenade</soundCast>
-            <noiseRadius>4</noiseRadius>
             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
             <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
             <onlyManualCast>true</onlyManualCast>
@@ -192,6 +199,14 @@
                 <explosiveRadius>3.5</explosiveRadius>
                 <explosionSound>MortarBomb_Explode</explosionSound>
                 <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
             </li>
         </value>
     </Operation>

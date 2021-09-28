@@ -26,6 +26,20 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation>
+
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="PLA_StickGrenadeBelt"]/verbs</xpath>
         <value>
@@ -41,7 +55,7 @@
                     <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                     <soundCast>ThrowGrenade</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
-                    <muzzleFlashScale>14</muzzleFlashScale>
+                    <muzzleFlashScale>5</muzzleFlashScale>
                     <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
                     <requireLineOfSight>false</requireLineOfSight>
                     <targetParams>
@@ -80,6 +94,20 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation>
+
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="PLA_FragGrenadeBelt"]/verbs</xpath>
         <value>
@@ -95,7 +123,7 @@
                     <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                     <soundCast>ThrowGrenade</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
-                    <muzzleFlashScale>14</muzzleFlashScale>
+                    <muzzleFlashScale>5</muzzleFlashScale>
                     <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
                     <requireLineOfSight>false</requireLineOfSight>
                     <targetParams>

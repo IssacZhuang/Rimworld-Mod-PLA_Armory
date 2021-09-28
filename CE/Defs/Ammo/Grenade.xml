@@ -16,7 +16,7 @@
           <flyOverhead>true</flyOverhead>
           <dropsCasings>false</dropsCasings>
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
-          <speed>5</speed>
+          <gravityFactor>10</gravityFactor>
         </projectile>
       </ThingDef>
 
@@ -36,7 +36,7 @@
           <flyOverhead>true</flyOverhead>
           <dropsCasings>false</dropsCasings>
           <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
-          <speed>5</speed>
+          <gravityFactor>10</gravityFactor>
         </projectile>
         <comps>
           <li Class="CombatExtended.CompProperties_Fragments">
