@@ -435,7 +435,7 @@
         <xpath>Defs/ThingDef[defName = "PLA_Artillery_PL96Howitzer"]/comps</xpath>
         <value>
             <li Class="CombatExtended.CompProperties_Charges">
-                <chargeSpeeds>
+                 <chargeSpeeds>
                     <li>30</li>
                     <li>50</li>
                     <li>70</li>

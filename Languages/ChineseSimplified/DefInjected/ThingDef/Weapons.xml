@@ -66,6 +66,11 @@
   <PLA_TypeFiftyThree.tools.0.label>枪托</PLA_TypeFiftyThree.tools.0.label>
   <PLA_TypeFiftyThree.tools.1.label>枪管</PLA_TypeFiftyThree.tools.1.label>
 
+  <PLA_TypeFiftySixOneA.label>56-1A式突击步枪</PLA_TypeFiftySixOneA.label>
+  <PLA_TypeFiftySixOneA.description>56式突击步枪的现代改装版。在保留了56式步枪设计的同时，使用了新的材料和工艺，重量更轻，精度更好。</PLA_TypeFiftySixOneA.description>
+  <PLA_TypeFiftySixOneA.tools.0.label>枪托</PLA_TypeFiftySixOneA.tools.0.label>
+  <PLA_TypeFiftySixOneA.tools.1.label>枪管</PLA_TypeFiftySixOneA.tools.1.label>
+
   <PLA_TypeSixtyThree.label>63式自动步枪</PLA_TypeSixtyThree.label>
   <PLA_TypeSixtyThree.description>解放军的老式自动步枪，属于解放军军工自主探索的早期产品，本质是一把加了弹匣可以连发的56半步枪。</PLA_TypeSixtyThree.description>
   <PLA_TypeSixtyThree.tools.0.label>枪托</PLA_TypeSixtyThree.tools.0.label>

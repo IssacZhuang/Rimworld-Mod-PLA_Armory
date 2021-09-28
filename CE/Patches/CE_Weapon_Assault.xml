@@ -105,7 +105,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
             <warmupTime>0.9</warmupTime>
-            <range>52</range>
+            <range>54</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQBZ191</soundCast>
@@ -116,6 +116,47 @@
             <magazineSize>30</magazineSize>
             <reloadTime>4</reloadTime>
             <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_TypeFiftySixOneA</defName>
+        <statBases>
+            <Mass>3.1</Mass>
+            <Bulk>8.3</Bulk>
+            <SwayFactor>1.15</SwayFactor>
+            <ShotSpread>0.05</ShotSpread>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <Chemfuel>10</Chemfuel>
+        </costList>
+        <Properties>
+            <recoilAmount>1.1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+            <warmupTime>1</warmupTime>
+            <range>57</range>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundType81</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
         </AmmoUser>
         <FireModes>
             <aimedBurstShotCount>3</aimedBurstShotCount>
