@@ -17,6 +17,9 @@
   <Ammo_120mmRocket_HEAT.label>120mm火箭弹 (穿甲弹)</Ammo_120mmRocket_HEAT.label>
   <Bullet_120mmRocket_HEAT.label>120mm火箭弹 (穿甲弹)</Bullet_120mmRocket_HEAT.label>
 
+  <Ammo_HJ12Missile_HEAT.label>红箭-12导弹 (穿甲弹)</Ammo_HJ12Missile_HEAT.label>
+  <Bullet_HJ12Missile_HEAT.label>红箭-12导弹 (穿甲弹)</Bullet_HJ12Missile_HEAT.label>
+
   <Ammo_35x32mmSRGrenade_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Ammo_35x32mmSRGrenade_HEAT.label>
   <Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>
 

@@ -268,6 +268,27 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_HighExplosiveAntiTank_HJTwelve</defName>
+    <label>high-explosive anti-tank missile</label>
+    <graphicData>
+      <texPath>Things/Projectile/HJ12MissileHEAT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>PLA.ProjectileMissile</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>2.5</explosionRadius>
+      <speed>70</speed>
+      <damageAmountBase>220</damageAmountBase>
+      <flyOverhead>true</flyOverhead>
+      <explosionDelay>5</explosionDelay>
+      <stoppingPower>4</stoppingPower>
+      <armorPenetrationBase>2</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_HighExplosive_PFEleven</defName>
     <label>high-explosive rocket</label>
     <graphicData>

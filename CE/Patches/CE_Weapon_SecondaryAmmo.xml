@@ -7,7 +7,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
         <value>
-            <li Class="PLA.StatPart_LoadedSecondaryAmmo" />
+            <li Class="PLA.CE.StatPart_LoadedSecondaryAmmo" />
         </value>
     </Operation>
 
@@ -56,7 +56,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps</xpath>
         <value>
-            <li Class="PLA.CompProperties_SecondaryAmmo">
+            <li Class="PLA.CE.CompProperties_SecondaryAmmo">
                 <magazineSize>1</magazineSize>
                 <reloadTime>0.8</reloadTime>
                 <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>

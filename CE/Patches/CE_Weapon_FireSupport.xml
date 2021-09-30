@@ -465,6 +465,60 @@
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_HJTwelve</defName>
+        <statBases>
+            <Mass>12</Mass>
+            <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+            <SightsEfficiency>3.2</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <Bulk>14.3</Bulk>
+            <WorkToMake>30000</WorkToMake>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_HJ12Missile_HEAT</defaultProjectile>
+            <warmupTime>4.1</warmupTime>
+            <range>92</range>
+            <minRange>22</minRange>
+            <soundCast>PLA_SoundPF98</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>14</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>1</magazineSize>
+            <reloadTime>9.5</reloadTime>
+            <ammoSet>AmmoSet_HJ12Missile</ammoSet>
+        </AmmoUser>
+        <AllowWithRunAndGun>false</AllowWithRunAndGun>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_HJTwelve"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>CE_AdvancedLaunchers</li>
+                <li>Fabrication</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_HJTwelve"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>30</li>
+                    <li>50</li>
+                    <li>70</li>
+                    <li>90</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation>
+
     <!--Operation Class="PatchOperationAddModExtension">
                     <xpath>Defs/ThingDef[defName="PLA_PFNinetyEight"]</xpath>
                     <value>

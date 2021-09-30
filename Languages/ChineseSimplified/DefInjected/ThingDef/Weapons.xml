@@ -139,6 +139,10 @@
   <PLA_PFEleven.description>人民解放军的一次性反坦克火箭。</PLA_PFEleven.description>
   <PLA_PFEleven.tools.0.label>炮管</PLA_PFEleven.tools.0.label>
 
+  <PLA_HJTwelve.label>红箭12导弹发射器</PLA_HJTwelve.label>
+  <PLA_HJTwelve.description>人民解放军的多用途导弹发射器，可以锁定目标，导弹发射之后会自动跟踪。可以重复使用。</PLA_HJTwelve.description>
+  <PLA_HJTwelve.tools.0.label>炮管</PLA_HJTwelve.tools.0.label>
+
   <PLA_TypeEightyFourDagger.label>84式匕首</PLA_TypeEightyFourDagger.label>
   <PLA_TypeEightyFourDagger.description>人民解放军的一种匕首，只能戳刺。</PLA_TypeEightyFourDagger.description>
   <PLA_TypeEightyFourDagger.tools.0.label>刀尖</PLA_TypeEightyFourDagger.tools.0.label>
