@@ -24,6 +24,7 @@
             <li Class="CombatExtended.CompProperties_Fragments">
                 <fragments>
                     <Fragment_Large>10</Fragment_Large>
+                    <PLA_MetalJet>12</PLA_MetalJet>
                 </fragments>
             </li>
         </comps>
