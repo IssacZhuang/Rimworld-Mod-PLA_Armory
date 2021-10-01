@@ -484,6 +484,7 @@
             <range>92</range>
             <minRange>22</minRange>
             <soundCast>PLA_SoundPF98</soundCast>
+            <soundAiming>PLA_MissileLock</soundAiming>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>14</muzzleFlashScale>
         </Properties>
