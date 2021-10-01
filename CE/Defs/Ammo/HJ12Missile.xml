@@ -150,8 +150,8 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-				<li>ComponentIndustrial</li>
-				<li>Prometheum</li>
+				<li>ComponentSpacer</li>
+				<li>FSX</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
