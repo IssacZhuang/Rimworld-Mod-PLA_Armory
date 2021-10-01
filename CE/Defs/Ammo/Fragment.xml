@@ -19,7 +19,7 @@
             </secondaryDamage>
             <armorPenetrationSharp>8</armorPenetrationSharp>
             <armorPenetrationBlunt>3</armorPenetrationBlunt>
-            <gravityFactor>25</gravityFactor>
+            <gravityFactor>32</gravityFactor>
         </projectile>
     </ThingDef>
 </Defs>

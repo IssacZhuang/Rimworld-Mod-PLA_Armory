@@ -31,11 +31,11 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
+            <researchPrerequisites>
+                <li>PrecisionRifling</li>
+            </researchPrerequisites>
         </recipeMaker>
-        <researchPrerequisites>
-            <li>PrecisionRifling</li>
-            <li>Fabrication</li>
-        </researchPrerequisites>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
