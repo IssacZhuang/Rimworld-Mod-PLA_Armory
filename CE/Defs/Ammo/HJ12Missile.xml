@@ -45,8 +45,8 @@
         </graphicData>
         <statBases>
             <MarketValue>720</MarketValue>
-            <Mass>5</Mass>
-            <Bulk>10.2</Bulk>
+            <Mass>6.5</Mass>
+            <Bulk>11.2</Bulk>
         </statBases>
         <ammoClass>RocketHEAT</ammoClass>
         <detonateProjectile>Bullet_HJ12Missile_HEAT</detonateProjectile>

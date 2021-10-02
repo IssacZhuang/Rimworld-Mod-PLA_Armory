@@ -28,7 +28,7 @@
                 <defaultProjectile>Bullet_20mmProgrammableGrenade_HE</defaultProjectile>
                 <warmupTime>1.1</warmupTime>
                 <range>64</range>
-                <soundCast>PLA_SoundQTS11</soundCast>
+                <soundCast>PLA_SoundGrenadeLauncher</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
