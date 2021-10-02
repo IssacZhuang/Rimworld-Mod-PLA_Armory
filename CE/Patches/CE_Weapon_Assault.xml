@@ -137,7 +137,7 @@
         </statBases>
         <costList>
             <Steel>80</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentIndustrial>4</ComponentIndustrial>
             <Chemfuel>10</Chemfuel>
         </costList>
         <Properties>
@@ -146,7 +146,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
             <warmupTime>1</warmupTime>
-            <range>57</range>
+            <range>53</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>PLA_SoundType81</soundCast>
