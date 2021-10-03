@@ -56,10 +56,13 @@
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
   <PLA_QBZNinetyFive.tools.1.label>枪管</PLA_QBZNinetyFive.tools.1.label>
 
-  <PLA_QBZNinetyFiveLG.label>95-1式突击步枪(QLG)</PLA_QBZNinetyFiveLG.label>
+  <PLA_QBZNinetyFiveLG.label>95-1(QLG)式突击步枪</PLA_QBZNinetyFiveLG.label>
   <PLA_QBZNinetyFiveLG.description>在95式突击步枪的基础上加装了光学瞄具和榴弹发射器。</PLA_QBZNinetyFiveLG.description>
   <PLA_QBZNinetyFiveLG.tools.0.label>枪托</PLA_QBZNinetyFiveLG.tools.0.label>
   <PLA_QBZNinetyFiveLG.tools.1.label>枪管</PLA_QBZNinetyFiveLG.tools.1.label>
+  <PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.mainWeaponLabel>使用步枪</PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.mainWeaponLabel>
+  <PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.secondaryWeaponLabel>使用榴弹发射器</PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.secondaryWeaponLabel>
+  <PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.description>在步枪和榴弹发射器间切换</PLA_QBZNinetyFiveLG.comps.CompSecondaryVerb.description>
 
   <PLA_QBZZeroThree.label>03式突击步枪</PLA_QBZZeroThree.label>
   <PLA_QBZZeroThree.description>人民解放军的自动步枪，采用了有托结构，枪身长度比95式步枪长但枪管更短。相比95式射击精度更高但是牺牲了一点射程。</PLA_QBZZeroThree.description>
@@ -95,6 +98,9 @@
   <PLA_QTSEleven.description>人民解放军的单兵综合作战武器，配备计算机瞄准系统，精确度极高。</PLA_QTSEleven.description>
   <PLA_QTSEleven.tools.0.label>枪托</PLA_QTSEleven.tools.0.label>
   <PLA_QTSEleven.tools.1.label>枪管</PLA_QTSEleven.tools.1.label>
+  <PLA_QTSEleven.comps.CompSecondaryVerb.mainWeaponLabel>使用步枪</PLA_QTSEleven.comps.CompSecondaryVerb.mainWeaponLabel>
+  <PLA_QTSEleven.comps.CompSecondaryVerb.secondaryWeaponLabel>使用榴弹发射器</PLA_QTSEleven.comps.CompSecondaryVerb.secondaryWeaponLabel>
+  <PLA_QTSEleven.comps.CompSecondaryVerb.description>在步枪和榴弹发射器间切换</PLA_QTSEleven.comps.CompSecondaryVerb.description>
 
   <PLA_QBBNinetyFiveLSW.label>95式班用机枪</PLA_QBBNinetyFiveLSW.label>
   <PLA_QBBNinetyFiveLSW.description>人民解放军的主力轻机枪，基于95式步枪改造而来。</PLA_QBBNinetyFiveLSW.description>

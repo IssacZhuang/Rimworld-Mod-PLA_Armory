@@ -53,9 +53,9 @@
         <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
-    <!--Operation Class="PatchOperationRemove">
+    <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
-    </Operation-->
+    </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps</xpath>
@@ -112,6 +112,10 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_QBZNinetyFiveLG"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
     </Operation>
 
     <Operation Class="PatchOperationAdd">

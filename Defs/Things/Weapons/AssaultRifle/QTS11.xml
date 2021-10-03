@@ -45,7 +45,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <range>39.2</range>
+        <range>37.2</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>PLA_SoundQTS11</soundCast>
@@ -53,16 +53,16 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <!--comps>
+    <comps>
       <li Class="PLA.CompProperties_SecondaryVerb">
         <verbProps>
           <verbClass>Verb_Shoot</verbClass>
           <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>PLA_Grenade</defaultProjectile>
-          <warmupTime>0.9</warmupTime>
-          <range>39.2</range>
+          <defaultProjectile>PLA_RifleGrenade</defaultProjectile>
+          <warmupTime>1.8</warmupTime>
+          <range>37.2</range>
           <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-          <soundCast>PLA_SoundQTS11</soundCast>
+          <soundCast>PLA_SoundGrenadeLauncher</soundCast>
           <soundCastTail>GunTail_Medium</soundCastTail>
           <muzzleFlashScale>9</muzzleFlashScale>
         </verbProps>
@@ -72,7 +72,7 @@
         <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
         <description>switch between rifle and grenade launcher</description>
       </li>
-    </comps-->
+    </comps>
     <tools>
       <li>
         <label>stock</label>

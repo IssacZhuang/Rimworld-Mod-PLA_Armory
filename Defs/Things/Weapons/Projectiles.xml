@@ -231,6 +231,48 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_Grenade</defName>
+    <label>High Speed Grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.55,1.55)</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>1</explosionRadius>
+      <speed>60</speed>
+      <damageAmountBase>65</damageAmountBase>
+      <flyOverhead>true</flyOverhead>
+      <explosionDelay>5</explosionDelay>
+      <stoppingPower>4</stoppingPower>
+      <armorPenetrationBase>0.7</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PLA_RifleGrenade</defName>
+    <label>Grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.55,1.55)</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>1.5</explosionRadius>
+      <speed>32</speed>
+      <damageAmountBase>15</damageAmountBase>
+      <flyOverhead>true</flyOverhead>
+      <explosionDelay>5</explosionDelay>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.28</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Bullet_Shotgun</defName>
     <label>shotgun blast</label>
     <graphicData>
@@ -311,7 +353,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>PLA_HighExplosive_50mmGrenade</defName>
-    <label>high-explosive grenasw</label>
+    <label>high-explosive grenade</label>
     <graphicData>
       <texPath>Things/Projectile/107mmRocket</texPath>
       <graphicClass>Graphic_Single</graphicClass>

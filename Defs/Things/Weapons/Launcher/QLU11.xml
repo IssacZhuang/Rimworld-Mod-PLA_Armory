@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BaseBullet">
-        <defName>PLA_Grenade</defName>
-        <label>High Speed Grenade</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Big</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1.55,1.55)</drawSize>
-        </graphicData>
-        <thingClass>Projectile_Explosive</thingClass>
-        <projectile>
-            <damageDef>Bomb</damageDef>
-            <explosionRadius>1</explosionRadius>
-            <speed>60</speed>
-            <damageAmountBase>65</damageAmountBase>
-            <flyOverhead>true</flyOverhead>
-            <explosionDelay>5</explosionDelay>
-            <stoppingPower>4</stoppingPower>
-            <armorPenetrationBase>0.7</armorPenetrationBase>
-        </projectile>
-    </ThingDef>
-
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QLUEleven</defName>
         <label>QLU11 Grenade Launcher</label>

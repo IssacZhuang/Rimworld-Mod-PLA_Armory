@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-    <!--Operation Class="PatchOperationRemove">
+    <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="Human"]/comps/li[@Class="PLA.CompProperties_PawnEquipmentGizmo"]</xpath>
-    </Operation-->
+    </Operation>
 </Patch>
