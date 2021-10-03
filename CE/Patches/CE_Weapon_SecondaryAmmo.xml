@@ -53,6 +53,10 @@
         <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
+    <!--Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
+    </Operation-->
+
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps</xpath>
         <value>

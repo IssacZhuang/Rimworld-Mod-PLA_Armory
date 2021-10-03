@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="PLA_BaseGun">
@@ -19,7 +19,7 @@
     </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
-  </thingSetMakerTags>
+    </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>5</Mass>
@@ -53,6 +53,26 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <!--comps>
+      <li Class="PLA.CompProperties_SecondaryVerb">
+        <verbProps>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PLA_Grenade</defaultProjectile>
+          <warmupTime>0.9</warmupTime>
+          <range>39.2</range>
+          <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+          <soundCast>PLA_SoundQTS11</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </verbProps>
+        <mainWeaponLabel>use rifle</mainWeaponLabel>
+        <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+        <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+        <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+        <description>switch between rifle and grenade launcher</description>
+      </li>
+    </comps-->
     <tools>
       <li>
         <label>stock</label>
