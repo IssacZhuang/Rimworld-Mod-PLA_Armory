@@ -2,7 +2,7 @@
 <Patch>
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_QBZOneNineOne_Charged"]/statBases
+        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QBZOneNineOne_Charged"]/statBases
                     </xpath>
         <value>
             <NightVisionEfficiency_Weapon>0.7</NightVisionEfficiency_Weapon>
@@ -26,7 +26,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PLA_QBUTen"  or defName="PLA_QLUEleven" or defName="PLA_QBUTwoZeroTwo"]/statBases</xpath>
+        <xpath>Defs/ThingDef[defName="PLA_QBUTen"  or defName="PLA_QLUEleven" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo"]/statBases</xpath>
         <value>
             <NightVisionEfficiency_Weapon>0.9</NightVisionEfficiency_Weapon>
         </value>
