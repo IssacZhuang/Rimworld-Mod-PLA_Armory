@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBVOneNineOne</defName>
-    <label>QBV191 Marksman Rifle</label>
+    <label>QBU191 Marksman Rifle</label>
     <description>A semi-auto marksman rifle</description>
     <graphicData>
       <texPath>Things/Weapon/QBV191</texPath>

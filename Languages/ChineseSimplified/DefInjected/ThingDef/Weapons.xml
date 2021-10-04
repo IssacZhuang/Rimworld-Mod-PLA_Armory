@@ -122,6 +122,11 @@
   <PLA_QBUEightyEight.tools.0.label>枪托</PLA_QBUEightyEight.tools.0.label>
   <PLA_QBUEightyEight.tools.1.label>枪管</PLA_QBUEightyEight.tools.1.label>
 
+  <PLA_QBUTwoZeroOne.label>201式高精反器材狙击步枪</PLA_QBUTwoZeroOne.label>
+  <PLA_QBUTwoZeroOne.description>人民解放军的新款高精度反器材狙击步枪，采用悬浮式枪管和液压缓冲枪托，精度高且后坐力小。</PLA_QBUTwoZeroOne.description>
+  <PLA_QBUTwoZeroOne.tools.0.label>枪托</PLA_QBUTwoZeroOne.tools.0.label>
+  <PLA_QBUTwoZeroOne.tools.1.label>枪管</PLA_QBUTwoZeroOne.tools.1.label>
+
   <PLA_QBUTwoZeroTwo.label>202式高精狙击步枪</PLA_QBUTwoZeroTwo.label>
   <PLA_QBUTwoZeroTwo.description>人民解放军的新款高精度狙击步枪。</PLA_QBUTwoZeroTwo.description>
   <PLA_QBUTwoZeroTwo.tools.0.label>枪托</PLA_QBUTwoZeroTwo.tools.0.label>

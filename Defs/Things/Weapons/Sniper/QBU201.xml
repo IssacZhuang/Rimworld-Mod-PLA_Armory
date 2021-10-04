@@ -2,11 +2,11 @@
 <Defs>
 
   <ThingDef ParentName="PLA_BaseGun">
-    <defName>PLA_QBUTen</defName>
-    <label>QBU10 Anti Material Rifle</label>
-    <description>An anti material rifle of PLA</description>
+    <defName>PLA_QBUTwoZeroOne</defName>
+    <label>QBU201 Anti Material Rifle</label>
+    <description>A high precision anti-material rifle of PLA</description>
     <graphicData>
-      <texPath>Things/Weapon/QBU10</texPath>
+      <texPath>Things/Weapon/QBU201</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.55,1.55)</drawSize>
     </graphicData>
@@ -14,21 +14,24 @@
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
-      <Mass>8</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>0.94</AccuracyMedium>
-      <AccuracyLong>0.95</AccuracyLong>
-      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+      <Mass>7.5</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>120</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <Steel>110</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <weaponTags>
       <li>PLA_Sniper</li>
@@ -39,9 +42,9 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PLA_Bullet_AMR</defaultProjectile>
-        <warmupTime>3.8</warmupTime>
-        <range>50</range>
-        <soundCast>PLA_SoundQBU10</soundCast>
+        <warmupTime>4.2</warmupTime>
+        <range>55</range>
+        <soundCast>PLA_SoundQBU201</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
