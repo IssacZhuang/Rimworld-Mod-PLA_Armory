@@ -415,10 +415,11 @@
         <value>
             <RecipeDef ParentName="PLA_RecipeBaseCE">
                 <defName>Make_PLA_CH817Drone</defName>
-                <label>make type 82 frag granade x10</label>
-                <description>Craft 10 type 82 frag granade.</description>
-                <jobString>Making type 82 frag granade.</jobString>
-                <workAmount>3400</workAmount>
+                <label>make CH-817 mini attack drone x5</label>
+                <description>Craft 5 CH-817 mini attack drone.</description>
+                <jobString>Making CH-817 mini attack drone.</jobString>
+                <workAmount>7400</workAmount>
+                <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
                 <ingredients>
                     <li>
                         <filter>
@@ -426,7 +427,7 @@
                                 <li>Steel</li>
                             </thingDefs>
                         </filter>
-                        <count>12</count>
+                        <count>32</count>
                     </li>
                     <li>
                         <filter>
@@ -439,21 +440,21 @@
                     <li>
                         <filter>
                             <thingDefs>
-                                <li>Chemfuel</li>
+                                <li>ComponentIndustrial</li>
                             </thingDefs>
                         </filter>
-                        <count>8</count>
+                        <count>6</count>
                     </li>
                 </ingredients>
                 <fixedIngredientFilter>
                     <thingDefs>
                         <li>Steel</li>
                         <li>FSX</li>
-                        <li>Chemfuel</li>
+                        <li>ComponentIndustrial</li>
                     </thingDefs>
                 </fixedIngredientFilter>
                 <products>
-                    <PLA_Type82Grenade>10</PLA_Type82Grenade>
+                    <PLA_CH817Drone>5</PLA_CH817Drone>
                 </products>
             </RecipeDef>
         </value>
