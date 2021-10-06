@@ -18,9 +18,9 @@
       <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
       <WorkToMake>3000</WorkToMake>
     </statBases>
-    <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+    </recipeMaker>
     <costList>
       <Steel>15</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
