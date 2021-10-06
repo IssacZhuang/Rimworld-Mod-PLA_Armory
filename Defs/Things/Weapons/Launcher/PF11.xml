@@ -23,6 +23,8 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Chemfuel>60</Chemfuel>
         </costList>
+        <resourceReadoutPriority>First</resourceReadoutPriority>
+        <stackLimit>5</stackLimit>
         <thingCategories Inherit = "False">
             <li>PLA_WeaponRanged</li>
         </thingCategories>

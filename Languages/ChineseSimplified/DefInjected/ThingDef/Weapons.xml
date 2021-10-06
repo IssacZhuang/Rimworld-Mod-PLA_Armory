@@ -174,4 +174,7 @@
   <PLA_Type82Grenade.label>82式破片手雷</PLA_Type82Grenade.label>
   <PLA_Type82Grenade.description>解放军的卵形破片手榴弹，定位为攻防两用手榴弹。</PLA_Type82Grenade.description>
 
+  <PLA_CH817Drone.label>彩虹817小型攻击无人机</PLA_CH817Drone.label>
+  <PLA_CH817Drone.description>一种小型攻击无人机，体积和重量都很小，会飞向目标并且自爆。只能使用一次。</PLA_CH817Drone.description>
+
 </LanguageData>

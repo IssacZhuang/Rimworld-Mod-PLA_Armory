@@ -220,6 +220,7 @@
         <sustainFadeoutTime>0</sustainFadeoutTime>
         <subSounds>
           <li>
+            <muteWhenPaused>True</muteWhenPaused>
             <grains>
               <li Class="AudioGrain_Clip">
                 <clipPath>Weapon/MissileLock</clipPath>

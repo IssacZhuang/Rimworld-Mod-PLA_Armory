@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <SoundDef>
+        <defName>PLA_DroneFlying_Ambient</defName>  
+        <sustain>True</sustain>  
+        <context>MapOnly</context>  
+        <maxSimultaneous>1</maxSimultaneous>  
+        <priorityMode>PrioritizeNearest</priorityMode>  
+        <subSounds>
+          <li>
+            <muteWhenPaused>True</muteWhenPaused>      
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipFolderPath>Weapon/DroneFlying</clipFolderPath>
+              </li>
+            </grains>      
+            <volumeRange>13.17392~13.17392</volumeRange>      
+            <pitchRange>0.95~1.05</pitchRange>      
+            <sustainAttack>0.1</sustainAttack>
+          </li>
+        </subSounds>
+      </SoundDef>
+</Defs>

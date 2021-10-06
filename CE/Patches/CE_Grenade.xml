@@ -311,5 +311,153 @@
         </value>
     </Operation>
 
+    <!-- CH-817-->
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_CH817Drone"]/costList</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <value>
+            <thingClass>CombatExtended.AmmoThing</thingClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]/comps</xpath>
+                <success>Invert</success>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+                <value>
+                    <comps />
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>3.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <!--li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li-->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+    </Operation>
+
+    <!--Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_CH817Drone"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Things/Ammo/Type82Grenade</texPath>
+                <graphicClass>Graphic_StackCount</graphicClass>
+                <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+            </graphicData>
+        </value>
+    </Operation-->
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_CH817Drone</defName>
+        <statBases>
+            <MarketValue>207.05</MarketValue>
+            <Mass>0.75</Mass>
+            <Bulk>0.6</Bulk>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <label>launche drone</label>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PLA_Proj_CH817DroneCE</defaultProjectile>
+            <range>92</range>
+            <minRange>3</minRange>
+            <warmupTime>1.5</warmupTime>
+            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="PLA_RecipeBaseCE">
+                <defName>Make_PLA_CH817Drone</defName>
+                <label>make type 82 frag granade x10</label>
+                <description>Craft 10 type 82 frag granade.</description>
+                <jobString>Making type 82 frag granade.</jobString>
+                <workAmount>3400</workAmount>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>12</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>6</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Chemfuel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>8</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_Type82Grenade>10</PLA_Type82Grenade>
+                </products>
+            </RecipeDef>
+        </value>
+    </Operation>
+
 
 </Patch>
