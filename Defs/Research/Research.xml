@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchTabDef>
+        <defName>PLA_Research</defName>
+        <label>PLA Armory</label>
+    </ResearchTabDef>
+
+    <ResearchProjectDef Name="PLA_ResearchProjectBase" Abstract="true">
+        <techLevel>Industrial</techLevel>
+        <tab>PLA_Research</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Workbench</defName>
+        <label>PLA Workbench</label>
+        <description>The basic knowledge and facility of PLA.</description>
+        <prerequisites>
+            <li>Machining</li>
+        </prerequisites>
+        <baseCost>100</baseCost>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Gen1Weapon</defName>
+        <label>PLA Gen.1 Weapon</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Workbench</li>
+            <li>Gunsmithing</li>
+        </prerequisites>
+        <baseCost>200</baseCost>
+        <researchViewX>1</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Gen2Weapon</defName>
+        <label>PLA Gen.2 Weapon</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen1Weapon</li>
+        </prerequisites>
+        <baseCost>300</baseCost>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Gen3Weapon</defName>
+        <label>PLA Gen.3 Weapon</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen2Weapon</li>
+        </prerequisites>
+        <baseCost>800</baseCost>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Gen4Weapon</defName>
+        <label>PLA Gen.4 Weapon</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen3Weapon</li>
+        </prerequisites>
+        <baseCost>1200</baseCost>
+        <researchViewX>4</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_SimpleRocket</defName>
+        <label>Simple Rocket</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen2Weapon</li>
+        </prerequisites>
+        <baseCost>2000</baseCost>
+        <researchViewX>2.8</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_PrecisionExplosiveWeapon</defName>
+        <label>Precision Explosive Weapon</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen3Weapon</li>
+        </prerequisites>
+        <baseCost>2000</baseCost>
+        <researchViewX>3.8</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_HighCaliber</defName>
+        <label>High Caliber</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Gen3Weapon</li>
+        </prerequisites>
+        <baseCost>600</baseCost>
+        <researchViewX>3.8</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Uniform</defName>
+        <label>PLA Uniform</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Workbench</li>
+        </prerequisites>
+        <baseCost>100</baseCost>
+        <researchViewX>1</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Armor</defName>
+        <label>PLA Armor</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Uniform</li>
+        </prerequisites>
+        <baseCost>800</baseCost>
+        <researchViewX>2</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
+        <defName>PLA_Research_Exoskeleton</defName>
+        <label>Exoskeleton Frame</label>
+        <description>...</description>
+        <prerequisites>
+            <li>PLA_Research_Uniform</li>
+        </prerequisites>
+        <baseCost>1200</baseCost>
+        <researchViewX>1.8</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+</Defs>

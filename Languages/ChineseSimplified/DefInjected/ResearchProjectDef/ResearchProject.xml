@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PLA_Research_Workbench.label>解放军工作台</PLA_Research_Workbench.label>
+  <PLA_Research_Workbench.description>The first generation of PLA weapons.</PLA_Research_Workbench.description>
+
+  <PLA_Research_Gen1Weapon.label>第一代武器</PLA_Research_Gen1Weapon.label>
+  <PLA_Research_Gen1Weapon.description>...</PLA_Research_Gen1Weapon.description>
+
+  <PLA_Research_Gen2Weapon.label>第二代武器</PLA_Research_Gen2Weapon.label>
+  <PLA_Research_Gen2Weapon.description>...</PLA_Research_Gen2Weapon.description>
+
+  <PLA_Research_Gen3Weapon.label>第三代武器</PLA_Research_Gen3Weapon.label>
+  <PLA_Research_Gen3Weapon.description>...</PLA_Research_Gen3Weapon.description>
+
+  <PLA_Research_Gen4Weapon.label>第四代武器</PLA_Research_Gen4Weapon.label>
+  <PLA_Research_Gen4Weapon.description>...</PLA_Research_Gen4Weapon.description>
+
+  <PLA_Research_SimpleRocket.label>简易火箭炮</PLA_Research_SimpleRocket.label>
+  <PLA_Research_SimpleRocket.description>...</PLA_Research_SimpleRocket.description>
+
+  <PLA_Research_PrecisionExplosiveWeapon.label>精准爆炸武器</PLA_Research_PrecisionExplosiveWeapon.label>
+  <PLA_Research_PrecisionExplosiveWeapon.description>...</PLA_Research_PrecisionExplosiveWeapon.description>
+
+  <PLA_Research_HighCaliber.label>大口径武器</PLA_Research_HighCaliber.label>
+  <PLA_Research_HighCaliber.description>...</PLA_Research_HighCaliber.description>
+
+  <PLA_Research_Uniform.label>解放军制服</PLA_Research_Uniform.label>
+  <PLA_Research_Uniform.description>...</PLA_Research_Uniform.description>
+
+  <PLA_Research_Armor.label>解放军护甲</PLA_Research_Armor.label>
+  <PLA_Research_Armor.description>...</PLA_Research_Armor.description>
+
+  <PLA_Research_Exoskeleton.label>无源外骨骼背包</PLA_Research_Exoskeleton.label>
+  <PLA_Research_Exoskeleton.description>...</PLA_Research_Exoskeleton.description>
+
+
+</LanguageData>

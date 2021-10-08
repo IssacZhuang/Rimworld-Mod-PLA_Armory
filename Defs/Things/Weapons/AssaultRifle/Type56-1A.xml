@@ -34,8 +34,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <weaponTags>
-      <li>PLA_AssaultRifle</li>
-      <li>PLA_MordenAssaultRifle</li>
+      <li>PLA_RifleForTrade</li>
     </weaponTags>
     <verbs>
       <li>
