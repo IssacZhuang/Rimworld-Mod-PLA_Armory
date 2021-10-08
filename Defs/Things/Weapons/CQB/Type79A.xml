@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_TypeSeventyNineA</defName>
+        <label>Type 79-A Sub Machine Gun</label>
+        <description>The type 79 sub-machine gun witj tactical attachment.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Type79A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_SMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>2.3</Mass>
+            <AccuracyTouch>0.92</AccuracyTouch>
+            <AccuracyShort>0.84</AccuracyShort>
+            <AccuracyMedium>0.56</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>45</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <weaponTags>
+            <li>PLA_AutoPistol</li>
+            <li>PLA_AdvancedAutoPistol</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_LightSMG</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>20</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundType79</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>
