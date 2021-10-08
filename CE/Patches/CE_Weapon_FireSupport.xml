@@ -363,7 +363,6 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
@@ -471,15 +470,6 @@
             <ammoSet>AmmoSet_HJ12Missile</ammoSet>
         </AmmoUser>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PLA_HJTwelve"]/recipeMaker/researchPrerequisites</xpath>
-        <value>
-            <researchPrerequisites>
-                <li>CE_AdvancedLaunchers</li>
-            </researchPrerequisites>
-        </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">

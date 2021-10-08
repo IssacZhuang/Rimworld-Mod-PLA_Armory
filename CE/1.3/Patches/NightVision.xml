@@ -60,7 +60,6 @@
         <value>
             <researchPrerequisites>
                 <li>CE_AdvancedNV</li>
-                <li>FlakArmor</li>
             </researchPrerequisites>
         </value>
     </Operation>

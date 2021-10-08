@@ -11,6 +11,10 @@
         <xpath>Defs/ThingDef[defName="PLA_PFEleven"]/costList</xpath>
     </Operation>
 
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_PFEleven"]/recipeMaker</xpath>
+    </Operation>
+
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_PFEleven</defName>
         <statBases>
@@ -89,7 +93,7 @@
                 <products>
                     <PLA_PFEleven>5</PLA_PFEleven>
                 </products>
-                <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
+                <researchPrerequisite>PLA_Research_PrecisionExplosiveWeapon</researchPrerequisite>
             </RecipeDef>
         </value>
     </Operation>

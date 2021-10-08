@@ -230,7 +230,6 @@
             <ammoSet>AmmoSet_12Gauge_QBS09</ammoSet>
         </AmmoUser>
         <FireModes />
-        <researchPrerequisite>GasOperation</researchPrerequisite>
     </Operation>
 
     <Operation Class="PatchOperationAddModExtension">

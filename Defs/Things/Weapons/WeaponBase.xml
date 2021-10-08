@@ -112,9 +112,6 @@
           <li>PlaceWorker_TurretTop</li>
           <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
-        <researchPrerequisites>
-          <li>Mortars</li>
-        </researchPrerequisites>
         <uiIconScale>1.1</uiIconScale>
       </ThingDef>
 
@@ -155,7 +152,6 @@
           <li>PLA_TableAssembly</li>
         </recipeUsers>
         <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       </recipeMaker>
     </ThingDef>
 
@@ -168,7 +164,6 @@
         <recipeUsers Inherit = "False">
           <li>PLA_TableAssembly</li>
         </recipeUsers>
-        <researchPrerequisite>Machining</researchPrerequisite>
         <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       </recipeMaker>
     </ThingDef>

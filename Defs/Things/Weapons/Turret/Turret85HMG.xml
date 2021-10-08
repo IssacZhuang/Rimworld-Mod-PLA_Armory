@@ -160,7 +160,8 @@
             <turretBurstWarmupTime>2.1</turretBurstWarmupTime>
         </building>
         <researchPrerequisites>
-            <li>HeavyTurrets</li>
+            <li>PLA_Research_HighCaliber</li>
+            <li>GunTurrets</li>
         </researchPrerequisites>
         <tradeTags>
             <li>PLA_Turret</li>

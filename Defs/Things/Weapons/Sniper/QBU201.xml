@@ -32,7 +32,7 @@
     <costList>
       <Steel>110</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
-      <Chemfuel>15</Chemfuel>
+      <Plasteel>20</Plasteel>
   </costList>
     <weaponTags>
       <li>PLA_Sniper</li>

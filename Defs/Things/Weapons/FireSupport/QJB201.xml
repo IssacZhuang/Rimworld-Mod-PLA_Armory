@@ -32,6 +32,7 @@
     <costList>
       <Steel>120</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
     </costList>
     <weaponTags>
       <li>PLA_LMG</li>

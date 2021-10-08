@@ -93,6 +93,9 @@
 		<label>make 5.8x42mm DBP191 (APCR) cartridge x500</label>
 		<description>Craft 500 5.8x42mm DBP191 (APCR) cartridges.</description>
 		<jobString>Making 5.8x42mm DBP191 (APCR) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>PLA_Research_Gen4Weapon</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>

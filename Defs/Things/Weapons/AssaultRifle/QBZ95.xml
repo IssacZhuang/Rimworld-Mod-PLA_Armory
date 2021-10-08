@@ -29,6 +29,7 @@
     <costList>
       <Steel>50</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
     </costList>
     <weaponTags>
       <li>PLA_AssaultRifle</li>
