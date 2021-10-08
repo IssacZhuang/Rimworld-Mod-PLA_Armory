@@ -95,7 +95,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
             <warmupTime>1.1</warmupTime>
-            <range>51</range>
+            <range>50</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQBZ95</soundCast>

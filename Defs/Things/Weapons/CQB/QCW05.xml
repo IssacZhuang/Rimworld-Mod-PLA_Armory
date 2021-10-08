@@ -25,6 +25,9 @@
             <AccuracyLong>0.35</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
+        <equippedStatOffsets>
+            <HuntingStealth>0.6</HuntingStealth>
+        </equippedStatOffsets>
         <costList>
             <Steel>75</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>
