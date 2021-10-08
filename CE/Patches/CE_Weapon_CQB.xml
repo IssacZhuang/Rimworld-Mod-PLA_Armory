@@ -41,6 +41,41 @@
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_TypeSeventyNineA</defName>
+        <statBases>
+            <Mass>2</Mass>
+            <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+            <SightsEfficiency>1.00</SightsEfficiency>
+            <ShotSpread>0.13</ShotSpread>
+            <SwayFactor>1.2</SwayFactor>
+            <Bulk>3.6</Bulk>
+            <WorkToMake>17500</WorkToMake>
+        </statBases>
+        <Properties>
+            <recoilAmount>0.8</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_762x25mmTokarev_FMJ</defaultProjectile>
+            <warmupTime>0.4</warmupTime>
+            <range>21</range>
+            <burstShotCount>10</burstShotCount>
+            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundType79</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>2.4</reloadTime>
+            <ammoSet>AmmoSet_762x25mmTokarev</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>5</aimedBurstShotCount>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QCWZeroFive</defName>
         <statBases>
             <Mass>2.1</Mass>
