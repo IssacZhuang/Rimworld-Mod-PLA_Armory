@@ -22,10 +22,11 @@
         </statBases>
         <costList>
             <Steel>120</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <Chemfuel>15</Chemfuel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_PrecisionExplosiveWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>

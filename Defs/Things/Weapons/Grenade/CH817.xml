@@ -19,7 +19,7 @@
       <WorkToMake>3000</WorkToMake>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+      <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Steel>15</Steel>

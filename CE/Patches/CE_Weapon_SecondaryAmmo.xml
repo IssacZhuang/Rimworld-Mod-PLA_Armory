@@ -23,10 +23,6 @@
             <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
             <WorkToMake>30000</WorkToMake>
         </statBases>
-        <costList>
-            <Steel>110</Steel>
-            <ComponentIndustrial>12</ComponentIndustrial>
-        </costList>
         <Properties>
             <recoilAmount>1</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -50,7 +46,6 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
     <Operation Class="PatchOperationRemove">

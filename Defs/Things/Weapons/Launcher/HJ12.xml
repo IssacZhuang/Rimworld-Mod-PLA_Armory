@@ -31,10 +31,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
-            <researchPrerequisites>
-                <li>PrecisionRifling</li>
-            </researchPrerequisites>
+            <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

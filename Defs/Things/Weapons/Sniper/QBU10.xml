@@ -12,7 +12,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>PLA_Research_HighCaliber</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -28,7 +28,8 @@
     </statBases>
     <costList>
       <Steel>120</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
     </costList>
     <weaponTags>
       <li>PLA_Sniper</li>

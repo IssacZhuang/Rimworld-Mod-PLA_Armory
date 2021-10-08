@@ -12,7 +12,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>PLA_Research_WeaponDigitization</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -30,9 +30,10 @@
       <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>80</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </costList>
+      <Steel>110</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+  </costList>
     <equippedStatOffsets>
       <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
     </equippedStatOffsets>

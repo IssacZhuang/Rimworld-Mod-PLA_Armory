@@ -44,6 +44,7 @@
         </building>
         <rotatable>true</rotatable>
         <researchPrerequisites>
+            <li>PLA_Research_PrecisionExplosiveWeapon</li>
             <li>Mortars</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/Icon_PP93</uiIconPath>

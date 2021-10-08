@@ -62,7 +62,7 @@
             <turretTopDrawSize>3.125</turretTopDrawSize>
         </building>
         <researchPrerequisites>
-			<li>MultibarrelWeapons</li>
+			<li>PLA_Research_AdvancedHighCaliber</li>
 		</researchPrerequisites>
         <tradeTags>
             <li>PLA_Turret</li>

@@ -11,7 +11,7 @@
         </graphicData>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -28,6 +28,7 @@
         <costList>
             <Steel>45</Steel>
             <ComponentIndustrial>3</ComponentIndustrial>
+            <Chemfuel>10</Chemfuel>
         </costList>
         <weaponTags>
             <li>PLA_AutoPistol</li>

@@ -13,6 +13,9 @@
         <uiIconScale>1.3</uiIconScale>
         <soundInteract>Interact_Grenade</soundInteract>
         <techLevel>Industrial</techLevel>
+        <recipeMaker>
+          <researchPrerequisite>PLA_Research_Gen2Weapon</researchPrerequisite>
+        </recipeMaker>
         <statBases>
           <Mass>1</Mass>
           <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>

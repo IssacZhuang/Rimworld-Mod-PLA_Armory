@@ -55,8 +55,7 @@
         </building>
         <rotatable>false</rotatable>
         <researchPrerequisites>
-            <li>Mortars</li>
-            <li>MultibarrelWeapons</li>
+            <li>PLA_Research_SimpleRocket</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/Turret63RocketLauncher</uiIconPath>
         <uiIconScale>1.2</uiIconScale>

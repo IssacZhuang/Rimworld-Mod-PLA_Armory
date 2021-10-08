@@ -1,29 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <PLA_Research_Gen1Weapon.label>解放军工业基础</PLA_Research_Gen1Weapon.label>
+  <PLA_Research_Gen1Weapon.description>在解放军工业发展的初期，主要以仿制外国枪械为主。虽然少有自主设计的武器，但是为军事工业奠定了基础。</PLA_Research_Gen1Weapon.description>
 
-  <PLA_Research_Workbench.label>解放军工作台</PLA_Research_Workbench.label>
-  <PLA_Research_Workbench.description>The first generation of PLA weapons.</PLA_Research_Workbench.description>
+  <PLA_Research_Gen2Weapon.label>通用武器</PLA_Research_Gen2Weapon.label>
+  <PLA_Research_Gen2Weapon.description>这个时期解放军已经开始的武器的自主研制，并且初具雏形。这些武器具有良好的可靠性，并且方便维护。</PLA_Research_Gen2Weapon.description>
 
-  <PLA_Research_Gen1Weapon.label>第一代武器</PLA_Research_Gen1Weapon.label>
-  <PLA_Research_Gen1Weapon.description>...</PLA_Research_Gen1Weapon.description>
+  <PLA_Research_Gen3Weapon.label>现代武器</PLA_Research_Gen3Weapon.label>
+  <PLA_Research_Gen3Weapon.description>经过理论论证和实践，解放军发展出了一系列具有具有自己特色的武器和弹药。这些武器性能优良，能适应多种复杂环境。但有于工艺和材料上的缺陷，这些武器仍具有一些缺点。</PLA_Research_Gen3Weapon.description>
 
-  <PLA_Research_Gen2Weapon.label>第二代武器</PLA_Research_Gen2Weapon.label>
-  <PLA_Research_Gen2Weapon.description>...</PLA_Research_Gen2Weapon.description>
-
-  <PLA_Research_Gen3Weapon.label>第三代武器</PLA_Research_Gen3Weapon.label>
-  <PLA_Research_Gen3Weapon.description>...</PLA_Research_Gen3Weapon.description>
-
-  <PLA_Research_Gen4Weapon.label>第四代武器</PLA_Research_Gen4Weapon.label>
-  <PLA_Research_Gen4Weapon.description>...</PLA_Research_Gen4Weapon.description>
+  <PLA_Research_Gen4Weapon.label>精密武器工艺</PLA_Research_Gen4Weapon.label>
+  <PLA_Research_Gen4Weapon.description>随着武器工艺的材料的发展和设计水平的提高，武器精度和人机工效都相比上一代有了显著的提高。新的武器可以承受更高的膛压，所以也随之配套更为先进的弹药。</PLA_Research_Gen4Weapon.description>
 
   <PLA_Research_SimpleRocket.label>简易火箭炮</PLA_Research_SimpleRocket.label>
-  <PLA_Research_SimpleRocket.description>...</PLA_Research_SimpleRocket.description>
+  <PLA_Research_SimpleRocket.description>燃料，炸药，铁筒组成的简易火箭弹，制造简单但精度低。</PLA_Research_SimpleRocket.description>
+
+  <PLA_Research_GuidedShell.label>制导炮弹</PLA_Research_GuidedShell.label>
+  <PLA_Research_GuidedShell.description>通过卫星定位和炮弹的末段制导，大幅度提升火炮的精度。</PLA_Research_GuidedShell.description>
 
   <PLA_Research_PrecisionExplosiveWeapon.label>精准爆炸武器</PLA_Research_PrecisionExplosiveWeapon.label>
-  <PLA_Research_PrecisionExplosiveWeapon.description>...</PLA_Research_PrecisionExplosiveWeapon.description>
+  <PLA_Research_PrecisionExplosiveWeapon.description>用于打击装甲单位的精准武器。</PLA_Research_PrecisionExplosiveWeapon.description>
+
+  <PLA_Research_TargetTracking.label>目标跟踪</PLA_Research_TargetTracking.label>
+  <PLA_Research_TargetTracking.description>可以锁定并且跟踪目标的武器，可以精确打击目标，并且对使用者的操作水平要求较低。</PLA_Research_TargetTracking.description>
 
   <PLA_Research_HighCaliber.label>大口径武器</PLA_Research_HighCaliber.label>
-  <PLA_Research_HighCaliber.description>...</PLA_Research_HighCaliber.description>
+  <PLA_Research_HighCaliber.description>能发射大口径全威力弹的武器，可以对轻装甲单位进行有效的破环。</PLA_Research_HighCaliber.description>
+
+  <PLA_Research_TacticalModification.label>战术改装</PLA_Research_TacticalModification.label>
+  <PLA_Research_TacticalModification.description>通过加装战术配件来提高武器的性能，以适应更多不同的环境。</PLA_Research_TacticalModification.description>
+
+  <PLA_Research_WeaponDigitization.label>数字化武器</PLA_Research_WeaponDigitization.label>
+  <PLA_Research_WeaponDigitization.description>带有单兵火控系统的武器，操作上更加智能，功能也更多，但是造价昂贵。</PLA_Research_WeaponDigitization.description>
+
+  <PLA_Research_AdvancedHighCaliber.label>轻量化大口径武器</PLA_Research_AdvancedHighCaliber.label>
+  <PLA_Research_AdvancedHighCaliber.description>使用高强度重量轻的金属制成的大口径武器，使得武器在保持性能优秀，火力强大的同时，进一步减轻重量。</PLA_Research_AdvancedHighCaliber.description>
 
   <PLA_Research_Uniform.label>解放军制服</PLA_Research_Uniform.label>
   <PLA_Research_Uniform.description>...</PLA_Research_Uniform.description>

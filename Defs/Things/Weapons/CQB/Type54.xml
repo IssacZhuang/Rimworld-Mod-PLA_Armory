@@ -13,7 +13,7 @@
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Gen1Weapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>

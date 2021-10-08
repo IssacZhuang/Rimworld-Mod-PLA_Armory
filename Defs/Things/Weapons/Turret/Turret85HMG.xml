@@ -57,7 +57,7 @@
             <turretBurstWarmupTime>1</turretBurstWarmupTime>
         </building>
         <researchPrerequisites>
-            <li>PrecisionRifling</li>
+            <li>PLA_Research_HighCaliber</li>
         </researchPrerequisites>
         <tradeTags>
             <li>PLA_Turret</li>

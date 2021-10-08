@@ -14,10 +14,6 @@
             <SightsEfficiency>1</SightsEfficiency>
             <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>50</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
         <Properties>
             <recoilAmount>1.2</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -88,10 +84,6 @@
             <SightsEfficiency>1.1</SightsEfficiency>
             <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>60</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
         <Properties>
             <recoilAmount>1.2</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -115,7 +107,6 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>GasOperation</researchPrerequisite>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -128,11 +119,6 @@
             <SightsEfficiency>1.6</SightsEfficiency>
             <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-            <Chemfuel>10</Chemfuel>
-        </costList>
         <Properties>
             <recoilAmount>1.1</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -156,7 +142,6 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -210,11 +195,6 @@
             <SightsEfficiency>1.6</SightsEfficiency>
             <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-            <Chemfuel>10</Chemfuel>
-        </costList>
         <Properties>
             <recoilAmount>1.1</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -238,7 +218,6 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>PrecisionRifling</researchPrerequisite>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -270,7 +249,6 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
-        <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">

@@ -11,7 +11,7 @@
         </graphicData>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -29,8 +29,9 @@
             <HuntingStealth>0.6</HuntingStealth>
         </equippedStatOffsets>
         <costList>
-            <Steel>75</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <Steel>60</Steel>
+            <Chemfuel>15</Chemfuel>
+            <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <weaponTags>
             <li>PLA_SMG</li>

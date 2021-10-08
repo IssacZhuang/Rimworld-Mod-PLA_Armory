@@ -5,7 +5,7 @@
             <Cloth>60</Cloth>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Uniform</researchPrerequisite>
             <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <thingCategories Inherit="False">
@@ -148,7 +148,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
-            <researchPrerequisite>Machining</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Exoskeleton</researchPrerequisite>
             <recipeUsers Inherit = "False">
                 <li>PLA_TableAssembly</li>
             </recipeUsers>

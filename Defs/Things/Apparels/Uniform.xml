@@ -6,7 +6,7 @@
             <Cloth>80</Cloth>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Uniform</researchPrerequisite>
             <useIngredientsForColor>false</useIngredientsForColor>
         </recipeMaker>
         <thingCategories Inherit="False">

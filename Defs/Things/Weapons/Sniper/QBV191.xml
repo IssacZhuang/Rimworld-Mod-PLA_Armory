@@ -12,7 +12,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -27,9 +27,10 @@
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>100</Steel>
+      <Steel>95</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
+      <Chemfuel>15</Chemfuel>
+  </costList>
     <weaponTags>
       <li>PLA_DMR</li>
       <li>PLA_AdvancedDMR</li>

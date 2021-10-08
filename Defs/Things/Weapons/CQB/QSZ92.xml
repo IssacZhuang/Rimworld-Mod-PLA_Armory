@@ -13,7 +13,7 @@
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Gen3Weapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -32,7 +32,7 @@
         </statBases>
         <costList>
             <Steel>40</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <verbs>
             <li>

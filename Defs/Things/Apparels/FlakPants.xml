@@ -5,7 +5,7 @@
             <li>PLA_Apparel</li>
         </thingCategories>
         <recipeMaker>
-            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Armor</researchPrerequisite>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>

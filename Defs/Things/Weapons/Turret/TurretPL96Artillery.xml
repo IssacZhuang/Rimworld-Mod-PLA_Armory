@@ -50,8 +50,7 @@
         </building>
         <rotatable>true</rotatable>
         <researchPrerequisites>
-            <li>Mortars</li>
-            <li>Fabrication</li>
+            <li>PLA_Research_GuidedShell</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/Icon_PL96</uiIconPath>
         <uiIconScale>1</uiIconScale>

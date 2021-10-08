@@ -33,7 +33,7 @@
         </statBases>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>

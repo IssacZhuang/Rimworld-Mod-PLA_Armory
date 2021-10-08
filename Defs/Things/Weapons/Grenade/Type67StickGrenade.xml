@@ -17,6 +17,9 @@
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
       <WorkToMake>8000</WorkToMake>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen1Weapon</researchPrerequisite>
+    </recipeMaker>
     <costList>
       <WoodLog>50</WoodLog>
       <Chemfuel>60</Chemfuel>
