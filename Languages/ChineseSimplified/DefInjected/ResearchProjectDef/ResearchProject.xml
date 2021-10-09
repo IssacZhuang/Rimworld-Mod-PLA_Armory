@@ -10,7 +10,7 @@
   <PLA_Research_Gen3Weapon.description>经过理论论证和实践，解放军发展出了一系列具有具有自己特色的武器和弹药。这些武器性能优良，能适应多种复杂环境。但有于工艺和材料上的缺陷，这些武器仍具有一些缺点。</PLA_Research_Gen3Weapon.description>
 
   <PLA_Research_Gen4Weapon.label>精密武器工艺</PLA_Research_Gen4Weapon.label>
-  <PLA_Research_Gen4Weapon.description>随着武器工艺的材料的发展和设计水平的提高，武器精度和人机工效都相比上一代有了显著的提高。新的武器可以承受更高的膛压，所以也随之配套更为先进的弹药。</PLA_Research_Gen4Weapon.description>
+  <PLA_Research_Gen4Weapon.description>随着武器工艺及材料的发展和设计水平的提高，武器精度和人机工效都相比上一代有了显著的提高。新的武器可以承受更高的膛压，所以也随之配套更为先进的弹药。</PLA_Research_Gen4Weapon.description>
 
   <PLA_Research_SimpleRocket.label>简易火箭炮</PLA_Research_SimpleRocket.label>
   <PLA_Research_SimpleRocket.description>燃料，炸药，铁筒组成的简易火箭弹，制造简单但精度低。</PLA_Research_SimpleRocket.description>
