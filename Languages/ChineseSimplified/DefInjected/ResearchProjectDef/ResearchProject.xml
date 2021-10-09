@@ -19,7 +19,7 @@
   <PLA_Research_GuidedShell.description>通过卫星定位和炮弹的末段制导，大幅度提升火炮的精度。</PLA_Research_GuidedShell.description>
 
   <PLA_Research_PrecisionExplosiveWeapon.label>精准爆炸武器</PLA_Research_PrecisionExplosiveWeapon.label>
-  <PLA_Research_PrecisionExplosiveWeapon.description>用于打击装甲单位的精准武器。</PLA_Research_PrecisionExplosiveWeapon.description>
+  <PLA_Research_PrecisionExplosiveWeapon.description>用于打击装甲单位的精准爆炸武器。</PLA_Research_PrecisionExplosiveWeapon.description>
 
   <PLA_Research_TargetTracking.label>目标跟踪</PLA_Research_TargetTracking.label>
   <PLA_Research_TargetTracking.description>可以锁定并且跟踪目标的武器，可以精确打击目标，并且对使用者的操作水平要求较低。</PLA_Research_TargetTracking.description>

@@ -47,7 +47,7 @@
             <WorkToMake>17500</WorkToMake>
         </statBases>
         <Properties>
-            <recoilAmount>0.8</recoilAmount>
+            <recoilAmount>0.6</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_762x25mmTokarev_FMJ</defaultProjectile>
