@@ -254,7 +254,7 @@
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
         <Properties>
-            <label>throw stick grenade</label>
+            <label>throw frag grenade</label>
             <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>PLA_Proj_Type82GrenadeCE</defaultProjectile>
@@ -401,7 +401,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_CH817Drone</defName>
         <statBases>
-            <MarketValue>207.05</MarketValue>
+            <MarketValue>104</MarketValue>
             <Mass>0.75</Mass>
             <Bulk>0.6</Bulk>
             <SightsEfficiency>1</SightsEfficiency>

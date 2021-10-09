@@ -38,6 +38,12 @@
   <PLA_FragGrenadeBelt.description>别在腰带上的82式破片手雷。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。可使用82式破片手雷补充弹药。</PLA_FragGrenadeBelt.description>
   <PLA_FragGrenadeBelt.comps.CompReloadable.chargeNoun>手雷</PLA_FragGrenadeBelt.comps.CompReloadable.chargeNoun>
   <!-- EN: throw frag grenade -->
-  <PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>投掷破片手雷</PLA_FragGrenadeBelt.verbs.throw_stick_grenade.label>
+  <PLA_FragGrenadeBelt.verbs.throw_frag_grenade.label>投掷破片手雷</PLA_FragGrenadeBelt.verbs.throw_frag_grenade.label>
+
+  <PLA_AttackDroneBelt.label>彩虹817攻击无人机腰带</PLA_AttackDroneBelt.label>
+  <PLA_AttackDroneBelt.description>别在腰带上的彩虹817小型攻击无人机。它们能被扔到空中并且跟踪敌人自爆，会伤害到附近的任何人和物体。可使用彩虹817小型攻击无人机补充弹药。</PLA_AttackDroneBelt.description>
+  <PLA_AttackDroneBelt.comps.CompReloadable.chargeNoun>无人机</PLA_AttackDroneBelt.comps.CompReloadable.chargeNoun>
+  <!-- EN: throw frag grenade -->
+  <PLA_AttackDroneBelt.verbs.throw_attack_drone.label>发射无人机</PLA_AttackDroneBelt.verbs.throw_attack_drone.label>
 
 </LanguageData>

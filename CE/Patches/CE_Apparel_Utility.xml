@@ -113,7 +113,7 @@
         <value>
             <verbs>
                 <li Class="CombatExtended.VerbPropertiesCE">
-                    <label>throw stick grenade</label>
+                    <label>throw frag grenade</label>
                     <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <onlyManualCast>True</onlyManualCast>
@@ -132,6 +132,33 @@
                     <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
                     <defaultProjectile>PLA_Proj_Type82GrenadeCE</defaultProjectile>
                     <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+                </li>
+            </verbs>
+        </value>
+    </Operation>
+
+    <!-- Ch-817 belt-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_AttackDroneBelt"]/verbs</xpath>
+        <value>
+            <verbs>
+                <li Class="CombatExtended.VerbPropertiesCE">
+                    <label>throw attack drone</label>
+                    <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <onlyManualCast>True</onlyManualCast>
+                    <warmupTime>1.4</warmupTime>
+                    <range>92</range>
+                    <minRange>3</minRange>
+                    <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                    <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                    <requireLineOfSight>false</requireLineOfSight>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                    <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                    <defaultProjectile>PLA_Proj_CH817DroneCE</defaultProjectile>
                 </li>
             </verbs>
         </value>

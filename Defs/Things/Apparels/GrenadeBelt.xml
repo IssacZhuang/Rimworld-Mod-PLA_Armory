@@ -175,7 +175,7 @@
         </comps>
         <verbs>
             <li>
-                <label>throw stick grenade</label>
+                <label>throw frag grenade</label>
                 <verbClass>Verb_LaunchProjectileStatic</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <onlyManualCast>True</onlyManualCast>
@@ -210,6 +210,64 @@
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_Type82GrenadeBelt</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BaseGrenadeBelt">
+        <defName>PLA_AttackDroneBelt</defName>
+        <label>CH-817 drone belt</label>
+        <description>Mini attack drone strapped to a belt. They can be thrown to the air, where they'll track the enemies then explode, damaging anything and anyone nearby. Can be reloaded using CH-817 mini attack drone.</description>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="CompProperties_Reloadable">
+                <maxCharges>2</maxCharges>
+                <ammoDef>PLA_CH817Drone</ammoDef>
+                <ammoCountPerCharge>1</ammoCountPerCharge>
+                <baseReloadTicks>40</baseReloadTicks>
+                <soundReload>Standard_Reload</soundReload>
+                <hotKey>Misc4</hotKey>
+                <chargeNoun>Drone</chargeNoun>
+                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <label>throw attack drone</label>
+                <verbClass>Verb_LaunchProjectileStatic</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <range>49</range>
+                <forcedMissRadius>0.1</forcedMissRadius>
+                <warmupTime>2.1</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <defaultProjectile>PLA_Proj_CH817Drone</defaultProjectile>
+            </li>
+        </verbs>
+        <costList>
+            <PLA_Type82Grenade>2</PLA_Type82Grenade>
+        </costList>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_Display_CH817DroneBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <WorkToMake>700</WorkToMake>
+            <Mass>1.5</Mass>
+            <MarketValue>208</MarketValue>
+            <Flammability>0.4</Flammability>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/GrenadeBelt/PLA_CH817DroneBelt</wornGraphicPath>
         </apparel>
     </ThingDef>
 </Defs>

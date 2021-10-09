@@ -56,7 +56,7 @@
     </graphicData>
     <thingClass>PLA.CE.ProjectileFlyingDroneCE</thingClass>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
-      <speed>7</speed>
+      <speed>10</speed>
       <explosionRadius>3.5</explosionRadius>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>82</damageAmountBase>
