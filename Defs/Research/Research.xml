@@ -13,7 +13,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_Gen1Weapon</defName>
         <label>PLA Basic Machining</label>
-        <description>...</description>
+        <description>able to build the PLA workbench and craft old-school weapons of PLA.</description>
         <prerequisites>
             <li>Gunsmithing</li>
         </prerequisites>
@@ -25,7 +25,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_Gen2Weapon</defName>
         <label>General Weapon Accessories</label>
-        <description>...</description>
+        <description>able the weapon that uses general accessories, cheap but good quality.</description>
         <prerequisites>
             <li>PLA_Research_Gen1Weapon</li>
         </prerequisites>
@@ -37,7 +37,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_Gen3Weapon</defName>
         <label>Modern Weapon</label>
-        <description>...</description>
+        <description>able to craft the mordern weapons of PLA.</description>
         <prerequisites>
             <li>PLA_Research_Gen2Weapon</li>
             <li>PrecisionRifling</li>
@@ -50,7 +50,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_Gen4Weapon</defName>
         <label>Precision Weapon Craftsmanship</label>
-        <description>...</description>
+        <description>able to craft the weapons by excellent craftsmanship and material.</description>
         <prerequisites>
             <li>PLA_Research_Gen3Weapon</li>
         </prerequisites>
@@ -62,7 +62,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_PrecisionExplosiveWeapon</defName>
         <label>Precision Explosive Weapon</label>
-        <description>...</description>
+        <description>able to craft the explosive weapons that can accurately hit the enemy</description>
         <prerequisites>
             <li>PLA_Research_Gen3Weapon</li>
         </prerequisites>
@@ -74,7 +74,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_TargetTracking</defName>
         <label>Target Tracking</label>
-        <description>...</description>
+        <description>able to craft the weapons that can launch target-tracking ammo.</description>
         <prerequisites>
             <li>PLA_Research_PrecisionExplosiveWeapon</li>
             <li>PLA_Research_Gen4Weapon</li>
@@ -87,7 +87,7 @@
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
         <defName>PLA_Research_HighCaliber</defName>
         <label>High Caliber</label>
-        <description>...</description>
+        <description>able to craft the high caliber weapon.</description>
         <prerequisites>
             <li>PLA_Research_Gen3Weapon</li>
         </prerequisites>
