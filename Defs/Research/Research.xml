@@ -19,7 +19,7 @@
         </prerequisites>
         <baseCost>200</baseCost>
         <researchViewX> 0</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -31,7 +31,7 @@
         </prerequisites>
         <baseCost>300</baseCost>
         <researchViewX>1</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -44,7 +44,7 @@
         </prerequisites>
         <baseCost>800</baseCost>
         <researchViewX>2</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -56,7 +56,7 @@
         </prerequisites>
         <baseCost>1200</baseCost>
         <researchViewX>3</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -93,7 +93,7 @@
         </prerequisites>
         <baseCost>500</baseCost>
         <researchViewX>3</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -105,7 +105,7 @@
         </prerequisites>
         <baseCost>300</baseCost>
         <researchViewX>3</researchViewX>
-        <researchViewY>3</researchViewY>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -117,7 +117,7 @@
         </prerequisites>
         <baseCost>600</baseCost>
         <researchViewX>3</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -130,7 +130,7 @@
         </prerequisites>
         <baseCost>1000</baseCost>
         <researchViewX>4</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -143,7 +143,7 @@
         </prerequisites>
         <baseCost>400</baseCost>
         <researchViewX>1</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -156,7 +156,7 @@
         </prerequisites>
         <baseCost>4000</baseCost>
         <researchViewX>2</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -168,7 +168,7 @@
         </prerequisites>
         <baseCost>100</baseCost>
         <researchViewX>0</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -181,7 +181,7 @@
         </prerequisites>
         <baseCost>800</baseCost>
         <researchViewX>1</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="PLA_ResearchProjectBase">
@@ -194,6 +194,6 @@
         </prerequisites>
         <baseCost>1200</baseCost>
         <researchViewX>1</researchViewX>
-        <researchViewY>5</researchViewY>
+        <researchViewY>4.2</researchViewY>
     </ResearchProjectDef>
 </Defs>
