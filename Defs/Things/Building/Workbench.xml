@@ -67,7 +67,7 @@
         </building>
         <constructEffect>ConstructMetal</constructEffect>
         <researchPrerequisites>
-          <li>Machining</li>
+          <li>PLA_Research_Gen1Weapon</li>
         </researchPrerequisites>
         <placeWorkers>
           <li>PlaceWorker_ShowFacilitiesConnections</li>
