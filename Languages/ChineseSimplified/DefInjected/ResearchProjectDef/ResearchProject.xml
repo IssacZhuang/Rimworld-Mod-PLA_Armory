@@ -33,7 +33,7 @@
   <PLA_Research_WeaponDigitization.label>数字化武器</PLA_Research_WeaponDigitization.label>
   <PLA_Research_WeaponDigitization.description>带有单兵火控系统的武器，操作上更加智能，功能也更多，但是造价昂贵。</PLA_Research_WeaponDigitization.description>
 
-  <PLA_Research_AdvancedHighCaliber.label>轻量化大口径武器</PLA_Research_AdvancedHighCaliber.label>
+  <PLA_Research_AdvancedHighCaliber.label>高级大口径武器</PLA_Research_AdvancedHighCaliber.label>
   <PLA_Research_AdvancedHighCaliber.description>使用高强度重量轻的金属制成的大口径武器，使得武器在保持性能优秀，火力强大的同时，进一步减轻重量。</PLA_Research_AdvancedHighCaliber.description>
 
   <PLA_Research_Uniform.label>解放军制服</PLA_Research_Uniform.label>
