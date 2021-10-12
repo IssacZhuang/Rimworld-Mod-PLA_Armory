@@ -33,6 +33,9 @@
             <aimedBurstShotCount>5</aimedBurstShotCount>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -68,6 +71,9 @@
             <aimedBurstShotCount>5</aimedBurstShotCount>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -169,6 +175,9 @@
         <FireModes>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -200,6 +209,9 @@
         <FireModes>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
