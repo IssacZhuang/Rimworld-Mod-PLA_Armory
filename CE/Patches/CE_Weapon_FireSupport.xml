@@ -190,7 +190,7 @@
         <defName>PLA_QLUEleven</defName>
         <statBases>
             <Mass>12.9</Mass>
-            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
             <SightsEfficiency>2.4</SightsEfficiency>
             <ShotSpread>0.05</ShotSpread>
             <SwayFactor>2.2</SwayFactor>
