@@ -70,7 +70,7 @@
         </subSounds>
     </SoundDef>
 
-    <SoundDef>
+    <!--SoundDef>
         <defName>PLA_SoundCSLM16HMG</defName>
         <context>MapOnly</context>
         <eventNames />
@@ -138,7 +138,7 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
+    </SoundDef-->
 
     <SoundDef>
         <defName>PLA_SoundCSLM5HMG</defName>
