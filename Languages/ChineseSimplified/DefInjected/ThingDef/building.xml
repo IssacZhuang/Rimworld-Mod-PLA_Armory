@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    <PLA_TableAssembly.label>解放军加工台</PLA_TableAssembly.label>
-    <PLA_TableAssembly.description>用于组装解放军武器的工作台。</PLA_TableAssembly.description>
+  <PLA_TableAssembly.label>解放军加工台</PLA_TableAssembly.label>
+  <PLA_TableAssembly.description>用于组装解放军武器的工作台。</PLA_TableAssembly.description>
 
-    <!-- Secuirity-->
+  <!-- Secuirity-->
 
-    <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
+  <PLA_Turret85HMG.label>85式重机枪炮塔</PLA_Turret85HMG.label>
   <PLA_Turret85HMG.description>装在三脚架上的85式重机枪，火力强大。需要有人控制。</PLA_Turret85HMG.description>
   <PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_Turret85HMG.comps.CompRefuelable.fuelGizmoLabel>
   <PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_Turret85HMG.comps.CompRefuelable.fuelLabel>
   <PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_Turret85HMG.comps.CompRefuelable.outOfFuelMessage>
 
   <PLA_Gun85HMG.label>85式重机枪</PLA_Gun85HMG.label>
-  <PLA_Gun85HMG.description>解放军的重机枪（放置在三脚架上的）。</PLA_Gun85HMG.description>
+  <PLA_Gun85HMG.description>解放军的12.7mm重机枪（放置在三脚架上的）。</PLA_Gun85HMG.description>
+
+  <PLA_TurretQJG02HMG.label>02式高射机枪炮塔</PLA_TurretQJG02HMG.label>
+  <PLA_TurretQJG02HMG.description>装在三脚架上的02式重机枪，火力强大。需要有人控制。</PLA_TurretQJG02HMG.description>
+  <PLA_TurretQJG02HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretQJG02HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_TurretQJG02HMG.comps.CompRefuelable.fuelLabel>射击直到更换枪管</PLA_TurretQJG02HMG.comps.CompRefuelable.fuelLabel>
+  <PLA_TurretQJG02HMG.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换枪管</PLA_TurretQJG02HMG.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_GunQJG02HMG.label>02式高射机枪</PLA_GunQJG02HMG.label>
+  <PLA_GunQJG02HMG.description>解放军的14.5mm重机枪（放置在三脚架上的）。</PLA_GunQJG02HMG.description>
 
   <PLA_AutoTurret85HMG.label>85式自动重机枪炮塔</PLA_AutoTurret85HMG.label>
   <PLA_AutoTurret85HMG.description>装在三脚架上的85式重机枪，由电脑操控。</PLA_AutoTurret85HMG.description>
