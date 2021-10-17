@@ -89,6 +89,16 @@
   <PLA_TypeFiftySixOneA.tools.0.label>枪托</PLA_TypeFiftySixOneA.tools.0.label>
   <PLA_TypeFiftySixOneA.tools.1.label>枪管</PLA_TypeFiftySixOneA.tools.1.label>
 
+  <PLA_TypeFiftySix.label>56式冲锋枪</PLA_TypeFiftySix.label>
+  <PLA_TypeFiftySix.description>解放军的老式突击步枪。原型为苏联的AK-47，由于工艺的材料的原因，精度会比AK-47更差一些，但是该枪制造简单坚实耐用。</PLA_TypeFiftySix.description>
+  <PLA_TypeFiftySix.tools.0.label>枪托</PLA_TypeFiftySix.tools.0.label>
+  <PLA_TypeFiftySix.tools.1.label>枪管</PLA_TypeFiftySix.tools.1.label>
+
+  <PLA_TypeFiftySixS.label>56式半自动步枪</PLA_TypeFiftySixS.label>
+  <PLA_TypeFiftySixS.description>解放军老式的半自动步枪。原型为苏联的SKS，射程尚可，精度良好。</PLA_TypeFiftySixS.description>
+  <PLA_TypeFiftySixS.tools.0.label>枪托</PLA_TypeFiftySixS.tools.0.label>
+  <PLA_TypeFiftySixS.tools.1.label>枪管</PLA_TypeFiftySixS.tools.1.label>
+
   <PLA_TypeSixtyThree.label>63式自动步枪</PLA_TypeSixtyThree.label>
   <PLA_TypeSixtyThree.description>解放军的老式自动步枪，属于解放军军工自主探索的早期产品，本质是一把加了弹匣可以连发的56半步枪。</PLA_TypeSixtyThree.description>
   <PLA_TypeSixtyThree.tools.0.label>枪托</PLA_TypeSixtyThree.tools.0.label>

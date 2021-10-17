@@ -35,7 +35,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath> /Defs/ThingDef[defName="PLA_TypeSixtyThree" or defName="PLA_TypeFiftyThree" or defName="PLA_TypeSeventyNine" or defName="PLA_TypeSeventyNineA" or defName="PLA_TypeEightyOne" or defName="PLA_TypeEightyOneLMG"]/tools
+        <xpath> /Defs/ThingDef[defName="PLA_TypeSixtyThree" or defName="PLA_TypeFiftySix" or defName="PLA_TypeFiftySixS" or defName="PLA_TypeFiftyThree" or defName="PLA_TypeSeventyNine" or defName="PLA_TypeSeventyNineA" or defName="PLA_TypeEightyOne" or defName="PLA_TypeEightyOneLMG"]/tools
                     </xpath>
         <value>
             <tools>
