@@ -32,6 +32,7 @@
         </costList>
         <weaponTags>
           <li>PLA_AssaultRifle</li>
+          <li>AssaultRifle</li>
         </weaponTags>
         <verbs>
           <li>

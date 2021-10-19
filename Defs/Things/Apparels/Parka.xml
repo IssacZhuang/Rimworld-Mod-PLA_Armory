@@ -3,6 +3,7 @@
     <ThingDef Name="PLA_ParkaBase" ParentName="ApparelMakeableBase" Abstract="true">
         <techLevel>Industrial</techLevel>
         <costStuffCount>100</costStuffCount>
+        <generateCommonality>0</generateCommonality>
         <generateAllowChance>0</generateAllowChance>
         <stuffCategories>
             <li>Fabric</li>

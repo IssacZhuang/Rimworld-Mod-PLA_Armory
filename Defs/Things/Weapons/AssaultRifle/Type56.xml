@@ -20,6 +20,7 @@
     <statBases>
       <WorkToMake>7500</WorkToMake>
       <Mass>3.25</Mass>
+      <MarketValue>142</MarketValue>
       <AccuracyTouch>0.52</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
       <AccuracyMedium>0.46</AccuracyMedium>
@@ -33,6 +34,9 @@
     </costList>
     <weaponTags>
       <li>PLA_AssaultRifle</li>
+      <li>PLA_SimpleGun</li>
+      <li>SimpleGun</li>
+      <li>Gun</li>
     </weaponTags>
     <verbs>
       <li>

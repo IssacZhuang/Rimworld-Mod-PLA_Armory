@@ -189,6 +189,9 @@
             <SightsEfficiency>1.6</SightsEfficiency>
             <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
         </statBases>
+        <weaponTags>
+            <li>CE_AI_AR</li>
+          </weaponTags>
         <Properties>
             <recoilAmount>1.1</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>

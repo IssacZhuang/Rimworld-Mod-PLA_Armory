@@ -25,6 +25,7 @@
         </statBases>
         <equippedStatOffsets></equippedStatOffsets>
         <techLevel>Industrial</techLevel>
+        <generateCommonality>0</generateCommonality>
         <generateAllowChance>0</generateAllowChance>
         <apparel>
             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
