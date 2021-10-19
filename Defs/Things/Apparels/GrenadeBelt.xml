@@ -252,7 +252,7 @@
             </li>
         </verbs>
         <costList>
-            <PLA_Type82Grenade>2</PLA_Type82Grenade>
+            <PLA_CH817Drone>2</PLA_CH817Drone>
         </costList>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_Display_CH817DroneBelt</texPath>
