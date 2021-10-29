@@ -262,12 +262,12 @@
             <Mass>20</Mass>
             <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
             <SightsEfficiency>1.9</SightsEfficiency>
-            <ShotSpread>0.09</ShotSpread>
+            <ShotSpread>0.02</ShotSpread>
             <SwayFactor>1.1</SwayFactor>
             <Bulk>12</Bulk>
         </statBases>
         <Properties>
-            <recoilAmount>1.5</recoilAmount>
+            <recoilAmount>1</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_35x32mmSRGrenade_HighSpeed_HE</defaultProjectile>
@@ -295,6 +295,21 @@
             <aimedBurstShotCount>3</aimedBurstShotCount>
         </FireModes>
     </Operation>
+
+    <!--Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_Gun04GrenadeLauncher"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>20</li>
+                    <li>40</li>
+                    <li>65</li>
+                    <li>90</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation-->
 
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="PLA_Turret04GrenadeLauncher" ]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
