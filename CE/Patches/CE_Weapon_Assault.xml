@@ -221,7 +221,7 @@
         <defName>PLA_QBZOneNineOneCarbine</defName>
         <statBases>
             <Mass>2.7</Mass>
-            <Bulk>7.3</Bulk>
+            <Bulk>6.8</Bulk>
             <SwayFactor>1.1</SwayFactor>
             <ShotSpread>0.04</ShotSpread>
             <SightsEfficiency>1.6</SightsEfficiency>
@@ -233,7 +233,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
             <warmupTime>0.6</warmupTime>
-            <range>32</range>
+            <range>36</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQBZ191</soundCast>
