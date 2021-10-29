@@ -25,8 +25,8 @@
     <CombatExtended.AmmoCategoryDef>
         <defName>PLA_IncendiaryAPLight</defName>
         <label>armor-piercing incendiary light</label>
-        <labelShort>AP-IL</labelShort>
-        <description>The light weight version of API bullet. Filled with an incendiary compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
+        <labelShort>AP-I Light</labelShort>
+        <description>Uses the lightweight metal to reduce bullet weight. Filled with an incendiary compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
