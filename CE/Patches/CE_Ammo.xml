@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_127x108mm"]/ammoTypes</xpath>
+        <value>
+            <!--Ammo_127x108mm_IncendiaryHE>Bullet_127x108mm_IncendiaryHE</Ammo_127x108mm_IncendiaryHE-->	
+            <Ammo_127x108mm_IncendiaryLight>Bullet_127x108mm_IncendiaryLight</Ammo_127x108mm_IncendiaryLight>	  
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <CombatExtended.AmmoCategoryDef>
@@ -16,10 +16,24 @@
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
-		<defName>PLA_Composit_OneNineOne</defName>
-		<label>armo-piercing composit rigid</label>
-		<labelShort>APCR</labelShort>
-		<description>The APCR projectile has a core of a high-density hard material. \nThe projectile is lighter: up to half the weight of a standard AP shot of the same caliber. The lighter weight allows a higher muzzle velocity. The kinetic energy of the shot is concentrated in the core and hence on a smaller impact area, improving the penetration of the target armor.</description>
-	</CombatExtended.AmmoCategoryDef>
+        <defName>PLA_Composit_OneNineOne</defName>
+        <label>armo-piercing composit rigid</label>
+        <labelShort>APCR</labelShort>
+        <description>The APCR projectile has a core of a high-density hard material. \nThe projectile is lighter: up to half the weight of a standard AP shot of the same caliber. The lighter weight allows a higher muzzle velocity. The kinetic energy of the shot is concentrated in the core and hence on a smaller impact area, improving the penetration of the target armor.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PLA_IncendiaryAPLight</defName>
+        <label>armor-piercing incendiary light</label>
+        <labelShort>AP-IL</labelShort>
+        <description>The light weight version of API bullet. Filled with an incendiary compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PLA_IncendiaryAPHE</defName>
+        <label>armor-piercing high-explosive incendiary</label>
+        <labelShort>AP-HEI</labelShort>
+        <description>Filled with incendiary and high-explosives compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
 
 </Defs>

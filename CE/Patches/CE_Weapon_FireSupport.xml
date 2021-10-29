@@ -147,7 +147,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJZOneSevenOne</defName>
         <statBases>
-            <Mass>20.5</Mass>
+            <Mass>17</Mass>
             <Bulk>19</Bulk>
             <SwayFactor>1.5</SwayFactor>
             <ShotSpread>0.15</ShotSpread>

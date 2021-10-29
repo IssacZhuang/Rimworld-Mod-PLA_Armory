@@ -10,4 +10,7 @@
   <PLA_GrenadeBUCK.label>霰弹</PLA_GrenadeBUCK.label>
   <PLA_GrenadeBUCK.description>装有多粒大型圆铅弹弹药，配合大口径多装药，有极强的杀伤力。</PLA_GrenadeBUCK.description>
 
+  <PLA_IncendiaryAPLight.label>轻质穿甲燃烧弹</PLA_IncendiaryAPLight.label>
+  <PLA_IncendiaryAPLight.description>使用高强度重量轻的金属来进行减重的弹药，同时保持了穿甲燃烧弹的特性。</PLA_IncendiaryAPLight.description>
+
 </LanguageData>

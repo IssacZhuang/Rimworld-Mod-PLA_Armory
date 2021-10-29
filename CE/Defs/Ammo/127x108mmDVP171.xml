@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x108mmBase">
+    <defName>Ammo_127x108mm_IncendiaryLight</defName>
+    <label>12.7x108mm DVP171 cartridge (AP-IL)</label>
+    <graphicData>
+      <texPath>Things/Ammo/APIL</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.100</Mass>
+    </statBases>
+    <ammoClass>PLA_IncendiaryAPLight</ammoClass>
+    <cookOffProjectile>Bullet_127x108mm_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <!--ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x108mmBase">
+    <defName>Ammo_127x108mm_IncendiaryHE</defName>
+    <label>12.7x108mm DVP89 cartridge (AP-HEI)</label>
+    <graphicData>
+      <texPath>Things/Ammo/HighCaliber/Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.128</Mass>
+    </statBases>
+    <ammoClass>PLA_IncendiaryAPHE</ammoClass>
+    <cookOffProjectile>Bullet_127x108mm_IncendiaryHE</cookOffProjectile>
+  </ThingDef-->
+
+  <!-- Bullet-->
+
+  <ThingDef ParentName="Base127x108mmBullet">
+    <defName>Bullet_127x108mm_IncendiaryLight</defName>
+    <label>12.7x108mm DVP171 bullet (AP-IL)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationSharp>38</armorPenetrationSharp>
+      <armorPenetrationBlunt>324.74</armorPenetrationBlunt>
+      <secondaryDamage>
+        <li>
+          <def>Flame_Secondary</def>
+          <amount>16</amount>
+        </li>
+      </secondaryDamage>
+    </projectile>
+  </ThingDef>
+
+  <!--ThingDef ParentName="Base127x108mmBullet">
+    <defName>Bullet_127x108mm_IncendiaryHE</defName>
+    <label>12.7x108mm DVP89 bullet (AP-HEI)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationSharp>40</armorPenetrationSharp>
+      <armorPenetrationBlunt>344.74</armorPenetrationBlunt>
+      <secondaryDamage>
+        <li>
+          <def>Bomb_Secondary</def>
+          <amount>14</amount>
+        </li>
+        <li>
+          <def>Flame_Secondary</def>
+          <amount>12</amount>
+        </li>
+      </secondaryDamage>
+    </projectile>
+  </ThingDef-->
+
+  <!-- Recipe-->
+
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>MakeAmmo_127x108mm_IncendiaryLight</defName>
+    <label>make 12.7x108mm DVP171 (AP-IL) cartridge x200</label>
+    <description>Craft 200 12.7x108mm DVP171 (AP-IL) cartridges.</description>
+    <jobString>Making 12.7x108mm DVP171 (AP-IL) cartridges.</jobString>
+    <researchPrerequisites>
+			<li>PLA_Research_AdvancedHighCaliber</li>
+		</researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Prometheum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_127x108mm_IncendiaryLight>200</Ammo_127x108mm_IncendiaryLight>
+    </products>
+    <workAmount>7400</workAmount>
+  </RecipeDef>
+
+  <!--RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>MakeAmmo_127x108mm_IncendiaryHE</defName>
+    <label>make 12.7x108mm DVP89 (AP-HEI) cartridge x200</label>
+    <description>Craft 200 12.7x108mm DVP89 (AP-HEI) cartridges.</description>
+    <jobString>Making 12.7x108mm DVP89 (AP-HEI) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>52</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>FSX</li>
+        <li>Prometheum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_127x108mm_IncendiaryHE>200</Ammo_127x108mm_IncendiaryHE>
+    </products>
+    <workAmount>7400</workAmount>
+  </RecipeDef-->
+
+
+</Defs>
