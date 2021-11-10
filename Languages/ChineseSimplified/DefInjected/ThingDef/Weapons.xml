@@ -188,6 +188,11 @@
   <PLA_EngineerShovel.tools.0.label>铲尖</PLA_EngineerShovel.tools.0.label>
   <PLA_EngineerShovel.tools.1.label>铲刃</PLA_EngineerShovel.tools.1.label>
 
+  <PLA_Saber.label>92式指挥刀</PLA_Saber.label>
+  <PLA_Saber.description>人民解放军的军刀。随着热兵器以及机械化武器的普及，军刀已经不会出现在战场上，所以这把刀一般给仪仗队使用。</PLA_Saber.description>
+  <PLA_Saber.tools.0.label>铲尖</PLA_Saber.tools.0.label>
+  <PLA_Saber.tools.1.label>铲刃</PLA_Saber.tools.1.label>
+
   <PLA_Type67StickGrenade.label>67式木柄手雷</PLA_Type67StickGrenade.label>
   <PLA_Type67StickGrenade.description>老式的木柄手榴弹。威力比普通手榴弹小，但扔得更远。</PLA_Type67StickGrenade.description>
 
