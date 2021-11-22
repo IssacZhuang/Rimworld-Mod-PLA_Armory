@@ -152,6 +152,11 @@
   <PLA_QBUTwoZeroTwo.tools.0.label>枪托</PLA_QBUTwoZeroTwo.tools.0.label>
   <PLA_QBUTwoZeroTwo.tools.1.label>枪管</PLA_QBUTwoZeroTwo.tools.1.label>
 
+  <PLA_145mmAMR.label>14.5mm反器材步枪</PLA_145mmAMR.label>
+  <PLA_145mmAMR.description>人民解放军的外贸反器材步枪，发射14.5mm口径弹药</PLA_145mmAMR.description>
+  <PLA_145mmAMR.tools.0.label>枪托</PLA_145mmAMR.tools.0.label>
+  <PLA_145mmAMR.tools.1.label>枪管</PLA_145mmAMR.tools.1.label>
+
   <PLA_QBVOneNineOne.label>191式精确射手步枪</PLA_QBVOneNineOne.label>
   <PLA_QBVOneNineOne.description>人民解放军的新式精确射手步枪。</PLA_QBVOneNineOne.description>
   <PLA_QBVOneNineOne.tools.0.label>枪托</PLA_QBVOneNineOne.tools.0.label>

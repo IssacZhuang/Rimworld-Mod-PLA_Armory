@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_BaseGunNonMakeable">
+        <defName>PLA_145mmAMR</defName>
+        <label>14.5mm Anti Material Rifle</label>
+        <description>A high caliber anti material rifle</description>
+        <graphicData>
+            <texPath>Things/Weapon/145mmAMR</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.7,1.7)</drawSize>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <MarketValue>487</MarketValue>
+            <Mass>7.5</Mass>
+            <AccuracyTouch>0.37</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.83</AccuracyLong>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>SniperRifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_AMR</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>48</range>
+                <soundCast>PLA_Sound145mmAMR</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+                <southOffset>(0.2,0,-0.2)</southOffset>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

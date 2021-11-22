@@ -141,6 +141,16 @@
       </recipeMaker>
     </ThingDef>
 
+    <ThingDef Name="PLA_BaseGunNonMakeable" ParentName="BaseGunWithQuality" Abstract="True">
+      <thingCategories Inherit = "False">
+          <li>PLA_WeaponRanged</li>
+      </thingCategories>
+      <thingSetMakerTags Inherit = "False">
+          <li>RewardStandardMidFreq</li>
+      </thingSetMakerTags>
+      <weaponTags></weaponTags>
+  </ThingDef>
+
     <ThingDef Name="PLA_BaseGunSingleUse" ParentName="BaseGun" Abstract="True">
       <weaponTags Inherit = "False"></weaponTags>
       <recipeMaker>

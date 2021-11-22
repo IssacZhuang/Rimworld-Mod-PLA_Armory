@@ -5,7 +5,7 @@
 
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath> /Defs/ThingDef[defName="PLA_QCWZeroFive" or defName="PLA_QCQOneSevenOne" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne" or defName="PLA_QBZZeroThree" or defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_TypeFiftySixOneA" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QBUEightyEight" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo" or defName="PLA_QBVOneNineOne" or defName="PLA_QLUEleven" or defName="PLA_QBSZeroNine" or defName="PLA_QBZOneNineOne_Charged"]/tools
+        <xpath> /Defs/ThingDef[defName="PLA_QCWZeroFive" or defName="PLA_QCQOneSevenOne" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne" or defName="PLA_QBZZeroThree" or defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_TypeFiftySixOneA" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_145mmAMR" or defName="PLA_QBUEightyEight" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo" or defName="PLA_QBVOneNineOne" or defName="PLA_QLUEleven" or defName="PLA_QBSZeroNine" or defName="PLA_QBZOneNineOne_Charged"]/tools
                     </xpath>
         <value>
             <tools>
