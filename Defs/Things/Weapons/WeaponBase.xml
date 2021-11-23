@@ -148,7 +148,7 @@
       <thingSetMakerTags Inherit = "False">
           <li>RewardStandardMidFreq</li>
       </thingSetMakerTags>
-      <weaponTags></weaponTags>
+      <weaponTags Inherit = "False"></weaponTags>
   </ThingDef>
 
     <ThingDef Name="PLA_BaseGunSingleUse" ParentName="BaseGun" Abstract="True">

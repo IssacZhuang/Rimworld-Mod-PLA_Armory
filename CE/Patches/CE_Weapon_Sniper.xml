@@ -20,6 +20,9 @@
             <soundCast>PLA_SoundQLU11</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
         </Properties>
         <AmmoUser>
             <magazineSize>7</magazineSize>
@@ -136,10 +139,6 @@
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
-        <weaponTags>
-            <li>SniperRifle</li>
-            <li>CE_AI_SR</li>
-        </weaponTags>
     </Operation>
 
     <Operation Class="PatchOperationAddModExtension">

@@ -208,6 +208,9 @@
             <soundCast>PLA_SoundPF98</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>14</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
         </Properties>
         <AmmoUser>
             <magazineSize>1</magazineSize>
