@@ -14,7 +14,7 @@
                     <capacities>
                         <li>Blunt</li>
                     </capacities>
-                    <power>8</power>
+                    <power>12</power>
                     <cooldownTime>1.55</cooldownTime>
                     <chanceFactor>1.5</chanceFactor>
                     <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
