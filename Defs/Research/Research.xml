@@ -190,10 +190,10 @@
         <description>...</description>
         <prerequisites>
             <li>PLA_Research_Uniform</li>
-            <li>Machining</li>
+            <li>PLA_Research_Gen1Weapon</li>
         </prerequisites>
         <baseCost>1200</baseCost>
         <researchViewX>1</researchViewX>
-        <researchViewY>4.2</researchViewY>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 </Defs>
