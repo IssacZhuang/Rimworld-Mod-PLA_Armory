@@ -152,7 +152,7 @@
             <SwayFactor>1.5</SwayFactor>
             <ShotSpread>0.15</ShotSpread>
             <SightsEfficiency>1.2</SightsEfficiency>
-            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
         </statBases>
         <Properties>
             <recoilAmount>1.8</recoilAmount>
@@ -168,8 +168,8 @@
             <muzzleFlashScale>19</muzzleFlashScale>
         </Properties>
         <AmmoUser>
-            <magazineSize>80</magazineSize>
-            <reloadTime>9.5</reloadTime>
+            <magazineSize>60</magazineSize>
+            <reloadTime>88.5</reloadTime>
             <ammoSet>AmmoSet_127x108mm</ammoSet>
         </AmmoUser>
         <FireModes>

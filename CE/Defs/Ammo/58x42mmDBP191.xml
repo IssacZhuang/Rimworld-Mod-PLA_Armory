@@ -53,7 +53,7 @@
 			<li>PLA_ammo</li>
 		</tradeTags>
 		<statBases>
-			<MarketValue>0.09</MarketValue>
+			<MarketValue>0.12</MarketValue>
 			<Mass>0.02</Mass>
 		</statBases>
 		<ammoClass>PLA_Composit_OneNineOne</ammoClass>
@@ -79,7 +79,7 @@
 		<label>5.8mm DBP191 bullet (APCR)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>15</damageAmountBase>
-			<armorPenetrationSharp>21.5</armorPenetrationSharp>
+			<armorPenetrationSharp>18.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>34.2</armorPenetrationBlunt>
 			<speed>228</speed>
 		</projectile>

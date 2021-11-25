@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="PLA_BaseGunNonMakeable">
+    <!--ThingDef ParentName="PLA_BaseGunNonMakeable">
         <defName>PLA_145mmAMR</defName>
         <label>14.5mm Anti Material Rifle</label>
         <description>A high caliber anti material rifle</description>
@@ -56,6 +56,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef-->
 
 </Defs>

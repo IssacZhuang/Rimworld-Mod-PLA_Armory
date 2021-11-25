@@ -109,6 +109,9 @@
             <aimedBurstShotCount>4</aimedBurstShotCount>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -144,6 +147,9 @@
             <aimedBurstShotCount>4</aimedBurstShotCount>
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">

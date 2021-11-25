@@ -109,7 +109,7 @@
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_145mmAMR</defName>
         <statBases>
             <Mass>18</Mass>
@@ -139,7 +139,7 @@
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
-    </Operation>
+    </Operation-->
 
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[defName="PLA_QBUTen"]</xpath>

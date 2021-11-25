@@ -39,7 +39,7 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>7</damageAmountBase>
             <pelletCount>9</pelletCount>
-            <armorPenetrationSharp>8.5</armorPenetrationSharp>
+            <armorPenetrationSharp>10</armorPenetrationSharp>
             <armorPenetrationBlunt>8.52</armorPenetrationBlunt>
             <spreadMult>17.8</spreadMult>
         </projectile>
