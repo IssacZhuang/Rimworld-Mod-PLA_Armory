@@ -45,7 +45,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_HighExplosiveAntiTank_HJTwelve</defaultProjectile>
                 <forcedMissRadius>0.1</forcedMissRadius>
-                <warmupTime>5.2</warmupTime>
+                <warmupTime>7.2</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
                 <range>42</range>
                 <burstShotCount>1</burstShotCount>

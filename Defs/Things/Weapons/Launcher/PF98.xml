@@ -44,7 +44,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Thermobaric_PFNinetyEight</defaultProjectile>
                 <forcedMissRadius>1.9</forcedMissRadius>
-                <warmupTime>5.5</warmupTime>
+                <warmupTime>6.8</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
                 <range>37</range>
                 <burstShotCount>1</burstShotCount>
