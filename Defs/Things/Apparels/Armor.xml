@@ -26,7 +26,7 @@
             <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.43</ArmorRating_Heat>
-            <Insulation_Cold>42.8</Insulation_Cold>
+            <Insulation_Cold>5.8</Insulation_Cold>
             <Insulation_Heat>18.3</Insulation_Heat>
             <Mass>4</Mass>
             <EquipDelay>1.5</EquipDelay>
@@ -56,7 +56,6 @@
             </bodyPartGroups>
             <layers>
                 <li>Middle</li>
-                <li>Shell</li>
             </layers>
             <tags Inherit = "False">
                 <li>PLA_BodyArmor</li>

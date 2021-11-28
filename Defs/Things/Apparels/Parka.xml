@@ -21,11 +21,12 @@
             <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>20.8</Insulation_Cold>
             <EquipDelay>3</EquipDelay>
         </statBases>
         <recipeMaker>
             <useIngredientsForColor>false</useIngredientsForColor>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <researchPrerequisite>PLA_Research_Uniform</researchPrerequisite>
         </recipeMaker>
         <apparel>
             <bodyPartGroups>
@@ -50,24 +51,24 @@
         <colorGenerator Class="ColorGenerator_Options">
             <options>
                 <li>
-                    <only>(0.32,0.38,0.28)</only>
+                    <only>(0.7,0.7,0.7)</only>
                 </li>
             </options>
         </colorGenerator>
     </ThingDef>
 
-    <!--ThingDef ParentName="PLA_ParkaBase">
-        <defName>PLA_MilitaryCoat</defName>
-        <label>PLA military coat</label>
-        <description>A military coat.</description>
+    <ThingDef ParentName="PLA_ParkaBase">
+        <defName>PLA_Parka_Desert</defName>
+        <label>PLA parka</label>
+        <description>A parka.</description>
         <graphicData>
-            <texPath>Things/Apparel/Display/MilitaryCoat_Display</texPath>
+            <texPath>Things/Apparel/Display/PLA_Parka_display</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <apparel>
-            <wornGraphicPath>Things/Apparel/MilitaryCoat/MilitaryCoat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Parka/PLA_Parka</wornGraphicPath>
             <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
-    </ThingDef-->
+    </ThingDef>
 </Defs>
