@@ -169,7 +169,7 @@
         </Properties>
         <AmmoUser>
             <magazineSize>60</magazineSize>
-            <reloadTime>88.5</reloadTime>
+            <reloadTime>8.5</reloadTime>
             <ammoSet>AmmoSet_127x108mm</ammoSet>
         </AmmoUser>
         <FireModes>
