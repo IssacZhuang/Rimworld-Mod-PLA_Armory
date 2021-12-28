@@ -271,7 +271,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
             <warmupTime>0.6</warmupTime>
-            <range>36</range>
+            <range>42</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
             <soundCast>PLA_SoundQBZ191</soundCast>

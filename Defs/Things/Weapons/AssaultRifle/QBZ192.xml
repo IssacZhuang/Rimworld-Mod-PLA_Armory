@@ -40,7 +40,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
         <warmupTime>0.8</warmupTime>
-        <range>23</range>
+        <range>24</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>PLA_SoundQBZ191</soundCast>
