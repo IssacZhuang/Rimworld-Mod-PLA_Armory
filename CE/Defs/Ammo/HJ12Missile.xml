@@ -138,19 +138,28 @@
 				</filter>
 				<count>1</count>
 			</li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>11</count>
+				<count>12</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
 				<li>ComponentSpacer</li>
+                <li>ComponentIndustrial</li>
 				<li>FSX</li>
 			</thingDefs>
 		</fixedIngredientFilter>

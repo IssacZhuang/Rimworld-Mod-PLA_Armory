@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <PLA_Turret_HJ73MissileLauncher.label>双联红箭73导弹</PLA_Turret_HJ73MissileLauncher.label>
+    <PLA_Turret_HJ73MissileLauncher.description>装在架子上是的红箭73反坦克导弹。需要有人控制。</PLA_Turret_HJ73MissileLauncher.description>
+    
+    <PLA_Artillery_HJ73MissileLauncher.label>双联红箭73导弹发射器</PLA_Artillery_HJ73MissileLauncher.label>
+    <PLA_Artillery_HJ73MissileLauncher.description>双联红箭73导弹发射器（放置在架子的）。</PLA_Artillery_HJ73MissileLauncher.description>
+</LanguageData>

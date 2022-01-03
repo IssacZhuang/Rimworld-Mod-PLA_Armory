@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoHJ73Missile</defName>
+		<label>HJ-73 Missile</label>
+		<parent>AmmoRockets</parent>
+		<iconPath>Things/Ammo/HJ73MissileHEAT/HJ73MissileHEAT_a</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_HJ73Missile</defName>
+		<label>HJ-73 Missile</label>
+		<ammoTypes>
+			<Ammo_HJ73Missile_HEAT>Bullet_HJ73Missile_HEAT</Ammo_HJ73Missile_HEAT>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="HJ73MissileBase" ParentName="AmmoBase" Abstract="True">
+		<description>HJ-73 Anti-tank missile.</description>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoHJ73Missile</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<cookOffFlashScale>25</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="HJ73MissileBase">
+		<defName>Ammo_HJ73Missile_HEAT</defName>
+		<label>HJ-73 Missile (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HJ73MissileHEAT</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>104.44</MarketValue>
+			<Mass>6.25</Mass>
+			<Bulk>10</Bulk>
+		</statBases>
+		<ammoClass>RocketHEAT</ammoClass>
+		<detonateProjectile>Bullet_HJ73Missile_HEAT</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseHJ73Missile" ParentName="BaseBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>100</speed>
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseHJ73Missile">
+		<defName>Bullet_HJ73Missile_HEAT</defName>
+		<label>HJ-73 Missile (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Projectile/HJ73MissileHEAT</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.5</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>420</damageAmountBase>
+			<armorPenetrationSharp>550</armorPenetrationSharp>
+			<armorPenetrationBlunt>400.44</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>180</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>2.2</explosiveRadius>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<PLA_MetalJet>22</PLA_MetalJet>
+					<Fragment_Large>25</Fragment_Large>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_HJ73Missile_HEAT</defName>
+		<label>make HJ-73 HEAT missile x4</label>
+		<description>Craft 4 HJ-73 HEAT missile.</description>
+		<jobString>Making HJ-73 HEAT missile.</jobString>
+		<workAmount>20400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>140</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_HJ73Missile_HEAT>4</Ammo_HJ73Missile_HEAT>
+		</products>
+	</RecipeDef>
+
+</Defs>

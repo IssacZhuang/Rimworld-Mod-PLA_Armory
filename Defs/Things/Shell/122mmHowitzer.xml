@@ -23,7 +23,7 @@
         <projectileWhenLoaded>PLA_HighExplosive_122mmGuidedHowitzerShell</projectileWhenLoaded>
         <costList>
             <Steel>73</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentIndustrial>5</ComponentIndustrial>
             <Chemfuel>56</Chemfuel>
         </costList>
         <researchPrerequisites>
