@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="PLA_ArtilleryBuildingBase">
+    <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_Turret_HJ73MissileLauncher</defName>
         <label>Mounted Twin HJ-73 Missile Launcher</label>
         <description>.</description>
