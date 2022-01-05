@@ -37,7 +37,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_Shotgun</defaultProjectile>
-                <warmupTime>0.7</warmupTime>
+                <warmupTime>0.6</warmupTime>
                 <range>18</range>
                 <soundCast>PLA_SoundQBS09</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
