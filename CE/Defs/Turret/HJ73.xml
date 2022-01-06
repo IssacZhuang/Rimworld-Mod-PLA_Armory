@@ -33,9 +33,10 @@
             <turretGunDef>PLA_Artillery_HJ73MissileLauncher</turretGunDef>
             <turretTopDrawSize>1.5</turretTopDrawSize>
         </building>
+        <fillPercent>0.9</fillPercent>
         <rotatable>true</rotatable>
         <researchPrerequisites>
-            <li>PLA_Research_SimpleRocket</li>
+            <li>PLA_Research_Gen2Weapon</li>
         </researchPrerequisites>
         <uiIconPath>Things/Building/TurretHJ73MissleLauncher</uiIconPath>
         <uiIconScale>0.75</uiIconScale>

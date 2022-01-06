@@ -29,7 +29,7 @@
         <prerequisites>
             <li>PLA_Research_Gen1Weapon</li>
         </prerequisites>
-        <baseCost>300</baseCost>
+        <baseCost>600</baseCost>
         <researchViewX>1</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
