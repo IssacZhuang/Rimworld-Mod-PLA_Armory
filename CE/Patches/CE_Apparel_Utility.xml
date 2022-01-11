@@ -149,7 +149,7 @@
                     <hasStandardCommand>true</hasStandardCommand>
                     <onlyManualCast>True</onlyManualCast>
                     <warmupTime>1.4</warmupTime>
-                    <range>92</range>
+                    <range>75</range>
                     <minRange>3</minRange>
                     <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                     <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
