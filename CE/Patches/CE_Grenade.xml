@@ -404,15 +404,17 @@
             <MarketValue>104</MarketValue>
             <Mass>0.75</Mass>
             <Bulk>0.6</Bulk>
-            <SightsEfficiency>1</SightsEfficiency>
+            <SightsEfficiency>2</SightsEfficiency>
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <SwayFactor>0.01</SwayFactor>
+            <ShotSpread>0.01</ShotSpread>
         </statBases>
         <Properties>
-            <label>launche drone</label>
+            <label>launch drone</label>
             <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>PLA_Proj_CH817DroneCE</defaultProjectile>
-            <range>92</range>
+            <range>75</range>
             <minRange>3</minRange>
             <warmupTime>1.5</warmupTime>
             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>

@@ -56,14 +56,14 @@
     </graphicData>
     <thingClass>PLA.CE.ProjectileFlyingDroneCE</thingClass>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
-      <speed>10</speed>
+      <speed>13</speed>
       <explosionRadius>3.5</explosionRadius>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>82</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <soundAmbient>PLA_DroneFlying_Ambient</soundAmbient>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <flyOverhead>true</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <dropsCasings>false</dropsCasings>
       <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
     </projectile>
