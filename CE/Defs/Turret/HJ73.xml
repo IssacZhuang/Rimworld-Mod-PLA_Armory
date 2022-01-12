@@ -68,9 +68,6 @@
                 <reloadTime>10</reloadTime>
                 <ammoSet>AmmoSet_HJ73Missile</ammoSet>
             </li>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiAimMode>AimedShot</aiAimMode>
-            </li>
         </comps>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
@@ -78,7 +75,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Bullet_HJ73Missile_HEAT</defaultProjectile>
                 <warmupTime>3.8</warmupTime>
-                <range>88</range>
+                <range>86</range>
                 <minRange>6</minRange>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>

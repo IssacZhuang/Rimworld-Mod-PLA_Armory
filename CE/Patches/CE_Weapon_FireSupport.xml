@@ -248,7 +248,7 @@
         </Properties>
         <AmmoUser>
             <magazineSize>1</magazineSize>
-            <reloadTime>9.5</reloadTime>
+            <reloadTime>12</reloadTime>
             <ammoSet>AmmoSet_HJ12Missile</ammoSet>
         </AmmoUser>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
