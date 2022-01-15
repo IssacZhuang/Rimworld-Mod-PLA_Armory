@@ -74,7 +74,8 @@
                 <mainWeaponLabel>use rifle</mainWeaponLabel>
                 <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
                 <description>switch between rifle and grenade launcher</description>
-                <commandIcon>UI/UI_SwitchAmmo</commandIcon>
+                <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+                <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
             </li>
         </value>
     </Operation>
@@ -142,7 +143,8 @@
                 <mainWeaponLabel>use rifle</mainWeaponLabel>
                 <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
                 <description>switch between rifle and grenade launcher</description>
-                <commandIcon>UI/UI_SwitchAmmo</commandIcon>
+                <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+                <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
             </li>
         </value>
     </Operation>
