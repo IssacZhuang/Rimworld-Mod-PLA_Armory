@@ -269,6 +269,26 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_GrenadeEMP</defName>
+    <label>High Speed EMP Grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.55,1.55)</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>EMP</damageDef>
+      <explosionRadius>1.8</explosionRadius>
+      <speed>60</speed>
+      <flyOverhead>true</flyOverhead>
+      <explosionDelay>5</explosionDelay>
+      <stoppingPower>4</stoppingPower>
+      <armorPenetrationBase>0.7</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_RifleGrenade</defName>
     <label>Grenade</label>
     <graphicData>
