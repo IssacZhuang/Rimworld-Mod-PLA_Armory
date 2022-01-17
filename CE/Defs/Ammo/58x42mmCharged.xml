@@ -12,7 +12,7 @@
 
   <CombatExtended.AmmoSetDef>
     <defName>AmmoSet_58x42mmCharged</defName>
-    <label>58x42mm Charged</label>
+    <label>58x25mm Charged</label>
     <ammoTypes>
       <Ammo_58x42mmCharged>Bullet_58x42mmCharged</Ammo_58x42mmCharged>
       <Ammo_58x42mmCharged_AP>Bullet_58x42mmCharged_AP</Ammo_58x42mmCharged_AP>
@@ -40,7 +40,7 @@
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="58x42mmChargedBase">
     <defName>Ammo_58x42mmCharged</defName>
-    <label>58x42mm Charged cartridge</label>
+    <label>5.8x25mm Charged cartridge</label>
     <graphicData>
       <texPath>Things/Ammo/Charged/Regular</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -53,7 +53,7 @@
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="58x42mmChargedBase">
     <defName>Ammo_58x42mmCharged_AP</defName>
-    <label>58x42mm Charged cartridge (Conc.)</label>
+    <label>5.8x25mm Charged cartridge (Conc.)</label>
     <graphicData>
       <texPath>Things/Ammo/Charged/Concentrated</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -66,7 +66,7 @@
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="58x42mmChargedBase">
     <defName>Ammo_58x42mmCharged_Ion</defName>
-    <label>58x42mm Charged cartridge (Ion)</label>
+    <label>5.8x25mm Charged cartridge (Ion)</label>
     <graphicData>
       <texPath>Things/Ammo/Charged/Ion</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -93,7 +93,7 @@
 
   <ThingDef ParentName="Base58x42mmChargedBullet">
     <defName>Bullet_58x42mmCharged</defName>
-    <label>58x42mm Charged bullet</label>
+    <label>5.8x25mm Charged bullet</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>13</damageAmountBase>
       <secondaryDamage>
@@ -109,7 +109,7 @@
 
   <ThingDef ParentName="Base58x42mmChargedBullet">
     <defName>Bullet_58x42mmCharged_AP</defName>
-    <label>58x42mm Charged bullet (Conc.)</label>
+    <label>5.8x25mm Charged bullet (Conc.)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>10</damageAmountBase>
       <secondaryDamage>
@@ -125,7 +125,7 @@
 
   <ThingDef ParentName="Base58x42mmChargedBullet">
     <defName>Bullet_58x42mmCharged_Ion</defName>
-    <label>58x42mm Charged bullet (Ion)</label>
+    <label>5.8x25mm Charged bullet (Ion)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>10</damageAmountBase>
       <secondaryDamage>
@@ -144,9 +144,9 @@
 
   <RecipeDef ParentName="ChargeAmmoRecipeBase">
     <defName>MakeAmmo_58x42mmCharged</defName>
-    <label>make 58x42mm Charged cartridge x500</label>
-    <description>Craft 500 58x42mm Charged cartridges.</description>
-    <jobString>Making 58x42mm Charged cartridges.</jobString>
+    <label>make 5.8x25mm Charged cartridge x500</label>
+    <description>Craft 500 5.8x25mm Charged cartridges.</description>
+    <jobString>Making 5.8x25mm Charged cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -188,9 +188,9 @@
 
   <RecipeDef ParentName="ChargeAmmoRecipeBase">
     <defName>MakeAmmo_58x42mmCharged_AP</defName>
-    <label>make 58x42mm Charged (Conc.) cartridge x500</label>
-    <description>Craft 500 58x42mm Charged (Conc.) cartridges.</description>
-    <jobString>Making 58x42mm Charged (Conc.) cartridges.</jobString>
+    <label>make 5.8x25mm Charged (Conc.) cartridge x500</label>
+    <description>Craft 500 5.8x25mm Charged (Conc.) cartridges.</description>
+    <jobString>Making 5.8x25mm Charged (Conc.) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -232,9 +232,9 @@
 
   <RecipeDef ParentName="ChargeAmmoRecipeBase">
     <defName>MakeAmmo_58x42mmCharged_Ion</defName>
-    <label>make 58x42mm Charged (Ion) cartridge x500</label>
-    <description>Craft 500 58x42mm Charged (Ion) cartridges.</description>
-    <jobString>Making 58x42mm Charged (Ion) cartridges.</jobString>
+    <label>make 5.8x25mm Charged (Ion) cartridge x500</label>
+    <description>Craft 500 5.8x25mm Charged (Ion) cartridges.</description>
+    <jobString>Making 5.8x25mm Charged (Ion) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>

@@ -79,7 +79,7 @@
             <li>PLA_Research_PrecisionExplosiveWeapon</li>
             <li>PLA_Research_Gen4Weapon</li>
         </prerequisites>
-        <baseCost>1800</baseCost>
+        <baseCost>3600</baseCost>
         <researchViewX>4</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
@@ -128,7 +128,7 @@
             <li>PLA_Research_HighCaliber</li>
             <li>PLA_Research_Gen4Weapon</li>
         </prerequisites>
-        <baseCost>1000</baseCost>
+        <baseCost>1600</baseCost>
         <researchViewX>4</researchViewX>
         <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>

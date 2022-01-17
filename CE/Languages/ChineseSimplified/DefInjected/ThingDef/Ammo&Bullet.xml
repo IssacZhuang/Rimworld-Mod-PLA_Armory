@@ -39,9 +39,9 @@
   <Bullet_20mmProgrammableGrenade_EMP.label>20mm可编程榴弹 (电磁脉冲)</Bullet_20mmProgrammableGrenade_EMP.label>
   <Bullet_20mmProgrammableGrenade_BUCK.label>20mm可编程榴弹 (霰弹)</Bullet_20mmProgrammableGrenade_BUCK.label>
 
-  <Ammo_58x42mmCharged.label>5.8x42mm 电荷弹</Ammo_58x42mmCharged.label>
-  <Ammo_58x42mmCharged_AP.label>5.8x42mm 电荷弹 (穿甲)</Ammo_58x42mmCharged_AP.label>
-  <Ammo_58x42mmCharged_Ion.label>5.8x42mm 电荷弹 (电磁脉冲)</Ammo_58x42mmCharged_Ion.label>
+  <Ammo_58x42mmCharged.label>5.8x25mm 电荷弹</Ammo_58x42mmCharged.label>
+  <Ammo_58x42mmCharged_AP.label>5.8x25mm 电荷弹 (穿甲)</Ammo_58x42mmCharged_AP.label>
+  <Ammo_58x42mmCharged_Ion.label>5.8x25mm 电荷弹 (电磁脉冲)</Ammo_58x42mmCharged_Ion.label>
 
   <Bullet_58x42mmCharged.label>5.8mm 电荷弹</Bullet_58x42mmCharged.label>
   <Bullet_58x42mmCharged_AP.label>5.8mm 电荷弹 (穿甲)</Bullet_58x42mmCharged_AP.label>
