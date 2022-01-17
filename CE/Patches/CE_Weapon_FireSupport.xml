@@ -239,7 +239,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_HJ12Missile_HEAT</defaultProjectile>
             <warmupTime>4.1</warmupTime>
-            <range>92</range>
+            <range>86</range>
             <minRange>22</minRange>
             <soundCast>PLA_SoundPF98</soundCast>
             <soundAiming>PLA_MissileLock</soundAiming>

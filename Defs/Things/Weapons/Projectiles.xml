@@ -337,9 +337,9 @@
     <thingClass>PLA.ProjectileMissile</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <explosionRadius>2.5</explosionRadius>
+      <explosionRadius>1.5</explosionRadius>
       <speed>70</speed>
-      <damageAmountBase>220</damageAmountBase>
+      <damageAmountBase>180</damageAmountBase>
       <flyOverhead>true</flyOverhead>
       <explosionDelay>5</explosionDelay>
       <stoppingPower>4</stoppingPower>

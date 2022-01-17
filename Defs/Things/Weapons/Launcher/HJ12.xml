@@ -47,7 +47,7 @@
                 <forcedMissRadius>0.1</forcedMissRadius>
                 <warmupTime>7.2</warmupTime>
                 <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-                <range>42</range>
+                <range>38</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundAiming>PLA_MissileLock</soundAiming>
