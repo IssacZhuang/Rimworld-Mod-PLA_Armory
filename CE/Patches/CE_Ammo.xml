@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <!--Operation Class="PatchOperationAdd">
-        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_127x108mm"]/ammoTypes</xpath>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_12Gauge"]/ammoTypes</xpath>
         <value>
-            <Ammo_127x108mm_IncendiaryLight>Bullet_127x108mm_IncendiaryLight</Ammo_127x108mm_IncendiaryLight>	  
+            <Ammo_12Gauge_AP_Buck>Bullet_12Gauge_AP_Buck</Ammo_12Gauge_AP_Buck>  
         </value>
-    </Operation-->
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_58x42mmDBP10"]/ammoTypes</xpath>
+        <value>
+            <Ammo_58x42mmDBP191_APCR>Bullet_58x42mmDBP191_APCR</Ammo_58x42mmDBP191_APCR> 
+        </value>
+    </Operation>
 
 </Patch>
