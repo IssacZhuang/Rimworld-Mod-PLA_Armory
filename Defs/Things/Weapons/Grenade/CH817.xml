@@ -45,7 +45,7 @@
         </targetParams>
         <defaultProjectile>PLA_Proj_CH817Drone</defaultProjectile>
         <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-        <requireLineOfSight>false</requireLineOfSight>
+        <requireLineOfSight>true</requireLineOfSight>
         <onlyManualCast>true</onlyManualCast>
       </li>
     </verbs>

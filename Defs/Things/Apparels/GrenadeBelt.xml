@@ -244,7 +244,7 @@
                 <noiseRadius>4</noiseRadius>
                 <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
-                <requireLineOfSight>false</requireLineOfSight>
+                <requireLineOfSight>true</requireLineOfSight>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
                 </targetParams>
