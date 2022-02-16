@@ -37,6 +37,9 @@
             <aiUseBurstMode>True</aiUseBurstMode>
             <aimedBurstShotCount>5</aimedBurstShotCount>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -72,6 +75,9 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -107,6 +113,9 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -142,6 +151,9 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -177,6 +189,9 @@
             <aiUseBurstMode>TRUE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
@@ -186,7 +201,7 @@
         </value>
     </Operation>
 
-    
+
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_PFNinetyEight</defName>
         <statBases>

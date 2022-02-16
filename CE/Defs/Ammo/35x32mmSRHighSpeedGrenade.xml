@@ -12,6 +12,7 @@
             <Ammo_35x32mmSRGrenade_EMP>Bullet_35x32mmSRGrenade_HighSpeed_EMP</Ammo_35x32mmSRGrenade_EMP>
             <Ammo_35x32mmSRGrenade_Smoke>Bullet_35x32mmSRGrenade_HighSpeed_Smoke</Ammo_35x32mmSRGrenade_Smoke>
         </ammoTypes>
+        <similarTo>AmmoSet_LauncherGrenade</similarTo>
     </CombatExtended.AmmoSetDef>
 
     <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
@@ -58,11 +59,11 @@
         </projectile>
     </ThingDef>
 
-    <!--HEAT-->
+    <!--HEDP-->
 
     <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
         <defName>Bullet_35x32mmSRGrenade_HighSpeed_HEAT</defName>
-        <label>35x32mmSR grenade (HEAT)</label>
+        <label>35x32mmSR grenade (HEDP)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bullet</damageDef>
@@ -89,7 +90,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="35x32mmSRGrenadeBase">
         <defName>Ammo_35x32mmSRGrenade_HEAT</defName>
-        <label>35x32mmSR grenade (HEAT)</label>
+        <label>35x32mmSR grenade (HEDP)</label>
         <graphicData>
             <texPath>Things/Ammo/35x32mmSR_HEAT</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -97,7 +98,7 @@
         <statBases>
             <MarketValue>2.27</MarketValue>
         </statBases>
-        <ammoClass>PLA_GrenadeHEAT</ammoClass>
+        <ammoClass>GrenadeHEDP</ammoClass>
         <comps>
             <li Class="CombatExtended.CompProperties_ExplosiveCE">
                 <damageAmountBase>5</damageAmountBase>
@@ -114,9 +115,9 @@
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_35x32mmSRGrenade_HEAT</defName>
-        <label>make 35x32mmSR HEAT grenades x100</label>
-        <description>Craft 100 35x32mmSR HEAT grenades.</description>
-        <jobString>Making 35x32mmSR HEAT grenades.</jobString>
+        <label>make 35x32mmSR HEDP grenades x100</label>
+        <description>Craft 100 35x32mmSR HEDP grenades.</description>
+        <jobString>Making 35x32mmSR HEDP grenades.</jobString>
         <ingredients>
             <li>
                 <filter>

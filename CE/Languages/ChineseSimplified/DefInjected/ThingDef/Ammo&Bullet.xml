@@ -26,16 +26,16 @@
   <Ammo_HJ73Missile_HEAT.label>红箭-73导弹 (穿甲弹)</Ammo_HJ73Missile_HEAT.label>
   <Bullet_HJ73Missile_HEAT.label>红箭-73导弹 (穿甲弹)</Bullet_HJ73Missile_HEAT.label>
 
-  <Ammo_35x32mmSRGrenade_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Ammo_35x32mmSRGrenade_HEAT.label>
-  <Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>35x32mmSR 榴弹 (穿甲弹)</Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>
+  <Ammo_35x32mmSRGrenade_HEAT.label>35x32mmSR 榴弹 (高爆双效弹)</Ammo_35x32mmSRGrenade_HEAT.label>
+  <Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>35x32mmSR 榴弹 (高爆双效弹)</Bullet_35x32mmSRGrenade_HighSpeed_HEAT.label>
 
   <Ammo_20mmProgrammableGrenade_HE.label>20mm可编程榴弹 (高爆弹)</Ammo_20mmProgrammableGrenade_HE.label>
-  <Ammo_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (穿甲弹)</Ammo_20mmProgrammableGrenade_HEAT.label>
+  <Ammo_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (高爆双效弹)</Ammo_20mmProgrammableGrenade_HEAT.label>
   <Ammo_20mmProgrammableGrenade_EMP.label>20mm可编程榴弹 (电磁脉冲)</Ammo_20mmProgrammableGrenade_EMP.label>
   <Ammo_20mmProgrammableGrenade_BUCK.label>20mm可编程榴弹 (霰弹)</Ammo_20mmProgrammableGrenade_BUCK.label>
 
   <Bullet_20mmProgrammableGrenade_HE.label>20mm可编程榴弹 (高爆弹)</Bullet_20mmProgrammableGrenade_HE.label>
-  <Bullet_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (穿甲弹)</Bullet_20mmProgrammableGrenade_HEAT.label>
+  <Bullet_20mmProgrammableGrenade_HEAT.label>20mm可编程榴弹 (高爆双效弹)</Bullet_20mmProgrammableGrenade_HEAT.label>
   <Bullet_20mmProgrammableGrenade_EMP.label>20mm可编程榴弹 (电磁脉冲)</Bullet_20mmProgrammableGrenade_EMP.label>
   <Bullet_20mmProgrammableGrenade_BUCK.label>20mm可编程榴弹 (霰弹)</Bullet_20mmProgrammableGrenade_BUCK.label>
 

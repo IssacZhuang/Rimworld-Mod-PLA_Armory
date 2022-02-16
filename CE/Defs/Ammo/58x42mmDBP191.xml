@@ -22,6 +22,7 @@
 			<Ammo_58x42mmDBP10_Sabot>Bullet_58x42mmDBP10_Sabot</Ammo_58x42mmDBP10_Sabot>
 			<Ammo_58x42mmDBP191_APCR>Bullet_58x42mmDBP191_APCR</Ammo_58x42mmDBP191_APCR>
 		</ammoTypes>
+		<similarTo>AmmoSet_RifleIntermediate_DBP191</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->

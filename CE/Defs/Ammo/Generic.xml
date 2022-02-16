@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_RifleIntermediate_DBP191</defName>
+        <label>5.8x42mm DBP</label>
+        <ammoTypes>
+            <Ammo_RifleIntermediate_FMJ>Bullet_58x42mmDBP10_FMJ</Ammo_RifleIntermediate_FMJ>
+            <Ammo_RifleIntermediate_AP>Bullet_58x42mmDBP10_AP</Ammo_RifleIntermediate_AP>
+            <Ammo_RifleIntermediate_HP>Bullet_58x42mmDBP10_HP</Ammo_RifleIntermediate_HP>
+            <Ammo_RifleIntermediate_Incendiary>Bullet_58x42mmDBP10_Incendiary</Ammo_RifleIntermediate_Incendiary>
+            <Ammo_RifleIntermediate_HE>Bullet_58x42mmDBP10_HE</Ammo_RifleIntermediate_HE>
+            <Ammo_RifleIntermediate_Sabot>Bullet_58x42mmDBP10_Sabot</Ammo_RifleIntermediate_Sabot>
+            <Ammo_RifleIntermediate_APCR>Bullet_58x42mmDBP191_APCR</Ammo_RifleIntermediate_APCR>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <!-- DBP 191-->
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoRifleIntermediateBase">
+        <defName>Ammo_RifleIntermediate_APCR</defName>
+        <label>intermediate rifle cartridge (APCR)</label>
+        <graphicData>
+            <texPath>Things/Ammo/Generic/APCR</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.08</MarketValue>
+            <Mass>0.011</Mass>
+        </statBases>
+        <ammoClass>PLA_Composit_OneNineOne</ammoClass>
+        <cookOffProjectile>Bullet_58x42mmDBP191_APCR</cookOffProjectile>
+    </ThingDef>
+
+    <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+        <defName>MakeAmmo_RifleIntermediate_APCR</defName>
+        <label>make intermediate rifle (APCR) cartridge x500</label>
+        <description>Craft 500 intermediate rifle (APCR) cartridges.</description>
+        <jobString>Making intermediate rifle (APCR) cartridges.</jobString>
+        <researchPrerequisites>
+            <li>PLA_Research_Gen4Weapon</li>
+        </researchPrerequisites>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>14</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Plasteel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_RifleIntermediate_APCR>500</Ammo_RifleIntermediate_APCR>
+        </products>
+        <workAmount>2000</workAmount>
+    </RecipeDef>
+</Defs>
