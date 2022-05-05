@@ -47,7 +47,7 @@
         <minifiedDef>MinifiedThing</minifiedDef>
         <altitudeLayer>Building</altitudeLayer>
         <stealable>false</stealable>
-        <rotatable>false</rotatable>
+        <rotatable>true</rotatable>
         <statBases>
             <Flammability>0</Flammability>
         </statBases>
