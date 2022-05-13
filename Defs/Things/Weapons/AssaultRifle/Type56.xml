@@ -32,6 +32,8 @@
       <WoodLog>40</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
+    <generateCommonality>3</generateCommonality>
+    <generateAllowChance>3</generateAllowChance>
     <weaponTags>
       <li>PLA_AssaultRifle</li>
       <li>PLA_SimpleGun</li>

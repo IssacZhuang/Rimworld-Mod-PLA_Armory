@@ -11,6 +11,6 @@
   <AmmoSet_58x42mmDBP191.label>5.8x42mm DBP步枪弹</AmmoSet_58x42mmDBP191.label>
   <AmmoSet_58x42mmCharged.label>5.8x25mm 电荷弹</AmmoSet_58x42mmCharged.label>
   <AmmoSet_12Gauge_QBS09.label>12号口径霰弹</AmmoSet_12Gauge_QBS09.label>
-  <AmmoSet_Type02Flamethrower>火焰喷射器燃料</AmmoSet_Type02Flamethrower>
+  <AmmoSet_Type02Flamethrower.label>火焰喷射器燃料</AmmoSet_Type02Flamethrower.label>
 
 </LanguageData>
