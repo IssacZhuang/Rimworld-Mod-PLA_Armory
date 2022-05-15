@@ -23,7 +23,8 @@
       <tasteThought>AteFineMeal</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
-      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestHoldUsesTable>true</ingestHoldUsesTable>
+      <tableDesired>false</tableDesired>
       <canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">

@@ -32,6 +32,9 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_ATR</li>
+        </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
@@ -74,6 +77,9 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_ATR</li>
+        </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
@@ -106,6 +112,9 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_ATR</li>
+        </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
@@ -180,6 +189,9 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_DMR</li>
+        </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
@@ -227,10 +239,13 @@
             <WorkToMake>25000</WorkToMake>
         </statBases>
         <Properties>
+            <recoilAmount>0.8</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
             <warmupTime>0.6</warmupTime>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
             <range>68</range>
             <soundCast>PLA_SoundQBZ191</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -244,6 +259,9 @@
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>Bipod_DMR</li>
+        </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
