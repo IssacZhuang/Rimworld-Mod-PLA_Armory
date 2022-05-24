@@ -19,7 +19,6 @@
         <thingCategories>
             <li>PLA_Apparel</li>
         </thingCategories>
-        <uiIconScale>1.4</uiIconScale>
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>300</MaxHitPoints>
@@ -82,7 +81,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <apparel>
-            <wornGraphicPath>Things/Apparel/BodyArmor/PLA_armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BodyArmor/PLA_Armor</wornGraphicPath>
         </apparel>
     </ThingDef>
 
