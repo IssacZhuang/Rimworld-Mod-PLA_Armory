@@ -8,7 +8,7 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/recipeUsers</xpath>
+          <xpath>/Defs/RecipeDef[@Name="PLA_CookMealBase"]/recipeUsers</xpath>
           <value>
             <li>Chi_Cooker</li>
             <li>Chi_Cooker_New</li>
@@ -24,6 +24,38 @@
           <xpath>/Defs/RecipeDef[defName="PLA_CookMealSurvivalPack" or defName="PLA_CookMealSurvivalPackBulk"]/fixedIngredientFilter/thingDefs</xpath>
           <value>
             <li>RawZaJiaoShuiDao</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="PLA_CookHotPotPack"]/ingredients</xpath>
+          <value>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>LaJiao</li>
+                </thingDefs>
+              </filter>
+              <count>0.05</count>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="PLA_CookHotPotPackBulk"]/ingredients</xpath>
+          <value>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>LaJiao</li>
+                </thingDefs>
+              </filter>
+              <count>0.2</count>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="PLA_CookHotPotPack" or defName="PLA_CookHotPotPackBulk"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>LaJiao</li>
           </value>
         </li>
       </operations>

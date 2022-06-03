@@ -3,5 +3,8 @@
 
     <PLA_AteMealSurvivalPack.label>吃了解放军军粮</PLA_AteMealSurvivalPack.label>
     <PLA_AteMealSurvivalPack.description>感觉战斗力提升了</PLA_AteMealSurvivalPack.description>
+
+    <PLA_AteHotPot.label>吃了解放军自热火锅</PLA_AteHotPot.label>
+    <PLA_AteHotPot.description>热血沸腾</PLA_AteHotPot.description>
     
 </LanguageData>

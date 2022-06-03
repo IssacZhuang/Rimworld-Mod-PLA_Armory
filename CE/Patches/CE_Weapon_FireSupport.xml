@@ -283,7 +283,7 @@
         </value>
     </Operation>
 
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_FlameThrower</defName>
         <statBases>
             <Mass>13.5</Mass>
@@ -323,7 +323,7 @@
         <weaponTags>
             <li>Bipod_LMG</li>
         </weaponTags>
-    </Operation>
+    </Operation-->
 
     <!--Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="PLA_FlameThrower"]/equippedStatOffsets/MoveSpeed</xpath>

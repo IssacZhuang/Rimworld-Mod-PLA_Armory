@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-    <PLA_MealSurvivalPack.label>解放军军粮</PLA_MealSurvivalPack.label>
-    <PLA_MealSurvivalPack.description>解放军的便携式军粮。内有米饭、红烧肉、巧克力棒、饮料。</PLA_MealSurvivalPack.description>
+    <PLA_MealSurvivalPack.label>解放军单兵口粮</PLA_MealSurvivalPack.label>
+    <PLA_MealSurvivalPack.description>解放军的便携式军粮（精致的食物）。内有米饭、红烧肉、巧克力棒、饮料。</PLA_MealSurvivalPack.description>
+
+    <PLA_HotPotSurvivalPack.label>解放军自热火锅</PLA_HotPotSurvivalPack.label>
+    <PLA_HotPotSurvivalPack.description>解放军的单兵自热火锅（奢侈的食物），通常分配给高海拔地区的战士。</PLA_HotPotSurvivalPack.description>
 
 </LanguageData>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="PLA_BaseGun">
+    <!--ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_FlameThrower</defName>
         <label>Type-02 Flame Thrower</label>
         <description>An old-school flame thrower of PLA.</description>
@@ -153,5 +153,5 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef-->
 </Defs>

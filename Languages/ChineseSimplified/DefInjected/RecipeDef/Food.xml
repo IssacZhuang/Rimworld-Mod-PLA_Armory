@@ -8,5 +8,13 @@
     <PLA_CookMealSurvivalPackBulk.label>烹饪解放军军粮 x4</PLA_CookMealSurvivalPackBulk.label>
     <PLA_CookMealSurvivalPackBulk.description>烹饪米饭、红烧肉、巧克力棒、饮料，再将它们包装起来。</PLA_CookMealSurvivalPackBulk.description>
     <PLA_CookMealSurvivalPackBulk.jobString>正在烹饪解放军军粮 x4</PLA_CookMealSurvivalPackBulk.jobString>
+
+    <PLA_CookHotPotPack.label>烹饪解放自热火锅</PLA_CookHotPotPack.label>
+    <PLA_CookHotPotPack.description>烹饪解放军自热火锅。</PLA_CookHotPotPack.description>
+    <PLA_CookHotPotPack.jobString>正在烹饪解放军自热火锅</PLA_CookHotPotPack.jobString>
+    
+    <PLA_CookHotPotPackBulk.label>烹饪解放自热火锅 x4</PLA_CookHotPotPackBulk.label>
+    <PLA_CookHotPotPackBulk.description>烹饪解放军自热火锅。</PLA_CookHotPotPackBulk.description>
+    <PLA_CookHotPotPackBulk.jobString>烹饪解放军自热火锅 x4</PLA_CookHotPotPackBulk.jobString>
     
 </LanguageData>
