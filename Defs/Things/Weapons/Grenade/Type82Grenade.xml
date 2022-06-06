@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseGrenade">
         <defName>PLA_Type82Grenade</defName>
-        <label>Type 82 Frag Grenade</label>
+        <label>type 82 frag grenade</label>
         <description>A high explosice frag grenade of PLA.</description>
         <tickerType>Normal</tickerType>
         <graphicData>

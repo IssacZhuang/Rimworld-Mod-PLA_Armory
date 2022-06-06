@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="PLA_BaseGrenade">
     <defName>PLA_CH817Drone</defName>
-    <label>CH-817 Mini Attack Drone</label>
+    <label>CH-817 mini attack drone</label>
     <description>A mini attack drone that will fly towards the target and detonate itself. It can only use once.</description>
     <tickerType>Normal</tickerType>
     <graphicData>

@@ -41,6 +41,11 @@
   <PLA_QBZOneNineOneCarbine.tools.0.label>枪托</PLA_QBZOneNineOneCarbine.tools.0.label>
   <PLA_QBZOneNineOneCarbine.tools.1.label>枪管</PLA_QBZOneNineOneCarbine.tools.1.label>
 
+  <PLA_QBVOneNineOneLSW.label>191式轻机枪</PLA_QBVOneNineOneLSW.label>
+  <PLA_QBVOneNineOneLSW.description>基于191式精准射手步枪改装而来，由于其带有重枪管且保留了全自动功能，所以可以装上弹鼓作为轻机枪使用。</PLA_QBVOneNineOneLSW.description>
+  <PLA_QBVOneNineOneLSW.tools.0.label>枪托</PLA_QBVOneNineOneLSW.tools.0.label>
+  <PLA_QBVOneNineOneLSW.tools.1.label>枪管</PLA_QBVOneNineOneLSW.tools.1.label>
+
   <PLA_QJBTwoZeroOne.label>201式班用机枪</PLA_QJBTwoZeroOne.label>
   <PLA_QJBTwoZeroOne.description>人民解放军的新式班用机枪，发射小口径中间威力弹，射速很快火力强大。</PLA_QJBTwoZeroOne.description>
   <PLA_QJBTwoZeroOne.tools.0.label>枪托</PLA_QJBTwoZeroOne.tools.0.label>
@@ -163,7 +168,7 @@
   <PLA_145mmAMR.tools.1.label>枪管</PLA_145mmAMR.tools.1.label>
 
   <PLA_QBVOneNineOne.label>191式精确射手步枪</PLA_QBVOneNineOne.label>
-  <PLA_QBVOneNineOne.description>人民解放军的新式精确射手步枪。</PLA_QBVOneNineOne.description>
+  <PLA_QBVOneNineOne.description>人民解放军的新式精确射手步枪，191步枪的重枪管版本。虽然是精准射手步枪，但依然保留了全自动的功能。</PLA_QBVOneNineOne.description>
   <PLA_QBVOneNineOne.tools.0.label>枪托</PLA_QBVOneNineOne.tools.0.label>
   <PLA_QBVOneNineOne.tools.1.label>枪管</PLA_QBVOneNineOne.tools.1.label>
 

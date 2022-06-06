@@ -119,6 +119,44 @@
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QBVOneNineOneLSW</defName>
+        <statBases>
+            <Mass>6.4</Mass>
+            <Bulk>9.6</Bulk>
+            <SightsEfficiency>2</SightsEfficiency>
+            <ShotSpread>0.04</ShotSpread>
+            <SwayFactor>1.2</SwayFactor>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <recoilAmount>0.9</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+            <warmupTime>1.2</warmupTime>
+            <range>68</range>
+            <burstShotCount>10</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQBZ191</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>75</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>6</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJYTwoZeroOne</defName>
         <statBases>
             <Mass>7.4</Mass>
