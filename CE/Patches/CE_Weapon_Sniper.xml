@@ -163,7 +163,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QBUEightyEight</defName>
         <statBases>
-            <Mass>4.1</Mass>
+            <Mass>4.2</Mass>
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
             <SightsEfficiency>2.2</SightsEfficiency>
             <ShotSpread>0.04</ShotSpread>
@@ -230,7 +230,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QBVOneNineOne</defName>
         <statBases>
-            <Mass>3.7</Mass>
+            <Mass>5.4</Mass>
             <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
             <SightsEfficiency>2</SightsEfficiency>
             <ShotSpread>0.04</ShotSpread>

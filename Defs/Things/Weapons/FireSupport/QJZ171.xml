@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QJZOneSevenOne</defName>
-    <label>QJZ-171 Heavy Machine Gun</label>
+    <label>QJZ-171 heavy machine gun</label>
     <description>A new type heavy machine gun of People's Liberation Army. This weapon is lighter than the other heavy machine gun, it can be carried by a single soldier, but it still has huge recoil.</description>
     <graphicData>
       <texPath>Things/Weapon/QJZ171</texPath>

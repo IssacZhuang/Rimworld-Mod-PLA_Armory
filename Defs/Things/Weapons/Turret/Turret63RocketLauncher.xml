@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_ArtilleryBuildingBase">
         <defName>PLA_Turret_Type63RocketLauncher</defName>
-        <label>Type 63 Rocket Launcher</label>
+        <label>type 63 rocket launcher</label>
         <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>

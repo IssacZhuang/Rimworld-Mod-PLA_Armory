@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseMeleeWeapon">
         <defName>PLA_EngineerShovel</defName>
-        <label>PLA Engineer Shovel</label>
+        <label>PLA engineer shovel</label>
         <description>A multi-functions engineer shovel of PLA.</description>
         <graphicData>
           <texPath>Things/Weapon/EngineerShovel</texPath>

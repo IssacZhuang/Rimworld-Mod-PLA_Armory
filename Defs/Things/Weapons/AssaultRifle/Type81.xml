@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_TypeEightyOne</defName>
-        <label>Type 81 Assault Rifle</label>
+        <label>type 81 assault rifle</label>
         <description>An old-school assault rifle of PLA.</description>
         <graphicData>
           <texPath>Things/Weapon/Type81</texPath>

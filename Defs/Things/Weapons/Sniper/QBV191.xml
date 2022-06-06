@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBVOneNineOne</defName>
-    <label>QBU191 Marksman Rifle</label>
+    <label>QBU-191 marksman rifle</label>
     <description>A semi-auto marksman rifle</description>
     <graphicData>
       <texPath>Things/Weapon/QBV191</texPath>
@@ -19,7 +19,7 @@
     </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
-      <Mass>3.7</Mass>
+      <Mass>5.4</Mass>
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.80</AccuracyMedium>

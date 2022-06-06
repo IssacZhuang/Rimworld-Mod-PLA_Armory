@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_TypeEightyOneLMG</defName>
-    <label>Type 81 Light Machine Gun</label>
+    <label>type 81 light machine gun</label>
     <description>An old-school light machine gun of PLA.</description>
     <graphicData>
       <texPath>Things/Weapon/Type81LMG</texPath>

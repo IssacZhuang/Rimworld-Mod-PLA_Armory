@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_TurretPF98RocketLauncher</defName>
-        <label>Mounted PF-98 Rocket Launcher</label>
+        <label>mounted PF-98 rocket launcher</label>
         <description>A PF-98 rocket launcher mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

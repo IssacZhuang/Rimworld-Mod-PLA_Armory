@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBUTwoZeroTwo</defName>
-    <label>QBU202 Sniper Rifle</label>
+    <label>QBU-202 sniper rifle</label>
     <description>A high precision sniper rifle of PLA</description>
     <graphicData>
       <texPath>Things/Weapon/QBU202</texPath>

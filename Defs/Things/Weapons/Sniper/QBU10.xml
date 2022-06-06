@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBUTen</defName>
-    <label>QBU10 Anti Material Rifle</label>
+    <label>QBU-10 anti material rifle</label>
     <description>An anti material rifle of PLA</description>
     <graphicData>
       <texPath>Things/Weapon/QBU10</texPath>

@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGunSingleUse">
         <defName>PLA_PFEleven</defName>
-        <label>PF-11 Anti-Tank Rocket Launcher</label>
+        <label>PF-11 anti-tank rocket launcher</label>
         <description>A single-use anti-tank rocket of of People's Liberation Army.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>

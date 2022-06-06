@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QJYTwoZeroOne</defName>
-        <label>QJY-201 General Purpose Machine Gun</label>
+        <label>QJY-201 general purpose machine gun</label>
         <description>The new general purpose machine gun of People's Liberation Army.</description>
         <graphicData>
           <texPath>Things/Weapon/QJY201</texPath>

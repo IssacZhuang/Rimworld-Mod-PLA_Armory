@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_ArtilleryBuildingBase">
         <defName>PLA_Turret_PLA96Howitzer</defName>
-        <label>PL-96 Howitzer</label>
+        <label>PL-96 howitzer</label>
         <description>A howitzer that can launch the guided shell. Lobs shells over walls. Very accurate and long-ranged.</description>
         <graphicData>
             <texPath>Things/Building/PLA_HugeArtilleryBase</texPath>

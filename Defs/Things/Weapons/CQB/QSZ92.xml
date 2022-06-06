@@ -4,7 +4,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QSZNinetyTwo</defName>
-        <label>QSZ92 Pistol</label>
+        <label>QSZ-92 pistol</label>
         <description>A semi-auto pistol</description>
         <graphicData>
             <texPath>Things/Weapon/QSZ92</texPath>

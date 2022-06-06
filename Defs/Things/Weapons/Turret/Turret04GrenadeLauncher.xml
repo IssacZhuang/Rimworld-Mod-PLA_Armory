@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_Turret04GrenadeLauncher</defName>
-        <label>Type-04 Grenade Launcher Turret</label>
+        <label>type 04 grenade launcher turret</label>
         <description>A type-04 grenade launcher mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

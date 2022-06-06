@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZNinetyFiveACP</defName>
-    <label>QBZ-95-ACP Assault Rifle</label>
+    <label>QBZ-95-ACP assault rifle</label>
     <description>The QBZ-95 rifle with ACP tactical attachment. Less aimming time and hight accuracy at close ranged.</description>
     <graphicData>
       <texPath>Things/Weapon/QBZ95ACP</texPath>

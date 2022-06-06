@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseMeleeWeapon">
         <defName>PLA_Saber</defName>
-        <label>Type 92 Saber</label>
+        <label>type 92 saber</label>
         <description>A multi-functions engineer shovel of PLA.</description>
         <graphicData>
             <texPath>Things/Weapon/Type92Saber</texPath>

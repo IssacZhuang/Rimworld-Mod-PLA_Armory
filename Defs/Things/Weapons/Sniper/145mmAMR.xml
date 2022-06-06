@@ -2,7 +2,7 @@
 <Defs>
     <!--ThingDef ParentName="PLA_BaseGunNonMakeable">
         <defName>PLA_145mmAMR</defName>
-        <label>14.5mm Anti Material Rifle</label>
+        <label>14.5mm anti material rifle</label>
         <description>A high caliber anti material rifle</description>
         <graphicData>
             <texPath>Things/Weapon/145mmAMR</texPath>

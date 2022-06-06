@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZOneNineOne_Charged</defName>
-    <label>QBZ-191 Assault Rifle - Charged</label>
+    <label>QBZ-191 assault rifle - charged</label>
     <description>A spacer version of QBZ-191. Use charged shot instead of gunpowder ammo.</description>
     <graphicData>
       <texPath>Things/Weapon/QBZ191C</texPath>

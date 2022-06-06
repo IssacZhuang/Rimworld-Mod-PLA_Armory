@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QCQOneSevenOne</defName>
-        <label>QCQ-171 Sub Machine Gun</label>
+        <label>QCQ-171 sub machine gun</label>
         <description>A new type sub machine gun of People's Liberation Army.</description>
         <graphicData>
             <texPath>Things/Weapon/QCQ171</texPath>

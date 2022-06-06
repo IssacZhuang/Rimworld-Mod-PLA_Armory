@@ -19,7 +19,7 @@
     </recipeMaker>
     <statBases>
       <WorkToMake>35000</WorkToMake>
-      <Mass>3.95</Mass>
+      <Mass>4.5</Mass>
       <AccuracyTouch>0.40</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
       <AccuracyMedium>0.35</AccuracyMedium>

@@ -5,7 +5,7 @@
 
     <ThingDef ParentName="PLA_TurretBase">
         <defName>PLA_TurretCSLM5HMG</defName>
-        <label>CS/LM-5 Multi-Barrel Machine Gun Turret</label>
+        <label>CS/LM-5 multi-barrel machine gun turret</label>
         <description>A CS/LM-5 multi-barrel machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

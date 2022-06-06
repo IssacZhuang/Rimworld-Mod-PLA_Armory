@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZNinetyFiveLG</defName>
-    <label>QBZ-95-QLG Assault Rifle</label>
+    <label>QBZ-95-QLG assault rifle</label>
     <description>The QBZ-95 assault rifle with grenade launcher and scope.</description>
     <graphicData>
       <texPath>Things/Weapon/QBZ95QLG10</texPath>

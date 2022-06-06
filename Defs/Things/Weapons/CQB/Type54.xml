@@ -4,7 +4,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_TypeFiftyFour</defName>
-        <label>Type 54 Pistol</label>
+        <label>type 54 pistol</label>
         <description>A semi-auto pistol</description>
         <graphicData>
             <texPath>Things/Weapon/Type54</texPath>

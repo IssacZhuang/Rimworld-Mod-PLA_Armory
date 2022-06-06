@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QLUEleven</defName>
-        <label>QLU11 Grenade Launcher</label>
+        <label>QLU-11 grenade launcher</label>
         <description>A grenade launcher (grenade sniper?).</description>
         <graphicData>
             <texPath>Things/Weapon/QLU11</texPath>

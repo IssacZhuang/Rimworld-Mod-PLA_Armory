@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QBSZeroNine</defName>
-        <label>QBS-09 Shotgun</label>
+        <label>QBS-09 shotgun</label>
         <description>A military shotgun that has a longer range than a normal shotgun.</description>
         <graphicData>
             <texPath>Things/Weapon/QBS09</texPath>

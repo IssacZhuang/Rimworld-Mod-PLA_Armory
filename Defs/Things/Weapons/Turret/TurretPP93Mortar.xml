@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_ArtilleryBuildingBase">
         <defName>PLA_Turret_PP93Mortar</defName>
-        <label>PP-93 Light Mortar</label>
+        <label>PP-93 light mortar</label>
         <description>A light mortar. Lobs shells over walls. Good accuracy but short-ranged.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

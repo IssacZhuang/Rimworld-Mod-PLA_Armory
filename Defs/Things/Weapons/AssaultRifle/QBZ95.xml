@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBZNinetyFive</defName>
-    <label>QBZ-95-1 Assault Rifle</label>
+    <label>QBZ-95-1 assault rifle</label>
     <description>The main assault rifle of People's Liberation Army.</description>
     <graphicData>
       <texPath>Things/Weapon/QBZ95</texPath>
