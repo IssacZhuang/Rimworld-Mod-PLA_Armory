@@ -5,7 +5,7 @@
 
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath> /Defs/ThingDef[defName="PLA_QCWZeroFive" or defName="PLA_QCQOneSevenOne" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne" or defName="PLA_QBZZeroThree" or defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneJ" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_TypeFiftySixOneA" or defName="PLA_NARSevenFiveOne" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QBUEightyEight" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo" or defName="PLA_QBVOneNineOne" or defName="PLA_QBVOneNineOneLSW" or defName="PLA_QLUEleven" or defName="PLA_QBSZeroNine" or defName="PLA_QBZOneNineOne_Charged"]/tools
+        <xpath> /Defs/ThingDef[defName="PLA_QCWZeroFive" or defName="PLA_QCQOneSevenOne" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne" or defName="PLA_QBZZeroThree" or defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneLG" or defName="PLA_QBZOneNineOneJ" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_TypeFiftySixOneA" or defName="PLA_NARSevenFiveOne" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QBUEightyEight" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo" or defName="PLA_QBVOneNineOne" or defName="PLA_QBVOneNineOneLSW" or defName="PLA_QLUEleven" or defName="PLA_QBSZeroNine" or defName="PLA_QBZOneNineOne_Charged"]/tools
                     </xpath>
         <value>
             <tools>
@@ -139,6 +139,48 @@
                     <cooldownTime>2.02</cooldownTime>
                     <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
                     <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- Boyonet 56-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_TypeFiftySixBoyonet"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>boyonet</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>21</power>
+                    <cooldownTime>1.7</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationSharp>2.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- Boyonet 95-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_QBZNinetyFiveBoyonet" or defName="PLA_QBZOneNineOneBoyonet"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>boyonet</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>17</power>
+                    <cooldownTime>1.4</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationSharp>2.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
                 </li>
             </tools>
         </value>

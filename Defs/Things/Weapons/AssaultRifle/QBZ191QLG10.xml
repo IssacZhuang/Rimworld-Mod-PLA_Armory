@@ -1,35 +1,42 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingDef ParentName="PLA_BaseGun">
-    <defName>PLA_QBZNinetyFiveLG</defName>
-    <label>QBZ-95-QLG assault rifle</label>
-    <description>The QBZ-95 assault rifle with grenade launcher and scope.</description>
+    <defName>PLA_QBZOneNineOneLG</defName>
+    <label>QBZ-191-QLG assault rifle</label>
+    <description>The QBZ-191 assault rifle with grenade launcher.</description>
     <graphicData>
-      <texPath>Things/Weapon/QBZ95QLG91</texPath>
+      <texPath>Things/Weapon/QBZ191QLG10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.95,0.95)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
+      <researchPrerequisite></researchPrerequisite>
+      <researchPrerequisites>
+        <li>PLA_Research_Gen4Weapon</li>
+        <li>PLA_Research_TacticalModification</li>
+    </researchPrerequisites>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
-      <Mass>5.25</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.69</AccuracyShort>
-      <AccuracyMedium>0.71</AccuracyMedium>
-      <AccuracyLong>0.57</AccuracyLong>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.73</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>65</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <Chemfuel>10</Chemfuel>
+      <Steel>95</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
     </costList>
     <weaponTags>
       <li>PLA_AssaultRifle</li>
@@ -39,12 +46,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PLA_Bullet_DBPTen</defaultProjectile>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <range>30.2</range>
+        <range>31</range>
         <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>PLA_SoundQBZ95</soundCast>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundQBZ191</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -91,5 +98,5 @@
       </li>
     </tools>
   </ThingDef>
-
+  
 </Defs>

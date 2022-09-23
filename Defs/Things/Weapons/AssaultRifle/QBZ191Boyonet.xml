@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QBZOneNineOneBoyonet</defName>
+    <label>QBZ-191 assault rifle + boyonet</label>
+    <description>The QBZ-191 assault rifle with boyonet.</description>
+    <graphicData>
+      <texPath>Things/Weapon/QBZ191Boyonet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>4.75</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.73</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>95</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+    <weaponTags>
+      <!--li>PLA_AssaultRifle</li>
+      <li>PLA_MordenAssaultRifle</li-->
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>31</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundQBZ191</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <tools>
+        <li>
+            <label>boyonet</label>
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>16</power>
+            <cooldownTime>1.5</cooldownTime>
+        </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

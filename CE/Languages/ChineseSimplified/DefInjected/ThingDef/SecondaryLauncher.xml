@@ -8,6 +8,10 @@
     <PLA_QBZNinetyFiveLG.comps.CompSecondaryAmmo.secondaryWeaponLabel>使用榴弹发射器</PLA_QBZNinetyFiveLG.comps.CompSecondaryAmmo.secondaryWeaponLabel>
     <PLA_QBZNinetyFiveLG.comps.CompSecondaryAmmo.description>在步枪和榴弹发射器间切换</PLA_QBZNinetyFiveLG.comps.CompSecondaryAmmo.description>
 
+    <PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.mainWeaponLabel>使用步枪</PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.mainWeaponLabel>
+    <PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.secondaryWeaponLabel>使用榴弹发射器</PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.secondaryWeaponLabel>
+    <PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.description>在步枪和榴弹发射器间切换</PLA_QBZOneNineOneLG.comps.CompSecondaryAmmo.description>
+
     <PLA_GrenadeLauncherQTSEleven.label>QTS-11上的榴弹发射器</PLA_GrenadeLauncherQTSEleven.label>
     <PLA_GrenadeLauncherQTSEleven.description>QTS-11上的榴弹发射器</PLA_GrenadeLauncherQTSEleven.description>
 </LanguageData>

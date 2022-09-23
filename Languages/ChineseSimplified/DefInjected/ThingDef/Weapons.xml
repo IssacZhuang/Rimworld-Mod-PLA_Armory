@@ -36,6 +36,18 @@
   <PLA_QBZOneNineOne.tools.0.label>枪托</PLA_QBZOneNineOne.tools.0.label>
   <PLA_QBZOneNineOne.tools.1.label>枪管</PLA_QBZOneNineOne.tools.1.label>
 
+  <PLA_QBZOneNineOneBoyonet.label>191式突击步枪 + 刺刀</PLA_QBZOneNineOneBoyonet.label>
+  <PLA_QBZOneNineOneBoyonet.description>191式突击步枪加装刺刀。</PLA_QBZOneNineOneBoyonet.description>
+  <PLA_QBZOneNineOneBoyonet.tools.0.label>刺刀</PLA_QBZOneNineOneBoyonet.tools.0.label>
+
+  <PLA_QBZOneNineOneLG.label>191式突击步枪 "掷弹兵"</PLA_QBZOneNineOneLG.label>
+  <PLA_QBZOneNineOneLG.description>QBZ-191突击步枪加上下挂榴弹发射器。</PLA_QBZOneNineOneLG.description>
+  <PLA_QBZOneNineOneLG.tools.0.label>枪托</PLA_QBZOneNineOneLG.tools.0.label>
+  <PLA_QBZOneNineOneLG.tools.1.label>枪管</PLA_QBZOneNineOneLG.tools.1.label>
+  <PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.mainWeaponLabel>使用步枪</PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.mainWeaponLabel>
+  <PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.secondaryWeaponLabel>使用榴弹发射器</PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.secondaryWeaponLabel>
+  <PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.description>在步枪和榴弹发射器间切换</PLA_QBZOneNineOneLG.comps.CompSecondaryVerb.description>
+
   <PLA_QBZOneNineOneJ.label>191式突击步枪 "蛟龙"</PLA_QBZOneNineOneJ.label>
   <PLA_QBZOneNineOneJ.description>加装了热成瞄准镜和消音器的191式突击步枪，适合夜间潜入作战。</PLA_QBZOneNineOneJ.description>
   <PLA_QBZOneNineOneJ.tools.0.label>枪托</PLA_QBZOneNineOneJ.tools.0.label>
@@ -46,7 +58,7 @@
   <PLA_QBZOneNineOneCarbine.tools.0.label>枪托</PLA_QBZOneNineOneCarbine.tools.0.label>
   <PLA_QBZOneNineOneCarbine.tools.1.label>枪管</PLA_QBZOneNineOneCarbine.tools.1.label>
 
-  <PLA_QBVOneNineOneLSW.label>191式精确射手步枪（弹鼓）</PLA_QBVOneNineOneLSW.label>
+  <PLA_QBVOneNineOneLSW.label>191式精确射手步枪 + 弹鼓</PLA_QBVOneNineOneLSW.label>
   <PLA_QBVOneNineOneLSW.description>基于191式精准射手步枪改装而来，由于其带有重枪管且保留了全自动功能，所以可以装上弹鼓作为轻机枪使用。</PLA_QBVOneNineOneLSW.description>
   <PLA_QBVOneNineOneLSW.tools.0.label>枪托</PLA_QBVOneNineOneLSW.tools.0.label>
   <PLA_QBVOneNineOneLSW.tools.1.label>枪管</PLA_QBVOneNineOneLSW.tools.1.label>
@@ -70,6 +82,10 @@
   <PLA_QBZNinetyFive.description>人民解放军的主力突击步枪，采用无托结构，性能优秀且造价相对便宜。</PLA_QBZNinetyFive.description>
   <PLA_QBZNinetyFive.tools.0.label>枪托</PLA_QBZNinetyFive.tools.0.label>
   <PLA_QBZNinetyFive.tools.1.label>枪管</PLA_QBZNinetyFive.tools.1.label>
+
+  <PLA_QBZNinetyFiveBoyonet.label>95-1式突击步枪 + 刺刀</PLA_QBZNinetyFiveBoyonet.label>
+  <PLA_QBZNinetyFiveBoyonet.description>95-1式突击步枪加装刺刀。</PLA_QBZNinetyFiveBoyonet.description>
+  <PLA_QBZNinetyFiveBoyonet.tools.0.label>刺刀</PLA_QBZNinetyFiveBoyonet.tools.0.label>
 
   <PLA_QBZNinetyFiveLG.label>95-1式突击步枪 "掷弹兵"</PLA_QBZNinetyFiveLG.label>
   <PLA_QBZNinetyFiveLG.description>在95式突击步枪的基础上加装了光学瞄具和榴弹发射器。</PLA_QBZNinetyFiveLG.description>
@@ -108,6 +124,10 @@
   <PLA_TypeFiftySix.description>解放军的老式突击步枪。原型为苏联的AK-47，由于工艺的材料的原因，精度会比AK-47更差一些，但是该枪制造简单坚实耐用。</PLA_TypeFiftySix.description>
   <PLA_TypeFiftySix.tools.0.label>枪托</PLA_TypeFiftySix.tools.0.label>
   <PLA_TypeFiftySix.tools.1.label>枪管</PLA_TypeFiftySix.tools.1.label>
+
+  <PLA_TypeFiftySixBoyonet.label>56式冲锋枪 + 刺刀</PLA_TypeFiftySixBoyonet.label>
+  <PLA_TypeFiftySixBoyonet.description>56式冲锋枪加装三棱刺。</PLA_TypeFiftySixBoyonet.description>
+  <PLA_TypeFiftySixBoyonet.tools.0.label>刺刀</PLA_TypeFiftySixBoyonet.tools.0.label>
 
   <PLA_TypeFiftySixS.label>56式半自动步枪</PLA_TypeFiftySixS.label>
   <PLA_TypeFiftySixS.description>解放军老式的半自动步枪。原型为苏联的SKS，射程尚可，精度良好。</PLA_TypeFiftySixS.description>

@@ -34,7 +34,7 @@
             <warmupTime>1.8</warmupTime>
             <range>42</range>
             <burstShotCount>1</burstShotCount>
-            <soundCast>InfernoCannon_Fire</soundCast>
+            <soundCast>PLA_SoundPF98</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <onlyManualCast>true</onlyManualCast>
             <targetParams>
