@@ -33,9 +33,6 @@
             </skillRequirements>
             <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
         <weaponTags>
             <li>PLA_MissileLauncher</li>
         </weaponTags>

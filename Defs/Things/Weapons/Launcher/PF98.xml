@@ -32,9 +32,6 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
         </recipeMaker>
-        <thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
         <weaponTags>
             <li>PLA_RocketLauncher</li>
         </weaponTags>
