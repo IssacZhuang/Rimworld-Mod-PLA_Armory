@@ -6,7 +6,7 @@
     <label>QBZ-95-QLG assault rifle</label>
     <description>The QBZ-95 assault rifle with grenade launcher and scope.</description>
     <graphicData>
-      <texPath>Things/Weapon/QBZ95QLG91</texPath>
+      <texPath>Things/Weapon/QBZ95QLG10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.95,0.95)</drawSize>
     </graphicData>
