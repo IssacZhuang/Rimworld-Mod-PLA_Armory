@@ -9,7 +9,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.4,1.4)</drawSize>
     </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>PLA_SoundInteractSniper</soundInteract>
     <recipeMaker>
       <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
       <skillRequirements>

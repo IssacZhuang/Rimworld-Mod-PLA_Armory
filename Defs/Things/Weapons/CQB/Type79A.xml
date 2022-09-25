@@ -9,7 +9,7 @@
             <texPath>Things/Weapon/Type79A</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
+        <soundInteract>PLA_SoundInteractSMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
             <skillRequirements>

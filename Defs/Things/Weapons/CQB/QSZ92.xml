@@ -11,7 +11,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.5</uiIconScale>
-        <soundInteract>Interact_Autopistol</soundInteract>
+        <soundInteract>PLA_SoundInteractPistol</soundInteract>
         <recipeMaker>
             <researchPrerequisite>PLA_Research_Gen3Weapon</researchPrerequisite>
             <skillRequirements>

@@ -9,7 +9,7 @@
             <texPath>Things/Weapon/QBS09</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
+        <soundInteract>PLA_SoundInteractShotgun</soundInteract>
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <Mass>3.4</Mass>

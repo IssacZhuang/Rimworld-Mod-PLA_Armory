@@ -9,7 +9,7 @@
             <texPath>Things/Weapon/QCQ171</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
+        <soundInteract>PLA_SoundInteractSMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
             <skillRequirements>

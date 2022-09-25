@@ -10,7 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
       <skillRequirements>

@@ -11,7 +11,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>PLA_SoundInteractLauncher</soundInteract>
         <statBases>
             <WorkToMake>35000</WorkToMake>
             <MarketValue>1000</MarketValue>

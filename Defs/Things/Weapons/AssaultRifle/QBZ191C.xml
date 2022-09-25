@@ -10,7 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.95,0.95)</drawSize>
     </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <skillRequirements>
