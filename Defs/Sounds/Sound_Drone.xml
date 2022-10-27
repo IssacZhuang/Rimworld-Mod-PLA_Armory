@@ -10,8 +10,8 @@
           <li>
             <muteWhenPaused>True</muteWhenPaused>      
             <grains>
-              <li Class="AudioGrain_Folder">
-                <clipFolderPath>Weapon/DroneFlying</clipFolderPath>
+              <li Class="AudioGrain_Clip">
+                <clipPath>Weapon/DroneFlying</clipPath>
               </li>
             </grains>      
             <volumeRange>13.17392~13.17392</volumeRange>      
