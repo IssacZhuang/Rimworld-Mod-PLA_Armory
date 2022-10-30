@@ -7,7 +7,7 @@
     <graphicData>
       <texPath>Things/Weapon/QBU202</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.4,1.4)</drawSize>
+      <drawSize>(1.57,1.57)</drawSize>
     </graphicData>
     <soundInteract>PLA_SoundInteractSniper</soundInteract>
     <recipeMaker>
@@ -47,7 +47,7 @@
     </verbs>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <southOffset>(0.1,0,-0.1)</southOffset>
+        <!--southOffset>(0.1,0,-0.1)</southOffset-->
       </li>
     </comps>
     <tools>
