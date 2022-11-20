@@ -42,7 +42,7 @@
     <defName>Ammo_58x42mmCharged</defName>
     <label>5.8x25mm Charged cartridge</label>
     <graphicData>
-      <texPath>Things/Ammo/Charged/Regular</texPath>
+      <texPath>Things/Ammo/Charged/MediumRegular</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -55,7 +55,7 @@
     <defName>Ammo_58x42mmCharged_AP</defName>
     <label>5.8x25mm Charged cartridge (Conc.)</label>
     <graphicData>
-      <texPath>Things/Ammo/Charged/Concentrated</texPath>
+      <texPath>Things/Ammo/Charged/MediumConc</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -68,7 +68,7 @@
     <defName>Ammo_58x42mmCharged_Ion</defName>
     <label>5.8x25mm Charged cartridge (Ion)</label>
     <graphicData>
-      <texPath>Things/Ammo/Charged/Ion</texPath>
+      <texPath>Things/Ammo/Charged/MediumIon</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>

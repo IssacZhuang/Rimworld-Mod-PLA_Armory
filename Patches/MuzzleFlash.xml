@@ -9,12 +9,26 @@
       <operations>
         <!-- Light Weapons-->
         <li Class="PatchOperationAddModExtension">
-          <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneBoyonet" or defName="PLA_QBZOneNineOneLG"]</xpath>
+          <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneLG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.75,0)</offset>
+              <offsets>
+                <li>(0.56,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOneBoyonet"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.51,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -24,7 +38,21 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.73,0)</offset>
+              <offsets>
+                <li>(0.48,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.5,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -34,7 +62,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.76,0)</offset>
+              <offsets>
+                <li>(0.5,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -44,7 +74,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.68,0)</offset>
+              <offsets>
+                <li>(0.5,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -54,7 +86,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.6,0.6)</drawSize>
-              <offset>(0.7,0)</offset>
+              <offsets>
+                <li>(0.45,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -64,7 +98,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.6,0.6)</drawSize>
-              <offset>(0.6,0)</offset>
+              <offsets>
+                <li>(0.3,0.07)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -74,7 +110,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.78,0)</offset>
+              <offsets>
+                <li>(0.55,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -84,7 +122,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.8,0)</offset>
+              <offsets>
+                <li>(0.57,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -94,7 +134,21 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(0.8,0)</offset>
+              <offsets>
+                <li>(0.58,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QBUEightyEight"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.62,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -104,7 +158,9 @@
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
               <drawSize>(0.8,0.8)</drawSize>
-              <offset>(1.02,0)</offset>
+              <offsets>
+                <li>(0.78,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -113,8 +169,22 @@
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.2,1.2)</drawSize>
-              <offset>(1.13,0)</offset>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(0.9,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QLUEleven"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(0.85,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -123,8 +193,10 @@
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.2,1.2)</drawSize>
-              <offset>(1.47,0)</offset>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(1.15,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -134,8 +206,10 @@
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.2,1.2)</drawSize>
-              <offset>(0.99,0)</offset>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(0.99,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -144,8 +218,10 @@
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.2,1.2)</drawSize>
-              <offset>(1.4,0)</offset>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(1.4,0)</li>
+              </offsets>
             </li>
           </value>
         </li>
@@ -154,8 +230,10 @@
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
               <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.2,1.2)</drawSize>
-              <offset>(1.65,0)</offset>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(1.65,0)</li>
+              </offsets>
             </li>
           </value>
         </li>

@@ -6,9 +6,9 @@
     <label>QBU-191 marksman rifle</label>
     <description>The heavy barrel version of QBZ-191 assault rifle. Although its a marksman rifle but it keeps the full-auto mode.</description>
     <graphicData>
-      <texPath>Things/Weapon/QBV191</texPath>
+      <texPath>Things/Weapon/QBU191</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.1,1.1)</drawSize>
+      <drawSize>(1.1875,1.1875)</drawSize>
     </graphicData>
     <soundInteract>PLA_SoundInteractRifle</soundInteract>
     <recipeMaker>

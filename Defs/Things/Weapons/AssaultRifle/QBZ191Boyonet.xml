@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Weapon/QBZ191Boyonet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.5,1.5)</drawSize>
+      <drawSize>(1.375,1.375)</drawSize>
     </graphicData>
     <soundInteract>PLA_SoundInteractRifle</soundInteract>
     <recipeMaker>

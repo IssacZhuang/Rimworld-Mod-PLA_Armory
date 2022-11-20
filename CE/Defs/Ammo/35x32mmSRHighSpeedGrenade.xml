@@ -54,7 +54,6 @@
             <speed>120</speed>
             <explosionRadius>2</explosionRadius>
             <damageDef>Smoke</damageDef>
-            <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
             <preExplosionSpawnChance>1</preExplosionSpawnChance>
         </projectile>
     </ThingDef>

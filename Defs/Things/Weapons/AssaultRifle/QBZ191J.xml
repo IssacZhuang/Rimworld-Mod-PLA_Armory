@@ -8,7 +8,7 @@
         <graphicData>
             <texPath>Things/Weapon/QBZ191S</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1.25,1.25)</drawSize>
+            <drawSize>(1.125,1.125)</drawSize>
         </graphicData>
         <soundInteract>PLA_SoundInteractRifle</soundInteract>
         <recipeMaker>

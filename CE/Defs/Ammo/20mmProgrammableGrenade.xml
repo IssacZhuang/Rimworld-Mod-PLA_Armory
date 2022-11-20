@@ -43,8 +43,8 @@
         <defName>Ammo_20mmProgrammableGrenade_HE</defName>
         <label>20mm programmable grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Ammo/20mmProgrammableGrenade/HE</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Ammo/20mmProgrammableGrenade_HE</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>1.69</MarketValue>
@@ -69,8 +69,8 @@
         <defName>Ammo_20mmProgrammableGrenade_HEAT</defName>
         <label>20mm programmable grenade (HEDP)</label>
         <graphicData>
-            <texPath>Things/Ammo/20mmProgrammableGrenade/HEAT</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Ammo/20mmProgrammableGrenade_HEDP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>1.69</MarketValue>
@@ -96,8 +96,8 @@
         <defName>Ammo_20mmProgrammableGrenade_EMP</defName>
         <label>20mm programmable grenade (EMP)</label>
         <graphicData>
-            <texPath>Things/Ammo/20mmProgrammableGrenade/EMP</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Ammo/20mmProgrammableGrenade_EMP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>1.69</MarketValue>
@@ -122,8 +122,8 @@
         <defName>Ammo_20mmProgrammableGrenade_BUCK</defName>
         <label>20mm programmable grenade (Buck)</label>
         <graphicData>
-            <texPath>Things/Ammo/20mmProgrammableGrenade/BUCK</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Ammo/20mmProgrammableGrenade_BUCK</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>1.69</MarketValue>
