@@ -21,13 +21,13 @@
           </value>
         </li>
         <li Class="PatchOperationAddModExtension">
-          <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOneBoyonet"]</xpath>
+          <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne_Charged"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(0.8,0.8)</drawSize>
+              <def>MF_ChargedMuzzleFalsh</def>
+              <drawSize>(1.2,1.2)</drawSize>
               <offsets>
-                <li>(0.51,0)</li>
+                <li>(0.49,0)</li>
               </offsets>
             </li>
           </value>
@@ -233,6 +233,19 @@
               <drawSize>(1.6,1.6)</drawSize>
               <offsets>
                 <li>(1.65,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <!-- Charged-->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_ChargedMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.5,0)</li>
               </offsets>
             </li>
           </value>
