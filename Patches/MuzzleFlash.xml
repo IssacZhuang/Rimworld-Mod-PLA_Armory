@@ -84,8 +84,8 @@
           <xpath>Defs/ThingDef[defName="PLA_TypeSeventyNine" or defName="PLA_TypeSeventyNineA"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(0.6,0.6)</drawSize>
+              <def>MF_StandardMuzzleFalshTwo</def>
+              <drawSize>(1,1)</drawSize>
               <offsets>
                 <li>(0.45,0)</li>
               </offsets>
@@ -96,8 +96,8 @@
           <xpath>Defs/ThingDef[defName="PLA_QSZNinetyTwo" or defName="PLA_TypeFiftyFour"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(0.6,0.6)</drawSize>
+              <def>MF_StandardMuzzleFalshTwo</def>
+              <drawSize>(1,1)</drawSize>
               <offsets>
                 <li>(0.3,0.07)</li>
               </offsets>
@@ -168,10 +168,10 @@
           <xpath>Defs/ThingDef[defName="PLA_QBUTen" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QLUEleven"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
+              <def>MF_StandardMuzzleFalshThree</def>
               <drawSize>(1.6,1.6)</drawSize>
               <offsets>
-                <li>(0.9,0)</li>
+                <li>(1,0)</li>
               </offsets>
             </li>
           </value>
@@ -192,10 +192,10 @@
           <xpath>Defs/ThingDef[defName="PLA_QJZOneSevenOne"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
+              <def>MF_StandardMuzzleFalshThree</def>
               <drawSize>(1.6,1.6)</drawSize>
               <offsets>
-                <li>(1.15,0)</li>
+                <li>(1.25,0)</li>
               </offsets>
             </li>
           </value>
