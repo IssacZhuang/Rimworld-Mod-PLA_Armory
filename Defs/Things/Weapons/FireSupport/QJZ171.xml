@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Weapon/QJZ171</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2.5,2.5)</drawSize>
+      <drawSize>(2.3,2.3)</drawSize>
     </graphicData>
     <soundInteract>PLA_SoundInteractMG</soundInteract>
     <recipeMaker>

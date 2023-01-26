@@ -195,7 +195,7 @@
               <def>MF_StandardMuzzleFalshThree</def>
               <drawSize>(1.6,1.6)</drawSize>
               <offsets>
-                <li>(1.25,0)</li>
+                <li>(1.23,0)</li>
               </offsets>
             </li>
           </value>
