@@ -5,9 +5,17 @@
   <MakeAmmo_58x42mmDBP191_APCR.description>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.description>
   <MakeAmmo_58x42mmDBP191_APCR.jobString>制作5.8mm DBP191通用弹 (硬芯穿甲弹)</MakeAmmo_58x42mmDBP191_APCR.jobString>
 
-  <MakeAmmo_127x108mm_IncendiaryLight.label>制作12.7x108mm DVP171机枪弹 (轻质穿甲燃烧弹) x200</MakeAmmo_127x108mm_IncendiaryLight.label>
-  <MakeAmmo_127x108mm_IncendiaryLight.description>制作12.7x108mm DVP171机枪弹 (轻质穿甲燃烧弹)</MakeAmmo_127x108mm_IncendiaryLight.description>
-  <MakeAmmo_127x108mm_IncendiaryLight.jobString>制作12.7x108mm DVP171机枪弹 (轻质穿甲燃烧弹)</MakeAmmo_127x108mm_IncendiaryLight.jobString>
+  <MakeAmmo_RifleIntermediate_APCR.label>制作 中间威力弹 (硬芯穿甲弹) x500</MakeAmmo_RifleIntermediate_APCR.label>
+  <MakeAmmo_RifleIntermediate_APCR.description>制作 中间威力弹 (硬芯穿甲弹)</MakeAmmo_RifleIntermediate_APCR.description>
+  <MakeAmmo_RifleIntermediate_APCR.jobString>制作 中间威力弹 (硬芯穿甲弹)</MakeAmmo_RifleIntermediate_APCR.jobString>
+
+  <MakeAmmo_127x108mm_PolymerCasedIncendiary.label>制作12.7x108mm 聚合物机枪弹 (穿甲燃烧弹) x200</MakeAmmo_127x108mm_PolymerCasedIncendiary.label>
+  <MakeAmmo_127x108mm_PolymerCasedIncendiary.description>制作12.7x108mm 聚合物机枪弹 (穿甲燃烧弹)</MakeAmmo_127x108mm_PolymerCasedIncendiary.description>
+  <MakeAmmo_127x108mm_PolymerCasedIncendiary.jobString>制作12.7x108mm 聚合物机枪弹 (穿甲燃烧弹)</MakeAmmo_127x108mm_PolymerCasedIncendiary.jobString>
+
+  <Ammo_AntiMateriel_PolymerCasedIncendiary.label>制作 聚合物反器材弹 (穿甲燃烧弹) x200</Ammo_AntiMateriel_PolymerCasedIncendiary.label>
+  <Ammo_AntiMateriel_PolymerCasedIncendiary.description>制作 聚合物反器材弹 (穿甲燃烧弹)</Ammo_AntiMateriel_PolymerCasedIncendiary.description>
+  <Ammo_AntiMateriel_PolymerCasedIncendiary.jobString>制作 聚合物反器材弹 (穿甲燃烧弹)</Ammo_AntiMateriel_PolymerCasedIncendiary.jobString>
 
   <MakeAmmo_12Gauge_AP_Buck.label>制作12号口径霰弹 (穿甲霰弹) x200</MakeAmmo_12Gauge_AP_Buck.label>
   <MakeAmmo_12Gauge_AP_Buck.description>制作 12号口径霰弹 (穿甲霰弹)</MakeAmmo_12Gauge_AP_Buck.description>

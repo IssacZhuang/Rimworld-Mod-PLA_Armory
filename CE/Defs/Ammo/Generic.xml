@@ -78,4 +78,69 @@
         </products>
         <workAmount>2000</workAmount>
     </RecipeDef>
+
+    <!-- DVP 171-->
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x108mmBase">
+        <defName>Ammo_AntiMateriel_PolymerCasedIncendiary</defName>
+        <label>polymer-cased anti-materiel cartridge (AP-I)</label>
+        <graphicData>
+          <texPath>Things/Ammo/PCAPI</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+          <Mass>0.103</Mass>
+          <MarketValue>0.8</MarketValue>    
+        </statBases>
+        <ammoClass>PLA_IncendiaryAP_PloymerCased</ammoClass>
+        <cookOffProjectile>Bullet_127x108mm_PolymerCasedIncendiary</cookOffProjectile>
+      </ThingDef>
+
+      <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+        <defName>MakeAmmo_AntiMateriel_PolymerCasedIncendiary</defName>
+        <label>make anti-materiel (AP-I) polymer-cased cartridge x200</label>
+        <description>Craft 200 anti-materiel (AP-I) polymer-cased cartridges.</description>
+        <jobString>Making anti-materiel (AP-I) polymer-cased cartridges.</jobString>
+        <researchPrerequisites>
+                <li>PLA_Research_AdvancedHighCaliber</li>
+            </researchPrerequisites>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Plasteel</li>
+              </thingDefs>
+            </filter>
+            <count>30</count>
+          </li>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Steel</li>
+              </thingDefs>
+            </filter>
+            <count>14</count>
+          </li>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Prometheum</li>
+              </thingDefs>
+            </filter>
+            <count>5</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Plasteel</li>
+            <li>Steel</li>
+            <li>Prometheum</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <Ammo_AntiMateriel_PolymerCasedIncendiary>200</Ammo_AntiMateriel_PolymerCasedIncendiary>
+        </products>
+        <workAmount>7600</workAmount>
+      </RecipeDef>
+    
 </Defs>

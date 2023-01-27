@@ -6,6 +6,7 @@
         <graphicData>
             <texPath>Things/Projectile/MetalJet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>Fragment</damageDef>

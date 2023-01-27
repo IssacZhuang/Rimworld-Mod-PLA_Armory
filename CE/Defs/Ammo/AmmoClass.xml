@@ -23,17 +23,10 @@
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
-        <defName>PLA_IncendiaryAPLight</defName>
-        <label>armor-piercing incendiary light</label>
-        <labelShort>AP-I Light</labelShort>
-        <description>Uses the lightweight metal to reduce bullet weight. Filled with an incendiary compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
-    </CombatExtended.AmmoCategoryDef>
-
-    <CombatExtended.AmmoCategoryDef>
-        <defName>PLA_IncendiaryAPHE</defName>
-        <label>armor-piercing high-explosive incendiary</label>
-        <labelShort>AP-HEI</labelShort>
-        <description>Filled with incendiary and high-explosives compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
+        <defName>PLA_IncendiaryAP_PloymerCased</defName>
+        <label>ploymer-cased armor-piercing incendiary</label>
+        <labelShort>PC-AP-I</labelShort>
+        <description>Uses the ploymer case to reduce bullet weight. Filled with an incendiary compound that ignites on impact, doing additional damage and increasing armor penetration.</description>
     </CombatExtended.AmmoCategoryDef>
 
 </Defs>
