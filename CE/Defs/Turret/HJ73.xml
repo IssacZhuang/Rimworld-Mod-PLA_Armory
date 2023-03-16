@@ -19,7 +19,7 @@
         </graphicData>
         <size>(2,2)</size>
         <statBases>
-            <WorkToBuild>48000</WorkToBuild>
+            <WorkToBuild>16000</WorkToBuild>
             <MaxHitPoints>300</MaxHitPoints>
             <Mass>75</Mass>
             <Bulk>60</Bulk>

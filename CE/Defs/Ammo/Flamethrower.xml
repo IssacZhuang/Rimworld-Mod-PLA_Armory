@@ -9,7 +9,7 @@
         </ammoTypes>
       </CombatExtended.AmmoSetDef>
 
-      <ThingDef Name="PLA_BaseFlamethrowerBullet" ParentName="BaseBullet" Abstract="true">
+      <ThingDef Name="PLA_BaseFlamethrowerBullet" ParentName="BaseBulletCE" Abstract="true">
         <graphicData>
           <texPath>Things/Projectile/Proj_Flame</texPath>
           <graphicClass>Graphic_Single</graphicClass>

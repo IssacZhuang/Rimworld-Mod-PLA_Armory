@@ -55,7 +55,7 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseHJ73Missile" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseHJ73Missile" ParentName="BaseBulletCE" Abstract="true">
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>

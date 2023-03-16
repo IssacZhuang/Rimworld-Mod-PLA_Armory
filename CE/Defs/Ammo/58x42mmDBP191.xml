@@ -63,7 +63,7 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" Name="Base58x42mmDBP191Bullet" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base58x42mmDBP191Bullet" ParentName="BaseBulletCE" Abstract="true">
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

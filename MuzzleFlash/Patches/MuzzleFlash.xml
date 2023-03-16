@@ -8,7 +8,7 @@
       <success>Always</success>
       <operations>
         <!-- Light Weapons-->
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneLG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -20,7 +20,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne_Charged"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -32,7 +32,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBZZeroThree" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBZNinetyFiveBoyonet" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QTSEleven"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -44,7 +44,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -56,7 +56,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_TypeFiftySix" or defName="PLA_TypeFiftySixBoyonet" or defName="PLA_TypeFiftySixOneA" or defName="PLA_TypeFiftyThree" or defName="PLA_TypeSixtyThree" or defName="PLA_TypeFiftySixS"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -68,7 +68,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOneCarbine"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -80,7 +80,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_TypeSeventyNine" or defName="PLA_TypeSeventyNineA"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -92,7 +92,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QSZNinetyTwo" or defName="PLA_TypeFiftyFour"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -104,7 +104,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_TypeEightyOne" or defName="PLA_TypeEightyOneLMG" or defName="PLA_NARSevenFiveOne"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -116,7 +116,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -128,7 +128,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBVOneNineOne" or defName="PLA_QBVOneNineOneLSW"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -140,7 +140,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBUEightyEight"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -152,7 +152,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBUTwoZeroTwo"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -164,7 +164,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBUTen" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QLUEleven"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -176,7 +176,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QLUEleven"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -188,7 +188,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QJZOneSevenOne"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -201,7 +201,7 @@
           </value>
         </li>
         <!-- Turret Guns-->
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_Gun85HMG" or defName="PLA_AutoGun85HMG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -213,7 +213,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_GunCSLM5HMG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -225,7 +225,7 @@
             </li>
           </value>
         </li>
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_GunQJG02HMG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
@@ -238,7 +238,7 @@
           </value>
         </li>
         <!-- Charged-->
-        <li Class="PatchOperationAddModExtension">
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">

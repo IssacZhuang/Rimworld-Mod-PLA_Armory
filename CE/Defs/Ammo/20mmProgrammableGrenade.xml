@@ -145,7 +145,7 @@
 
     <!--Projectiles-->
 
-    <ThingDef Name="Base20mmProgrammableGrenadeBullet" ParentName="BaseBullet" Abstract="true">
+    <ThingDef Name="Base20mmProgrammableGrenadeBullet" ParentName="BaseBulletCE" Abstract="true">
         <graphicData>
             <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
