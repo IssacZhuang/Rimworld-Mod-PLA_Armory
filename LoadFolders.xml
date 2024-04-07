@@ -14,4 +14,11 @@
         <li>1.4</li>
         <li>/</li>
     </v1.4>
+    <v1.5>
+        <li IfModActive="CETeam.CombatExtended">CE</li>
+        <li IfModActive="CETeam.CombatExtended">CE/1.5</li>
+        <li IfModActive="IssacZhuang.MuzzleFlash">MuzzleFlash</li>
+        <li>1.4</li>
+        <li>/</li>
+    </v1.5>
 </loadFolders>
