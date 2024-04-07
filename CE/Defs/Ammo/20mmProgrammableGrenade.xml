@@ -226,7 +226,6 @@
             <armorPenetrationBlunt>5.78</armorPenetrationBlunt>
             <spreadMult>17.8</spreadMult>
             <dropsCasings>true</dropsCasings>
-            <casingMoteDefname>Mote_ShotgunShell</casingMoteDefname>
         </projectile>
     </ThingDef>
 

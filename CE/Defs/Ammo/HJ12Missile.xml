@@ -77,7 +77,6 @@
             <soundAmbient>MortarRound_Ambient</soundAmbient>
             <flyOverhead>true</flyOverhead>
             <dropsCasings>true</dropsCasings>
-            <casingMoteDefname>Mote_BigShell</casingMoteDefname>
             <gravityFactor>20</gravityFactor>
             <!--speed>120</speed-->
         </projectile>

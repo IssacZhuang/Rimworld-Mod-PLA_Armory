@@ -15,7 +15,6 @@
       <soundExplode>MortarBomb_Explode</soundExplode>
       <flyOverhead>true</flyOverhead>
       <dropsCasings>false</dropsCasings>
-      <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
       <gravityFactor>10</gravityFactor>
     </projectile>
   </ThingDef>
@@ -35,7 +34,6 @@
       <soundExplode>MortarBomb_Explode</soundExplode>
       <flyOverhead>true</flyOverhead>
       <dropsCasings>false</dropsCasings>
-      <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
       <gravityFactor>10</gravityFactor>
     </projectile>
     <comps>
@@ -65,7 +63,6 @@
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <flyOverhead>false</flyOverhead>
       <dropsCasings>false</dropsCasings>
-      <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_Fragments">
