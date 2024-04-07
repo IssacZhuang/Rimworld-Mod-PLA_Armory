@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QBUEightyEight</defName>
+    <label>QBU-88 sniper rifle</label>
+    <description>A semi-auto sniper rifle</description>
+    <graphicData>
+      <texPath>Things/Weapon/QBU88</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.25,1.25)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen3Weapon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>4.1</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.67</AccuracyShort>
+      <AccuracyMedium>0.83</AccuracyMedium>
+      <AccuracyLong>0.81</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+    </costList>
+    <weaponTags>
+      <li>PLA_DMR</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_Sniper</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>40</range>
+        <soundCast>PLA_SoundQBU88</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

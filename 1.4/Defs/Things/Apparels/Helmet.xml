@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="PLA_HelmetBase" ParentName="PLA_ArmorMachineableBase" Abstract="True">
+        <thingCategories>
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <uiIconScale>1.4</uiIconScale>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.43</ArmorRating_Heat>
+            <Mass>1.2</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Armor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <Plasteel>10</Plasteel>
+        </costList>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags Inherit = "False">
+                <li>PLA_Helmet</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <only>(0.7,0.7,0.7)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <ThingDef Name="PLA_AdvancedHelmetBase" ParentName="PLA_HelmetBase" Abstract="true">
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+        </costList>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <tags Inherit = "False">
+                <li>PLA_AdvancedHelmet</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <layers></layers>
+        </apparel>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+    </ThingDef>
+    
+    <ThingDef ParentName="PLA_HelmetBase">
+        <defName>PLA_Helmet_Desert</defName>
+        <label>PLA military helmet</label>
+        <description>A military helmet.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_helmet_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Helmet/PLA_helmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_AdvancedHelmetBase">
+        <defName>PLA_AdvancedHelmet_Desert</defName>
+        <label>PLA military helmet(with night vision)</label>
+        <description>A military helmet with night vision and eyes protection goggles.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_advancedHelmet_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/AdvancedHelmet/PLA_advancedHelmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+</Defs>

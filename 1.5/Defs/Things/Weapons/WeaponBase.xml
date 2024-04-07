@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Name="PLA_TurretBase" Abstract="true">
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <thingCategories>
+            <li>BuildingsSecurity</li>
+        </thingCategories>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <stealable>false</stealable>
+        <rotatable>true</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+            <li Class="CompProperties_Mannable">
+                <manWorkType>Violent</manWorkType>
+            </li>
+        </comps>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.85</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <hasTooltip>true</hasTooltip>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Security</designationCategory>
+        <placeWorkers>
+            <li>PlaceWorker_TurretTop</li>
+            <li>PlaceWorker_ShowTurretRadius</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase" Name="PLA_AutoTurretBase" Abstract="true">
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <thingCategories>
+            <li>BuildingsSecurity</li>
+        </thingCategories>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <stealable>false</stealable>
+        <rotatable>true</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+        </comps>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.85</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <hasTooltip>true</hasTooltip>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Security</designationCategory>
+        <placeWorkers>
+            <li>PlaceWorker_TurretTop</li>
+            <li>PlaceWorker_ShowTurretRadius</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <ThingDef Name="PLA_ArtilleryBuildingBase" ParentName="BuildingBase" Abstract="True">
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <stealable>false</stealable>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.4</fillPercent>
+        <thingCategories>
+          <li>BuildingsSecurity</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Security</designationCategory>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <comps>
+          <li Class="CompProperties_Forbiddable"/>
+          <li Class="CompProperties_Mannable">
+            <manWorkType>Violent</manWorkType>
+          </li>
+        </comps>
+        <statBases>
+          <MaxHitPoints>300</MaxHitPoints>
+          <Flammability>0.7</Flammability>
+          <WorkToBuild>1500</WorkToBuild>
+          <Mass>30</Mass>
+        </statBases>
+        <building>
+          <turretBurstWarmupTime>6</turretBurstWarmupTime>
+          <turretBurstCooldownTime>19.0</turretBurstCooldownTime>
+          <buildingTags>
+            <li>Artillery</li>
+          </buildingTags>
+        </building>
+        <placeWorkers>
+          <li>PlaceWorker_NotUnderRoof</li>
+          <li>PlaceWorker_TurretTop</li>
+          <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <uiIconScale>1.1</uiIconScale>
+      </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret" Name="PLA_TurretWeaponBase" Abstract="true">
+        <soundInteract>Interact_Rifle</soundInteract>
+        <destroyOnDrop>true</destroyOnDrop>
+        <tradeability>None</tradeability>
+        <useHitPoints>false</useHitPoints>
+        <statBases>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef Name="PLA_BaseGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories Inherit = "False">
+            <li>PLA_WeaponRanged</li>
+        </thingCategories>
+        <thingSetMakerTags Inherit = "False">
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <weaponTags Inherit = "False"></weaponTags>
+        <recipeMaker>
+          <recipeUsers Inherit = "False">
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+      </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="PLA_BaseGunNonMakeable" ParentName="BaseGunWithQuality" Abstract="True">
+      <thingCategories Inherit = "False">
+          <li>PLA_WeaponRanged</li>
+      </thingCategories>
+      <thingSetMakerTags Inherit = "False">
+          <li>RewardStandardMidFreq</li>
+      </thingSetMakerTags>
+      <weaponTags Inherit = "False"></weaponTags>
+  </ThingDef>
+
+    <ThingDef Name="PLA_BaseGunSingleUse" ParentName="BaseGun" Abstract="True">
+      <weaponTags Inherit = "False"></weaponTags>
+      <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers Inherit = "False">
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="PLA_BaseGrenade" ParentName="BaseWeapon" Abstract="True">
+      <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers Inherit = "False">
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="PLA_BaseMeleeWeapon" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+      <recipeMaker>
+        <defaultIngredientFilter>
+          <categories>
+            <li>Root</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Silver</li>
+            <li>Gold</li>
+            <li>WoodLog</li>
+          </disallowedThingDefs>
+        </defaultIngredientFilter>
+        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+          <li>PLA_TableAssembly</li>
+        </recipeUsers>
+      </recipeMaker>
+    </ThingDef>
+
+</Defs>

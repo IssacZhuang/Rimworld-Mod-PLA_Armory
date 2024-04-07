@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGunSingleUse">
+        <defName>PLA_PFEleven</defName>
+        <label>PF-11 anti-tank rocket launcher</label>
+        <description>A single-use anti-tank rocket of of People's Liberation Army.</description>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>Things/Weapon/PF11</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.2,1.2)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractLauncher</soundInteract>
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MarketValue>300</MarketValue>
+            <Mass>4</Mass>
+            <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_PrecisionExplosiveWeapon</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Chemfuel>60</Chemfuel>
+        </costList>
+        <resourceReadoutPriority>First</resourceReadoutPriority>
+        <stackLimit>5</stackLimit>
+        <thingCategories Inherit = "False">
+            <li>PLA_WeaponRanged</li>
+        </thingCategories>
+        <weaponTags>
+            <li>PLA_RocketLauncherSingleUse</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_ShootOneUse</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_HighExplosive_PFEleven</defaultProjectile>
+                <forcedMissRadius>1</forcedMissRadius>
+                <warmupTime>4.5</warmupTime>
+                <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+                <range>37</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>PLA_SoundPF98</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <onlyManualCast>true</onlyManualCast>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <muzzleFlashScale>14</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+            </li>
+          </comps>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11.7</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>

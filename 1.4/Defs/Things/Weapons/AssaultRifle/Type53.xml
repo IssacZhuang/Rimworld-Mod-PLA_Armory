@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_TypeFiftyThree</defName>
+    <label>type 53 bolt-action rifle</label>
+    <description>An old-school bolt-action rifle of PLA.</description>
+    <graphicData>
+      <texPath>Things/Weapon/Type53</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.05,1.05)</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen1Weapon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>3.8</Mass>
+      <AccuracyTouch>0.67</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.81</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <WoodLog>35</WoodLog>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>PLA_BoltActionRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_BoltAction</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>36.9</range>
+        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

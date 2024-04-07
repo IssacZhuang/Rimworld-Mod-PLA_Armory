@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QBUTwoZeroOne</defName>
+    <label>QBU-201 anti material rifle</label>
+    <description>A high precision anti-material rifle of PLA</description>
+    <graphicData>
+      <texPath>Things/Weapon/QBU201</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.9,1.9)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractSniper</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_AdvancedHighCaliber</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>7.5</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>110</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Plasteel>20</Plasteel>
+  </costList>
+    <weaponTags>
+      <li>PLA_Sniper</li>
+      <li>PLA_AMR</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_AMR</defaultProjectile>
+        <warmupTime>4.2</warmupTime>
+        <range>55</range>
+        <soundCast>PLA_SoundQBU201</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!--southOffset>(0.2,0,-0.2)</southOffset-->
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PLA_BaseGrenade">
+    <defName>PLA_Type67StickGrenade</defName>
+    <label>type 67 stick grenade</label>
+    <description>A wooden handle stick grenade. Throw farther than ordinary frag grenade but less damage.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Weapon/Type67StickGrenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+      <WorkToMake>8000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen1Weapon</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <WoodLog>50</WoodLog>
+      <Chemfuel>60</Chemfuel>
+    </costList>
+    <thingCategories Inherit="False">
+      <li>PLA_WeaponRanged</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>16</range>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <forcedMissRadius>1.5</forcedMissRadius>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PLA_Proj_Type67StickGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>false</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>PLA_Proj_Type67StickGrenade</defName>
+    <label>frag grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Type67StickGrenadeThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>3.5</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionDelay>60</explosionDelay>
+    </projectile>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+    <defName>PLA_Apparel</defName>
+    <label>PLA Apparels</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+    
+</Defs>

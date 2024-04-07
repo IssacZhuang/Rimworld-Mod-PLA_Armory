@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+      <defName>PLA_NARSevenFiveOne</defName>
+      <label>NAR-751 assault rifle</label>
+      <description>A modular assault rifle.</description>
+      <graphicData>
+        <texPath>Things/Weapon/NAR751</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1.1,1.1)</drawSize>
+      </graphicData>
+      <soundInteract>PLA_SoundInteractRifle</soundInteract>
+      <recipeMaker>
+        <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>40000</WorkToMake>
+        <Mass>3.8</Mass>
+        <AccuracyTouch>0.52</AccuracyTouch>
+        <AccuracyShort>0.68</AccuracyShort>
+        <AccuracyMedium>0.73</AccuracyMedium>
+        <AccuracyLong>0.58</AccuracyLong>
+        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>80</Steel>
+        <ComponentIndustrial>5</ComponentIndustrial>
+        <Chemfuel>10</Chemfuel>
+      </costList>
+      <weaponTags>
+        <li>PLA_RifleForTrade</li>
+        <li>AssaultRifle</li>
+        <li>IndustrialGunAdvanced</li>
+      </weaponTags>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PLA_Bullet_GPMG</defaultProjectile>
+          <warmupTime>1.3</warmupTime>
+          <range>33.5</range>
+          <burstShotCount>3</burstShotCount>
+          <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+          <soundCast>PLA_SoundNAR751</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+      </verbs>
+      <comps>
+        <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        </li>
+      </comps>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+    </ThingDef>
+    
+  </Defs>
+  

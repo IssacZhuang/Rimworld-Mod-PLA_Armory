@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_TypeEightyOneLMG</defName>
+    <label>type 81 light machine gun</label>
+    <description>An old-school light machine gun of PLA.</description>
+    <graphicData>
+      <texPath>Things/Weapon/Type81LMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_Gen2Weapon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>5.2</Mass>
+      <AccuracyTouch>0.41</AccuracyTouch>
+      <AccuracyShort>0.46</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.26</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <WoodLog>50</WoodLog>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>PLA_LMG</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_AK</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>26</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundType81</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

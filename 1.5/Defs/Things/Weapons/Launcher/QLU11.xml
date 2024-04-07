@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QLUEleven</defName>
+        <label>QLU-11 grenade launcher</label>
+        <description>A grenade launcher (grenade sniper?).</description>
+        <graphicData>
+            <texPath>Things/Weapon/QLU11</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.9,1.9)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractSniper</soundInteract>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>8</Mass>
+            <AccuracyTouch>0.58</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.87</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <Chemfuel>15</Chemfuel>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_PrecisionExplosiveWeapon</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>PLA_GrenadeLauncher</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Grenade</defaultProjectile>
+                <forcedMissRadius>1</forcedMissRadius>
+                <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                <warmupTime>4.0</warmupTime>
+                <range>40</range>
+                <soundCast>PLA_SoundQLU11</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+                <!--southOffset>(0,0,-0.2)</southOffset-->
+                <!--southOffset>(0.2,0,-0.2)</southOffset-->
+            </li>
+          </comps>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="PLA_BaseGrenade">
+    <defName>PLA_CH817Drone</defName>
+    <label>CH-817 mini attack drone</label>
+    <description>A mini attack drone that will fly towards the target and detonate itself. It can only use once.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Weapon/CH817</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--drawSize>0.7</drawSize-->
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+      <WorkToMake>3000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>15</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <stackLimit>25</stackLimit>
+    <thingCategories Inherit="False">
+      <li>PLA_WeaponRanged</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>38</range>
+        <warmupTime>2.3</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <forcedMissRadius>0.4</forcedMissRadius>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PLA_Proj_CH817Drone</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>true</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>PLA_Proj_CH817Drone</defName>
+    <label>frag grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/CH817Flying</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>PLA.ProjectileFlyingDrone</thingClass>
+    <projectile>
+      <explosionRadius>5.5</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>67</damageAmountBase>
+      <armorPenetrationBase>1.05</armorPenetrationBase>
+      <flyOverhead>true</flyOverhead>
+      <soundAmbient>PLA_DroneFlying_Ambient</soundAmbient>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+    </projectile>
+  </ThingDef>
+</Defs>

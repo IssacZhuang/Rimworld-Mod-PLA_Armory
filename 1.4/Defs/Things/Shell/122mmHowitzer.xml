@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_MakeableShellBase">
+        <defName>PLA_122mmGuidedHowitzerShell_HE</defName>
+        <label>122mm Guided Howitzer Shell</label>
+        <description>A guided artillery shell, it can navigate automatically when launched, very accurate at long range. Can be fired from PL-96 howitzer.</description>
+        <graphicData>
+          <texPath>Things/Item/122mmGuidedShellHE</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+          <WorkToMake>8000</WorkToMake>
+        </statBases>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <explosiveRadius>4</explosiveRadius>
+            <explosiveDamageType>Bomb</explosiveDamageType>
+            <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+            <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+            <wickTicks>30~60</wickTicks>
+          </li>
+        </comps>
+        <projectileWhenLoaded>PLA_HighExplosive_122mmGuidedHowitzerShell</projectileWhenLoaded>
+        <costList>
+            <Steel>73</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <Chemfuel>56</Chemfuel>
+        </costList>
+        <researchPrerequisites>
+          <li>Mortars</li>
+          <li>Fabrication</li>
+        </researchPrerequisites>
+      </ThingDef>
+      
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_HighExplosive_122mmGuidedHowitzerShell</defName>
+        <label>high-explosive guided howitzer shell</label>
+        <graphicData>
+          <texPath>Things/Projectile/122mmGuidedShellHE</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+          <damageDef>Bomb</damageDef>
+          <damageAmountBase>224</damageAmountBase>
+          <armorPenetrationBase>0.75</armorPenetrationBase>
+          <!-- damage amount is the damage def default -->
+          <speed>85</speed>
+          <explosionRadius>5</explosionRadius>
+          <flyOverhead>true</flyOverhead>
+          <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+          <soundExplode>MortarBomb_Explode</soundExplode>
+          <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+          <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+      </ThingDef>
+</Defs>

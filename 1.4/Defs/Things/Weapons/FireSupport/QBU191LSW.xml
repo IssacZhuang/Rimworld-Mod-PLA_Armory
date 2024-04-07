@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QBVOneNineOneLSW</defName>
+        <label>QBU-191 light support weapon</label>
+        <description>The drum mag version of the QBU-191 Marksman rifle.</description>
+        <graphicData>
+            <texPath>Things/Weapon/QBU191LSW</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.1875,1.1875)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractRifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite></researchPrerequisite>
+            <researchPrerequisites>
+                <li>PLA_Research_Gen4Weapon</li>
+                <li>PLA_Research_TacticalModification</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <Mass>6.7</Mass>
+            <AccuracyTouch>0.49</AccuracyTouch>
+            <AccuracyShort>0.62</AccuracyShort>
+            <AccuracyMedium>0.64</AccuracyMedium>
+            <AccuracyLong>0.59</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>105</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Chemfuel>15</Chemfuel>
+        </costList>
+        <weaponTags>
+            <li>PLA_LMG</li>
+            <li>PLA_AdvancedLMG</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_DMR</defaultProjectile>
+                <warmupTime>2.3</warmupTime>
+                <range>34</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQBZ191</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+        </comps>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
