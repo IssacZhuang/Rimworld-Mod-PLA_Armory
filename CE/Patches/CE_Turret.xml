@@ -354,6 +354,8 @@
         <value>
             <statBases>
                 <SightsEfficiency>0.5</SightsEfficiency>
+                <ShotSpread>0.13</ShotSpread>
+                <SwayFactor>1.2</SwayFactor>
             </statBases>
         </value>
     </Operation>
