@@ -32,8 +32,7 @@
             <SocialImpact>0.3</SocialImpact>
         </equippedStatOffsets>
         <comps>
-            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-            </li>
+
         </comps>
         <tools>
             <li>
