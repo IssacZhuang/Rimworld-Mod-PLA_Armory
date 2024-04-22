@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--===== TOOLS FOR THE TOOL GOD =====-->
+    <!--Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QBZOneNineOne_Charged"]/statBases
+                    </xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.7</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QJBTwoZeroOne" or defName="PLA_QBVOneNineOne"]/statBases
+                    </xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.75</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation-->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QTSEleven" or defName="PLA_QBZOneNineOneJ"]/statBases
+                    </xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.8</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QBUTen"  or defName="PLA_QLUEleven" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo"]/statBases</xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.9</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_AutoGun85HMG"]/statBases</xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>1</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_GunCSLM5HMG"]/statBases</xpath>
+        <value>
+            <NightVisionEfficiency_Weapon>0.8</NightVisionEfficiency_Weapon>
+        </value>
+    </Operation>
+
+    <!--  Apparel -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]/statBases</xpath>
+        <value>
+            <NightVisionEfficiency_Apparel>0.6</NightVisionEfficiency_Apparel>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>CE_AdvancedNV</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!--Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]/apparel/layers</xpath>
+        <value>
+            <li>StrappedHead</li>
+        </value>
+    </Operation-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="PLA_AdvancedHelmetBase"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentIndustrial>6</ComponentIndustrial>
+                <Steel>40</Steel>
+                <Plasteel>30</Plasteel>
+            </costList>
+        </value>
+    </Operation>
+</Patch>

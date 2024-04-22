@@ -237,19 +237,6 @@
             </li>
           </value>
         </li>
-        <!-- Charged-->
-        <li Class="SafePatcher.PatchOperationSetModExtension">
-          <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
-          <value>
-            <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_ChargedMuzzleFalsh</def>
-              <drawSize>(0.8,0.8)</drawSize>
-              <offsets>
-                <li>(0.5,0)</li>
-              </offsets>
-            </li>
-          </value>
-        </li>
       </operations>
     </match>
   </Operation>

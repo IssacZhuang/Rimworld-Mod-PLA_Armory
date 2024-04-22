@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_12Gauge"]/ammoTypes</xpath>
+        <value>
+            <Ammo_12Gauge_AP_Buck>Bullet_12Gauge_AP_Buck</Ammo_12Gauge_AP_Buck>  
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_58x42mmDBP10"]/ammoTypes</xpath>
+        <value>
+            <Ammo_58x42mmDBP191_APCR>Bullet_58x42mmDBP191_APCR</Ammo_58x42mmDBP191_APCR> 
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_127x108mm"]/ammoTypes</xpath>
+        <value>
+            <Ammo_127x108mm_PolymerCasedIncendiary>Bullet_127x108mm_PolymerCasedIncendiary</Ammo_127x108mm_PolymerCasedIncendiary> 
+        </value>
+    </Operation>
+
+    <!-- generic -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_RifleIntermediate"]/ammoTypes</xpath>
+        <value>
+            <Ammo_RifleIntermediate_APCR>Bullet_58x42mmDBP191_APCR</Ammo_RifleIntermediate_APCR> 
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_AntiMateriel"]/ammoTypes</xpath>
+        <value>
+            <Ammo_AntiMateriel_PolymerCasedIncendiary>Bullet_127x108mm_PolymerCasedIncendiary</Ammo_AntiMateriel_PolymerCasedIncendiary> 
+        </value>
+    </Operation>
+
+</Patch>

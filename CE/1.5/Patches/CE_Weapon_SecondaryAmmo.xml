@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!-- Global Stat Patch-->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName = "Mass"]/parts</xpath>
+        <value>
+            <li Class="PLA.CE.StatPart_LoadedSecondaryAmmo" />
+        </value>
+    </Operation>
+
+    <!--===== QTS-11 =====-->
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QTSEleven</defName>
+        <statBases>
+            <Mass>5</Mass>
+            <Bulk>8</Bulk>
+            <SwayFactor>1.1</SwayFactor>
+            <ShotSpread>0.03</ShotSpread>
+            <SightsEfficiency>2.2</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+            <WorkToMake>30000</WorkToMake>
+        </statBases>
+        <Properties>
+            <recoilAmount>1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+            <warmupTime>1.1</warmupTime>
+            <range>64</range>
+            <burstShotCount>4</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQTS11</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>2</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QTSEleven"]/comps</xpath>
+        <value>
+            <li Class="PLA.CE.CompProperties_SecondaryAmmo">
+                <secondaryAmmoProps>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>2.2</reloadTime>
+                    <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>
+                </secondaryAmmoProps>
+                <secondaryVerb>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_20mmProgrammableGrenade_HE</defaultProjectile>
+                    <warmupTime>2.1</warmupTime>
+                    <range>64</range>
+                    <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </secondaryVerb>
+                <mainWeaponLabel>use rifle</mainWeaponLabel>
+                <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+                <description>switch between rifle and grenade launcher</description>
+                <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+                <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- QBZ-95 LG-->
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QBZNinetyFiveLG</defName>
+        <statBases>
+            <Mass>5.25</Mass>
+            <Bulk>8.5</Bulk>
+            <SwayFactor>1.2</SwayFactor>
+            <ShotSpread>0.05</ShotSpread>
+            <SightsEfficiency>1.3</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <recoilAmount>1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_58x42mmDBP10_FMJ</defaultProjectile>
+            <warmupTime>1.1</warmupTime>
+            <range>50</range>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQBZ95</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_QBZNinetyFiveLG"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QBZNinetyFiveLG"]/comps</xpath>
+        <value>
+            <li Class="PLA.CE.CompProperties_SecondaryAmmo">
+                <secondaryAmmoProps>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>1.9</reloadTime>
+                    <ammoSet>AmmoSet_35x32mmSRGrenade</ammoSet>
+                </secondaryAmmoProps>
+                <secondaryVerb>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_35x32mmSRGrenade_HE</defaultProjectile>
+                    <warmupTime>2.1</warmupTime>
+                    <range>50</range>
+                    <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </secondaryVerb>
+                <mainWeaponLabel>use rifle</mainWeaponLabel>
+                <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+                <description>switch between rifle and grenade launcher</description>
+                <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+                <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- QBZ-191 LG-->
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QBZOneNineOneLG</defName>
+        <statBases>
+            <Mass>5</Mass>
+            <Bulk>8.9</Bulk>
+            <SwayFactor>1.2</SwayFactor>
+            <ShotSpread>0.04</ShotSpread>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_58x42mmDBP191_APCR</defaultProjectile>
+            <warmupTime>0.9</warmupTime>
+            <range>54</range>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQBZ191</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_58x42mmDBP191</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOneLG"]/comps/li[@Class="PLA.CompProperties_SecondaryVerb"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_QBZOneNineOneLG"]/comps</xpath>
+        <value>
+            <li Class="PLA.CE.CompProperties_SecondaryAmmo">
+                <secondaryAmmoProps>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>1.9</reloadTime>
+                    <ammoSet>AmmoSet_35x32mmSRGrenade</ammoSet>
+                </secondaryAmmoProps>
+                <secondaryVerb>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_35x32mmSRGrenade_HE</defaultProjectile>
+                    <warmupTime>2.1</warmupTime>
+                    <range>54</range>
+                    <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </secondaryVerb>
+                <mainWeaponLabel>use rifle</mainWeaponLabel>
+                <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+                <description>switch between rifle and grenade launcher</description>
+                <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+                <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+            </li>
+        </value>
+    </Operation>
+</Patch>

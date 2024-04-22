@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Materials - Metals</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- AP shot-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="MakeAmmo_12Gauge_AP_Buck"]/ingredients</xpath>
+                    <value>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>VMEu_Tungsten</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>8</count>
+                            </li>
+                        </ingredients>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="MakeAmmo_12Gauge_AP_Buck"]/fixedIngredientFilter</xpath>
+                    <value>
+                        <fixedIngredientFilter>
+                            <thingDefs>
+                                <li>VMEu_Tungsten</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                    </value>
+                </li>
+
+                <!-- 5.8mm APCR-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="MakeAmmo_58x42mmDBP191_APCR"]/ingredients</xpath>
+                    <value>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>Steel</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>14</count>
+                            </li>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>VMEu_Tungsten</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>18</count>
+                            </li>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>Chemfuel</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>8</count>
+                            </li>
+                        </ingredients>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="MakeAmmo_58x42mmDBP191_APCR"]/fixedIngredientFilter</xpath>
+                    <value>
+                        <fixedIngredientFilter>
+                            <thingDefs>
+                                <li>Steel</li>
+                                <li>VMEu_Tungsten</li>
+                                <li>Chemfuel</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

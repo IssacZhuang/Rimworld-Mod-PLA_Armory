@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PLA_GrenadeLauncherQTSEleven"]</xpath>
+        <value>
+          <li Class="CombatExtended.ThingDefExtensionCE">
+            <MenuHidden>True</MenuHidden>
+          </li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[@Name="PLA_TurretWeaponBase"]</xpath>
+        <value>
+          <li Class="CombatExtended.ThingDefExtensionCE">
+            <MenuHidden>True</MenuHidden>
+          </li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_Proj_Type82GrenadeCE"]/comps</xpath>
+        <value>
+          <li Class="CombatExtended.CompProperties_ExplosiveCE">
+            <explosiveDamageType>Thump</explosiveDamageType>
+            <explosiveRadius>4.5</explosiveRadius>
+            <damageAmountBase>15</damageAmountBase>
+          </li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Bullet_122mmGuidedHowitzerShell_HE"]/comps</xpath>
+        <value>
+          <li Class="CombatExtended.CompProperties_ExplosiveCE">
+            <explosiveDamageType>Thump</explosiveDamageType>
+            <explosiveRadius>8</explosiveRadius>
+            <damageAmountBase>40</damageAmountBase>
+          </li>
+        </value>
+      </Operation>
+</Patch>
