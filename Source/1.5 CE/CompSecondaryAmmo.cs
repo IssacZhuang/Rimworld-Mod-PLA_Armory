@@ -452,7 +452,7 @@ namespace PLA.CE
 			JobCondition lastJobEndCondition = JobCondition.InterruptForced;
 			ThinkNode jobGiver = null;
 			Job curJob = compAmmo.Holder.CurJob;
-			jobs.StartJob(newJob, lastJobEndCondition, jobGiver, ((curJob != null) ? curJob.def : null) != job.def, true, null, null, false, false);
+			jobs.StartJob(newJob, lastJobEndCondition, jobGiver, (curJob?.def) != job.def, true, null, null, false, false);
 		}
 
 		public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -471,7 +471,7 @@ namespace PLA.CE
 
 			yield return new Command_Action
 			{
-				action = new Action(this.SwitchLauncher),
+				action = SwitchLauncher,
 				defaultDesc = this.Props.description,
 				icon = ContentFinder<Texture2D>.Get(IsSecondaryAmmoSelected?this.Props.secondaryCommandIcon:this.Props.mainCommandIcon, false),
 				defaultLabel = IsSecondaryAmmoSelected ? this.Props.secondaryWeaponLabel : this.Props.mainWeaponLabel,
