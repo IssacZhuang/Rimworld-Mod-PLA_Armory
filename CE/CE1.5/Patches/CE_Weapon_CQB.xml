@@ -250,6 +250,42 @@
         <FireModes />
     </Operation>
 
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QBATwoTwoOne</defName>
+        <statBases>
+            <Mass>3.50</Mass>
+            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+            <ShotSpread>0.1</ShotSpread>
+            <SwayFactor>1.2</SwayFactor>
+            <Bulk>7.5</Bulk>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <WorkToMake>9500</WorkToMake>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.2</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+            <warmupTime>0.6</warmupTime>
+            <range>21</range>
+            <soundCast>PLA_SoundQBA221</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>12</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_12Gauge_QBS09</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>2</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
         <value>

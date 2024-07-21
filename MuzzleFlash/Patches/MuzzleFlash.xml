@@ -57,6 +57,18 @@
           </value>
         </li>
         <li Class="SafePatcher.PatchOperationSetModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QBATwoTwoOne"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.65,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_TypeFiftySix" or defName="PLA_TypeFiftySixBoyonet" or defName="PLA_TypeFiftySixOneA" or defName="PLA_TypeFiftyThree" or defName="PLA_TypeSixtyThree" or defName="PLA_TypeFiftySixS"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">

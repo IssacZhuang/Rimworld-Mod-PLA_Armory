@@ -326,6 +326,22 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_Bullet_AutomaticShotgun</defName>
+    <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Thermobaric_PFNinetyEight</defName>
     <label>thermobaric rocket</label>
     <graphicData>

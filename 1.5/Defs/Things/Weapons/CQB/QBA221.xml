@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QBATwoTwoOne</defName>
+        <label>QBA-221 automatic shotgun</label>
+        <description>A military automatic shotgun.</description>
+        <graphicData>
+            <texPath>Things/Weapon/QBA221</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.3125,1.3125)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractRifle</soundInteract>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>3.4</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.73</AccuracyShort>
+            <AccuracyMedium>0.64</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>90</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <Chemfuel>15</Chemfuel>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <weaponTags>
+            <li>PLA_Shotgun</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_AutomaticShotgun</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>16</range>
+                <soundCast>PLA_SoundQBA221</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <burstShotCount>3</burstShotCount>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
