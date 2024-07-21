@@ -212,6 +212,11 @@
   <PLA_QBATwoTwoOne.tools.0.label>枪托</PLA_QBATwoTwoOne.tools.0.label>
   <PLA_QBATwoTwoOne.tools.1.label>枪管</PLA_QBATwoTwoOne.tools.1.label>
 
+  <PLA_QBATwoTwoOneG.label>221式自动霰弹枪 + 弹鼓</PLA_QBATwoTwoOneG.label>
+  <PLA_QBATwoTwoOneG.description>221式自动霰弹枪加装上弹鼓和全息瞄具</PLA_QBATwoTwoOneG.description>
+  <PLA_QBATwoTwoOneG.tools.0.label>枪托</PLA_QBATwoTwoOneG.tools.0.label>
+  <PLA_QBATwoTwoOneG.tools.1.label>枪管</PLA_QBATwoTwoOneG.tools.1.label>
+
   <PLA_FlameThrower.label>02式火焰喷射器</PLA_FlameThrower.label>
   <PLA_FlameThrower.description>解放军现役火焰喷射器，使用火药助推，射程比一般火焰喷射器更远。</PLA_FlameThrower.description>
   <PLA_FlameThrower.tools.0.label>枪托</PLA_FlameThrower.tools.0.label>
