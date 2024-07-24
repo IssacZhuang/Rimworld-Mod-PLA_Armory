@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_35x32mmSRGrenade</defName>
+        <label>35x32mmSR Grenades</label>
+        <ammoTypes>
+            <Ammo_35x32mmSRGrenade_HE>Bullet_35x32mmSRGrenade_HE</Ammo_35x32mmSRGrenade_HE>
+            <Ammo_35x32mmSRGrenade_HEAT>Bullet_35x32mmSRGrenade_HEAT</Ammo_35x32mmSRGrenade_HEAT>
+            <Ammo_35x32mmSRGrenade_EMP>Bullet_35x32mmSRGrenade_EMP</Ammo_35x32mmSRGrenade_EMP>
+            <Ammo_35x32mmSRGrenade_Smoke>Bullet_35x32mmSRGrenade_Smoke</Ammo_35x32mmSRGrenade_Smoke>
+        </ammoTypes>
+        <similarTo>AmmoSet_LauncherGrenade</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
+        <defName>Bullet_35x32mmSRGrenade_HEAT</defName>
+        <label>35x32mmSR grenade (HEAT)</label>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>28</damageAmountBase>
+            <armorPenetrationSharp>44.8</armorPenetrationSharp>
+            <armorPenetrationBlunt>78.3</armorPenetrationBlunt>
+        </projectile>
+        <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>7</damageAmountBase>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>0.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Large>4</Fragment_Large>
+                    <Fragment_Small>10</Fragment_Small>
+                </fragments>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

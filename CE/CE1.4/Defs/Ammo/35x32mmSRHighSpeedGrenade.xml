@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- ==================== AmmoSet ========================== -->
+
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_35x32mmSRGrenade_HighSpeed</defName>
+        <label>35x32mmSR Grenades</label>
+        <ammoTypes>
+            <Ammo_35x32mmSRGrenade_HE>Bullet_35x32mmSRGrenade_HighSpeed_HE</Ammo_35x32mmSRGrenade_HE>
+            <Ammo_35x32mmSRGrenade_HEAT>Bullet_35x32mmSRGrenade_HighSpeed_HEAT</Ammo_35x32mmSRGrenade_HEAT>
+            <Ammo_35x32mmSRGrenade_EMP>Bullet_35x32mmSRGrenade_HighSpeed_EMP</Ammo_35x32mmSRGrenade_EMP>
+            <Ammo_35x32mmSRGrenade_Smoke>Bullet_35x32mmSRGrenade_HighSpeed_Smoke</Ammo_35x32mmSRGrenade_Smoke>
+        </ammoTypes>
+        <similarTo>AmmoSet_LauncherGrenade</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
+        <defName>Bullet_35x32mmSRGrenade_HighSpeed_HE</defName>
+        <label>35x32mmSR grenade (HE)</label>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>56</damageAmountBase>
+            <explosionRadius>2</explosionRadius>
+            <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+        </projectile>
+        <comps>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Small>20</Fragment_Small>
+                </fragments>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
+        <defName>Bullet_35x32mmSRGrenade_HighSpeed_EMP</defName>
+        <label>35x32mmSR grenade (EMP)</label>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <explosionRadius>1.5</explosionRadius>
+            <damageDef>EMP</damageDef>
+            <damageAmountBase>19</damageAmountBase>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
+        <defName>Bullet_35x32mmSRGrenade_HighSpeed_Smoke</defName>
+        <label>35x32mmSR grenade (Smoke)</label>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <explosionRadius>2</explosionRadius>
+            <damageDef>Smoke</damageDef>
+            <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        </projectile>
+    </ThingDef>
+
+    <!--HEDP-->
+
+    <ThingDef ParentName="Base35x32mmSRGrenadeBullet">
+        <defName>Bullet_35x32mmSRGrenade_HighSpeed_HEAT</defName>
+        <label>35x32mmSR grenade (HEDP)</label>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>58</damageAmountBase>
+            <armorPenetrationSharp>105.4</armorPenetrationSharp>
+            <armorPenetrationBlunt>82.3</armorPenetrationBlunt>
+        </projectile>
+        <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>20</damageAmountBase>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>0.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Large>4</Fragment_Large>
+                    <Fragment_Small>10</Fragment_Small>
+                </fragments>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="35x32mmSRGrenadeBase">
+        <defName>Ammo_35x32mmSRGrenade_HEAT</defName>
+        <label>35x32mmSR grenade (HEDP)</label>
+        <graphicData>
+            <texPath>Things/Ammo/35x32mmSR_HEAT</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2.27</MarketValue>
+        </statBases>
+        <ammoClass>GrenadeHEDP</ammoClass>
+        <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>5</damageAmountBase>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>0.75</explosiveRadius>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Large>1</Fragment_Large>
+                </fragments>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_35x32mmSRGrenade_HEAT</defName>
+        <label>make 35x32mmSR HEDP grenades x100</label>
+        <description>Craft 100 35x32mmSR HEDP grenades.</description>
+        <jobString>Making 35x32mmSR HEDP grenades.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>53</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FSX</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>FSX</li>
+                <li>ComponentIndustrial</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_35x32mmSRGrenade_HEAT>100</Ammo_35x32mmSRGrenade_HEAT>
+        </products>
+        <workAmount>8600</workAmount>
+    </RecipeDef>
+
+</Defs>

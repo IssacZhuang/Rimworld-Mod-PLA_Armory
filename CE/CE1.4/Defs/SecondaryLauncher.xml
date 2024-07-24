@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseWeapon">
+        <defName>PLA_GrenadeLauncherQTSEleven</defName>
+        <label>The grenade launcher on QTS-11</label>
+        <description>The grenade launcher on QTS-11.</description>
+        <graphicData>
+            <texPath>Things/Weapon/QTS11</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>5</Mass>
+            <Bulk>8</Bulk>
+            <SwayFactor>1.1</SwayFactor>
+            <ShotSpread>0.03</ShotSpread>
+            <SightsEfficiency>2.2</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+        </statBases>
+        <!--menuHidden>true</menuHidden-->
+        <destroyOnDrop>true</destroyOnDrop>
+        <tradeability>None</tradeability>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_20mmProgrammableGrenade_HE</defaultProjectile>
+                <warmupTime>1.1</warmupTime>
+                <range>64</range>
+                <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>1</magazineSize>
+                <reloadTime>0.8</reloadTime>
+                <ammoSet>AmmoSet_20mmProgrammableGrenade</ammoSet>
+            </li>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+        </comps>
+        <techLevel>Industrial</techLevel>
+    </ThingDef>
+
+</Defs>
