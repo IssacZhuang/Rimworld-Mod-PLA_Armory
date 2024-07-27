@@ -159,7 +159,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="PLA_AutoTurret85HMG"]/comps/li[@Class = "CompProperties_Power"]/basePowerConsumption</xpath>
         <value>
-            <basePowerConsumption>1000</basePowerConsumption>
+            <basePowerConsumption>500</basePowerConsumption>
         </value>
     </Operation>
 
