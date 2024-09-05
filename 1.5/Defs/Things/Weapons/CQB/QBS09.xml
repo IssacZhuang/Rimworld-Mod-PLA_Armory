@@ -8,6 +8,7 @@
         <graphicData>
             <texPath>Things/Weapon/QBS09</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.05,1.05)</drawSize>
         </graphicData>
         <soundInteract>PLA_SoundInteractShotgun</soundInteract>
         <statBases>

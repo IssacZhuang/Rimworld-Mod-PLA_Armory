@@ -370,14 +370,6 @@
         </value>
     </Operation-->
 
-    <!--Operation Class="PatchOperationAddModExtension">
-                    <xpath>Defs/ThingDef[defName="PLA_PFNinetyEight"]</xpath>
-                    <value>
-                        <li Class="CombatExtended.GunDrawExtension">
-                            <DrawSize>1.3,1.3</DrawSize>
-                            <DrawOffset>-0.05,0</DrawOffset>
-                        </li>
-                    </value>
-                </Operation-->
+  
 
 </Patch>

@@ -38,16 +38,6 @@
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation>
 
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="PLA_QLUEleven"]</xpath>
-        <value>
-            <li Class="CombatExtended.GunDrawExtension">
-                <DrawSize>1.55,1.55</DrawSize>
-                <DrawOffset>0.15,-0.05</DrawOffset>
-            </li>
-        </value>
-    </Operation>
-
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QBUTen</defName>
         <statBases>
@@ -149,16 +139,6 @@
         </FireModes>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
     </Operation-->
-
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="PLA_QBUTen"]</xpath>
-        <value>
-            <li Class="CombatExtended.GunDrawExtension">
-                <DrawSize>1.55,1.55</DrawSize>
-                <DrawOffset>0.15,-0.05</DrawOffset>
-            </li>
-        </value>
-    </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QBUEightyEight</defName>
@@ -263,16 +243,6 @@
             <li>Bipod_DMR</li>
         </weaponTags>
         <AllowWithRunAndGun>false</AllowWithRunAndGun>
-    </Operation>
-
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="PLA_QBUEightyEight"]</xpath>
-        <value>
-            <li Class="CombatExtended.GunDrawExtension">
-                <DrawSize>1.25,1.25</DrawSize>
-                <DrawOffset>0.15,-0.05</DrawOffset>
-            </li>
-        </value>
     </Operation>
 
 

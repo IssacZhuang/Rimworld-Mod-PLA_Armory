@@ -322,13 +322,4 @@
         </FireModes>
     </Operation>
 
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="PLA_QBSZeroNine"]</xpath>
-        <value>
-            <li Class="CombatExtended.GunDrawExtension">
-                <DrawSize>1.05,1.05</DrawSize>
-                <DrawOffset>0.05,0.0</DrawOffset>
-            </li>
-        </value>
-    </Operation>
 </Patch>
