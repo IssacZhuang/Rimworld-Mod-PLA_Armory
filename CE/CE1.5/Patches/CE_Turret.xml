@@ -111,6 +111,7 @@
             <SightsEfficiency>1.30</SightsEfficiency>
             <ShotSpread>0.01</ShotSpread>
             <SwayFactor>1.23</SwayFactor>
+            <NightVisionEfficiency>0.8</NightVisionEfficiency>
             <Bulk>18.54</Bulk>
         </statBases>
         <Properties>
