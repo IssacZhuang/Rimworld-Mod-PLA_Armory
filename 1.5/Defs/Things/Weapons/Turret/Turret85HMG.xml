@@ -50,7 +50,6 @@
             <Steel>200</Steel>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
-        <specialDisplayRadius>30</specialDisplayRadius>
         <building>
             <turretGunDef>PLA_Gun85HMG</turretGunDef>
             <turretBurstCooldownTime>1.95</turretBurstCooldownTime>
@@ -152,7 +151,6 @@
             <Steel>320</Steel>
             <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
-        <specialDisplayRadius>30</specialDisplayRadius>
         <building>
             <turretGunDef>PLA_AutoGun85HMG</turretGunDef>
             <turretBurstCooldownTime>1.95</turretBurstCooldownTime>

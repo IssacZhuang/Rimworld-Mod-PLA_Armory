@@ -146,12 +146,12 @@
         </weaponTags>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
+    <!-- <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="PLA_Turret85HMG" or defName="PLA_AutoTurret85HMG"]/specialDisplayRadius</xpath>
         <value>
             <specialDisplayRadius>80</specialDisplayRadius>
         </value>
-    </Operation>
+    </Operation> -->
 
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[ defName="PLA_Turret85HMG" or defName="PLA_AutoTurret85HMG" or defName="PLA_TurretQJG02HMG"]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
