@@ -186,7 +186,7 @@
             <wornGraphicPath>Things/Apparel/RadioBackpack/PLA_radioBackpack</wornGraphicPath>
         </apparel>
         <equippedStatOffsets Inherit = "False">
-            <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">9</MechBandwidth>
+            <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
         </equippedStatOffsets>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -205,7 +205,7 @@
         </recipeMaker>
         <costList>
             <Steel>60</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentIndustrial>10</ComponentIndustrial>
             <SignalChip MayRequire="Ludeon.RimWorld.Biotech">2</SignalChip>
         </costList>
         <colorGenerator Class="ColorGenerator_Options" Inherit = "False">
