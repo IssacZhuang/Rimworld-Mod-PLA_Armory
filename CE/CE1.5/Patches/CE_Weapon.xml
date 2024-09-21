@@ -23,7 +23,7 @@
         <value>
           <li Class="CombatExtended.CompProperties_ExplosiveCE">
             <explosiveDamageType>Thump</explosiveDamageType>
-            <explosiveRadius>4.5</explosiveRadius>
+            <explosiveRadius>2.5</explosiveRadius>
             <damageAmountBase>15</damageAmountBase>
           </li>
         </value>
