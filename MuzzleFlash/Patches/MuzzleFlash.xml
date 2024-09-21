@@ -241,10 +241,10 @@
           <xpath>Defs/ThingDef[defName="PLA_GunCSLM5HMG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
-              <def>MF_StandardMuzzleFalsh</def>
-              <drawSize>(1.6,1.6)</drawSize>
+             <def>MF_StandardMuzzleFalshTwo</def>
+              <drawSize>(3,3)</drawSize>
               <offsets>
-                <li>(1.4,0)</li>
+                <li>(1.65,0)</li>
               </offsets>
             </li>
           </value>
