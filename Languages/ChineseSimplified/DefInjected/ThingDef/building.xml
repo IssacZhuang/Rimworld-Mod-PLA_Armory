@@ -32,6 +32,15 @@
   <PLA_AutoGun85HMG.label>85式重机枪</PLA_AutoGun85HMG.label>
   <PLA_AutoGun85HMG.description>解放军的重机枪（放置在自动炮塔上）。</PLA_AutoGun85HMG.description>
 
+  <PLA_AutoTurretQLUEleven.label>11式狙击榴弹发射器炮塔</PLA_AutoTurretQLUEleven.label>
+  <PLA_AutoTurretQLUEleven.description>装在三脚架上的11式狙击榴弹发射器，由电脑操控。</PLA_AutoTurretQLUEleven.description>
+  <PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelGizmoLabel>
+  <PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelLabel>射击直到更换炮管</PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelLabel>
+  <PLA_AutoTurretQLUEleven.comps.CompRefuelable.outOfFuelMessage>无法射击: 需要更换炮管</PLA_AutoTurretQLUEleven.comps.CompRefuelable.outOfFuelMessage>
+
+  <PLA_AutoGunQLUEleven.label>11式狙击榴弹</PLA_AutoGunQLUEleven.label>
+  <PLA_AutoGunQLUEleven.description>11式狙击榴弹（放置在自动炮塔上）。</PLA_AutoGunQLUEleven.description>
+
   <PLA_TurretCSLM5HMG.label>CS/LM5转管机枪炮塔</PLA_TurretCSLM5HMG.label>
   <PLA_TurretCSLM5HMG.description>装在三脚架上的CS/LM5转管机枪，有三根枪管，发射大口径全威力弹，有极强的压制力。需要电源并且要有人控制。</PLA_TurretCSLM5HMG.description>
   <PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久</PLA_TurretCSLM5HMG.comps.CompRefuelable.fuelGizmoLabel>

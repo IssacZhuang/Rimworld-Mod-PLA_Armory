@@ -62,7 +62,7 @@
             <turretBurstWarmupTime>3.2</turretBurstWarmupTime>
         </building>
         <researchPrerequisites>
-            <li>PLA_Research_HighCaliber</li>
+            <li>PLA_Research_PrecisionExplosiveWeapon</li>
             <li>GunTurrets</li>
         </researchPrerequisites>
         <tradeTags>
