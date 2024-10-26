@@ -223,6 +223,7 @@
       <Nutrition>1.0</Nutrition>
     </statBases>
     <tradeability>Buyable</tradeability>
+    <rotatable>false</rotatable>
     <ingestible>
       <preferability>MealLavish</preferability>
       <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
