@@ -101,7 +101,7 @@
 
     <ThingDef ParentName="PLA_AutoTurretBase">
         <defName>PLA_AutoTurret85HMG</defName>
-        <label>Type-85 HMG Turret</label>
+        <label>Type-85 HMG auto turret</label>
         <description>A type-85 heavy machine gun mounted on a automatic turret. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

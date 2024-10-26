@@ -6,7 +6,7 @@
 
     <ThingDef ParentName="PLA_AutoTurretBase">
         <defName>PLA_AutoTurretQLUEleven</defName>
-        <label>QLU-11 grenade sniper Turret</label>
+        <label>QLU-11 grenade sniper auto turret</label>
         <description>A QLU-11 sniper grenade launcher mounted on a automatic turret. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
         <graphicData>
             <texPath>Things/Building/PLA_LightWeaponBase</texPath>

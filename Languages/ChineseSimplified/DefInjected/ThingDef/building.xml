@@ -32,7 +32,7 @@
   <PLA_AutoGun85HMG.label>85式重机枪</PLA_AutoGun85HMG.label>
   <PLA_AutoGun85HMG.description>解放军的重机枪（放置在自动炮塔上）。</PLA_AutoGun85HMG.description>
 
-  <PLA_AutoTurretQLUEleven.label>11式狙击榴弹发射器炮塔</PLA_AutoTurretQLUEleven.label>
+  <PLA_AutoTurretQLUEleven.label>11式狙击榴弹发射器自动炮塔</PLA_AutoTurretQLUEleven.label>
   <PLA_AutoTurretQLUEleven.description>装在三脚架上的11式狙击榴弹发射器，由电脑操控。</PLA_AutoTurretQLUEleven.description>
   <PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelGizmoLabel>
   <PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelLabel>射击直到更换炮管</PLA_AutoTurretQLUEleven.comps.CompRefuelable.fuelLabel>

@@ -238,6 +238,18 @@
           </value>
         </li>
         <li Class="SafePatcher.PatchOperationSetModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_AutoGunQLUEleven"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(1.6,1.6)</drawSize>
+              <offsets>
+                <li>(0.99,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_GunCSLM5HMG"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">
