@@ -112,6 +112,7 @@
             <ShotSpread>0.01</ShotSpread>
             <SwayFactor>1.23</SwayFactor>
             <NightVisionEfficiency>0.8</NightVisionEfficiency>
+            <NightVisionEfficiency_Weapon>0.8</NightVisionEfficiency_Weapon>
             <Bulk>18.54</Bulk>
         </statBases>
         <Properties>
@@ -316,6 +317,7 @@
             <SwayFactor>1.1</SwayFactor>
             <Bulk>12</Bulk>
             <NightVisionEfficiency>1</NightVisionEfficiency>
+            <NightVisionEfficiency_Weapon>1</NightVisionEfficiency_Weapon>
         </statBases>
         <Properties>
             <recoilAmount>1</recoilAmount>
