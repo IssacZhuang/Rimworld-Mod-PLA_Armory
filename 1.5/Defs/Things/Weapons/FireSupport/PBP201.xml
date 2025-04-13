@@ -35,6 +35,7 @@
         <weaponTags>
             <li>PLA_PortableMortar</li>
         </weaponTags>
+        <equippedAngleOffset>-30</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

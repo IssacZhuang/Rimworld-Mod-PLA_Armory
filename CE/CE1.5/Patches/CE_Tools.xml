@@ -96,7 +96,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath> /Defs/ThingDef[defName="PLA_PFNinetyEight" or defName="PLA_PFEleven" or defName="PLA_HJTwelve"]/tools
+        <xpath> /Defs/ThingDef[defName="PLA_PFNinetyEight" or defName="PLA_PFEleven" or defName="PLA_HJTwelve" or defName="PLA_PBPTwoZeroOne" or defName="PLA_QJYTwoZeroOneG"]/tools
                     </xpath>
         <value>
             <tools>

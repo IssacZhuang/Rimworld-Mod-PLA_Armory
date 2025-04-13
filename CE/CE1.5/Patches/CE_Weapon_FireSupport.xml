@@ -321,54 +321,55 @@
         </value>
     </Operation>
 
-    <!--Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-        <defName>PLA_FlameThrower</defName>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_PBPTwoZeroOne</defName>
         <statBases>
-            <Mass>13.5</Mass>
-            <Bulk>14</Bulk>
-            <SwayFactor>7.1</SwayFactor>
-            <ShotSpread>0.35</ShotSpread>
-            <SightsEfficiency>1.2</SightsEfficiency>
-            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+            <Mass>14</Mass>
+            <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <Bulk>16.3</Bulk>
+            <WorkToMake>20000</WorkToMake>
         </statBases>
         <Properties>
-            <recoilAmount>0.5</recoilAmount>
-            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <recoilAmount>0</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>PLA_Bullet_Flamethrower_Napalm</defaultProjectile>
-            <warmupTime>2.1</warmupTime>
-            <range>31</range>
-            <burstShotCount>50</burstShotCount>
-            <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-            <soundCast>PLA_SoundFlameThrower</soundCast>
-            <soundCastTail>GunTail_Heavy</soundCastTail>
-            <muzzleFlashScale>19</muzzleFlashScale>
+            <defaultProjectile>Bullet_60mmMortarShell_HE</defaultProjectile>
+            <warmupTime>2.8</warmupTime>
+            <minRange>17</minRange>
+            <range>75</range>
+            <soundCast>Mortar_LaunchA</soundCast>
+            <muzzleFlashScale>5</muzzleFlashScale>
+            <circularError>0.5</circularError>
+            <indirectFirePenalty>0</indirectFirePenalty>
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
             </targetParams>
-            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
-            <magazineSize>300</magazineSize>
-            <reloadTime>8</reloadTime>
-            <ammoSet>AmmoSet_Type02Flamethrower</ammoSet>
+            <magazineSize>1</magazineSize>
+            <reloadTime>3</reloadTime>
+            <ammoSet>AmmoSet_60mmMortarShell</ammoSet>
         </AmmoUser>
-        <FireModes>
-            <aimedBurstShotCount>25</aimedBurstShotCount>
-            <aiUseBurstMode>TRUE</aiUseBurstMode>
-            <aiAimMode>AimedShot</aiAimMode>
-        </FireModes>
-        <weaponTags>
-            <li>Bipod_LMG</li>
-        </weaponTags>
-    </Operation-->
+    </Operation>
 
-    <!--Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="PLA_FlameThrower"]/equippedStatOffsets/MoveSpeed</xpath>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "PLA_PBPTwoZeroOne"]/comps</xpath>
         <value>
-            <MoveSpeed>-0.3</MoveSpeed>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>30</li>
+                    <li>50</li>
+                    <li>70</li>
+                    <li>90</li>
+                </chargeSpeeds>
+            </li>
         </value>
-    </Operation-->
+    </Operation>
 
   
 
