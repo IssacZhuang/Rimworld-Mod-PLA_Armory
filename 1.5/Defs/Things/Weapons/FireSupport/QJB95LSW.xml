@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PLA_BaseGun">
     <defName>PLA_QBBNinetyFiveLSW</defName>
-    <label>QJB-95 Light Support Weapon</label>
+    <label>QJB-95 light machine gun</label>
     <description>The main light machine gun of People's Liberation Army.</description>
     <graphicData>
       <texPath>Things/Weapon/QBB95LSW</texPath>
