@@ -153,6 +153,18 @@
           </value>
         </li>
         <li Class="SafePatcher.PatchOperationSetModExtension">
+          <xpath>Defs/ThingDef[defName="PLA_QJYTwoZeroOneE"]</xpath>
+          <value>
+            <li Class="MuzzleFlash.MuzzleFlashProps">
+              <def>MF_StandardMuzzleFalsh</def>
+              <drawSize>(0.8,0.8)</drawSize>
+              <offsets>
+                <li>(0.6,0)</li>
+              </offsets>
+            </li>
+          </value>
+        </li>
+        <li Class="SafePatcher.PatchOperationSetModExtension">
           <xpath>Defs/ThingDef[defName="PLA_QBVOneNineOne" or defName="PLA_QBVOneNineOneLSW"]</xpath>
           <value>
             <li Class="MuzzleFlash.MuzzleFlashProps">

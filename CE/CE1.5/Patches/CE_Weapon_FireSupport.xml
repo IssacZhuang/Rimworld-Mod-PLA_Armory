@@ -195,6 +195,44 @@
     </Operation>
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_QJYTwoZeroOneE</defName>
+        <statBases>
+            <Mass>7.4</Mass>
+            <Bulk>11</Bulk>
+            <SwayFactor>1.1</SwayFactor>
+            <ShotSpread>0.05</ShotSpread>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <recoilAmount>1</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_338Lapua_FMJ</defaultProjectile>
+            <warmupTime>1.2</warmupTime>
+            <range>64</range>
+            <burstShotCount>10</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <soundCast>PLA_SoundQJY201</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>100</magazineSize>
+            <reloadTime>6.5</reloadTime>
+            <ammoSet>AmmoSet_338Lapua</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>5</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+            <li>Bipod_LMG</li>
+        </weaponTags>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PLA_QJZOneSevenOne</defName>
         <statBases>
             <Mass>17.5</Mass>

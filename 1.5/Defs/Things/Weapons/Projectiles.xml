@@ -48,6 +48,22 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
+    <defName>PLA_Bullet_GPMG_E</defName>
+    <label>general-purpose machine gun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationBase>0.32</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
     <defName>PLA_Bullet_DBPOneNineOne_Charged</defName>
     <label>charged shot</label>
     <graphicData>
