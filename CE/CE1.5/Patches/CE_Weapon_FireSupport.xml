@@ -218,7 +218,7 @@
             <muzzleFlashScale>9</muzzleFlashScale>
         </Properties>
         <AmmoUser>
-            <magazineSize>100</magazineSize>
+            <magazineSize>80</magazineSize>
             <reloadTime>6.5</reloadTime>
             <ammoSet>AmmoSet_338Lapua</ammoSet>
         </AmmoUser>
