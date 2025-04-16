@@ -49,4 +49,7 @@
   <!-- EN: throw frag grenade -->
   <PLA_AttackDroneBelt.verbs.throw_attack_drone.label>发射无人机</PLA_AttackDroneBelt.verbs.throw_attack_drone.label>
 
+  <PLA_PF11Sling.label>11式反坦克火箭筒背带</PLA_PF11Sling.label>
+  <PLA_PF11Sling.description>11式反坦克火箭筒加装背带，可以穿戴在身上。</PLA_PF11Sling.description>
+  <PLA_PF11Sling.verbs.launch_rocket.label>发射火箭</PLA_PF11Sling.verbs.launch_rocket.label>
 </LanguageData>

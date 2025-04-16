@@ -126,13 +126,14 @@
         <drawGUIOverlay>false</drawGUIOverlay>
         <verbs>
             <li>
+                <label>launch rocket</label>
                 <commandIcon>Things/Weapon/PF11</commandIcon>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_HighExplosive_PFEleven</defaultProjectile>
-                <warmupTime>2.2</warmupTime>
+                <warmupTime>4.7</warmupTime>
                 <minRange>4</minRange>
-                <range>34.9</range>
+                <range>37</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>

@@ -164,6 +164,33 @@
         </value>
     </Operation>
 
+    <!-- PF-11 Sling-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PLA_PF11Sling"]/verbs</xpath>
+        <value>
+            <verbs>
+                <li Class="CombatExtended.VerbPropertiesCE">
+                    <label>launch rocket</label>
+                    <commandIcon>Things/Weapon/PF11</commandIcon>
+                    <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_93mmRocket_HEAT</defaultProjectile>
+                    <warmupTime>1.8</warmupTime>
+                    <range>42</range>
+                    <burstShotCount>1</burstShotCount>
+                    <soundCast>PLA_SoundPF98</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <onlyManualCast>true</onlyManualCast>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                    <muzzleFlashScale>14</muzzleFlashScale>
+                </li>
+            </verbs>
+        </value>
+    </Operation>
+
     <!-- Backpack-->
 
     <Operation Class="PatchOperationAdd">
