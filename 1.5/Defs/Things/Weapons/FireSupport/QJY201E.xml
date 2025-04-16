@@ -11,6 +11,7 @@
         </graphicData>
         <soundInteract>PLA_SoundInteractMG</soundInteract>
         <recipeMaker>
+            <researchPrerequisite></researchPrerequisite>
             <researchPrerequisites>
                 <li>PLA_Research_Gen4Weapon</li>
                 <li>PLA_Research_TacticalModification</li>
