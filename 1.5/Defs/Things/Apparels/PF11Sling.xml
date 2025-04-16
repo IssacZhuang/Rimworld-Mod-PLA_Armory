@@ -128,12 +128,13 @@
             <li>
                 <label>launch rocket</label>
                 <commandIcon>Things/Weapon/PF11</commandIcon>
-                <verbClass>Verb_Shoot</verbClass>
+                <verbClass>Verb_LaunchProjectileStatic</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_HighExplosive_PFEleven</defaultProjectile>
                 <warmupTime>4.7</warmupTime>
                 <minRange>4</minRange>
                 <range>37</range>
+                <onlyManualCast>True</onlyManualCast>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>PLA_SoundPF98</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -152,6 +153,9 @@
         </verbs>
         <comps>
             <li Class="CompProperties_ApparelReloadable">
+                <!--ammoDef only set for icon display -->
+                <ammoDef>PLA_PFEleven</ammoDef>
+                <ammoCountToRefill>1</ammoCountToRefill>
                 <maxCharges>1</maxCharges>
                 <destroyOnEmpty>true</destroyOnEmpty>
                 <hotKey>Misc4</hotKey>
