@@ -71,7 +71,7 @@
                         <offset>(-0.1,0)</offset>
                     </thin>
                     <female>
-                        <offset>(0,0)</offset>
+                        <offset>(-0.1,0)</offset>
                     </female>
                     <hulk>
                         <offset>(0.05,0)</offset>

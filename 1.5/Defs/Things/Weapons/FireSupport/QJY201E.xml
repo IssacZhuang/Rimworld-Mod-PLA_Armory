@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="PLA_BaseGun">
         <defName>PLA_QJYTwoZeroOneE</defName>
-        <label>QJY-201E general purpose machine gun</label>
+        <label>CS/LM-22 general purpose machine gun</label>
         <description>The export version of QJY-201 general purpose machine gun. Use .338 Lapua Magnum round.</description>
         <graphicData>
             <texPath>Things/Weapon/QJY201E</texPath>

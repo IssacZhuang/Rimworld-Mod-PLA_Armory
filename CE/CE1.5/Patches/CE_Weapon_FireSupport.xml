@@ -205,7 +205,7 @@
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
         <Properties>
-            <recoilAmount>1</recoilAmount>
+            <recoilAmount>1.2</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_338Lapua_FMJ</defaultProjectile>
