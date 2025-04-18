@@ -37,6 +37,7 @@
         <weaponTags>
             <li>PLA_LMG</li>
             <li>PLA_AdvancedLMG</li>
+            <li>IndustrialGunAdvanced</li>
         </weaponTags>
         <verbs>
             <li>
