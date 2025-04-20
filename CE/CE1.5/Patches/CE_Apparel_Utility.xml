@@ -173,7 +173,7 @@
                 <li Class="CombatExtended.VerbPropertiesCE">
                     <label>launch rocket</label>
                     <commandIcon>Things/Weapon/PF11</commandIcon>
-                    <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                    <verbClass>PLA.CE.Verb_LaunchProjectileStaticWithIconCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_93mmRocket_HEAT</defaultProjectile>
                     <warmupTime>1.8</warmupTime>

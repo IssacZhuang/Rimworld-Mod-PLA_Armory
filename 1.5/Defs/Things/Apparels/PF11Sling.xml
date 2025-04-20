@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="ApparelNoQualityBase">
         <defName>PLA_PF11Sling</defName>
-        <label>PF-11 anti-tank rocket launcher with sling</label>
+        <label>PF-11 with sling</label>
         <description>A PF-11 anti-tank rocket launcher with a sling. The user can carry it on their back.</description>
         <graphicData>
             <texPath>Things/Apparel/Display/PLA_PF11Sling</texPath>
@@ -128,7 +128,7 @@
             <li>
                 <label>launch rocket</label>
                 <commandIcon>Things/Weapon/PF11</commandIcon>
-                <verbClass>Verb_LaunchProjectileStatic</verbClass>
+                <verbClass>PLA.Verb_LaunchProjectileStaticWithIcon</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_HighExplosive_PFEleven</defaultProjectile>
                 <warmupTime>4.7</warmupTime>
