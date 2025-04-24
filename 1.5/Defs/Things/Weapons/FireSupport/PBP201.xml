@@ -27,6 +27,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+            <researchPrerequisite></researchPrerequisite>
             <researchPrerequisites>
                 <li>PLA_Research_Gen4Weapon</li>
                 <li>Mortars</li>
