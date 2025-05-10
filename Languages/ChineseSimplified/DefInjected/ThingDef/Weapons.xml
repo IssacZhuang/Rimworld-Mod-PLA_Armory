@@ -257,11 +257,11 @@
   <PLA_CH817Drone.label>彩虹817小型攻击无人机</PLA_CH817Drone.label>
   <PLA_CH817Drone.description>一种小型攻击无人机，体积和重量都很小，会飞向目标并且自爆。只能使用一次。</PLA_CH817Drone.description>
 
-  <PLA_PBP201.label>201式便携式迫击炮</PLA_PBP201.label>
-  <PLA_PBP201.description>人民解放军的便携式迫击炮，可由单兵携带</PLA_PBP201.description>
+  <PLA_PBPTwoZeroOne.label>201式便携式迫击炮</PLA_PBPTwoZeroOne.label>
+  <PLA_PBPTwoZeroOne.description>人民解放军的便携式迫击炮，可由单兵携带</PLA_PBPTwoZeroOne.description>
 
-  <PLA_QJY201E.label>CS/LM-22通用机枪</PLA_QJY201E.label>
-  <PLA_QJY201E.description>QJY-201的出口版本，使用8.6mm机枪弹。</PLA_QJY201E.description>
+  <PLA_QJYTwoZeroOneE.label>CS/LM-22通用机枪</PLA_QJYTwoZeroOneE.label>
+  <PLA_QJYTwoZeroOneE.description>QJY-201的出口版本，使用8.6mm机枪弹。</PLA_QJYTwoZeroOneE.description>
 
 
 

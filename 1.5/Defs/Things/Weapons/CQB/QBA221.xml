@@ -39,8 +39,9 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>PLA_Bullet_AutomaticShotgun</defaultProjectile>
-                <warmupTime>1</warmupTime>
+                <warmupTime>0.9</warmupTime>
                 <range>16</range>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>PLA_SoundQBA221</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
