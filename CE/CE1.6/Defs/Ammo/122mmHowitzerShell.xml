@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo122mmGuidedHowitzerShells</defName>
+		<label>122mm Guided Howitzer shell</label>
+		<parent>AmmoShells</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCannon</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_122mmGuidedHowitzerShell</defName>
+		<label>122mm Guided Howitzer shells</label>
+		<ammoTypes>
+			<Ammo_122mmGuidedHowitzerShell_HE>Bullet_122mmGuidedHowitzerShell_HE</Ammo_122mmGuidedHowitzerShell_HE>
+			<Ammo_122mmGuidedHowitzerShell_EMP>Bullet_122mmGuidedHowitzerShell_EMP</Ammo_122mmGuidedHowitzerShell_EMP>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="122mmGuidedHowitzerShellBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<description>A guided artillery shell, it can navigate automatically when launched, very accurate at long range.</description>
+		<thingCategories>
+			<li>Ammo122mmGuidedHowitzerShells</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>49.7</Mass>
+			<Bulk>53.67</Bulk>
+		</statBases>
+		<cookOffFlashScale>40</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<isMortarAmmo>true</isMortarAmmo>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="122mmGuidedHowitzerShellBase">
+		<defName>Ammo_122mmGuidedHowitzerShell_HE</defName>
+		<label>122mm Guided Howitzer shell (HE)</label>
+		<graphicData>
+			<texPath>Things/Item/122mmGuidedShellHE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>649.44</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_122mmGuidedHowitzerShell_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="122mmGuidedHowitzerShellBase">
+		<defName>Ammo_122mmGuidedHowitzerShell_EMP</defName>
+		<label>122mm Guided Howitzer shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Item/122mmGuidedShellEMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>649.44</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_122mmGuidedHowitzerShell_EMP</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base122mmHowitzerShell" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<flyOverhead>true</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<gravityFactor>5</gravityFactor>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base122mmHowitzerShell">
+		<defName>Bullet_122mmGuidedHowitzerShell_HE</defName>
+		<label>122mm Howitzer shell (HE)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/122mmGuidedShellHE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>403</damageAmountBase>
+			<explosionRadius>5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<damageFalloff>false</damageFalloff>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>40</Fragment_Large>
+					<Fragment_Small>60</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base122mmHowitzerShell">
+		<defName>Bullet_122mmGuidedHowitzerShell_EMP</defName>
+		<label>122mm Howitzer shell (EMP)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/122mmGuidedShellEMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>242</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>10</explosionRadius>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_122mmGuidedHowitzerShell_HE</defName>
+		<label>make 122mm HE Howitzer shells x1</label>
+		<description>Craft 1 122mm HE Howitzer shells.</description>
+		<jobString>Making 122mm HE Howitzer shells.</jobString>
+		<workAmount>15400</workAmount>
+		<!--recipeUsers Inherit = "False">
+			<li>FabricationBench</li>
+		</recipeUsers-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>73</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_122mmGuidedHowitzerShell_HE>1</Ammo_122mmGuidedHowitzerShell_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_122mmGuidedHowitzerShell_EMP</defName>
+		<label>make 122mm EMP Howitzer shells x1</label>
+		<description>Craft 1 122mm EMP Howitzer shells.</description>
+		<jobString>Making 122mm EMP Howitzer shells.</jobString>
+		<workAmount>15400</workAmount>
+		<!--recipeUsers Inherit = "False">
+			<li>FabricationBench</li>
+		</recipeUsers-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>73</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_122mmGuidedHowitzerShell_EMP>1</Ammo_122mmGuidedHowitzerShell_EMP>
+		</products>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+    <!-- == Weapon == -->
+    <!-- Type 67-->
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Type67StickGrenade"]/costList</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Type67StickGrenade"]/recipeMaker</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]</xpath>
+        <value>
+            <thingClass>CombatExtended.AmmoThing</thingClass>
+            <stackLimit>75</stackLimit>
+            <resourceReadoutPriority>First</resourceReadoutPriority>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]/comps</xpath>
+                <success>Invert</success>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]</xpath>
+                <value>
+                    <comps />
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>3.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_Type67StickGrenade"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_Type67StickGrenade"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Things/Ammo/Type67StickGrenade</texPath>
+                <graphicClass>Graphic_StackCount</graphicClass>
+                <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+            </graphicData>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_Type67StickGrenade"]/statBases/WorkToMake</xpath>
+        <value>
+            <WorkToMake>2000</WorkToMake>
+        </value>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_Type67StickGrenade</defName>
+        <statBases>
+            <MarketValue>5.05</MarketValue>
+            <Mass>0.4</Mass>
+            <Bulk>0.87</Bulk>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <label>throw stick grenade</label>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PLA_Proj_Type67StickGrenadeCE</defaultProjectile>
+            <range>16</range>
+            <minRange>3</minRange>
+            <warmupTime>1.6</warmupTime>
+            <soundCast>ThrowGrenade</soundCast>
+            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="PLA_RecipeBaseCE">
+                <defName>Make_PLA_Type67StickGrenade</defName>
+                <label>make type 67 stick granade x10</label>
+                <description>Craft 10 type 67 stick granade.</description>
+                <jobString>Making type 67 stick granade.</jobString>
+                <researchPrerequisite>PLA_Research_Gen1Weapon</researchPrerequisite>
+                <workAmount>2400</workAmount>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <stuffCategoriesToAllow>
+                                <li>Woody</li>
+                            </stuffCategoriesToAllow>
+                        </filter>
+                        <count>12</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>3</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <stuffCategoriesToAllow>
+                        <li>Woody</li>
+                    </stuffCategoriesToAllow>
+                    <thingDefs>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_Type67StickGrenade>10</PLA_Type67StickGrenade>
+                </products>
+            </RecipeDef>
+        </value>
+    </Operation>
+
+    <!-- Type 82-->
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Type82Grenade"]/costList</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_Type82Grenade"]/recipeMaker</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]</xpath>
+        <value>
+            <thingClass>CombatExtended.AmmoThing</thingClass>
+            <stackLimit>75</stackLimit>
+            <resourceReadoutPriority>First</resourceReadoutPriority>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]/comps</xpath>
+                <success>Invert</success>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]</xpath>
+                <value>
+                    <comps />
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>2.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_Type82Grenade"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_Type82Grenade"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Things/Ammo/Type82Grenade</texPath>
+                <graphicClass>Graphic_StackCount</graphicClass>
+                <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+            </graphicData>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_Type82Grenade"]/statBases/WorkToMake</xpath>
+        <value>
+            <WorkToMake>2000</WorkToMake>
+        </value>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_Type82Grenade</defName>
+        <statBases>
+            <MarketValue>14.05</MarketValue>
+            <Mass>0.26</Mass>
+            <Bulk>0.45</Bulk>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+            <label>throw frag grenade</label>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PLA_Proj_Type82GrenadeCE</defaultProjectile>
+            <range>14.5</range>
+            <minRange>3</minRange>
+            <warmupTime>0.9</warmupTime>
+            <soundCast>ThrowGrenade</soundCast>
+            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="PLA_RecipeBaseCE">
+                <defName>Make_PLA_Type82Grenade</defName>
+                <label>make type 82 frag granade x10</label>
+                <description>Craft 10 type 82 frag granade.</description>
+                <jobString>Making type 82 frag granade.</jobString>
+                <workAmount>3400</workAmount>
+                <researchPrerequisite>PLA_Research_Gen2Weapon</researchPrerequisite>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>12</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>6</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Chemfuel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>8</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_Type82Grenade>10</PLA_Type82Grenade>
+                </products>
+            </RecipeDef>
+        </value>
+    </Operation>
+
+    <!-- CH-817-->
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_CH817Drone"]/costList</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_CH817Drone"]/recipeMaker</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <value>
+            <thingClass>CombatExtended.AmmoThing</thingClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]/comps</xpath>
+                <success>Invert</success>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+                <value>
+                    <comps />
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>3.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <!--li Class="CombatExtended.CompProperties_Charges">
+                <chargeSpeeds>
+                    <li>10</li>
+                    <li>13</li>
+                    <li>15</li>
+                    <li>17</li>
+                </chargeSpeeds>
+            </li-->
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_CH817Drone"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+    </Operation>
+
+    <!--Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PLA_CH817Drone"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Things/Ammo/Type82Grenade</texPath>
+                <graphicClass>Graphic_StackCount</graphicClass>
+                <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+            </graphicData>
+        </value>
+    </Operation-->
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_CH817Drone</defName>
+        <statBases>
+            <MarketValue>104</MarketValue>
+            <Mass>0.75</Mass>
+            <Bulk>0.6</Bulk>
+            <SightsEfficiency>2</SightsEfficiency>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <SwayFactor>0.01</SwayFactor>
+            <ShotSpread>0.01</ShotSpread>
+        </statBases>
+        <Properties>
+            <label>launch drone</label>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PLA_Proj_CH817DroneCE</defaultProjectile>
+            <range>75</range>
+            <minRange>3</minRange>
+            <warmupTime>1.5</warmupTime>
+            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </Properties>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="PLA_RecipeBaseCE">
+                <defName>Make_PLA_CH817Drone</defName>
+                <label>make CH-817 mini attack drone x5</label>
+                <description>Craft 5 CH-817 mini attack drone.</description>
+                <jobString>Making CH-817 mini attack drone.</jobString>
+                <workAmount>7400</workAmount>
+                <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>32</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>6</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>ComponentIndustrial</li>
+                            </thingDefs>
+                        </filter>
+                        <count>8</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_CH817Drone>5</PLA_CH817Drone>
+                </products>
+            </RecipeDef>
+        </value>
+    </Operation>
+
+
+</Patch>
