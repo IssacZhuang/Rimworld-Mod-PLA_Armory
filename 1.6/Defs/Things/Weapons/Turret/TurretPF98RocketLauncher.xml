@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_TurretBase">
+        <defName>PLA_TurretPF98RocketLauncher</defName>
+        <label>mounted PF-98 rocket launcher</label>
+        <description>A PF-98 rocket launcher mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_LightWeaponBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(0.27,0.25,0.27)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <uiIconPath>Things/Building/TurretPF98RocketLauncher</uiIconPath>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>41.5</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until barrel change</fuelLabel>
+                <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>20</fuelCapacity>
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <fuelMultiplier>1</fuelMultiplier>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>200</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <specialDisplayRadius>2</specialDisplayRadius>
+        <building>
+            <turretGunDef>PLA_MountedPF98RocketLauncher</turretGunDef>
+            <turretBurstCooldownTime>6</turretBurstCooldownTime>
+            <turretTopDrawSize>1.5</turretTopDrawSize>
+            <turretBurstWarmupTime>3</turretBurstWarmupTime>
+        </building>
+        <researchPrerequisites>
+            <li>PLA_Research_PrecisionExplosiveWeapon</li>
+        </researchPrerequisites>
+        <tradeTags>
+            <li>PLA_Turret</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>PLA_MountedPF98RocketLauncher</defName>
+        <label>PF-98 Anti-Tank Rocket Launcher</label>
+        <description>A anti-tank rocket of of People's Liberation Army.</description>
+        <graphicData>
+            <texPath>Things/Building/PF98OnTurret</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.87</AccuracyMedium>
+            <AccuracyLong>0.89</AccuracyLong>
+            <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+            <Mass>8</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Thermobaric_PFNinetyEight</defaultProjectile>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <warmupTime>3</warmupTime>
+                <range>37</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>PLA_SoundPF98</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <consumeFuelPerShot>2</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+
+</Defs>

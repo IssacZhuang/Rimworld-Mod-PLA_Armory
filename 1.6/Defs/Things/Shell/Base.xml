@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="PLA_MakeableShellBase" ParentName="MakeableShellBase" Abstract="True">
+        <thingCategories Inherit="false">
+            <li>PLA_Shells</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingCategoryDef>
+        <defName>PLA_Shells</defName>
+        <label>PLA shells</label>
+        <parent>Manufactured</parent>
+        <iconPath>UI/Icons/ThingCategories/MortarShells</iconPath>
+    </ThingCategoryDef>
+</Defs>

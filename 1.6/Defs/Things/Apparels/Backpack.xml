@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="PLA_BackpackBase" ParentName="ApparelMakeableBase" Abstract="True">
+        <costList>
+            <Cloth>60</Cloth>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Uniform</researchPrerequisite>
+            <useIngredientsForColor>false</useIngredientsForColor>
+        </recipeMaker>
+        <thingCategories Inherit="False">
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <statBases>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.5</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <CarryingCapacity>15</CarryingCapacity>
+        </equippedStatOffsets>
+        <techLevel>Industrial</techLevel>
+        <apparel>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+                <east>
+                    <offset>(-0.35,-0.05)</offset>
+                    <thin>
+                        <offset>(0.05,0)</offset>
+                    </thin>
+                    <hulk>
+                        <offset>(-0.1,0)</offset>
+                    </hulk>
+                    <fat>
+                        <offset>(-0.15,0)</offset>
+                    </fat>
+                    <female>
+                        <offset>(0.02,0)</offset>
+                    </female>
+                </east>
+                <west>
+                    <offset>(0.35,-0.05)</offset>
+                    <thin>
+                        <offset>(-0.05,0)</offset>
+                    </thin>
+                    <hulk>
+                        <offset>(0.1,0)</offset>
+                    </hulk>
+                    <fat>
+                        <offset>(0.05,0)</offset>
+                    </fat>
+                    <female>
+                        <offset>(-0.02,0)</offset>
+                    </female>
+                </west>
+                <north>
+                    <offset>(0,-0.1)</offset>
+                    <thin>
+                        <offset>(0,0)</offset>
+                    </thin>
+                    <hulk>
+                        <offset>(0,-0.05)</offset>
+                    </hulk>
+                    <fat>
+                        <offset>(0,-0.05)</offset>
+                    </fat>
+                </north>
+                <male>
+                    <scale>(0.90,0.90)</scale>
+                </male>
+                <female>
+                    <scale>(0.90,0.90)</scale>
+                </female>
+                <thin>
+                    <scale>(0.85,0.85)</scale>
+                </thin>
+                <hulk>
+                    <scale>(1.10,1.10)</scale>
+                </hulk>
+                <fat>
+                    <scale>(1.10,1.10)</scale>
+                </fat>
+            </wornGraphicData>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags Inherit="False">
+                <li>PLA_Backpack</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <only>(0.7,0.7,0.7)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BackpackBase">
+        <defName>PLA_Backpack_Desert</defName>
+        <label>PLA backpack</label>
+        <description>A backpack.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_backpack_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Backpack/PLA_backpack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BackpackBase">
+        <defName>PLA_ExoskeletonBackpack_Desert</defName>
+        <label>PLA Exoskeleton backpack</label>
+        <description>A backpack connect with a non-powered exoskeleton frame. It will increase the weight-bearing capacity of the wearer.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_exoskeletonBackpack</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ExoskeletonBackpack/PLA_exoskeletonBackpack</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Shoulders</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+        </apparel>
+        <equippedStatOffsets>
+            <CarryingCapacity>35</CarryingCapacity>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+            <researchPrerequisite>PLA_Research_Exoskeleton</researchPrerequisite>
+            <recipeUsers Inherit = "False">
+                <li>PLA_TableAssembly</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Cloth>60</Cloth>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_BackpackBase">
+        <defName>PLA_RadioBackpack</defName>
+        <label>PLA radio backpack</label>
+        <description>A radio backpack which can provide bandwith to wearer (Bioteck DLC required).</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_radioBackpack</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/RadioBackpack/PLA_radioBackpack</wornGraphicPath>
+        </apparel>
+        <equippedStatOffsets Inherit = "False">
+            <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+            <researchPrerequisite>PLA_Research_Armor</researchPrerequisite>
+            <recipeUsers Inherit = "False">
+                <li>PLA_TableAssembly</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <SignalChip MayRequire="Ludeon.RimWorld.Biotech">2</SignalChip>
+        </costList>
+        <colorGenerator Class="ColorGenerator_Options" Inherit = "False">
+            <options>
+                <li>
+                    <only>(1,1,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+</Defs>

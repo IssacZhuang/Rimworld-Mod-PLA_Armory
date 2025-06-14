@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="MealBase">
+    <defName>PLA_MealSurvivalPack</defName>
+    <label>PLA self-heating meal</label>
+    <description>A military packaged meal for the People's Liberation Army, manufactured for use in survival situations. Including rice, braised meat, chocolate stick and drink.</description>
+    <graphicData>
+      <texPath>Things/Item/Food/SelfHeatingMeal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>30</MarketValue>
+      <Mass>0.25</Mass>
+      <WorkToMake>550</WorkToMake>
+      <Nutrition>1.0</Nutrition>
+    </statBases>
+    <tradeability>Buyable</tradeability>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+      <tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <ingestHoldUsesTable>true</ingestHoldUsesTable>
+      <tableDesired>false</tableDesired>
+      <canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PLA_AteMealSurvivalPack</hediffDef>
+          <severity>1</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.08</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>PLA_AteMealSurvivalPack</defName>
+    <label>consumed military food (from meal)</label>
+    <description>This colonist consumed a PLA military meal.</description>
+    <tendable>false</tendable>
+    <isBad>false</isBad>
+    <defaultLabelColor>(92,62,198)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1.0</initialSeverity>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <RecipeDef Name="PLA_CookMealBase" Abstract="True">
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+        <li>InsectJelly</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PLA_CookMealBase">
+    <defName>PLA_CookMealSurvivalPack</defName>
+    <label>cook military packaged meal</label>
+    <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
+    <jobString>Cooking military packaged meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>0.1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>RawRice</li>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PLA_MealSurvivalPack>1</PLA_MealSurvivalPack>
+    </products>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PLA_CookMealBase">
+    <defName>PLA_CookMealSurvivalPackBulk</defName>
+    <label>cook military packaged meal x4</label>
+    <description>Cook rice, braised meat, chocolate stick and drink. Pack them into a meal pack.</description>
+    <jobString>Cooking 4 military packaged meal.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>0.4</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1.2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>RawRice</li>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PLA_MealSurvivalPack>4</PLA_MealSurvivalPack>
+    </products>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- Hot Pot-->
+
+  <ThingDef ParentName="MealBase">
+    <defName>PLA_HotPotSurvivalPack</defName>
+    <label>PLA self-heating hot pot</label>
+    <description>A self-heating hot pot for the People's Liberation Army, usually distributed to soldiers at high altitudes area.</description>
+    <graphicData>
+      <texPath>Things/Item/Food/SelfHeatingHotPot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>42</MarketValue>
+      <Mass>0.35</Mass>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>1.0</Nutrition>
+    </statBases>
+    <tradeability>Buyable</tradeability>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>PLA_EatingHotPot</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <ingestHoldUsesTable>true</ingestHoldUsesTable>
+      <tableDesired>false</tableDesired>
+      <canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PLA_AteHotPot</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>PLA_FleckSteam</defName>
+    <graphicData>
+      <texPath>Things/Mote/AirPuff</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.08</fadeInTime>
+    <solidTime>3</solidTime>
+    <fadeOutTime>2</fadeOutTime>
+  </FleckDef>
+
+  <EffecterDef>
+    <defName>PLA_EatingHotPot</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <scale>0.5~0.7</scale>
+        <ticksBetweenMotes>20</ticksBetweenMotes>
+        <positionLerpFactor>0.35</positionLerpFactor>
+        <moteDef>Mote_FoodBitVegetarian</moteDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <fleckDef>PLA_FleckSteam</fleckDef>
+        <ticksBetweenMotes>250</ticksBetweenMotes>
+        <scale>1.2~1.5</scale>
+        <speed>0.65</speed>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <HediffDef>
+    <defName>PLA_AteHotPot</defName>
+    <label>consumed military hot pot (from meal)</label>
+    <description>This colonist consumed a PLA self-heating hot pot.</description>
+    <tendable>false</tendable>
+    <isBad>false</isBad>
+    <defaultLabelColor>(92,62,198)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1.0</initialSeverity>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <RecipeDef ParentName="PLA_CookMealBase">
+    <defName>PLA_CookHotPotPack</defName>
+    <label>cook self-heating hot pot</label>
+    <description>cook self-heating hot pot x4.</description>
+    <jobString>Cooking military self-heating hot pot.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>RawPotatoes</li>
+        <li>RawCorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PLA_HotPotSurvivalPack>1</PLA_HotPotSurvivalPack>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PLA_CookMealBase">
+    <defName>PLA_CookHotPotPackBulk</defName>
+    <label>cook self-heating hot pot x4</label>
+    <description>cook self-heating hot pot x4.</description>
+    <jobString>Cooking 4 military self-heating hot pot.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>RawPotatoes</li>
+        <li>RawCorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PLA_HotPotSurvivalPack>4</PLA_HotPotSurvivalPack>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+</Defs>

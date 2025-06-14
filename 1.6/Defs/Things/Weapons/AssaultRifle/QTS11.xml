@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QTSEleven</defName>
+    <label>QTS-11 smart rifle</label>
+    <description>An OICW(Objective Individual Combat Weapon) of People's Liberation Army.</description>
+    <graphicData>
+      <texPath>Things/Weapon/QTS11</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.95,0.95)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_WeaponDigitization</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>110</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+  </costList>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>PLA_Rifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>37.2</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundQTS11</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="PLA.CompProperties_SecondaryVerb">
+        <verbProps>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PLA_RifleGrenade</defaultProjectile>
+          <warmupTime>1.8</warmupTime>
+          <range>37.2</range>
+          <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+          <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </verbProps>
+        <mainWeaponLabel>use rifle</mainWeaponLabel>
+        <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+        <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+        <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+        <description>switch between rifle and grenade launcher</description>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

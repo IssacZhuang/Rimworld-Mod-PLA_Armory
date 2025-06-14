@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_BaseMeleeWeapon">
+        <defName>PLA_TypeEightyFourDagger</defName>
+        <label>type 84 dagger</label>
+        <description>A dagger of PLA. Can only stab the enemy.</description>
+        <graphicData>
+          <texPath>Things/Weapon/Type84Dagger</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <weaponTags>
+          <li>PLA_LightMelee</li>
+        </weaponTags>
+        <costStuffCount>40</costStuffCount>
+        <equippedAngleOffset>90</equippedAngleOffset>
+        <statBases>
+          <WorkToMake>2500</WorkToMake>
+          <Mass>0.4</Mass>
+        </statBases>
+        <stuffCategories>
+          <li>Metallic</li>
+        </stuffCategories>
+        <tools>
+          <li>
+            <label>point</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>1.2</cooldownTime>
+          </li>
+        </tools>
+        <recipeMaker>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+      </ThingDef>
+</Defs>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QBZOneNineOneJ</defName>
+        <label>QBZ-191-J assault rifle</label>
+        <description>QBZ-191 assault rifle with thermal scope and silencer.</description>
+        <graphicData>
+            <texPath>Things/Weapon/QBZ191S</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.125,1.125)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractRifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite></researchPrerequisite>
+            <researchPrerequisites>
+                <li>PLA_Research_Gen4Weapon</li>
+                <li>PLA_Research_TacticalModification</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>3</Mass>
+            <AccuracyTouch>0.71</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.76</AccuracyMedium>
+            <AccuracyLong>0.62</AccuracyLong>
+            <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedStatOffsets>
+            <HuntingStealth>0.5</HuntingStealth>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>90</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <Chemfuel>20</Chemfuel>
+        </costList>
+        <weaponTags>
+            <li>PLA_AssaultRifle</li>
+            <li>PLA_MordenAssaultRifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>31</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQBZ191Sup</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+        
+        </comps>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

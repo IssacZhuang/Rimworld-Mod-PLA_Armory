@@ -21,4 +21,11 @@
         <li>1.5</li>
         <li>/</li>
     </v1.5>
+    <v1.6>
+        <li IfModActive="CETeam.CombatExtended">CE</li>
+        <li IfModActive="CETeam.CombatExtended">CE/CE1.6</li>
+        <li IfModActive="IssacZhuang.MuzzleFlash">MuzzleFlash</li>
+        <li>1.6</li>
+        <li>/</li>
+    </v1.6>
 </loadFolders>
