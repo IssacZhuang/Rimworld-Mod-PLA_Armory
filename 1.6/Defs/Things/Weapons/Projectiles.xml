@@ -277,7 +277,7 @@
       <explosionRadius>1</explosionRadius>
       <speed>60</speed>
       <damageAmountBase>65</damageAmountBase>
-      <flyOverhead>true</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <explosionDelay>5</explosionDelay>
       <stoppingPower>4</stoppingPower>
       <armorPenetrationBase>0.7</armorPenetrationBase>
@@ -297,7 +297,7 @@
       <damageDef>EMP</damageDef>
       <explosionRadius>1.8</explosionRadius>
       <speed>60</speed>
-      <flyOverhead>true</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <explosionDelay>5</explosionDelay>
       <stoppingPower>4</stoppingPower>
       <armorPenetrationBase>0.7</armorPenetrationBase>
@@ -318,7 +318,7 @@
       <explosionRadius>1.5</explosionRadius>
       <speed>32</speed>
       <damageAmountBase>15</damageAmountBase>
-      <flyOverhead>true</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <explosionDelay>5</explosionDelay>
       <stoppingPower>2</stoppingPower>
       <armorPenetrationBase>0.28</armorPenetrationBase>

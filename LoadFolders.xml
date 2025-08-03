@@ -24,7 +24,7 @@
     <v1.6>
         <li IfModActive="CETeam.CombatExtended">CE</li>
         <li IfModActive="CETeam.CombatExtended">CE/CE1.6</li>
-        <li IfModActive="IssacZhuang.MuzzleFlash, IssacZhuang.MuzzleFlash_steam">MuzzleFlash</li>
+        <li IfModActive="IssacZhuang.MuzzleFlash,issaczhuang.muzzleflash_steam">MuzzleFlash</li>
         <li>1.6</li>
         <li>/</li>
     </v1.6>
