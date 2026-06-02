@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="PLA_GrenadeLauncherQTSEleven"]</xpath>
-        <value>
-          <li Class="CombatExtended.ThingDefExtensionCE">
-            <MenuHidden>True</MenuHidden>
-          </li>
-        </value>
-      </Operation>
 
-      <Operation Class="PatchOperationAddModExtension">
+<Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[@Name="PLA_TurretWeaponBase"]</xpath>
         <value>
           <li Class="CombatExtended.ThingDefExtensionCE">
