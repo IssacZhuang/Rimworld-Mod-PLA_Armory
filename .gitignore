@@ -3,5 +3,4 @@ bin
 obj
 net472
 .vscode
-.claude
-CLAUDE.md
+Docs/Spec
