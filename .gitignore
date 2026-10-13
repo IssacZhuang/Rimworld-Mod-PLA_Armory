@@ -4,3 +4,6 @@ obj
 net472
 .vscode
 Docs/Spec
+# Waylith runtime asset bake cache
+Assets.zip
+Assets.zip.*
