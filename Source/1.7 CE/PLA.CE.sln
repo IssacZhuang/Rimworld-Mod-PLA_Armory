@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLA.CE", "PLA.CE.csproj", "{A5FAA84F-FB1E-478D-AE48-D56DF6850BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FAA84F-FB1E-478D-AE48-D56DF6850BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FAA84F-FB1E-478D-AE48-D56DF6850BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FAA84F-FB1E-478D-AE48-D56DF6850BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FAA84F-FB1E-478D-AE48-D56DF6850BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7523FE68-40D3-4D18-B89C-CD5560E2A561}
+	EndGlobalSection
+EndGlobal

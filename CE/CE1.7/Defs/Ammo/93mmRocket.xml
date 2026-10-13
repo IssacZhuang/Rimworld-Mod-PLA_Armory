@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base120mmRocket">
+        <defName>Bullet_93mmRocket_HEAT</defName>
+        <label>93mm Rocket (HEAT)</label>
+        <graphicData>
+            <texPath>Things/Projectile/120mmRocketHEAT</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>350</damageAmountBase>
+            <armorPenetrationSharp>400</armorPenetrationSharp>
+            <armorPenetrationBlunt>120.44</armorPenetrationBlunt>
+        </projectile>
+        <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>200</damageAmountBase>
+                <explosiveDamageType>Thermobaric</explosiveDamageType>
+                <explosiveRadius>3</explosiveRadius>
+                <explosionSound>MortarIncendiary_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <PLA_MetalJet>12</PLA_MetalJet>
+                    <Fragment_Large>10</Fragment_Large>
+                </fragments>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

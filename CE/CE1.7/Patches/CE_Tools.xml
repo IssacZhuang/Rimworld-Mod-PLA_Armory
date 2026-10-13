@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+
+    <!--===== TOOLS FOR THE TOOL GOD =====-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_QCWZeroFive" or defName="PLA_QCQOneSevenOne" or defName="PLA_QBZNinetyFive" or defName="PLA_QBZNinetyFiveACP" or defName="PLA_QBBNinetyFiveLSW" or defName="PLA_QBZNinetyFiveLG" or defName="PLA_QJBTwoZeroOne" or defName="PLA_QJYTwoZeroOne" or defName="PLA_QJYTwoZeroOneE" or defName="PLA_QBZZeroThree" or defName="PLA_QBZOneNineOne" or defName="PLA_QBZOneNineOneLG" or defName="PLA_QBZOneNineOneJ" or defName="PLA_QBZOneNineOneCarbine" or defName="PLA_TypeFiftySixOneA" or defName="PLA_NARSevenFiveOne" or defName="PLA_QTSEleven" or defName="PLA_QBUTen" or defName="PLA_QBUEightyEight" or defName="PLA_QBUTwoZeroOne" or defName="PLA_QBUTwoZeroTwo" or defName="PLA_QBVOneNineOne" or defName="PLA_QBVOneNineOneLSW" or defName="PLA_QLUEleven" or defName="PLA_QBSZeroNine" or defName="PLA_QBATwoTwoOne" or defName="PLA_QBATwoTwoOneG" or defName="PLA_QBZOneNineOne_Charged"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>12</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>5</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- Old rifle-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_TypeSixtyThree" or defName="PLA_TypeFiftySix" or defName="PLA_TypeFiftySixS" or defName="PLA_TypeFiftyThree" or defName="PLA_TypeSeventyNine" or defName="PLA_TypeSeventyNineA" or defName="PLA_TypeEightyOne" or defName="PLA_TypeEightyOneLMG"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>6</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>5</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_QJZOneSevenOne"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>16</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>20</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>3.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_PFNinetyEight" or defName="PLA_PFEleven" or defName="PLA_HJTwelve" or defName="PLA_PBPTwoZeroOne" or defName="PLA_QJYTwoZeroOneG"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>7</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_QSZNinetyTwo" or defName="PLA_TypeFiftyFour"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>grip</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>8</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>5</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- Boyonet 56-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_TypeFiftySixBoyonet"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>boyonet</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>21</power>
+                    <cooldownTime>1.7</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationSharp>2.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- Boyonet 95-->
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_QBZNinetyFiveBoyonet" or defName="PLA_QBZOneNineOneBoyonet"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>boyonet</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>17</power>
+                    <cooldownTime>1.4</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationSharp>2.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+</Patch>

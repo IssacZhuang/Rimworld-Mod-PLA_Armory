@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <OutputPath>$(MSBuildThisFileDirectory)/../../CE/CE1.7/Assemblies</OutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <!-- CE 官方尚未发布 1.7 版本；CE 1.6 在 RimWorld 1.7 (Waylith, .NET 10 运行时)
+       下可正常运行，故本工程与 Source/1.6 CE 保持一致的引用方式：
+       Krafs.Rimworld.Ref 1.6 提供 Assembly-CSharp 与 UnityEngine.*（CE 1.6 的
+       类型标识基于 1.6 的 UnityEngine.CoreModule，不能与 1.7 的 UnityStubs 混用，
+       否则 Vector2/Texture2D 等签名对不上）。
+       Reference/CombatExtended.dll 为 CE 1.6 版本，CE 官方适配 1.7 后请同步更新。 -->
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4490-beta" />
+    <Reference Include="CombatExtended" >
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\CombatExtended.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>

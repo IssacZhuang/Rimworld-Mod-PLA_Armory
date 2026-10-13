@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo58x42mmDBP191</defName>
+		<label>5.8x42mm DBP</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_58x42mmDBP191</defName>
+		<label>5.8x42mm DBP</label>
+		<ammoTypes>
+			<Ammo_58x42mmDBP10_FMJ>Bullet_58x42mmDBP10_FMJ</Ammo_58x42mmDBP10_FMJ>
+			<Ammo_58x42mmDBP10_AP>Bullet_58x42mmDBP10_AP</Ammo_58x42mmDBP10_AP>
+			<Ammo_58x42mmDBP10_HP>Bullet_58x42mmDBP10_HP</Ammo_58x42mmDBP10_HP>
+			<Ammo_58x42mmDBP10_Incendiary>Bullet_58x42mmDBP10_Incendiary</Ammo_58x42mmDBP10_Incendiary>
+			<Ammo_58x42mmDBP10_HE>Bullet_58x42mmDBP10_HE</Ammo_58x42mmDBP10_HE>
+			<Ammo_58x42mmDBP10_Sabot>Bullet_58x42mmDBP10_Sabot</Ammo_58x42mmDBP10_Sabot>
+			<Ammo_58x42mmDBP191_APCR>Bullet_58x42mmDBP191_APCR</Ammo_58x42mmDBP191_APCR>
+		</ammoTypes>
+		<similarTo>AmmoSet_RifleIntermediate_DBP191</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="58x42mmDBP191Base" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Small, high-velocity rifle bullet used in a variety of assault rifles.</description>
+		<statBases>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo58x42mmDBP191</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="58x42mmDBP191Base">
+		<defName>Ammo_58x42mmDBP191_APCR</defName>
+		<label>5.8x42mm DBP191 cartridge (APCR)</label>
+		<graphicData>
+			<texPath>Things/Ammo/APCR</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeTags>
+			<li>PLA_ammo</li>
+		</tradeTags>
+		<statBases>
+			<MarketValue>0.12</MarketValue>
+			<Mass>0.02</Mass>
+		</statBases>
+		<ammoClass>PLA_Composit_OneNineOne</ammoClass>
+		<cookOffProjectile>Bullet_58x42mmDBP191_APCR</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base58x42mmDBP191Bullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>186</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base58x42mmDBP191Bullet">
+		<defName>Bullet_58x42mmDBP191_APCR</defName>
+		<label>5.8mm DBP191 bullet (APCR)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationSharp>18.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.2</armorPenetrationBlunt>
+			<speed>228</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_58x42mmDBP191_APCR</defName>
+		<label>make 5.8x42mm DBP191 (APCR) cartridge x500</label>
+		<description>Craft 500 5.8x42mm DBP191 (APCR) cartridges.</description>
+		<jobString>Making 5.8x42mm DBP191 (APCR) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>PLA_Research_Gen4Weapon</li>
+		</researchPrerequisites>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_58x42mmDBP191_APCR>500</Ammo_58x42mmDBP191_APCR>
+		</products>
+		<workAmount>4000</workAmount>
+	</RecipeDef>
+
+</Defs>

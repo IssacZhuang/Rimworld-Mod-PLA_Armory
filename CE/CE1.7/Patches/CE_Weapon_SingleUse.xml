@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/ThingDef[defName="PLA_PFEleven"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_PFEleven"]/costList</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PLA_PFEleven"]/recipeMaker</xpath>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PLA_PFEleven</defName>
+        <statBases>
+            <Mass>4</Mass>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <SightsEfficiency>2.6</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <Bulk>5.7</Bulk>
+            <WorkToMake>49500</WorkToMake>
+            <MarketValue>184</MarketValue>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_93mmRocket_HEAT</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+            <range>42</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>PLA_SoundPF98</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <muzzleFlashScale>14</muzzleFlashScale>
+        </Properties>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <AllowWithRunAndGun>false</AllowWithRunAndGun>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <RecipeDef ParentName="PLA_RecipeBaseCE">
+                <defName>MakePFEleven</defName>
+                <label>make PF-11 x5</label>
+                <description>Craft 5 PF-11 Anti-Tank Rocket Launcher.</description>
+                <jobString>Making PF-11 Anti-Tank Rocket Launcher.</jobString>
+                <workAmount>8200</workAmount>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>83</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>12</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>ComponentIndustrial</li>
+                            </thingDefs>
+                        </filter>
+                        <count>3</count>
+                    </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                    <PLA_PFEleven>5</PLA_PFEleven>
+                </products>
+                <researchPrerequisite>PLA_Research_PrecisionExplosiveWeapon</researchPrerequisite>
+            </RecipeDef>
+        </value>
+    </Operation>
+
+
+</Patch>

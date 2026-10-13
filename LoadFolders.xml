@@ -28,8 +28,12 @@
         <li>1.6</li>
         <li>/</li>
     </v1.6>
-    <!-- 1.7: 仅原版内容；CE 1.7 待 CombatExtended 官方适配后再接入 -->
+    <!-- 1.7: CE 官方尚未发布 1.7 版本；CE 1.6 在 1.7 下可正常运行，
+         故 CE1.7 内容暂复用 CE1.6（DLL 二进制兼容，原版 API 1.7 未变化），
+         待 CombatExtended 官方适配 1.7 后再行分叉 -->
     <v1.7>
+        <li IfModActive="CETeam.CombatExtended">CE</li>
+        <li IfModActive="CETeam.CombatExtended">CE/CE1.7</li>
         <li IfModActive="IssacZhuang.MuzzleFlash,issaczhuang.muzzleflash_steam">MuzzleFlash</li>
         <li>1.7</li>
         <li>/</li>

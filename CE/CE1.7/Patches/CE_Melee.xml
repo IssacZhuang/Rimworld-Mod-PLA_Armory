@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_TypeEightyFourDagger"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>13</power>
+                    <cooldownTime>1.1</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationSharp>2.4</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_EngineerShovel"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>22</power>
+                    <cooldownTime>1.69</cooldownTime>
+                    <chanceFactor>0.60</chanceFactor>
+                    <armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+                    <armorPenetrationSharp>3.2</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>edge</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>26</power>
+                    <cooldownTime>1.56</cooldownTime>
+                    <chanceFactor>0.30</chanceFactor>
+                    <armorPenetrationBlunt>5.592</armorPenetrationBlunt>
+                    <armorPenetrationSharp>2.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_EngineerShovel"]/equippedStatOffsets</xpath>
+        <value>
+            <MeleeCritChance>0.63</MeleeCritChance>
+            <MeleeParryChance>0.75</MeleeParryChance>
+            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+        </value>
+    </Operation>
+
+    <!-- Saber-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath> /Defs/ThingDef[defName="PLA_Saber"]/tools
+                    </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>25</power>
+                    <cooldownTime>1.59</cooldownTime>
+                    <chanceFactor>0.60</chanceFactor>
+                    <armorPenetrationBlunt>2.9</armorPenetrationBlunt>
+                    <armorPenetrationSharp>5.2</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>edge</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>28</power>
+                    <cooldownTime>1.46</cooldownTime>
+                    <chanceFactor>0.30</chanceFactor>
+                    <armorPenetrationBlunt>4.592</armorPenetrationBlunt>
+                    <armorPenetrationSharp>4.8</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PLA_Saber"]/equippedStatOffsets</xpath>
+        <value>
+            <MeleeCritChance>0.73</MeleeCritChance>
+            <MeleeParryChance>0.75</MeleeParryChance>
+            <MeleeDodgeChance>0.6</MeleeDodgeChance>
+        </value>
+    </Operation>
+</Patch>
