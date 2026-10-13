@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="PLA_TurretBase">
+        <defName>PLA_Turret04GrenadeLauncher</defName>
+        <label>type 04 grenade launcher turret</label>
+        <description>A type-04 grenade launcher mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_LightWeaponBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(0.27,0.25,0.27)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <uiIconPath>Things/Building/Turret04GrenadeLauncher</uiIconPath>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>41.5</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until barrel change</fuelLabel>
+                <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>100</fuelCapacity>
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <fuelMultiplier>1</fuelMultiplier>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>180</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <specialDisplayRadius>2</specialDisplayRadius>
+        <building>
+            <turretGunDef>PLA_Gun04GrenadeLauncher</turretGunDef>
+            <turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+            <turretBurstWarmupTime>1.7</turretBurstWarmupTime>
+        </building>
+        <researchPrerequisites>
+            <li>PLA_Research_PrecisionExplosiveWeapon</li>
+        </researchPrerequisites>
+        <tradeTags>
+            <li>PLA_Turret</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>PLA_Gun04GrenadeLauncher</defName>
+        <label>Type type-04 grenade launcher gun</label>
+        <description>An auto grenade launcher</description>
+        <graphicData>
+            <texPath>Things/Building/Type04GrenadeLauncher</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.8</AccuracyTouch>
+            <AccuracyShort>0.5</AccuracyShort>
+            <AccuracyMedium>0.7</AccuracyMedium>
+            <AccuracyLong>0.3</AccuracyLong>
+            <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+            <Mass>18.6</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Grenade</defaultProjectile>
+                <forcedMissRadius>1</forcedMissRadius>
+                <warmupTime>1.7</warmupTime>
+                <range>35</range>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <burstShotCount>2</burstShotCount>
+                <soundCast>PLA_SoundQLU11</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <muzzleFlashScale>13</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+
+</Defs>

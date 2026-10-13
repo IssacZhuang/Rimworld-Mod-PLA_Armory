@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_HJTwelve</defName>
+        <label>HJ-12 missile launcher</label>
+        <description>An multi-purpose missile launcher of of People's Liberation Army. The HJ-12 missile can track the target until it hit, but it can not lock the target in close ranged.</description>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>Things/Weapon/HJ12</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractLauncher</soundInteract>
+        <statBases>
+            <WorkToMake>35000</WorkToMake>
+            <MarketValue>1000</MarketValue>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <Mass>10</Mass>
+            <RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentSpacer>2</ComponentSpacer>
+            <Chemfuel>15</Chemfuel>
+        </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>PLA_Research_TargetTracking</researchPrerequisite>
+        </recipeMaker>
+        <weaponTags>
+            <li>PLA_MissileLauncher</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_HighExplosiveAntiTank_HJTwelve</defaultProjectile>
+                <forcedMissRadius>0.1</forcedMissRadius>
+                <warmupTime>7.2</warmupTime>
+                <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+                <range>38</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>PLA_SoundPF98</soundCast>
+                <soundAiming>PLA_MissileLock</soundAiming>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <onlyManualCast>true</onlyManualCast>
+                <minRange>17</minRange>
+                <muzzleFlashScale>14</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+        </comps>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11.7</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="PLA_ArmorMachineableBase" ParentName="ApparelBase" Abstract="True">
+        <recipeMaker>
+          <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+          <workSkill>Crafting</workSkill>
+          <effectWorking>Smith</effectWorking>
+          <soundWorking>Recipe_Machining</soundWorking>
+          <recipeUsers>
+            <li>PLA_TableAssembly</li>
+          </recipeUsers>
+          <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+          <useIngredientsForColor>false</useIngredientsForColor>
+        </recipeMaker>
+      </ThingDef>
+
+    <ThingDef Name="PLA_ArmorBase" ParentName="PLA_ArmorMachineableBase" Abstract="True">
+        <thingCategories>
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <MaxHitPoints>300</MaxHitPoints>
+            <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.43</ArmorRating_Heat>
+            <Insulation_Cold>5.8</Insulation_Cold>
+            <Insulation_Heat>18.3</Insulation_Heat>
+            <Mass>4</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Armor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+            <Cloth>40</Cloth>
+        </costList>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags Inherit = "False">
+                <li>PLA_BodyArmor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <only>(0.7,0.7,0.7)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_ArmorBase">
+        <defName>PLA_Armor_Desert</defName>
+        <label>PLA body armor</label>
+        <description>A body armor.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_armor_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/BodyArmor/PLA_Armor</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+</Defs>

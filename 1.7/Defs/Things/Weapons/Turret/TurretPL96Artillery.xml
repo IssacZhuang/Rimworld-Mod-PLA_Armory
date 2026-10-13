@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_ArtilleryBuildingBase">
+        <defName>PLA_Turret_PLA96Howitzer</defName>
+        <label>PL-96 howitzer</label>
+        <description>A howitzer that can launch the guided shell. Lobs shells over walls. Very accurate and long-ranged.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_HugeArtilleryBase</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+        </graphicData>
+        <size>(5,5)</size>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <wickTicks>240</wickTicks>
+                <explosiveRadius>4.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Ammo</fuelLabel>
+                <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+                <outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>PLA_122mmGuidedHowitzerShell_HE</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>3</fuelCapacity>
+                <fuelMultiplier>1</fuelMultiplier>
+                <initialFuelPercent>0</initialFuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>0</minimumFueledThreshold>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
+                <autoRefuelPercent>1</autoRefuelPercent>
+                <fuelIconPath>Things/Item/122mmGuidedShellHE/122mmGuidedShellHE_a</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>620</Steel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+        </costList>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <building>
+            <turretGunDef>PLA_Artillery_PL96Howitzer</turretGunDef>
+            <turretTopDrawSize>6.25</turretTopDrawSize>
+        </building>
+        <rotatable>true</rotatable>
+        <researchPrerequisites>
+            <li>PLA_Research_GuidedShell</li>
+        </researchPrerequisites>
+        <uiIconPath>Things/Building/Icon_PL96</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseArtilleryWeapon">
+        <defName>PLA_Artillery_PL96Howitzer</defName>
+        <label>122mm howitzer</label>
+        <description>A 12 barrels rocket launcher. Lobs rockets over walls. Very inaccurate but long-ranged.</description>
+        <graphicData>
+            <texPath>Things/Building/PL96</texPath>
+        </graphicData>
+        <comps></comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                <warmupTime>6.0</warmupTime>
+                <forcedMissRadius>0.3</forcedMissRadius>
+                <requireLineOfSight>false</requireLineOfSight>
+                <minRange>25</minRange>
+                <range>500</range>
+                <defaultProjectile>PLA_HighExplosive_122mmGuidedHowitzerShell</defaultProjectile>
+                <soundCast>PLA_SoundPL96</soundCast>
+                <muzzleFlashScale>42</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+    </ThingDef>
+</Defs>

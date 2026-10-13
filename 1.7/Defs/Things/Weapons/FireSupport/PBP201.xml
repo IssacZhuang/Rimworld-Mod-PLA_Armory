@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_PBPTwoZeroOne</defName>
+        <label>PBP-201 protable mortar</label>
+        <description>An protable mortar of of People's Liberation Army. Can be carried by a single soldier.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Weapon/PBP201</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.25,1.25)</drawSize>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractLauncher</soundInteract>
+        <statBases>
+            <WorkToMake>25000</WorkToMake>
+            <MarketValue>800</MarketValue>
+            <Mass>10</Mass>
+            <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <researchPrerequisite></researchPrerequisite>
+            <researchPrerequisites>
+                <li>PLA_Research_Gen4Weapon</li>
+                <li>Mortars</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <weaponTags>
+            <li>PLA_PortableMortar</li>
+        </weaponTags>
+        <!-- <equippedAngleOffset>-30</equippedAngleOffset> -->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_LightMortarShell_HighExplosive</defaultProjectile>
+                <forcedMissRadius>4</forcedMissRadius>
+                <warmupTime>4.5</warmupTime>
+                <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+                <minRange>17</minRange>
+                <range>43</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Mortar_LaunchA</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+        </comps>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11.7</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>

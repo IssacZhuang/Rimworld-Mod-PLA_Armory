@@ -28,4 +28,10 @@
         <li>1.6</li>
         <li>/</li>
     </v1.6>
+    <!-- 1.7: 仅原版内容；CE 1.7 待 CombatExtended 官方适配后再接入 -->
+    <v1.7>
+        <li IfModActive="IssacZhuang.MuzzleFlash,issaczhuang.muzzleflash_steam">MuzzleFlash</li>
+        <li>1.7</li>
+        <li>/</li>
+    </v1.7>
 </loadFolders>

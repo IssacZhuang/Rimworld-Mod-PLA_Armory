@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QCQOneSevenOne</defName>
+        <label>QCQ-171 sub machine gun</label>
+        <description>A new type sub machine gun of People's Liberation Army.</description>
+        <graphicData>
+            <texPath>Things/Weapon/QCQ171</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractSMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Gen4Weapon</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>26000</WorkToMake>
+            <Mass>2</Mass>
+            <AccuracyTouch>0.83</AccuracyTouch>
+            <AccuracyShort>0.7</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedStatOffsets>
+            <HuntingStealth>0.6</HuntingStealth>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>60</Steel>
+            <Chemfuel>15</Chemfuel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <weaponTags>
+            <li>PLA_SMG</li>
+            <li>PLA_AdvancedSMG</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_SMG</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>22</range>
+                <burstShotCount>4</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQCQ171</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

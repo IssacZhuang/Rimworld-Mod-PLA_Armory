@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="PLA_MakeableShellBase">
+        <defName>PLA_107mmRocket_HE</defName>
+        <label>107mm Rocket</label>
+        <description>A rocket filled with high explosives. Can be fired from type 63 rocket launcher.</description>
+        <graphicData>
+          <texPath>Things/Item/107mmRocket</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <explosiveRadius>2.9</explosiveRadius>
+            <explosiveDamageType>Bomb</explosiveDamageType>
+            <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+            <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+            <wickTicks>30~60</wickTicks>
+          </li>
+        </comps>
+        <projectileWhenLoaded>PLA_HighExplosive_107mmRocket</projectileWhenLoaded>
+        <costList>
+            <Steel>22</Steel>
+            <Chemfuel>18</Chemfuel>
+        </costList>
+        <researchPrerequisites>
+          <li>Mortars</li>
+          <li>MultibarrelWeapons</li>
+        </researchPrerequisites>
+      </ThingDef>
+      
+      <ThingDef ParentName="BaseBullet">
+        <defName>PLA_HighExplosive_107mmRocket</defName>
+        <label>high-explosive rocket</label>
+        <graphicData>
+          <texPath>Things/Projectile/107mmRocket</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+          <damageDef>Bomb</damageDef>
+          <damageAmountBase>65</damageAmountBase>
+          <armorPenetrationBase>0.55</armorPenetrationBase>
+          <!-- damage amount is the damage def default -->
+          <speed>75</speed>
+          <explosionRadius>3.5</explosionRadius>
+          <flyOverhead>true</flyOverhead>
+          <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+          <soundExplode>MortarBomb_Explode</soundExplode>
+          <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+          <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+      </ThingDef>
+
+
+</Defs>

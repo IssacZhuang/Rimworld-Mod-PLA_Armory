@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="PLA_BaseGun">
+        <defName>PLA_QCWZeroFive</defName>
+        <label>QCW-05 sub machine gun</label>
+        <description>A sub machine gun with suppressor</description>
+        <graphicData>
+            <texPath>Things/Weapon/QCW05</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>PLA_SoundInteractSMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite>PLA_Research_Gen3Weapon</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>24000</WorkToMake>
+            <Mass>2.2</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.63</AccuracyShort>
+            <AccuracyMedium>0.4</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedStatOffsets>
+            <HuntingStealth>0.6</HuntingStealth>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Chemfuel>10</Chemfuel>
+        </costList>
+        <weaponTags>
+            <li>PLA_SMG</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_SMG</defaultProjectile>
+                <warmupTime>0.9</warmupTime>
+                <range>21</range>
+                <burstShotCount>4</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>PLA_SoundQCW05</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

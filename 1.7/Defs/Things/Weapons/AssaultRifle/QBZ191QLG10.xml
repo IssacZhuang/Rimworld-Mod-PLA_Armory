@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QBZOneNineOneLG</defName>
+    <label>QBZ-191-QLG assault rifle</label>
+    <description>The QBZ-191 assault rifle with grenade launcher.</description>
+    <graphicData>
+      <texPath>Things/Weapon/QBZ191QLG10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.125,1.125)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite></researchPrerequisite>
+      <researchPrerequisites>
+        <li>PLA_Research_Gen4Weapon</li>
+        <li>PLA_Research_TacticalModification</li>
+    </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+  </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.73</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>95</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+    <weaponTags>
+      <li>PLA_AssaultRifle</li>
+      <li>PLA_MordenAssaultRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_DBPOneNineOne</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>31</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundQBZ191</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="PLA.CompProperties_SecondaryVerb">
+        <verbProps>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PLA_RifleGrenade</defaultProjectile>
+          <warmupTime>2.2</warmupTime>
+          <range>30.2</range>
+          <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+          <soundCast>PLA_SoundGrenadeLauncher</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </verbProps>
+        <mainWeaponLabel>use rifle</mainWeaponLabel>
+        <mainCommandIcon>UI/UI_MainAmmo</mainCommandIcon>
+        <secondaryWeaponLabel>use grenade launcher</secondaryWeaponLabel>
+        <secondaryCommandIcon>UI/UI_SecondaryAmmo</secondaryCommandIcon>
+        <description>switch between rifle and grenade launcher</description>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

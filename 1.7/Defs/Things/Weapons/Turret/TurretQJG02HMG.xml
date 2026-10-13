@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- manual turret -->
+
+    <ThingDef ParentName="PLA_TurretBase">
+        <defName>PLA_TurretQJG02HMG</defName>
+        <label>QJG-02 HMG turret</label>
+        <description>A QJG-02 heavy machine gun mounted on a manually-operated turret. Can be directly controlled, but beware of friendly fire.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_LightWeaponBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(0.27,0.25,0.27)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <uiIconPath>Things/Building/TurretQJG02HMG</uiIconPath>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>41.5</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until barrel change</fuelLabel>
+                <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>400</fuelCapacity>
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <fuelMultiplier>2</fuelMultiplier>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>240</Steel>
+            <Plasteel>60</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <building>
+            <turretGunDef>PLA_GunQJG02HMG</turretGunDef>
+            <turretBurstCooldownTime>1.95</turretBurstCooldownTime>
+            <turretBurstWarmupTime>1</turretBurstWarmupTime>
+            <turretTopDrawSize>3.75</turretTopDrawSize>
+        </building>
+        <researchPrerequisites>
+            <li>PLA_Research_HighCaliber</li>
+        </researchPrerequisites>
+        <tradeTags>
+            <li>PLA_Turret</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>PLA_GunQJG02HMG</defName>
+        <label>QJG-02 heavy machine gun</label>
+        <description>An heavy machine gun(on the turret)</description>
+        <graphicData>
+            <texPath>Things/Building/QJG02</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.83</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.72</AccuracyMedium>
+            <AccuracyLong>0.54</AccuracyLong>
+            <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+            <Mass>28.6</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_AAMG</defaultProjectile>
+                <warmupTime>1.7</warmupTime>
+                <range>42</range>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <burstShotCount>7</burstShotCount>
+                <soundCast>PLA_SoundQJG02</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>15</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+
+</Defs>

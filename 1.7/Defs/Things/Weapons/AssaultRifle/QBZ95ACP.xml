@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PLA_BaseGun">
+    <defName>PLA_QBZNinetyFiveACP</defName>
+    <label>QBZ-95-ACP assault rifle</label>
+    <description>The QBZ-95 rifle with ACP tactical attachment. Less aimming time and hight accuracy at close ranged.</description>
+    <graphicData>
+      <texPath>Things/Weapon/QBZ95ACP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.95,0.95)</drawSize>
+    </graphicData>
+    <soundInteract>PLA_SoundInteractRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PLA_Research_TacticalModification</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>3.55</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>1.10</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+    </costList>
+    <weaponTags>
+      <li>PLA_AssaultRifle</li>
+      <li>PLA_MordenAssaultRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PLA_Bullet_DBPTen</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>27</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>PLA_SoundQBZ95</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+    </comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

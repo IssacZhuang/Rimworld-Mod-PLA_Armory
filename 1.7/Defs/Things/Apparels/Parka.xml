@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="PLA_ParkaBase" ParentName="ApparelMakeableBase" Abstract="true">
+        <techLevel>Industrial</techLevel>
+        <costStuffCount>100</costStuffCount>
+        <generateCommonality>1</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories Inherit="False">
+            <li>PLA_Apparel</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>2</Mass>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>20.8</Insulation_Cold>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <researchPrerequisite>PLA_Research_Uniform</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>PLA_Apparel</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <only>(0.7,0.7,0.7)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_ParkaBase">
+        <defName>PLA_Parka_Desert</defName>
+        <label>PLA parka</label>
+        <description>A parka.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Display/PLA_Parka_display</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Parka/PLA_Parka</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+    </ThingDef>
+</Defs>

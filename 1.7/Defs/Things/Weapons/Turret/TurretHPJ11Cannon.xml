@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--ThingDef ParentName="BaseBullet">
+        <defName>PLA_Bullet_Cannon</defName>
+        <label>Cannon shell</label>
+        <graphicData>
+            <texPath>Things/Projectile/30mmShell</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>21</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <speed>180</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="PLA_AutoTurretBase">
+        <defName>PLA_TurretHPJ11NavalGun</defName>
+        <label>H/PJ-11 Naval Gun</label>
+        <description>An 11 barrel naval gun. Has a high fire rate and large ammo capacity.</description>
+        <graphicData>
+            <texPath>Things/Building/PLA_HugeTurretBase</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Things/Building/Icon_HPJ11</uiIconPath>
+        <statBases>
+            <MaxHitPoints>2500</MaxHitPoints>
+            <WorkToBuild>20000</WorkToBuild>
+            <Mass>7400</Mass>
+        </statBases>
+        <size>(5,5)</size>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <wickTicks>240</wickTicks>
+                <explosiveRadius>5.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>2500</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until barrel change</fuelLabel>
+                <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </fuelFilter>
+                <fuelCapacity>800</fuelCapacity>
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <fuelMultiplier>2</fuelMultiplier>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+        </comps>
+        <costList>
+            <Steel>1500</Steel>
+            <Uranium>200</Uranium>
+            <Plasteel>300</Plasteel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+            <ComponentSpacer>8</ComponentSpacer>
+        </costList>
+        <building>
+            <turretGunDef>PLA_GunHPJ11NavalGun</turretGunDef>
+            <turretTopDrawSize>5</turretTopDrawSize>
+            <turretBurstCooldownTime>1</turretBurstCooldownTime>
+        </building>
+        <researchPrerequisites>
+            <li>PrecisionRifling</li>
+        </researchPrerequisites>
+        <tradeTags>
+            <li>PLA_HeavyDefensiveTurret</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>PLA_GunHPJ11NavalGun</defName>
+        <label>H/PJ-11 Naval Gun</label>
+        <description>An naval gun</description>
+        <graphicData>
+            <texPath>Things/Building/HPJ11</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.8</AccuracyTouch>
+            <AccuracyShort>0.8</AccuracyShort>
+            <AccuracyMedium>0.8</AccuracyMedium>
+            <AccuracyLong>0.8</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+            <Mass>7400</Mass>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PLA_Bullet_Cannon</defaultProjectile>
+                <warmupTime>2.1</warmupTime>
+                <range>43</range>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <burstShotCount>20</burstShotCount>
+                <soundCast>PLA_Sound1130Shell</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef-->
+
+</Defs>
